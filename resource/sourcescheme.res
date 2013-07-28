@@ -11,7 +11,7 @@ Scheme
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
-		"FluxBlue"			"0 174 255 255"
+		"FluxBlue"			"255 255 255 255"
 		"FluxBlueLight"		"128 204 255 255"
 		"FluxBlueDark"		"0 70 118 255"
 		"FluxBlack"			"0 0 0 255"
@@ -44,12 +44,12 @@ Scheme
 	    
 	    "Blank"				"0 0 0 0"
 
-		"ControlBG"			"76 88 68 255"		// background color of controls
-		"ControlDarkBG"		"90 106 80 255"		// darker background color; used for background of scrollbars
-		"WindowBG"			"62 70 55 255"		// background color of text edit panes (chat, text entries, etc.)
-		"SelectionBG"		"90 84 75 255"		// background color of any selected text or menu item
-		"SelectionBG2"		"69 64 57 255"		// selection background in window w/o focus
-		"ListBG"			"39 36 34 255"		// background of server browser, buddy list, etc.
+		"ControlBG"			"85 85 85 255"		// background color of controls
+		"ControlDarkBG"		"80 80 80 255"		// darker background color; used for background of scrollbars
+		"WindowBG"			"60 60 60 255"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"		"70 70 70 255"		// background color of any selected text or menu item
+		"SelectionBG2"		"70 70 70 255"		// selection background in window w/o focus
+		"ListBG"			"40 40 40 255"		// background of server browser, buddy list, etc.
 	}
 	BaseSettings
 	{
