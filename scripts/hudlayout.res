@@ -43,6 +43,52 @@
 		"fgcolor"	"255 255 255 255"
 	}
 	
+	//Seeker's Crosshair for hawks :)
+	"SeekerCrosshair1"
+		{
+		"controlname"	"CExLabel"
+		"fieldname"	"SeekerCrosshair1"		
+		"visible"	"0"			//1
+		"enabled"	"1"
+		"xpos"		"c-15"
+		"ypos"		"c-11"
+		"zpos"		"2"		
+		"wide"		"28"
+		"tall"		"28"
+		"font"		"fogCrosshair"
+		"labeltext"	"d"
+		// Change the "1" to represent the crosshair you want displayed in the Crosshairs.jpg
+		
+		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
+		// you will have to play around with the "xpos", "ypos", "wide" and "tall" values.
+		// There are no fixed numbers for this
+		
+		"textAlignment"	"center"		
+		"fgcolor"	"255 255 255 255"
+	}
+	"SeekerCrosshair2"
+		{
+		"controlname"	"CExLabel"
+		"fieldname"	"SeekerCrosshair2"		
+		"visible"	"0"			//1
+		"enabled"	"1"
+		"xpos"		"c-15"
+		"ypos"		"c-13"
+		"zpos"		"2"		
+		"wide"		"28"
+		"tall"		"28"
+		"font"		"fogCrosshairCircle"
+		"labeltext"	"3"
+		// Change the "1" to represent the crosshair you want displayed in the Crosshairs.jpg
+		
+		// Remember, each resolution behaves differently, if your crosshair is skewed, not centered,
+		// you will have to play around with the "xpos", "ypos", "wide" and "tall" values.
+		// There are no fixed numbers for this
+		
+		"textAlignment"	"center"		
+		"fgcolor"	"255 255 255 255"
+	}
+	
 	//Garm3n's Crosshairs
 	
 	"CrossHairNormal"

@@ -385,19 +385,7 @@ Scheme
 			"1"
 			{
 				"name"		"Crosshairs"
-				"tall"		"10"
-				"additive"	"0"
-				"antialias" 	"1"
-				"weight"	"0"
-				"outline"	"1"
-			}
-		}
-		"fogCrosshairCircle"			
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"16"
+				"tall"		"24"
 				"additive"	"0"
 				"antialias" 	"1"
 				"weight"	"0"
@@ -709,9 +697,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Screengem"
+				"name"		"Bebas"
 				"tall"		"45"
-				"weight"	"500"
+				"weight"	"600"
 				"additive"	"0"
 				"antialias" "1"
 			}			
@@ -720,9 +708,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Screengem"
+				"name"		"Bebas"
 				"tall"		"32"
-				"weight"	"500"
+				"weight"	"600"
 				"additive"	"0"
 				"antialias" "1"
 			}			
@@ -731,9 +719,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Screengem"
+				"name"		"Bebas"
 				"tall"		"20"
-				"weight"	"500"
+				"weight"	"600"
 				"additive"	"0"
 				"antialias" "1"
 			}			
