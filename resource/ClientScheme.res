@@ -385,7 +385,7 @@ Scheme
 			"1"
 			{
 				"name"		"Crosshairs"
-				"tall"		"10"
+				"tall"		"20"
 				"additive"	"0"
 				"antialias" 	"1"
 				"weight"	"0"
@@ -415,6 +415,17 @@ Scheme
 				"antialias" 	"1"
 				"weight"	"0"
 				"outline"	"0"
+			}
+		}
+		"BroeselCrosshair"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"20"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
 			}
 		}
 		
@@ -5287,6 +5298,11 @@ Scheme
 		{
 			"font" "resource/fonts/bebas.ttf"
 			"name" "Bebas"
+		}
+		"13"
+		{
+			"font" "resource/fonts/broeselhudCrosshairs.ttf"
+			"name" "broeselhud Crosshairs"
 		}
 	}
 }
