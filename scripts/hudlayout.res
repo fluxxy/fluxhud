@@ -48,7 +48,7 @@
 		{
 		"controlname"	"CExLabel"
 		"fieldname"	"BroeselhudCrosshair1"		
-		"visible"	"1"			//1
+		"visible"	"0"			//1
 		"enabled"	"1"
 		"xpos"		"c-13"
 		"ypos"		"c-13"

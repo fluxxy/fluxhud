@@ -1,10 +1,9 @@
 //
-//
 Scheme
 {
 	Colors
 	{
-		// FluxHUD Colors		
+		// FluxHUD Colors
 		"FluxColorMainBut"				"15 20 24 255"
 		"FluxColorMainButHover"			"0 24 42 255"
 		"FluxColorMainButBor"			"74 99 117 255"
@@ -37,8 +36,8 @@ Scheme
 		"FluxColorStatsDrop"			"40 40 40 220"
 		"FluxColorItemPanel"			"40 40 40 250"
 		"FluxColorHudNumbers"			"0 0 0 80"
-		
-		// SOURCE SCHEME COLORS		
+
+		// SOURCE SCHEME COLORS
 		"White"					"255 255 255 255"
 		"OffWhite"				"200 200 200 255"
 		"DullWhite"				"142 142 142 255"
@@ -52,8 +51,8 @@ Scheme
 		"FluxBlackTran"		"0 0 0 196"
 		"FluxButtonHover"		"12 52 85 128"
 		"Green"		 	"76 107 34 255"
-	
-		// TF2 COLORS	
+
+		// TF2 COLORS
 		"Orange"				"178 82 22 255"
 		"OrangeDim"				"178 82 22 120"
 		"LightOrange"			"188 112 0 128"
@@ -93,7 +92,7 @@ Scheme
 		"HudProgressBarActive"		"240 207 78 255"
 		"HudProgressBarInActive"	"140 120 73 255"
 		"HudProgressBarActiveLow"	"240 30 30 255"
-		"HudProgressBarInActiveLow"	"240 30 30 99"	
+		"HudProgressBarInActiveLow"	"240 30 30 99"
 		"HudTimerProgressActive"	"251 235 202 255"
 		"HudTimerProgressInActive"	"52 48 45 255"
 		"HudTimerProgressWarning"	"240 30 30 255"
@@ -115,7 +114,7 @@ Scheme
 		"DisguiseMenuIconBlue"	"92 128 166 255"
  		"MatchmakingDialogTitleColor"			"200 184 151 255"
  		"MatchmakingMenuItemBackground"			"44 44 44 255"
- 		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
+ 		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"
 		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
 		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
 		"HTMLBackground"						"95 92 101 255"
@@ -163,7 +162,7 @@ Scheme
 
 	BaseSettings
 	{
-		// SourceScheme	
+		// SourceScheme
 		Border.Bright					"200 200 200 196"
 		Border.Dark						"40 40 40 196"
 		Border.Selection				"0 0 0 196"
@@ -224,7 +223,7 @@ Scheme
 		Menu.BgColor					"160 160 160 0"
 		Menu.ArmedTextColor				"Black"
 		Menu.ArmedBgColor				"FluxBlue"
-		Menu.TextInset					"6"		
+		Menu.TextInset					"6"
 		Panel.FgColor					"DullWhite"
 		Panel.BgColor					"Blank"
 		ProgressBar.FgColor				"White"
@@ -314,9 +313,9 @@ Scheme
 		TimerProgress.Warning		"HudTimerProgressWarning"
 		HudObjectives.FgColor		"HudPanelForeground"
 		HudObjectives.BgColor		"HudPanelBackground"
-		HudObjectives.BorderColor	"HudPanelBorder"				
+		HudObjectives.BorderColor	"HudPanelBorder"
 		HudProgressBar.Active		"HudProgressBarActive"
-		HudProgressBar.InActive		"HudProgressBarInActive"		
+		HudProgressBar.InActive		"HudProgressBarInActive"
 		HudCaptureIcon.Active		"HudProgressBarActive"
 		HudCaptureIcon.InActive		"HudProgressBarInActive"
 		HudCaptureProgressBar.Active	"HudProgressBarActive"
@@ -366,7 +365,7 @@ Scheme
 				"additive"	"0"
 				"outline" "1"
 			}
-		} 
+		}
 		"fogCrosshair"			//fog's crosshair
 		{
 			"1"
@@ -379,7 +378,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-        
+
 		"fogCrosshairSmall"			//fog's crosshair
 		{
 			"1"
@@ -392,7 +391,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"fogCrosshairCircle"			
+		"fogCrosshairCircle"
 		{
 			"1"
 			{
@@ -404,7 +403,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-        
+
         "fogCrosshairSmooth"
 		{
 			"1"
@@ -428,7 +427,7 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		
+
 		"BarCrosshair"
 		{
 			"1"
@@ -450,7 +449,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+
 		"CrossHairKonrWingsOutline"
 		{
 			"1"
@@ -462,7 +461,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+
 		"FMCircle"
 		{
 			"1"
@@ -531,7 +530,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+
 		"CrossHairCircleSmall"
 		{
 			"1"
@@ -542,7 +541,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-        
+
 		"CrossHairCircleSmaller"
 		{
 			"1"
@@ -612,8 +611,8 @@ Scheme
 				"antialias"	"0"
 			}
 		}
-        
-		
+
+
 		// FluxHUD Fonts
 		"FluxFontMainMenu"
 		{
@@ -714,7 +713,7 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-			}			
+			}
 		}
 		"FluxFontHudAmmo"
 		{
@@ -725,7 +724,7 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-			}			
+			}
 		}
 		"FluxFontHudAmmoSmaller"
 		{
@@ -736,7 +735,7 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-			}			
+			}
 		}
 		"FluxFontHudAmmoRes"
 		{
@@ -747,7 +746,7 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-			}			
+			}
 		}
 		"FluxFontHudDamage1"
 		{
@@ -758,8 +757,8 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-			}			
-		}			
+			}
+		}
 		"FluxFontHudPipes"
 		{
 			"1"
@@ -769,8 +768,8 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-			}			
-		}		
+			}
+		}
 		"FluxFontVer8"
 		{
 			"1"
@@ -780,7 +779,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-			}		
+			}
 		}
 		"FluxFontVer9"
 		{
@@ -791,7 +790,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-			}		
+			}
 		}
 		"FluxFontVer10"
 		{
@@ -802,7 +801,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-			}		
+			}
 		}
 		"FluxFontVer12"
 		{
@@ -813,7 +812,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-			}		
+			}
 		}
 		"FluxFontVer13"
 		{
@@ -824,7 +823,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-			}		
+			}
 		}
 		"FluxFontVer14"
 		{
@@ -835,7 +834,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-			}		
+			}
 		}
 		"FluxFontVer14V2"
 		{
@@ -846,7 +845,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-			}		
+			}
 		}
 		"FluxFontVer18"
 		{
@@ -857,7 +856,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-			}		
+			}
 		}
 		"FluxFontVer20"
 		{
@@ -868,7 +867,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-			}		
+			}
 		}
 		"FluxFontVer24"
 		{
@@ -879,7 +878,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-			}		
+			}
 		}
 		"FluxFontVer26"
 		{
@@ -890,7 +889,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-			}		
+			}
 		}
 		"FluxFontVer28"
 		{
@@ -901,7 +900,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-			}		
+			}
 		}
 
 		"FluxsFontRespawnTime"
@@ -1016,8 +1015,8 @@ Scheme
 				"weight"		"800"
 			}
 		}
-		
-	
+
+
 		// TF2 Fonts
 		"Default"
 		{
@@ -1731,7 +1730,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}	
+		}
 		"HudFontMediumBigBold"
 		{
 			"1"
@@ -1742,7 +1741,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}		
+		}
 		"HudFontMedium"
 		{
 			"1"
@@ -1918,7 +1917,7 @@ Scheme
 				"additive"	"0"
 				"antialias" "1"
 			}
-		}		
+		}
 		"PerformanceModeSmall"
 		{
 			"1"
@@ -2182,7 +2181,7 @@ Scheme
 				"weight"	"200"
 				"outline"	"1"
 			}
-		}		
+		}
 		TFTypeDeath
 		{
 			"1"
@@ -2347,7 +2346,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		"ChalkboardTitle"
 		{
 			"1"
@@ -2356,7 +2355,7 @@ Scheme
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
-				"antialias"		"1" 
+				"antialias"		"1"
 				"custom"		"1" [$OSX]
 				"weight"		"500"
 				"weight_lodef"	"800"
@@ -2708,7 +2707,7 @@ Scheme
 				"weight"		"300"
 				"antialias"		"1"
 			}
-		}	
+		}
 		MenuSmallFont
 		{
 			"1"
@@ -2721,7 +2720,7 @@ Scheme
 				"weight_lodef"	"600"
 				"antialias"		"1"
 			}
-		}			
+		}
 		CapPlayerFont
 		{
 			"1"
@@ -2758,7 +2757,7 @@ Scheme
 				"additive"	"1"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		TFFontMedium
 		{
 			"1"
@@ -2771,7 +2770,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		InstructionalText
 		{
 			"1"
@@ -2783,7 +2782,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		MatchmakingDialogTitle
 		{
 			"1"
@@ -2831,7 +2830,7 @@ Scheme
 				"tall"		"18"
 				"weight"	"900"
 			}
-		}		
+		}
 		MatchmakingDialogMenuMedium
 		{
 			"1"
@@ -2900,7 +2899,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		"IntroMenuCaption"
 		{
 			"1"
@@ -2911,7 +2910,7 @@ Scheme
 				"additive"	"0"
 				"antialias" 	"1"
 			}
-		}			
+		}
 		"AchievementNotification"
 		{
 			"1"
@@ -3052,7 +3051,7 @@ Scheme
 				"additive"	"1"
 				"antialias" 	"1"
 			}
-		}		
+		}
 		"ReplayVerySmall"
 		{
 			"1"
@@ -3836,7 +3835,7 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-		}		
+		}
 		FluxBorderLightGrey
 		{
 			"inset" "0 0 1 1"
@@ -3912,7 +3911,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		FluxBorderWhite
 		{
 			"inset" "0 0 1 1"
@@ -3958,8 +3957,8 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
-		}		
+			"draw_corner_height" 	"0"
+		}
 		FluxsBorderBlock1
 		{
 			"bordertype"			"scalable_image"
@@ -3969,9 +3968,9 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
-	
+
 		// TF2 Borders
 		NoBorder
 		{
@@ -4197,7 +4196,7 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-		}		
+		}
 		MainMenuSubButtonBorder
 		{
 			"inset" "0 0 1 1"
@@ -4233,7 +4232,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"
-			"draw_corner_height" 	"11"	
+			"draw_corner_height" 	"11"
 		}
 		OutlinedDullGreyBox
 		{
@@ -4243,9 +4242,9 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"
-			"draw_corner_height" 	"11"	
+			"draw_corner_height" 	"11"
 		}
-		
+
 		TFThinLineBorder
 		{
 			"bordertype"			"scalable_image"
@@ -4254,7 +4253,7 @@ Scheme
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
+			"draw_corner_height" 	"8"
 		}
 		TFFatLineBorderOpaque
 		{
@@ -4264,7 +4263,7 @@ Scheme
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		TFFatLineBorder
 		{
@@ -4274,7 +4273,7 @@ Scheme
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -4284,7 +4283,7 @@ Scheme
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
@@ -4294,7 +4293,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"
-			"draw_corner_height" 	"11"	
+			"draw_corner_height" 	"11"
 		}
 		TFFatLineBorderRedBG
 		{
@@ -4304,7 +4303,7 @@ Scheme
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		TFFatLineBorderBlueBG
 		{
@@ -4314,7 +4313,7 @@ Scheme
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		ToolTipBorder
 		{
@@ -4372,7 +4371,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"11"	
+			"draw_corner_height" 	"11"
 		}
 		StoreFreeTrialBorder
 		{
@@ -4382,7 +4381,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"
-			"draw_corner_height" 	"11"	
+			"draw_corner_height" 	"11"
 		}
 		EconItemBorder // loadout default border and some dialogs
 		{
@@ -4393,7 +4392,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"		
+			"draw_corner_height" 	"5"
 		}
 		Econ.Button.Border.Default
 		{
@@ -4414,7 +4413,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"		
+			"draw_corner_height" 	"5"
 		}
 		LoadoutItemPopupBorder
 		{
@@ -4424,7 +4423,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"	
+			"draw_corner_height" 	"4"
 		}
 		BackpackItemGrayedOut
 		{
@@ -4435,7 +4434,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemBorder
 		{
@@ -4445,7 +4444,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemMouseOverBorder
 		{
@@ -4455,7 +4454,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemSelectedBorder
 		{
@@ -4465,9 +4464,9 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
-		
+
 		BackpackItemBorder_Unique
 		{
 			"bordertype"			"scalable_image"
@@ -4477,7 +4476,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemMouseOverBorder_Unique
 		{
@@ -4488,7 +4487,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemBorder_1
 		{
@@ -4499,7 +4498,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemMouseOverBorder_1
 		{
@@ -4510,7 +4509,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemBorder_2
 		{
@@ -4521,7 +4520,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemMouseOverBorder_2
 		{
@@ -4532,7 +4531,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemBorder_3
 		{
@@ -4543,7 +4542,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemMouseOverBorder_3
 		{
@@ -4554,7 +4553,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"		
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemBorder_4
 		{
@@ -4565,7 +4564,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemMouseOverBorder_4
 		{
@@ -4576,7 +4575,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemBorder_Haunted
 		{
@@ -4587,19 +4586,19 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemMouseOverBorder_Haunted
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color"					"QualityColorHaunted"
-			
+
 			"image"					"backpack_rect_mouseover_color"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemBorder_Vintage
 		{
@@ -4610,7 +4609,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemMouseOverBorder_Vintage
 		{
@@ -4621,7 +4620,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemBorder_Community
 		{
@@ -4632,7 +4631,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemMouseOverBorder_Community
 		{
@@ -4643,7 +4642,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemBorder_Developer
 		{
@@ -4654,7 +4653,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemMouseOverBorder_Developer
 		{
@@ -4665,7 +4664,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"		
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemBorder_SelfMade
 		{
@@ -4676,7 +4675,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"		
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemMouseOverBorder_SelfMade
 		{
@@ -4687,7 +4686,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"		
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemBorder_Customized
 		{
@@ -4698,7 +4697,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemMouseOverBorder_Customized
 		{
@@ -4709,7 +4708,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemBorder_Strange
 		{
@@ -4720,7 +4719,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemMouseOverBorder_Strange
 		{
@@ -4731,7 +4730,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"		
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemBorder_Completed
 		{
@@ -4742,7 +4741,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		BackpackItemMouseOverBorder_Completed
 		{
@@ -4753,7 +4752,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"		
+			"draw_corner_height" 	"5"
 		}
 		StoreItemBorder
 		{
@@ -4874,7 +4873,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"	
+			"draw_corner_height" 	"4"
 		}
 		MainMenuButtonDefault
 		{
@@ -4884,7 +4883,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"	
+			"draw_corner_height" 	"4"
 		}
 		MainMenuButtonArmed
 		{
@@ -4894,7 +4893,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"	
+			"draw_corner_height" 	"4"
 		}
 		MainMenuButtonDisabled
 		{
@@ -4904,7 +4903,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"	
+			"draw_corner_height" 	"4"
 		}
 		MainMenuMiniButtonDefault
 		{
@@ -4914,7 +4913,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"1"
-			"draw_corner_height" 	"1"	
+			"draw_corner_height" 	"1"
 		}
 		MainMenuMiniButtonArmed
 		{
@@ -4924,7 +4923,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"1"
-			"draw_corner_height" 	"1"	
+			"draw_corner_height" 	"1"
 		}
 		MainMenuBGBorder
 		{
@@ -4934,18 +4933,18 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"	
+			"draw_corner_height" 	"4"
 		}
 		MainMenuBGBorderAlpha
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			
+
 			"image"					"button_holder_central_alpha"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"draw_corner_height" 	"4"
 		}
 		MainMenuBlogTabBG
 		{
@@ -4955,7 +4954,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
+			"draw_corner_height" 	"8"
 		}
 		MainMenuHighlightBorder
 		{
@@ -4965,7 +4964,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
+			"draw_corner_height" 	"8"
 		}
 		TrainingResultsBG
 		{
@@ -4975,7 +4974,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"	
+			"draw_corner_height" 	"4"
 		}
 		StoreInnerShadowBorder
 		{
@@ -4995,7 +4994,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
 		StoreDiscountBorder
 		{
@@ -5005,7 +5004,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
 		StorePreviewBorder
 		{
@@ -5015,7 +5014,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
 		StoreAddToCart
 		{
@@ -5025,7 +5024,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
 		StorePreviewTabSelected
 		{
@@ -5035,7 +5034,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"12"
-			"draw_corner_height" 	"12"	
+			"draw_corner_height" 	"12"
 		}
 		StorePreviewTabUnselected
 		{
@@ -5045,7 +5044,7 @@ Scheme
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
 			"draw_corner_width"		"16"
-			"draw_corner_height" 	"12"	
+			"draw_corner_height" 	"12"
 		}
 		StorePromotion
 		{
@@ -5055,7 +5054,7 @@ Scheme
 			"src_corner_height"		"16"
 			"src_corner_width"		"16"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
+			"draw_corner_height" 	"0"
 		}
 		ArmoryScrollbarBox
 		{
@@ -5065,7 +5064,7 @@ Scheme
 			"src_corner_height"		"16"
 			"src_corner_width"		"16"
 			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
+			"draw_corner_height" 	"8"
 		}
 		ArmoryScrollbarWell
 		{
@@ -5075,7 +5074,7 @@ Scheme
 			"src_corner_height"		"16"
 			"src_corner_width"		"16"
 			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
+			"draw_corner_height" 	"8"
 		}
 		QuickplayBorder
 		{
@@ -5157,7 +5156,7 @@ Scheme
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		ReplayFatLineBorderOpaque
 		{
@@ -5167,7 +5166,7 @@ Scheme
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"	
+			"draw_corner_height" 	"5"
 		}
 		ReplayGrayDialogBorder
 		{
@@ -5177,7 +5176,7 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"
-			"draw_corner_height" 	"11"	
+			"draw_corner_height" 	"11"
 		}
 		ReplayOutlinedGreyBox
 		{
@@ -5187,27 +5186,27 @@ Scheme
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"
-			"draw_corner_height" 	"11"	
+			"draw_corner_height" 	"11"
 		}
 		ReplayOutlinedDullGreyBox
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"		
+			"backgroundtype"		"2"
 			"image"					"replay/dullgreybox"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
 			"draw_corner_width"		"11"
-			"draw_corner_height" 	"11"	
+			"draw_corner_height" 	"11"
 		}
 		ReplayThinLineBorder
 		{
 			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"			
+			"backgroundtype"		"2"
 			"image"					"../hud/tournament_panel_brown"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"	
+			"draw_corner_height" 	"8"
 		}
 		ReplayDefaultBorder
 		{
@@ -5217,7 +5216,7 @@ Scheme
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"
-			"draw_corner_height" 	"7"	
+			"draw_corner_height" 	"7"
 		}
 		ReplayHighlightBorder
 		{
@@ -5227,7 +5226,7 @@ Scheme
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"
-			"draw_corner_height" 	"7"	
+			"draw_corner_height" 	"7"
 		}
 		ReplayBalloonBorder
 		{
@@ -5237,7 +5236,7 @@ Scheme
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"7"
-			"draw_corner_height" 	"7"	
+			"draw_corner_height" 	"7"
 		}
 		ReplayBrowser.ScrollBar.SliderButton.Border
 		{
@@ -5247,8 +5246,8 @@ Scheme
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
-		"2" "resource/tfd.ttf"						
-		"3" 
+		"2" "resource/tfd.ttf"
+		"3"
 		{
 			"font" "resource/fonts/Archive.otf"
 			"name" "Archive"
@@ -5258,18 +5257,18 @@ Scheme
 			"font" "resource/fonts/screenge.ttf"
 			"name" "Screengem"
 		}
-			
-		"5" 
+
+		"5"
 		{
 			"font" "resource/fonts/FORMASGE.ttf"
 			"name" "Formas germetricas 1"
 		}
-		"6" 
+		"6"
 		{
 			"font" "resource/fonts/MuseoSansCyrl-500.otf"
 			"name" "Museo Sans Cyrl 500"
 		}
-		"7" 
+		"7"
 		{
 			"font" "resource/fonts/AvenirLTStd-Black.ttf"
 			"name" "Avenir LT Std 65 Medium"
