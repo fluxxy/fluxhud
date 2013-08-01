@@ -719,8 +719,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Screengem"
-				"tall"		"42"
+				"name"		"Open Sans ExtraBold"
+				"tall"		"40"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -730,7 +730,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Screengem"
+				"name"		"Open Sans ExtraBold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -741,7 +741,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Screengem"
+				"name"		"Open Sans ExtraBold"
 				"tall"		"20"
 				"weight"	"500"
 				"additive"	"0"
@@ -5254,8 +5254,8 @@ Scheme
 		}
 		"4"
 		{
-			"font" "resource/fonts/screenge.ttf"
-			"name" "Screengem"
+			"font" "resource/fonts/Gotham-Bold.otf"
+			"name" "Gotham"
 		}
 
 		"5"
@@ -5295,8 +5295,8 @@ Scheme
 		}
 		"12"
 		{
-			"font" "resource/fonts/Gotham-Bold.otf"
-			"name" "Gotham"
+			"font" "resource/fonts/OpenSans-ExtraBold.ttf"
+			"name" "Open Sans ExtraBold"
 		}		
 	}
 }
