@@ -117,7 +117,7 @@
 		"HealthDeathWarning"	"0.49"
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
-		"TextColor"		"Hudoffwhite"
+		"TextColor"		"255 255 255 255"
 	}
 	"AmmoIcon"
 	{

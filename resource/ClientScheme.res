@@ -354,7 +354,7 @@ Scheme
 
 	Fonts
 	{
-		//Crosshairs
+		//broeselhud Crosshairs
 		"xHair"
 		{
 			"1"
@@ -370,7 +370,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs"
+				"name"		"broeselhud Crosshairs"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -379,11 +379,11 @@ Scheme
 			}
 		}
 
-		"fogCrosshairSmall"			//fog's crosshair
+		"fogbroeselhud Crosshairsmall"			//fog's crosshair
 		{
 			"1"
 			{
-				"name"		"Crosshairs"
+				"name"		"broeselhud Crosshairs"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -395,7 +395,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs"
+				"name"		"broeselhud Crosshairs"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -404,11 +404,11 @@ Scheme
 			}
 		}
 
-        "fogCrosshairSmooth"
+        "fogbroeselhud Crosshairsmooth"
 		{
 			"1"
 			{
-				"name"		"Crosshairs"
+				"name"		"broeselhud Crosshairs"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -420,7 +420,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
+				"name"	"broeselhud broeselhud Crosshairs"
 				"tall"	"20"
 				"antialias" "0"
 				"additive"	"0"
@@ -720,7 +720,7 @@ Scheme
 			"1"
 			{
 				"name"		"Screengem"
-				"tall"		"45"
+				"tall"		"42"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -731,7 +731,7 @@ Scheme
 			"1"
 			{
 				"name"		"Screengem"
-				"tall"		"32"
+				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -5275,8 +5275,8 @@ Scheme
 		}
 		"8"
 		{
-			"font" "resource/fonts/crosshairs.ttf"
-			"name" "Crosshairs"
+			"font" "resource/fonts/broeselhudbroeselhud Crosshairs.ttf"
+			"name" "broeselhud broeselhud Crosshairs"
 		}
 		"9"
 		{
@@ -5295,14 +5295,9 @@ Scheme
 		}
 		"12"
 		{
-			"font" "resource/fonts/bebas.ttf"
-			"name" "Bebas"
-		}
-		"13"
-		{
-			"font" "resource/fonts/broeselhudCrosshairs.ttf"
-			"name" "broeselhud Crosshairs"
-		}
+			"font" "resource/fonts/Gotham-Bold.ttf"
+			"name" "Gotham"
+		}		
 	}
 }
 //
