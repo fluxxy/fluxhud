@@ -5295,7 +5295,7 @@ Scheme
 		}
 		"12"
 		{
-			"font" "resource/fonts/Gotham-Bold.ttf"
+			"font" "resource/fonts/Gotham-Bold.otf"
 			"name" "Gotham"
 		}		
 	}
