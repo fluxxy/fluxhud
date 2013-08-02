@@ -48,21 +48,6 @@
 				"visible"		"1"
 				"enabled"		"1"
 			}
-			"backgroundDark1"
-			{
-				"ControlName" "ImagePanel"
-				"fieldName"   "backgroundDark1"
-				"xpos"        "136"
-				"ypos"        "2"
-				"zpos"        "10"
-				"wide"        "22"
-				"tall"        "14"
-				"autoResize"		"0"
-				"pinCorner"		"0"
-				"fillcolor"		"28 28 28 255"
-				"visible"			"0"
-				"enabled"			"0
-			}
 			"playername"
 			{
 				"ControlName"	"CExLabel"
