@@ -770,6 +770,28 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"FluxFontVer6"
+		{
+			"1"
+			{
+				"name"		"Museo Sans Cyrl 500"
+				"tall"		"6"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FluxFontVer7"
+		{
+			"1"
+			{
+				"name"		"Museo Sans Cyrl 500"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"FluxFontVer8"
 		{
 			"1"
@@ -1255,7 +1277,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		DefaultLarge
+		"DefaultLarge"
 		{
 			"1"
 			{
@@ -1306,6 +1328,72 @@ Scheme
 				"tall"		"20"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
+			}
+			"7"
+			{
+				"name"		"Arial"
+				"tall"		"20"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"800"
+			}
+		}
+		"DefaultLargeOutline"
+		{
+			"1"
+			{
+				"name"		"Museo Sans Cyrl 500"
+				"tall"		"18"
+				"weight"	"900"
+				"outline" 	"1"
+				"range"		"0x0000 0x017F"
+				"yres"		"480 599"
+			}
+			"2"
+			{
+				"name"		"Museo Sans Cyrl 500"
+				"tall"		"21"
+				"weight"	"900"
+				"outline" 	"1"
+				"range"		"0x0000 0x017F"
+				"yres"		"600 767"
+			}
+			"3"
+			{
+				"name"		"Museo Sans Cyrl 500"
+				"tall"		"22"
+				"weight"	"900"
+				"outline" 	"1"
+				"range"		"0x0000 0x017F"
+				"yres"		"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Museo Sans Cyrl 500"
+				"tall"		"28"
+				"weight"	"900"
+				"outline" 	"1"
+				"range"		"0x0000 0x017F"
+				"yres"		"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Museo Sans Cyrl 500"
+				"tall"		"30"
+				"weight"	"900"
+				"outline" 	"1"
+				"range"		"0x0000 0x017F"
+				"yres"		"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Museo Sans Cyrl 500"
+				"tall"		"20"
+				"range" 	"0x0000 0x00FF"
+				"weight"	"900"
+				"outline" 	"1"
 			}
 			"7"
 			{
@@ -4252,8 +4340,8 @@ Scheme
 			"image"					"../hud/tournament_panel_brown"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-			"draw_corner_width"		"8"
-			"draw_corner_height" 	"8"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		TFFatLineBorderOpaque
 		{
@@ -4262,8 +4350,8 @@ Scheme
 			"image"					"../hud/color_panel_brown_opaque"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
+			"draw_corner_width"		"0
+			"draw_corner_height" 	"0
 		}
 		TFFatLineBorder
 		{
@@ -4272,8 +4360,8 @@ Scheme
 			"image"					"../hud/color_panel_brown"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -4282,8 +4370,8 @@ Scheme
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
@@ -4292,8 +4380,8 @@ Scheme
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
-			"draw_corner_width"		"11"
-			"draw_corner_height" 	"11"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		TFFatLineBorderRedBG
 		{
@@ -4302,8 +4390,8 @@ Scheme
 			"image"					"../hud/color_panel_red"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		TFFatLineBorderBlueBG
 		{
@@ -4312,8 +4400,8 @@ Scheme
 			"image"					"../hud/color_panel_blu"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"
-			"draw_corner_height" 	"5"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0
 		}
 		ToolTipBorder
 		{

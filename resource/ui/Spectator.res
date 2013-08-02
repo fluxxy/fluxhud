@@ -48,7 +48,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"west"
-		"font"			"Light12"
+		"font"			"FluxFontVer10"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	}
@@ -56,7 +56,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"Light12"
+		"font"			"FluxFontVer10"
 		"xpos"			"0"	
 		"ypos"			"0"	
 		"wide"			"0"	

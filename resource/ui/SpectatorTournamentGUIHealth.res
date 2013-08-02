@@ -4,12 +4,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-	
-	}
+		"xpos"			"-36"
+		"ypos"			"0"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"0"
+	}	
 	"PlayerStatusHealthImageBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -28,34 +31,36 @@
 		"visible"		"0"
 		"enabled"		"0"
 	}
-	"PlayerStatusHealthBonusImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"0"
-		"ypos"			"4"
-		"zpos"			"3"
-		"wide"			"96"
-		"tall"			"8"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"
-        "Alpha"         "0"
-	}
 	"PlayerStatusHealthValue"
 	{
-		"ControlName"	"Label"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"4"
-		"ypos"			"0"
+		"xpos"			"0"
+		"ypos"			"2"
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"
+		"fgcolor"		"200 200 200 255"
+		"textAlignment"	"center"
 		"font"			"DefaultLarge"
 		"labelText"		"%Health%"
-	}					
+	}
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"1"
+		"ypos"			"3"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"0 0 0 240"
+		"textAlignment"	"center"		
+		"font"			"DefaultLarge"
+		"labelText"		"%Health%"
+	}				
 }

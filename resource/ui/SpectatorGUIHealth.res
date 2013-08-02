@@ -4,15 +4,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"0"
+		"xpos"			"-36"
 		"ypos"			"0"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"zpos"			"4"
+		"wide"			"100"
+		"tall"			"16"
+		"visible"		"1"
+		"enabled"		"1"
 		"scaleImage"	"0"
-	}
+	}	
 	"HealthMask"
 	{
 		"ControlName"		"ImagePanel"
@@ -26,7 +26,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"10 10 10 220"
+		"fillcolor"		"40 40 40 255"
 		"PaintBackgroundType"	"0"
 	}
 	"PlayerStatusHealthImageBG"
@@ -64,16 +64,33 @@
 	}
 	"PlayerStatusHealthValue"
 	{
-		"ControlName"	"Label"
+		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"3"
+		"xpos"			"-1"
 		"ypos"			"2"
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"
+		"fgcolor"		"200 200 200 255"
+		"textAlignment"	"center"
+		"font"			"DefaultLarge"
+		"labelText"		"%Health%"
+	}
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"0"
+		"ypos"			"3"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"12"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"0 0 0 240"
+		"textAlignment"	"center"		
 		"font"			"DefaultLarge"
 		"labelText"		"%Health%"
 	}
