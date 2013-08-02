@@ -4337,71 +4337,71 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/tournament_panel_brown"
+			"image"	"../hud/tournament_panel_brown"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
+			"draw_corner_width"		"8"
+			"draw_corner_height" 	"8"	
 		}
 		TFFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_brown_opaque"
+			"image"	"../hud/color_panel_brown_opaque"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0
-			"draw_corner_height" 	"0
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorder
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_brown"
+			"image"	"../hud/color_panel_brown"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderRedBGOpaque
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_red_opaque"
+			"image"	"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
+			"draw_corner_width"		"5"
+			"draw_corner_height" 	"5"	
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_red_opaque"
+			"image"	"../hud/color_panel_red_opaque"
 			"src_corner_height"		"24"
 			"src_corner_width"		"24"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
+			"draw_corner_width"		"11"
+			"draw_corner_height" 	"11"	
 		}
 		TFFatLineBorderRedBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_red"
+			"image"	"../hud/color_panel_red"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderBlueBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"../hud/color_panel_blu"
+			"image"	"../hud/color_panel_blu"
 			"src_corner_height"		"23"
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0
+			"draw_corner_height" 	"0"	
 		}
 		ToolTipBorder
 		{
