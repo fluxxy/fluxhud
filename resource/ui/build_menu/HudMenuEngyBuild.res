@@ -135,7 +135,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"	
-		"fillcolor"		"20 20 40 128"
+		"fillcolor"		"20 20 40 200"
 		"PaintBackgroundType"	"0"
 	}
 	"BuildBG"

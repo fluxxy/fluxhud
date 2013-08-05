@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"0"
+		"xpos"				"-8"
 		"ypos"				"-14"
 		"zpos"				"2"
 		"wide"				"100"
@@ -32,7 +32,7 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"66"
+		"xpos"				"58"
 		"ypos"				"-14"
 		"zpos"				"2"
 		"wide"				"100"
@@ -63,7 +63,7 @@
 		"xpos"			"0"
 		"ypos"			"-6"
 		"zpos"			"1"
-		"wide"			"64"
+		"wide"			"49"
 		"tall"			"25"
 		"visible"		"0"
 		"enabled"		"1"
@@ -74,7 +74,7 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"BlueLine"
-		"xpos"			"45"
+		"xpos"			"37"
 		"ypos"			"15"
 		"zpos"			"3"
 		"wide"			"43"
@@ -93,7 +93,7 @@
 	{
 		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"RedLine"
-		"xpos"			"111"
+		"xpos"			"103"
 		"ypos"			"15"
 		"zpos"			"3"
 		"wide"			"43"

@@ -80,7 +80,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor" 		"50 153 255 200"
+		"fillcolor" 		"50 153 255 140"
 		if_mvm
         {
             "visible"   "0"
@@ -104,7 +104,7 @@
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"fillcolor" 		"245 45 45 170"
+		"fillcolor" 		"245 45 45 130"
 		if_mvm
         {
             "visible"   "0"
