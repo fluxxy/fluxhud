@@ -1,6 +1,6 @@
 Things to be changed:
 -MvM positions and font
--Engineer build/destroy menu
+-heads/revenges/other things like that (to change font and positions)
 -Most likely a change to design of spy disguse menu
 
 =========================================================================
