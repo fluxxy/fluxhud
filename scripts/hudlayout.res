@@ -1347,10 +1347,11 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"r120"
-		"ypos"			"r240"
-		"wide"			"120"
-		"tall"			"180"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"f0"
+		"tall"			"480"	
 		"PaintBackgroundType"	"0"
 	}
 	HudTeamGoal
