@@ -8,7 +8,7 @@
 		"xpos"			"c-60"
 		"ypos"			"c140"
 		"wide"			"120"
-		"tall"			"6"
+		"tall"			"20"
 		"MeterFG"		"FluxColorWhite"
 		"MeterBG"		"FluxColorGameDialog"
 	}
@@ -32,7 +32,7 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"120"
-		"tall"			"6"				
+		"tall"			"5"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -46,9 +46,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemEffectMeterLabel"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"xpos"			"0"
+		"ypos"			"3"
+		"zpos"			"0"
+		"wide"			"120"
+		"tall"			"12"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"			"#TF_Ball"
+		"fgcolor_override" "255 255 255 255"
+		"textAlignment"			"center"
+		"font"				"FluxFontVer7"
 	}
 }

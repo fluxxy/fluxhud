@@ -49,7 +49,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"FluxFontVer7"
 	}
 
 	"ItemEffectMeter"

@@ -16,7 +16,7 @@ Scheme
 		"FluxColorBlueDark"				"6 24 40 255"
 		"FluxColorGrey"					"100 100 100 255"
 		"FluxColorGreyDark"				"40 40 40 255"
-		"FluxColorWhite"				"230 230 230 255"
+		"FluxColorWhite"				"255 255 255 255"
 		"FluxColorMainGreen"			"212 230 245 255"
 		"FluxColorMainStripes"			"10 42 70 245"
 		"FluxColorMainButtonBlue"		"212 230 245 255"
@@ -875,6 +875,17 @@ Scheme
 			{
 				"name"		"Museo Sans Cyrl 500"
 				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FluxFontVer16"
+		{
+			"1"
+			{
+				"name"		"Museo Sans Cyrl 500"
+				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"

@@ -21,16 +21,17 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"					"50"
-		"ypos"					"8"
+		"xpos"					"15"
+		"ypos"					"142"
 		"zpos"					"2"
 		"wide"					"90"
 		"tall"					"15"
 		"visible"				"1"
 		"enabled"				"1"
+		"fgcolor_override" 		"255 255 255 255"
 		"labelText"				"#TF_Charge"
 		"textAlignment"			"center"
-		"font"					"DefaultOutline"
+		"font"					"FluxFontVer7"
 	}
 	"ChargeMeter" // Chargin' Targe
 	{	
@@ -41,7 +42,7 @@
 		"ypos"			"140"
 		"zpos"			"2"
 		"wide"			"120"
-		"tall"			"6"				
+		"tall"			"5"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

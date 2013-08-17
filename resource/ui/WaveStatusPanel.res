@@ -2,22 +2,39 @@
 {
 	"Background"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"Background"
 		"xpos"			"150"
-		"ypos"			"2"
+		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"200"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../HUD/tournament_panel_brown"
 		"src_corner_height"	"22"
 		"src_corner_width"	"22"
-		"draw_corner_width"	"0"	
-		"draw_corner_height" "0"	
+		"draw_corner_width"		"0"	
+		"draw_corner_height" 	"0"	
+	}
+	"BG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BG"
+		"xpos"			"c-227"
+		"ypos"			"0"
+		"zpos"			"-1"
+		"wide"			"200"
+		"tall"			"70"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"NoBorder"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"40 40 40 200"	
 	}
 	"WaveCountLabel"
 	{
@@ -97,8 +114,8 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
 	"ProgressBarBG"
@@ -120,7 +137,7 @@
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 }
