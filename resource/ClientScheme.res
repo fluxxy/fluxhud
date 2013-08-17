@@ -98,7 +98,7 @@ Scheme
 		"HudTimerProgressWarning"	"240 30 30 255"
 		"HudTrainingHint"			"212 160 23 255"
 		"TanDark"				"117 107 94 255"
-		"TanLight"				"221 221 221 255"
+		"TanLight"				"255 255 255 255"
 		"TanDarker"				"44 44 44 255"
 		"StoreDarkTan"			"131 121 104 255"
 		"StoreGreen"			"76 107 34 255"
@@ -4532,8 +4532,8 @@ Scheme
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		BackpackItemGrayedOut
 		{
@@ -4982,8 +4982,8 @@ Scheme
 			"image"					"alert_rect"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		MainMenuButtonDefault
 		{
@@ -4992,8 +4992,8 @@ Scheme
 			"image"					"button_central"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		MainMenuButtonArmed
 		{
@@ -5002,8 +5002,8 @@ Scheme
 			"image"					"button_central_hover"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		MainMenuButtonDisabled
 		{
@@ -5012,8 +5012,8 @@ Scheme
 			"image"					"button_central_disabled"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		MainMenuMiniButtonDefault
 		{
@@ -5042,8 +5042,8 @@ Scheme
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		MainMenuBGBorderAlpha
 		{
@@ -5053,8 +5053,8 @@ Scheme
 			"image"					"button_holder_central_alpha"
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"
 		}
 		MainMenuBlogTabBG
 		{
@@ -5083,8 +5083,8 @@ Scheme
 			"image"					"button_holder_central"
 			"src_corner_height"		"32"
 			"src_corner_width"		"32"
-			"draw_corner_width"		"4"
-			"draw_corner_height" 	"4"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		StoreInnerShadowBorder
 		{

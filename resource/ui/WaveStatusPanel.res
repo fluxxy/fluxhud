@@ -2,7 +2,7 @@
 {
 	"Background"
 	{
-		"ControlName"	"EditablePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"Background"
 		"xpos"			"150"
 		"ypos"			"0"

@@ -162,9 +162,9 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthValue			FgColor		"0 136 240 255" 	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue			FgColor		"0 136 240 255" 		Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueSpec		FgColor		"90 200 255 255" 		Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueSpecT	FgColor		"90 200 255 255" 		Linear 0.1 0.2
+	Animate	PlayerStatusHealthValueSpecT		FgColor		"90 200 255 255" 		Linear 0.1 0.2
 }
 
 // call to loop HudHealthBonusPulse
@@ -172,7 +172,7 @@ event HudHealthBonusPulseLoop
 {
 	RunEvent HudHealthBonusPulse 0.0
 	
-	StopPanelAnimations PlayerStatusHealthValue			0.0
+	StopPanelAnimations PlayerStatusHealthValue		0.0
 	StopPanelAnimations PlayerStatusHealthValueSpec 	0.0
 	StopPanelAnimations PlayerStatusHealthValueSpecT	0.0
 }
@@ -734,10 +734,10 @@ event NotificationsPresentBlinkStop
 event DamagedPlayer
 {
 	Animate	DamageAccountValue 			Alpha	"255"	Linear 0.0 0.1
-	Animate	DamageAccountValueShadow 	Alpha	"255"	Linear 0.0 0.1
+	Animate	DamageAccountValueShadow 		Alpha	"255"	Linear 0.0 0.1
 	
 	//Animate	DamageAccountValue 			Alpha	"0"		Linear 5.0 0.2	
-	//Animate	DamageAccountValueShadow 	Alpha	"0"		Linear 5.0 0.2
+	//Animate	DamageAccountValueShadow 		Alpha	"0"		Linear 5.0 0.2
 }
 
 //===========================================
@@ -781,5 +781,3 @@ event HudReadyPulseEnd
 	StopEvent HudReadyPulse			0.0
 	StopEvent HudReadyPulseLoop		0.0
 }
-//
-// FluxHUD - edited by Fluxs - http://Fluxsstuff.com

@@ -5,14 +5,14 @@
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
 		"xpos"				"0"
-		"ypos"				"8"
+		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"600"
-		"tall"				"67"
-		"visible"			"1"
-		"enabled"			"1"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"0"
+		"enabled"			"0"
 		
-		"verbose"			"1"
+		"verbose"			"0"
 	}
 	
 	"PopFileLabel"
@@ -26,14 +26,14 @@
 		"ypos"			"377"
 		"wide"			"290"
 		"tall"			"20"
-		"fgcolor"		"tanlight"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"DifficultyContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"425"
+		"xpos"			"c-80"
 		"ypos"			"30"
 		"wide"			"150"
 		"tall"			"20"
@@ -50,21 +50,21 @@
 			"ypos"			"0"
 			"wide"			"150"
 			"tall"			"10"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"DifficultyValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"HudFontSmallBold"
+			"font"			"FluxFontVer14"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"9"
 			"wide"			"150"
 			"tall"			"10"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"255 255 255 255"
 		}
 	}
 	
@@ -72,7 +72,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"PlayerListBackground"
-		"xpos"			"100"
+		"xpos"			"220"
 		"ypos"			"75"
 		"zpos"			"-1"
 		"wide"			"400"
@@ -94,7 +94,7 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"110"
+		"xpos"			"230"
 		"ypos"			"79"
 		"wide"			"380"
 		"tall"			"150"
@@ -111,7 +111,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"100"
+		"xpos"			"220"
 		"ypos"			"230"
 		"wide"			"400"
 		"tall"			"205"
@@ -151,7 +151,7 @@
 			"zpos"			"1"
 			"wide"			"200"
 			"tall"			"50"
-			"fgcolor"		"Tanlight"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"PreviousWaveCreditInfoPanel"
