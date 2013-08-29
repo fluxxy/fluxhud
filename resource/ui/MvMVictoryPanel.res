@@ -4,15 +4,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"StatsContainer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
+		"xpos"			"c-265"
+		"ypos"			"100"
+		"wide"			"536"
+		"tall"			"230"
 		"visible"		"1"
 		
 		//"PaintBackgroundType"	"0"
 		//"paintbackground"	"0"
-		//"border"		"NoBorder"
+		//"border"		"MainMenuHighlightBorder"
 		
 		"StatsBackground"
 		{
@@ -24,15 +24,15 @@
 			"tall"			"230"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"image"			"../HUD/tournament_panel_black"
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
 		
-			"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		
 		"HeaderContainer"
@@ -41,10 +41,24 @@
 			"fieldName"		"HeaderContainer"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"480"
+			"wide"			"530"
+			"tall"			"100"
 			"visible"		"1"
 
+			"HeaderShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"HeaderShadow"
+				"font"			"FluxFontVer12"
+				"labelText"		"%headershadow%"
+				"textAlignment" "center"
+				"xpos"			"1"
+				"ypos"			"13"
+				"wide"			"530"
+				"tall"			"40"
+				"fgcolor"		"Black"
+			}
+			
 			"HeaderLabel"
 			{
 				"ControlName"	"CExLabel"
@@ -52,11 +66,11 @@
 				"font"			"FluxFontVer12"
 				"labelText"		"%header%"
 				"textAlignment" "center"
-				"xpos"			"c-200"
-				"ypos"			"85"
-				"wide"			"400"
-				"tall"			"20"
-				"fgcolor"		"255 255 255 255"
+				"xpos"			"0"
+				"ypos"			"12"
+				"wide"			"530"
+				"tall"			"40"
+				"fgcolor"		"Orange"
 			}
 		}
 	
@@ -66,23 +80,23 @@
 			"fieldName"		"CreditLabel"
 			"font"			"FluxFontVer12"
 			"labelText"		"#TF_PVE_Currency"
-			"textAlignment" "center"
-			"xpos"			"c-150"
-			"ypos"			"105"
+			"textAlignment" "north-west"
+			"xpos"			"80"
+			"ypos"			"80"
 			"wide"			"300"
-			"tall"			"20"
-			"fgcolor"		"255 255 255 255"
+			"tall"			"40"
+			"fgcolor"		"tanlight"
 		}
 			
 		"CreditContainer"
 		{
 			"ControlName"	"CCreditDisplayPanel"
 			"fieldName"		"CreditContainer"
-			"xpos"			"c-200"
-			"ypos"			"108"
-			"wide"			"300"
-			"tall"			"120"
-			"autoResize"	"0"
+			"xpos"			"80"
+			"ypos"			"90"
+			"wide"			"400"
+			"tall"			"70"
+			"autoResize"	"1"
 			"visible"		"1"
 		}
 
@@ -90,11 +104,11 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RatingContainer"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"480"
-			"autoResize"	"0"
+			"xpos"			"275"
+			"ypos"			"80"
+			"wide"			"400"
+			"tall"			"400"
+			"autoResize"	"1"
 			"visible"		"1"
 			
 			"RatingLabel"
@@ -104,25 +118,39 @@
 				"font"			"FluxFontVer12"
 				"labelText"		"%ratinglabel%"
 				"textAlignment" "center"
-				"xpos"			"c-150"
-				"ypos"			"r265"
-				"wide"			"300"
-				"tall"			"20"
-				"fgcolor"		"255 255 255 255"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"180"
+				"tall"			"40"
+				"fgcolor"		"tanlight"
+			}
+			
+			"RatingTextShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"RatingTextShadow"
+				"font"			"HudFontGiantBold"
+				"labelText"		"%ratingscore%"
+				"textAlignment" "center"
+				"xpos"			"1"
+				"ypos"			"41"
+				"wide"			"180"
+				"tall"			"50"
+				"fgcolor"		"Black"
 			}
 			
 			"RatingText"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RatingText"
-				"font"			"FluxFontVer26"
+				"font"			"HudFontGiantBold"
 				"labelText"		"%ratingscore%"
 				"textAlignment" "center"
-				"xpos"			"c-150"
-				"ypos"			"r250"
-				"wide"			"300"
-				"tall"			"40"
-				"fgcolor"		"255 255 255 255"
+				"xpos"			"0"
+				"ypos"			"40"
+				"wide"			"180"
+				"tall"			"50"
+				"fgcolor"		"White"
 			}
 		}
 		
@@ -130,11 +158,11 @@
 		{
 			"ControlName"	"CCreditSpendPanel"
 			"fieldName"		"TotalGameCreditSpendPanel"
-			"xpos"			"c98"
-			"ypos"			"108"
-			"wide"			"300"
-			"tall"			"120"
-			"autoResize"	"0"
+			"xpos"			"80"
+			"ypos"			"135"
+			"wide"			"400"
+			"tall"			"70"
+			"autoResize"	"1"
 			"visible"		"1"
 		}
 	}

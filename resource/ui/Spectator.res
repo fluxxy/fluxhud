@@ -28,10 +28,6 @@
 		"textAlignment"	"center"
 		"font"			"FluxsFontRespawnTime"
 		"fgcolor"		"255 255 255 255"
-        if_mvm
-        {
-            "ypos"  "1"
-        }
 	}
 	"BuyBackLabel"
 	{

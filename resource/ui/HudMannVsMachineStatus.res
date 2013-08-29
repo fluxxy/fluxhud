@@ -30,11 +30,11 @@
 	{
 		"ControlName"		"CMvMBossStatusPanel"
 		"fieldName"			"BossStatusPanel"
-		"xpos"				"-5"
-		"ypos"				"-10"
+		"xpos"				"0"
+		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"f0"
-		"tall"				"480"
+		"wide"				"200"
+		"tall"				"100"
 		"visible"			"1"
 		"enabled"			"1"
 		
@@ -222,14 +222,14 @@
 		{
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"Background"
-			"xpos"			"0"
-			"ypos"			"0"
-			"wide"			"0"
-			"tall"			"0"
+			"xpos"			"c-150"
+			"ypos"			"400"
+			"wide"			"300"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"image"			"../hud/color_panel_red"
 
 			"src_corner_height"	"22"				// pixels inside the image
@@ -243,16 +243,16 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ServerChangeLabel"
-			"font"			"FluxFontVer12"
+			"font"			"HudFontSmall"
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
-			"xpos"			"c-250"
-			"ypos"			"r80"
-			"wide"			"500"
+			"xpos"			"c-150"
+			"ypos"			"400"
+			"wide"			"300"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"255 255 255 255"		
+			"fgcolor"		"tanlight"		
 		}
 	}
 	

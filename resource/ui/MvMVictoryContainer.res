@@ -10,7 +10,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 195"
+		"bgcolor_override"		"20 20 20 200"
 	}
 	
 	"PanelContainerBackground"
@@ -22,7 +22,7 @@
 		"zpos"			"-1"
 		"wide"			"550"
 		"tall"			"300"
-		"visible"		"0"
+		"visible"		"1"
 		
 		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
@@ -33,10 +33,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BannerContainer"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"480"
+		"xpos"			"c-300"
+		"ypos"			"20"
+		"wide"			"600"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -48,7 +48,7 @@
 			"ypos"			"0"
 			"wide"			"600"
 			"tall"			"50"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"image"			"mvm/smallbanner"
 			"scaleImage"    "1"
@@ -56,22 +56,36 @@
 			"src_corner_height"	"40"				// pixels inside the image
 			"src_corner_width"	"40"
 		
-			"draw_corner_width"	"10"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"10"	
+			"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
+		}
+		
+		"BannerTextDropShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"BannerTextDropShadow"
+			"font"			"HudFontBiggerBold"
+			"labelText"		"#TF_MVM_Victory_Complete"
+			"textAlignment" "center"
+			"xpos"			"2"
+			"ypos"			"2"
+			"wide"			"600"
+			"tall"			"35"
+			"fgcolor"		"0 0 0 255"
 		}
 		
 		"BannerText"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BannerTextDropShadow"
-			"font"			"FluxFontVer12"
+			"font"			"HudFontBiggerBold"
 			"labelText"		"#TF_MVM_Victory_Complete"
 			"textAlignment" "center"
-			"xpos"			"c-150"
-			"ypos"			"65"
-			"wide"			"300"
-			"tall"			"20"
-			"fgcolor"		"255 255 255 255"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"600"
+			"tall"			"35"
+			"fgcolor"		"tanlight"
 		}
 	}
 	
@@ -98,80 +112,54 @@
 		"visible"			"0"
 		"enabled"			"1"		
 	}
-
-	"BottomBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BottomBG"
-		"xpos"			"0"
-		"ypos"			"r47"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"47"
-		"fillcolor"		"197 197 197 255"
-		"visible"		"1"
-		"enabled"		"1"
-	}
 	
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c64"
-		"ypos"			"r39"
-		"zpos"			"6"
-		"wide"			"151"
-		"tall"			"29"
+		"xpos"			"c165"
+		"ypos"			"350"
+		"wide"			"100"
+		"tall"			"25"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#DoneButton"
-		"textAlignment"	"east"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"255 255 255 255"
 		"Command"		"done"
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-		"font"			"FluxFontVer12"
-		"fgcolor"		"40 40 40 255"
-		"defaultFgColor_override" "40 40 40 255"
-		"armedFgColor_override" "75 255 0 255"
-		"depressedFgColor_override" "40 40 40 255"
 	}
 
 	"VictoryChangePageButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"VictoryChangePageButton"
-		"xpos"			"c-215"
-		"ypos"			"r39"
-		"zpos"			"6"
-		"wide"			"350"
-		"tall"			"29"
+		"xpos"			"c-265"
+		"ypos"			"350"
+		"wide"			"100"
+		"tall"			"25"
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Stats"
-		"textAlignment"	"west"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"image_drawcolor"	"255 255 255 255"
 		"Command"		"victory_change"
-		"border_default"	""
-		"border_armed"		""
-		"paintbackground"	"0"
-		"font"			"FluxFontVer12"
-		"fgcolor"		"40 40 40 255"
-		"defaultFgColor_override" "40 40 40 255"
-		"armedFgColor_override" "75 255 0 255"
-		"depressedFgColor_override" "40 40 40 255"
 	}
 }

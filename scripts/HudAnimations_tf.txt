@@ -186,7 +186,7 @@ event HudHealthBonusPulseStop
 	StopPanelAnimations PlayerStatusHealthValueSpec 0.0
 	StopPanelAnimations PlayerStatusHealthValueSpecT	0.0
 	
-	Animate	PlayerStatusHealthValue				FgColor		"230 230 230 255" 	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue				FgColor		"255 255 255 255" 	Linear 0.0 0.0
 	
 	Animate	PlayerStatusHealthValueSpec			FgColor		"white" 	Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueSpecT		FgColor		"white" 	Linear 0.0 0.2

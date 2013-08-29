@@ -105,7 +105,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChooseTeamLabel"
 		"xpos"			"c-65"
-		"ypos"			"c-55"
+		"ypos"			"c-50"
 		"zpos"			"8"
 		"wide"			"130"
 		"tall"			"24"
@@ -114,7 +114,7 @@
         "tabPosition"	"0"
 		"labelText"		"Team Select"
 		"textAlignment"	"center"
-		"font"			"FluxFontVer16"
+		"font"			"FluxFontVer14"
 		"fgcolor"		"255 255 255 255"
 
 	}

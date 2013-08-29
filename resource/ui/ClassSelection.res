@@ -14,6 +14,36 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
+	"ClassMenuSelect"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ClassMenuSelect"
+		"xpos"			"c-105"
+		"ypos"			"c-90"
+		"zpos"			"99"
+		"wide"			"210"
+		"tall"			"15"
+		"visible"		"1"
+		"enabled"		"1"
+        "tabPosition"	"0"
+		"labelText"		"Select Class"
+		"textAlignment"	"center"
+		"font"			"FluxFontVer14"
+		"fgcolor"		"10 10 10 255"
+	}
+	"ClassMenuSelectBG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"			"ClassMenuSelectBG"
+		"xpos"				"c-105"
+		"ypos"				"c-90"
+		"zpos"				"0"
+		"wide"				"210"
+		"tall"				"15"
+		"visible"			"1"		
+		"enabled"			"1"
+		"fillcolor"		"255 255 255 200"
+	}
 	
 	"SysMenu"
 	{
@@ -47,7 +77,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"			"ClassSelectBG"
-		"xpos"				"c0"
+		"xpos"				"c5"
 		"ypos"				"c-75"
 		"zpos"				"2"
 		"wide"				"100"
@@ -61,7 +91,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"random"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"c60"
 		"zpos"			"6"
 		"wide"			"100"
@@ -128,7 +158,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"scout"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"c-75"
 		"zpos"			"6"
 		"wide"			"100"
@@ -189,7 +219,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"soldier"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"c-60"
 		"zpos"			"6"
 		"wide"			"100"
@@ -250,7 +280,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"pyro"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"c-45"
 		"zpos"			"6"
 		"wide"			"100"
@@ -318,7 +348,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"demoman"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"c-30"
 		"zpos"			"6"
 		"wide"			"100"
@@ -379,7 +409,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"heavyweapons"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"c-15"
 		"zpos"			"6"
 		"wide"			"100"
@@ -440,7 +470,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"engineer"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"c0"
 		"zpos"			"6"
 		"wide"			"100"
@@ -508,7 +538,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"medic"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"c15"
 		"zpos"			"6"
 		"wide"			"100"
@@ -569,7 +599,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"sniper"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"c30"
 		"zpos"			"6"
 		"wide"			"100"
@@ -630,7 +660,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"spy"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"c45"
 		"zpos"			"6"
 		"wide"			"100"
@@ -693,7 +723,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c0"
+		"xpos"			"c5"
 		"ypos"			"c75"
 		"zpos"			"6"
 		"wide"			"100"
@@ -758,25 +788,6 @@
 		"font"			"HudFontSmallBold"
 	}
 
-	"ClassMenuSelect"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"ClassMenuSelect"
-		"xpos"			"0"
-		"ypos"			"c-100"
-		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"	"0"
-		"visible"	"1"
-		"enabled"	"1"
-		"labelText"	"#TF_SelectAClass"
-		"textAlignment"	"center"
-		"font"		"FluxFontVer16"
-		"fgcolor"	"255 255 255 255"
-	}
-	
 	"MenuBG"
 	{
 		"ControlName"	"CModelPanel"
