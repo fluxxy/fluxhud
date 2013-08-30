@@ -286,7 +286,7 @@
 		}
 		"if_specialdelivery"
 		{
-			"xpos"		"c-100"
+			"xpos"		"c-73"
 			"ypos"		"r68"
 		}
 		"if_no_flags"

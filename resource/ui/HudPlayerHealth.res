@@ -32,6 +32,7 @@
 		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"FluxColorHudNumbers"
 	}
+	
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -310,10 +311,10 @@
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos" "9999"
 		"ypos" "9999"
-		"wide" "0"
-		"tall" "0"
-		"visible" "0" 
-		"enabled" "0"
+		"wide" "80"
+		"tall" "80"
+		"visible" "1" 
+		"enabled" "1"
 	}		
 	"PlayerStatusHealthImageBG"
 	{
@@ -321,10 +322,10 @@
 		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos" "9999"
 		"ypos" "9999"
-		"wide" "0"
-		"tall" "0"
-		"visible" "0" 
-		"enabled" "0"
+		"wide" "80"
+		"tall" "80"
+		"visible" "1" 
+		"enabled" "1"
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
@@ -332,9 +333,9 @@
 		"fieldName"		"PlayerStatusHealthBonusImage"
 		"xpos" "9999"
 		"ypos" "9999"
-		"wide" "0"
-		"tall" "0"
-		"visible" "0" 
-		"enabled" "0"
+		"wide" "80"
+		"tall" "80"
+		"visible" "1" 
+		"enabled" "1"
 	}
 }

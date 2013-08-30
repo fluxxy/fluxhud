@@ -151,7 +151,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"FluxFontVer14V2"
+		"font"			"FluxFontVer14"
 		"fgcolor"		"245 45 45 255"
 		"labelText"		"%redteamname%"
 		"textAlignment"	"west"
@@ -172,7 +172,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"FluxFontVer14V2"
+		"font"			"FluxFontVer14"
 		"fgcolor"		"245 45 45 255"
 		"labelText"		"%redteamscore%"
 		"textAlignment"	"east"
@@ -193,7 +193,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"FluxFontVer14V2"
+		"font"			"FluxFontVer14"
 		"fgcolor"		"245 45 45 255"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"	"center"
@@ -216,7 +216,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"FluxFontVer14V2"
+		"font"			"FluxFontVer14"
 		"fgcolor"		"20 153 255 255"
 		"labelText"		"%blueteamname%"
 		"textAlignment"	"east"
@@ -239,7 +239,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"FluxFontVer14V2"
+		"font"			"FluxFontVer14"
 		"fgcolor"		"20 153 255 255"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"	"west"
@@ -262,7 +262,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"FluxFontVer14V2"
+		"font"			"FluxFontVer14"
 		"fgcolor"		"20 153 255 255"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"	"center"
