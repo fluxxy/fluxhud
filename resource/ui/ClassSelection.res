@@ -751,21 +751,45 @@
 		"sound_armed"		"UI/buttonrollover.wav"
 	}
 	
-	
+	"EditLoadoutBG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"			"EditLoadoutBG"
+		"xpos"				"c-105"
+		"ypos"				"c72"
+		"zpos"				"8"
+		"wide"				"100"
+		"tall"				"19"
+		"visible"			"1"		
+		"enabled"			"1"
+		"fillcolor"		"40 40 40 200"
+		"TextInsetX"			"999999"
+	}
 	"EditLoadoutButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"99999"
-		"ypos"			"99999"
-		"zpos"			"6"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos"			"c-105"
+		"ypos"			"c75"
+		"zpos"			"9"
+		"wide"			"100"
+		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"0"
+		"labelText"		"Edit loadout"
+		"textAlignment"		"west"
+		"textinsetx"		"10"
+		"Command"		"openloadout"
+		"font"			"FluxFontVer10"
+		"paintbackground"	"0"
+		"fgcolor"			"255 255 255 255"
+		"defaultFgColor_override" 	"255 255 255 255"
+		"armedFgColor_override" 	"24 107 177 255"
+		"depressedFgColor_override" 	"255 255 255 255"
+		"selectedFgColor_override" 	"24 107 177 255"
 	}
 
 	"ResetButton" [$WIN32] 
