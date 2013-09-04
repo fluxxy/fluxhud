@@ -53,7 +53,7 @@
 		"ypos"			"105"
 		"wide"			"550"
 		"tall"			"30"
-		"fgcolor"		"Orange"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"HeaderDivider"
@@ -79,7 +79,7 @@
 		"ypos"			"135"
 		"wide"			"550"
 		"tall"			"30"
-		"fgcolor"		"Black"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"CollectionContainer"
@@ -102,7 +102,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"140"
-			"fgcolor"		"Black"
+			"fgcolor"		"255 255 255 255"
 		}
 	
 		"CollectedLabel"
@@ -115,7 +115,7 @@
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"CollectedCount"
@@ -141,7 +141,7 @@
 			"xpos"			"0"
 			"ypos"			"40"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"MissedCount"
@@ -167,7 +167,7 @@
 			"xpos"			"0"
 			"ypos"			"55"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"BonusCount"
@@ -204,7 +204,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"195"
-			"fgcolor"		"Black"
+			"fgcolor"		"255 255 255 255"
 		}
 	
 		"YouLabel"
@@ -217,7 +217,7 @@
 			"xpos"			"120"
 			"ypos"			"15"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"TeamLabel"
@@ -230,7 +230,7 @@
 			"xpos"			"175"
 			"ypos"			"15"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"BuybackLabel"
@@ -243,7 +243,7 @@
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"BuybackCountYou"
@@ -256,7 +256,7 @@
 			"xpos"			"120"
 			"ypos"			"25"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"BuybackCountTeam"
@@ -269,7 +269,7 @@
 			"xpos"			"175"
 			"ypos"			"25"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"BottleLabel"
@@ -282,7 +282,7 @@
 			"xpos"			"0"
 			"ypos"			"40"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"BottleCountYou"
@@ -295,7 +295,7 @@
 			"xpos"			"120"
 			"ypos"			"40"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"BottleCountTeam"
@@ -308,7 +308,7 @@
 			"xpos"			"175"
 			"ypos"			"40"
 			"wide"			"35"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"InactiveLabel"
@@ -321,7 +321,7 @@
 			"xpos"			"0"
 			"ypos"			"55"
 			"wide"			"120"
-			"fgcolor"		"TanDarker"
+			"fgcolor"		"255 255 255 255"
 		}
 		
 		"InactiveCountYou"
@@ -449,8 +449,8 @@
 			"wide"		"50"
 			"tall"		"100"
 			"image"			"class_sel_sm_engineer_inactive"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"scaleImage"		"1"
 		}
 		
@@ -463,8 +463,8 @@
 			"textAlignment" "north-west"
 			"xpos"			"55"
 			"ypos"			"60"
-			"wide"			"185"
-			"tall"			"55"
+			"wide"			"0"
+			"tall"			"0"
 			"fgcolor"		"Gray"
 			"wrap"			"1"
 		}
@@ -478,8 +478,8 @@
 			"wide"		"50"
 			"tall"		"100"
 			"image"			"class_sel_sm_engineer_inactive"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"scaleImage"		"1"
 		}
 		
@@ -492,8 +492,8 @@
 			"textAlignment" "north-west"
 			"xpos"			"305"
 			"ypos"			"60"
-			"wide"			"185"
-			"tall"			"55"
+			"wide"			"0"
+			"tall"			"0"
 			"fgcolor"		"Gray"
 			"wrap"			"1"
 		}
