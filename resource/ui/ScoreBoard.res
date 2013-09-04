@@ -35,7 +35,7 @@
 		"tall"			"224"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 160"
+		"fillcolor"		"20 20 20 160"
         if_mvm
         {
             "visible"   "0"
@@ -54,7 +54,7 @@
 		"tall"			"224"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 180"
+		"fillcolor"		"20 20 20 160"
         if_mvm
         {
             "visible"   "0"
@@ -62,6 +62,52 @@
 		"xpos_minmode"	"c5"
 		"ypos_minmode"	"c-60"
 		"tall_minmode"	"106"
+	}
+	"BlueWhiteStripe"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlueWhiteStripe"
+		"xpos"				"c5"
+		"xpos_minmode"		"c5"
+		"ypos"				"c-112"
+		"ypos_minmode"		"c-60"
+		"zpos"				"2"
+		"wide"				"260"
+		"wide_minmode"		"260"
+		"tall"				"24"
+		"tall_minmode"		"24"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor" 		"255 255 255 200"
+		if_mvm
+        {
+            "visible"   "0"
+        }
+	}
+	"RedWhiteStripe"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"RedWhiteStripe"
+		"xpos"				"c-265"
+		"xpos_minmode"		"c-265"
+		"ypos"				"c-112"
+		"ypos_minmode"		"c-60"
+		"zpos"				"2"
+		"wide"				"260"
+		"wide_minmode"		"260"
+		"tall"				"24"
+		"tall_minmode"		"24"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor" 		"255 255 255 200"
+		if_mvm
+        {
+            "visible"   "0"
+        }
 	}
 	"BlueStripe"
 	{
@@ -599,7 +645,7 @@
 			"tall"			"40"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"FluxColorGameDialog"
+			"fillcolor"		"20 20 20 160"
 		}
 
 		// 1st Column
@@ -1053,7 +1099,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"185 177 153 255"
+			"fgcolor"		"255 255 255 255"
 		}
 		"GameType"
 		{
@@ -1069,7 +1115,7 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"185 177 153 255"
+			"fgcolor"		"255 255 255 255"
 		}
 	}
     "MvMScoreboard"

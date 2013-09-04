@@ -23,11 +23,11 @@ Scheme
 		"FluxColorButBack"				"40 40 40 255"
 		"FluxColorButBackHover"			"35 35 35 255"
 		"FluxColorButBorder"			"87 115 138 255"
-		"FluxColorButBorderHover"		"200 200 200 255"
-		"FluxColorButTextHover"			"191 229 255 255"
+		"FluxColorButBorderHover"		"255 255 255 255"
+		"FluxColorButTextHover"			"255 255 255 255"
 		"FluxColorButTextNope"			"38 38 38 255"
 		"FluxColorDialogBack"			"60 60 60 255"
-		"FluxColorEmphasis"				"220 220 220 255"
+		"FluxColorEmphasis"				"255 255 255 255"
 		"FluxColorGameDialog"			"0 0 0 200"
 		"FluxColorMeterFont"			"24 107 177 255"
 		"FluxColorStatsBar"				"24 116 205 255"
@@ -39,8 +39,8 @@ Scheme
 
 		// SOURCE SCHEME COLORS
 		"White"					"255 255 255 255"
-		"OffWhite"				"200 200 200 255"
-		"DullWhite"				"142 142 142 255"
+		"OffWhite"				"255 255 255 255"
+		"DullWhite"				"255 255 255 255"
 		"TransparentBlack"		"0 0 0 128"
 		"Black"					"0 0 0 255"
 		"Blank"					"0 0 0 0"
@@ -58,7 +58,7 @@ Scheme
 		"LightOrange"			"188 112 0 128"
 		"GoalOrange"			"255 133 0"
 		"TFOrange"				"145 73 59 255"
-		"White"					"235 235 235 255"
+		"White"					"255 255 255 255"
 		"Red"					"192 28 0 140"
 		"RedSolid"				"192 28 0 255"
 		"Blue"					"0 28 162 140"
@@ -1430,7 +1430,7 @@ Scheme
 			"1"
 			{
 				"name"		"Museo Sans Cyrl 500"
-				"tall"		"18"
+				"tall"		"20"
 				"weight"	"900"
 				"range"		"0x0000 0x017F"
 				"yres"		"480 599"
@@ -1438,7 +1438,7 @@ Scheme
 			"2"
 			{
 				"name"		"Museo Sans Cyrl 500"
-				"tall"		"21"
+				"tall"		"23"
 				"weight"	"900"
 				"range"		"0x0000 0x017F"
 				"yres"		"600 767"
@@ -1446,7 +1446,7 @@ Scheme
 			"3"
 			{
 				"name"		"Museo Sans Cyrl 500"
-				"tall"		"22"
+				"tall"		"24"
 				"weight"	"900"
 				"range"		"0x0000 0x017F"
 				"yres"		"768 1023"
@@ -1455,7 +1455,7 @@ Scheme
 			"4"
 			{
 				"name"		"Museo Sans Cyrl 500"
-				"tall"		"28"
+				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F"
 				"yres"		"1024 1199"
@@ -1464,7 +1464,7 @@ Scheme
 			"5"
 			{
 				"name"		"Museo Sans Cyrl 500"
-				"tall"		"30"
+				"tall"		"32"
 				"weight"	"900"
 				"range"		"0x0000 0x017F"
 				"yres"		"1200 6000"
@@ -1473,7 +1473,7 @@ Scheme
 			"6"
 			{
 				"name"		"Museo Sans Cyrl 500"
-				"tall"		"20"
+				"tall"		"22"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"900"
 			}

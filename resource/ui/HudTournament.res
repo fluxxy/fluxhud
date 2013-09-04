@@ -50,7 +50,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
+				"font"			"FluxFontVer10"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
@@ -135,8 +135,8 @@
 				"src_corner_height"	"20"				// pixels inside the image
 				"src_corner_width"	"20"
 			
-				"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"4"
+				"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"0"
 				
 				if_mvm
 				{
@@ -187,8 +187,8 @@
 		"src_corner_height"	"23"			// pixels inside the image
 		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 
 		if_mvm
 		{
@@ -280,8 +280,8 @@
 		"src_corner_height"	"15"			// pixels inside the image
 		"src_corner_width"	"15"
 		
-		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"4"
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 		
 		if_mvm
 		{
@@ -355,8 +355,8 @@
 		"src_corner_height"	"15"			// pixels inside the image
 		"src_corner_width"	"15"
 		
-		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"4"
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 		
 		if_mvm
 		{
@@ -455,8 +455,8 @@
 		"src_corner_height"	"30"			// pixels inside the image
 		"src_corner_width"	"30"
 		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"
 		
 		if_mvm
 		{
@@ -541,8 +541,8 @@
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"
 		
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
+		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"0"	
 	}
 	
 	"CountdownLabel"
