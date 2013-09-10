@@ -13,8 +13,9 @@
 		"enabled"		"1"	
 		"pinCorner"		"0"
 		"autoResize"	"0"
-		"border"		"NoBorder"
+		"border"		"AmmoBorder"
 		"PaintBackgroundType"	"2"
+		"paintbackground"		"1"
 		"bgcolor_override"		"40 40 40 200"	
 	}
 	"CurrencyGood"

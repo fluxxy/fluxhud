@@ -44,23 +44,9 @@
 		"tall"	 		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"NoBorder"
+		"border"		"AmmoBorder"
 		"PaintBackgroundType"	"2"
+		"paintbackground"		"1"
 		"bgcolor_override"		"40 40 40 200"
-	}
-
-	"GreenBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"WhiteBG"
-		"xpos"			"27"
-		"ypos"			"72"
-		"zpos"			"2"
-		"wide"			"58"
-		"tall"			"16"
-		"visible"		"0"
-		"enabled"		"1"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"CreditsGreen"
 	}
 }
