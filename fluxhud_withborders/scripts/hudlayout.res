@@ -705,8 +705,8 @@
 		"ypos"	"0"
 		"wide"	"200"
 		"tall"	"60"
-		"blue_active_xpos"			"34"
-		"red_active_xpos"			"100"
+		"blue_active_xpos"			"44"
+		"red_active_xpos"			"110"
 	}
 	HudFlameRocketCharge // NEW THING
 	{

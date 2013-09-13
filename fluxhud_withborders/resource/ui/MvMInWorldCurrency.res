@@ -16,13 +16,13 @@
 		"border"		"AmmoBorder"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 200"	
+		"bgcolor_override"		"40 40 40 255"	
 	}
 	"CurrencyGood"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
-		"font"			"FluxFontVer18"
+		"font"			"FluxFontVer20"
 		"fgcolor"		"77 255 0 255"
 		"xpos"			"c100"
 		"ypos"			"0"
@@ -39,7 +39,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
-		"font"			"FluxFontVer18"
+		"font"			"FluxFontVer20"
 		"fgcolor"		"255 0 0 255"
 		"xpos"			"c100"
 		"ypos"			"0"

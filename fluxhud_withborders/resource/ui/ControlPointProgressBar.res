@@ -45,7 +45,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"TeardropSide"
-		"xpos"			"10"
+		"xpos"			"20"
 		"ypos"			"0"
 		"zpos"			"21"
 		"wide"			"44"
