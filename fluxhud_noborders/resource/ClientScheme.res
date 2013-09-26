@@ -4,8 +4,8 @@ Scheme
 	Colors
 	{
 		// FluxHUD Colors
-		"FluxColorMainBut"				"15 20 24 255"
-		"FluxColorMainButHover"			"0 24 42 255"
+		"FluxColorMainBut"				"30 30 30 200"
+		"FluxColorMainButHover"			"40 40 40 200"
 		"FluxColorMainButBor"			"74 99 117 255"
 		"FluxColorMainButBorHover"		"0 138 255 255"
 		"FluxColorMainDialog"			"40 40 40 255"
@@ -420,7 +420,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"broeselhud broeselhud Crosshairs"
+				"name"	"broeselhud Crosshairs"
 				"tall"	"20"
 				"antialias" "0"
 				"additive"	"0"
@@ -5222,6 +5222,78 @@ Scheme
 				}
 			}
 		}
+		AmmoBorder
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "200 200 200 255"
+					"offset" "0 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "200 200 200 255"
+					"offset" "1 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "200 200 200 255"
+					"offset" "0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "200 200 200 255"
+					"offset" "0 0"
+				}
+			}
+		}
+		Menu1Border
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 1"
+				}
+			}
+			Right
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "1 0"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "255 255 255 255"
+					"offset" "0 0"
+				}
+			}
+		}
 		SteamWorkshopBorder
 		{
 			"inset" "0 0 1 1"
@@ -5385,8 +5457,8 @@ Scheme
 		}
 		"8"
 		{
-			"font" "resource/fonts/broeselhudbroeselhud Crosshairs.ttf"
-			"name" "broeselhud broeselhud Crosshairs"
+			"font" "resource/fonts/broeselhudCrosshairs.ttf"
+			"name" "broeselhud Crosshairs"
 		}
 		"9"
 		{

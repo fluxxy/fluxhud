@@ -420,7 +420,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"broeselhud broeselhud Crosshairs"
+				"name"	"broeselhud Crosshairs"
 				"tall"	"20"
 				"antialias" "0"
 				"additive"	"0"
@@ -5457,8 +5457,8 @@ Scheme
 		}
 		"8"
 		{
-			"font" "resource/fonts/broeselhudbroeselhud Crosshairs.ttf"
-			"name" "broeselhud broeselhud Crosshairs"
+			"font" "resource/fonts/broeselhudCrosshairs.ttf"
+			"name" "broeselhud Crosshairs"
 		}
 		"9"
 		{

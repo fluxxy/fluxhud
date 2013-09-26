@@ -529,7 +529,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DisconnectButton"
 		"xpos"			"45"
-		"ypos"			"c106"
+		"ypos"			"c116"
 		"zpos"			"1"
 		"wide"			"149"
 		"tall"			"20"
