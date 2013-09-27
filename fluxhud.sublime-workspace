@@ -1,0 +1,245 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"a",
+				"alt	Attr"
+			],
+			[
+				"l",
+				"line-height"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"bo",
+				"border-width"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"background",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/Website Builds/Builds/tf2Template/index.html",
+		"/E/Website Builds/Builds/tf2Template/css/reset.css",
+		"/E/Website Builds/Builds/tf2Template/css/site_style.css",
+		"/E/footerTest/SiteFooter/assets/css/footer.css",
+		"/E/Website Builds/Builds/tf2Template/fonts/font-awesome.min.css",
+		"/E/Website Builds/Builds/tf2Template/css/reset",
+		"/E/Website Builds/Builds/tf2Template/css/yaml-core",
+		"/E/Website Builds/Builds/tf2Template/css/grid-1220-20.css",
+		"/E/Website Builds/Builds/tf2Template/fonts/stylesheet.css",
+		"/E/Website Builds/Builds/tf2Template/fonts/amble_bold_macroman/stylesheet.css",
+		"/E/Website Builds/Builds/oneWide.sublime-project",
+		"/E/Website Builds/Builds/oneWide/index.html",
+		"/E/Website Builds/Builds/oneWide/style.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"></",
+			"%;\n"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"project": "fluxhud.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
