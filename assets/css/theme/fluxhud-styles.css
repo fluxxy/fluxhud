@@ -4,7 +4,7 @@
 	
 	#Yanone Kaffeesatz  - font-family: 'Yanone Kaffeesatz', sans-serif;
 
-	#Oswald 		- font-family: 'Oswald', sans-serif;
+	#Oswald 			- font-family: 'Oswald', sans-serif;
 	
 */
 
@@ -12,7 +12,8 @@
 
 html,
 body { font-family:'Yanone Kaffeesatz', sans-serif; background:url(../../images/basic-images/grey_wash_wall.png); }
-a { text-decoration:none; }
+
+a { text-decoration:none; outline:none; }
 
 /* HEADER STYLES */
 
@@ -41,15 +42,15 @@ h6 { font-weight:400; }
 
 /* FLOATS */
 
-fl-r { float:right; }
+.fl-r { float:right; }
 
-fl-l { float:left; }
+.fl-l { float:left; }
 
-cl-l { clear:left; }
+.cl-l { clear:left; }
 
-cl-r { clear:right; }
+.cl-r { clear:right; }
 
-cl-b { clear:both; }
+.cl-b { clear:both; }
 
 /* BUTTON STYLES */
 
@@ -62,33 +63,38 @@ cl-b { clear:both; }
 	height:50px;
 	font-size:20px;
 	line-height:47px;
-	float:right;
 	margin-left:10px;
 }
 
 .github-btn {
-	background:#06A2CB;
+	background-color:#06A2CB;
+	-webkit-box-shadow:0 2px 0 #00688B;
+	-moz-box-shadow:0 2px 0 #00688B;
 	box-shadow:0 2px 0 #00688B;
 }
 
 .download-btn {
-	background:#FF9900;
+	background-color:#FF9900;
+	-webkit-box-shadow:0 2px 0 #c13100;
+	-moz-box-shadow:0 2px 0 #c13100;
 	box-shadow:0 2px 0 #c13100;
 }
 
 .tftv-btn {
-	background:#CCCCCC;
+	background-color:#CCCCCC;
+	-webkit-box-shadow:0 2px 0 #999999;
+	-moz-box-shadow:0 2px 0 #999999;
 	box-shadow:0 2px 0 #999999;
 }
 
 .ss-btn {
-	background:#669966;
+	background-color:#669966;
+	-webkit-box-shadow:0 2px 0 #2c6700;
+	-moz-box-shadow:0 2px 0 #2c6700;
 	box-shadow:0 2px 0 #2c6700;
 }
 
-.github-btn:hover a, .download-btn:hover a, .tftv-btn:hover a, .ss-btn:hover a {
-	bottom:45px;
-}
+.github-btn:hover a, .download-btn:hover a, .tftv-btn:hover a, .ss-btn:hover a { bottom:45px; }
 
 /* HEADER STYLES */
 
@@ -102,8 +108,11 @@ cl-b { clear:both; }
 .header-container a {
 	position:relative;
 	-webkit-transition:ease-in-out 0.2s;
+	-moz-transition:ease-in-out 0.2s;
+	transition:ease-in-out 0.2s;
 	color:#fff;
 	text-shadow:0 1px 0 rgba(0,0,0,0.25);
+	bottom:0;
 }
 
 /* JUMBO BOX STYLES */
@@ -114,6 +123,8 @@ cl-b { clear:both; }
 	position:relative;
 	background:url(../../images/tf2-images/sniper-bird.jpg) no-repeat;
 	background-size:cover;
+	-webkit-box-shadow:0 1px 0 rgba(0,0,0,0.75);
+	-moz-box-shadow:0 1px 0 rgba(0,0,0,0.75);
 	box-shadow:0 1px 0 rgba(0,0,0,0.75);
 }
 
@@ -145,12 +156,17 @@ cl-b { clear:both; }
 .jumbo-box .logo-container {
 	width:125px;
 	height:125px;
-	background:#fff;
+	background-color:#fff;
 	margin:auto;
 	position:relative;
 	top:175px;
+	-webkit-border-radius:62.5px;
+	-moz-border-radius:62.5px;
 	border-radius:62.5px;
+	-webkit-box-shadow:0 2px 5px rgba(0,0,0,0.5);
+	-moz-box-shadow:0 2px 5px rgba(0,0,0,0.5);
 	box-shadow:0 2px 5px rgba(0,0,0,0.5);
+	z-index:1;
 }
 
 .jumbo-box .logo-container .logo-hud {
@@ -162,6 +178,8 @@ cl-b { clear:both; }
 }
 
 .logo-hud img {
+	-webkit-border-radius:60px;
+	-moz-border-radius:60px;
 	border-radius:60px;
 }
 
