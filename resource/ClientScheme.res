@@ -834,6 +834,18 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		"FluxFontVer11outline"
+		{
+			"1"
+			{
+				"name"		"Museo Sans Cyrl 500"
+				"tall"		"11"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		"FluxFontVer12"

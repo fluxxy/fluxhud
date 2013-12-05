@@ -78,6 +78,14 @@
 		"tooltip" "Mute Players"
 	}
 	// Buttons
+	"CallVoteButton"
+	{
+		"label"			""
+		"command"		"callvote"
+		"OnlyInGame"	"1"
+		"subimage" "icon_checkbox"
+		"tooltip" "#MMenu_CallVote"
+	}
 	"TrainingButton"
 	{
 		"label" "#TF_Training"

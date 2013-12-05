@@ -20,7 +20,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-80"
+		"xpos"			"c65"
 		"ypos"			"r23"
 		"zpos"			"8"
 		"wide"			"70"
@@ -30,7 +30,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
 		"font"			"FluxFontHudPipes"
-		"fgcolor"		"HUDBlueTeamSolid"
+		"fgcolor"		"255 255 255 255"
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -44,39 +44,11 @@
 			"visible"	"0"
 		}
 	}		
-	"BlueScoreShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-79"
-		"ypos"			"r22"
-		"zpos"			"8"
-		"wide"			"70"
-		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"west"	
-		"labelText"		"%bluescore%"
-		"font"			"FluxFontHudPipes"
-		"fgcolor"		"Black"
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-	}
 	"RedScore"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c10"
+		"xpos"			"c-135"
 		"ypos"			"r23"
 		"zpos"			"8"
 		"wide"			"70"
@@ -86,35 +58,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
 		"font"			"FluxFontHudPipes"
-		"fgcolor"		"HUDRedTeamSolid"
-		"if_hybrid"
-		{
-			"visible"	"0"
-		}
-		"if_mvm"
-		{
-			"visible"	"0"
-		}
-		"if_specialdelivery"
-		{
-			"visible"	"0"
-		}
-	}
-	"RedScoreShadow"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"RedScoreShadow"
-		"xpos"			"c11"
-		"ypos"			"r22"
-		"zpos"			"8"
-		"wide"			"70"
-		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"textAlignment"	"east"	
-		"labelText"		"%redscore%"
-		"font"			"FluxFontHudPipes"
-		"fgcolor"		"Black"
+		"fgcolor"		"255 255 255 255"
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -172,7 +116,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-80"
-		"ypos"			"r22"
+		"ypos"			"r38"
 		"zpos"			"4"
 		"wide"			"160"
 		"tall"			"24"
@@ -182,8 +126,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"DefaultLarge"
-		"fgcolor"		"TanLight"
+		"font"			"FluxFontVer11"
+		"fgcolor"		"255 255 255 255"
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -201,10 +145,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-84"
+		"xpos"			"c-110"
 		"ypos"			"r20"
 		"zpos"			"3"
-		"wide"			"168"
+		"wide"			"220"
 		"tall"			"36"
 		"visible"		"1"
 		"enabled"		"1"
@@ -212,7 +156,65 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"FluxColorGameDialog"
+		"bgcolor_override"		"20 20 20 160"
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}
+	"PlayingToREDBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayingToREDBG"
+		"xpos"			"c-110"
+		"ypos"			"r20"
+		"zpos"			"3"
+		"wide"			"110"
+		"tall"			"36"
+		"visible"		"1"
+		"enabled"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"2"
+		"border"				"NoBorder"
+		"bgcolor_override"		"245 45 45 200"
+		"if_hybrid"
+		{
+			"visible"	"0"
+		}
+		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
+	}
+	"PlayingToBLUEBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"PlayingToBLUEBG"
+		"xpos"			"c0"
+		"ypos"			"r20"
+		"zpos"			"3"
+		"wide"			"110"
+		"tall"			"36"
+		"visible"		"1"
+		"enabled"		"1"
+		"pinCorner"		"0"
+		"autoResize"	"0"
+		"PaintBackgroundType"	"2"
+		"border"				"NoBorder"
+		"bgcolor_override"		"50 153 255 200"
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -230,8 +232,8 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-200"
-		"ypos"			"r70"
+		"xpos"			"c35"
+		"ypos"			"r59"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"
@@ -264,8 +266,8 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c48"
-		"ypos"			"r70"
+		"xpos"			"c-184"
+		"ypos"			"r59"
 		"zpos"			"5"
 		"wide"			"160"
 		"tall"			"90"

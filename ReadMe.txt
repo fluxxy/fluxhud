@@ -1,8 +1,8 @@
 =========================================================================
 
 To install, 
-Place either "fluxhud_noborders" or "fluxhud_withborders" into the custom folder (see below)
 go to Steam / steamapps / common / team fortress 2 / tf / custom / 
+create a folder and name it, for example, hud / place resource and scripts in it. 
 
 =========================================================================
 

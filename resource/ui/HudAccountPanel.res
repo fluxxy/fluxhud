@@ -33,7 +33,7 @@
 		"enabled"		"1"	
 		"pinCorner"		"0"
 		"autoResize"	"0"
-		"border"		"AmmoBorder"
+		"border"		"NoBorder"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
 		"bgcolor_override"		"FluxColorHudNumbers"
