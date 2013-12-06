@@ -834,8 +834,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-				"outline"	"1"
-			}
+							}
 		}
 		"FluxFontVer11outline"
 		{
@@ -846,6 +845,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
+				"outline"	"1"
 			}
 		}
 		"FluxFontVer12"

@@ -126,7 +126,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"FluxFontVer11"
+		"font"			"FluxFontVer11outline"
 		"fgcolor"		"255 255 255 255"
 		"if_hybrid"
 		{
