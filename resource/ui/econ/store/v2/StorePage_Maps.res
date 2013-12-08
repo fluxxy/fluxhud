@@ -61,7 +61,7 @@
 		"labelText"		"#Store_Maps_SubTitle"
 		"textAlignment"	"south-west"
 		"xpos"			"c-292"
-		"ypos"			"20"
+		"ypos"			"30"
 		"zpos"			"5"
 		"wide"			"500"
 		"tall"			"25"
@@ -69,7 +69,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"96 90 85 255"
+		"fgcolor"		"200 200 200 255"
 	}
 	"LearnMoreButton"
 	{

@@ -95,7 +95,7 @@
 		"wide"			"49"
 		"tall"			"24"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../sprites/obj_icons/icon_obj_timer"	
 		"scaleImage"	"1"	
 	}

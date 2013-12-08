@@ -1,5 +1,3 @@
-// FluxHUD - edited by Fluxs - http://Fluxsstuff.com
-//
 "Resource/UI/StorePanel.res"
 {
 	"store_panel"
@@ -59,7 +57,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"0 5 10 196"
+		"bgcolor_override"		"110 110 110 255"
 	}
 	"BackgroundFooter"
 	{
@@ -90,7 +88,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"0 5 10 196"
+		"bgcolor_override"		"110 110 110 196"
 	}				
 	"FooterLine"
 	{
@@ -240,5 +238,3 @@
 		"border_armed"				"FluxBorderButtonHover"
 	}
 }
-//
-// FluxHUD - edited by Fluxs - http://Fluxsstuff.com

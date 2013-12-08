@@ -96,7 +96,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c17"
+		"xpos"			"c20"
 		"ypos"			"-5"
 		"zpos"			"0"
 		"wide"			"60"
