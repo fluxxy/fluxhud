@@ -18,8 +18,6 @@
 		"textAlignment"	"center"
 	}
 	
-	//Fog's Crosshair taken from yayHUD
-
 	"fogCrosshair"
 		{
 		"controlname"	"CExLabel"
@@ -116,41 +114,6 @@
 		
 		"fgcolor"		"255 255 255 255"
 	}
-	
-	"CrossHairRequest"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"CrossHairRequest"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-		"xpos"			"c-11"
-		"ypos"			"c-11"
-		"wide"			"21"
-		"tall"			"21"
-		"font"			"CrossHairRequest"
-		"labelText"		"+"
-		"fgcolor"		"65 235 0 255"
-		"textAlignment"	"center"
-	}
-
-	"CrossHairCircle"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"CrossHairCircle"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-		"xpos"			"c-17"
-		"ypos"			"c-16"
-		"wide"			"34"
-		"tall"			"32"
-		"font"			"CrossHairCircle"
-		"labelText"		"i"
-		"fgcolor"		"65 235 0 255"
-		"textAlignment"	"center"	
-	}
-	
 	"CrossHairCircleSmaller"
 	{
 		"controlName"	"CExLabel"
@@ -187,22 +150,6 @@
 	
 	/////SPECIAL CROSSHAIR START
 
-	"FMCircle"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"FMCircle"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-		"xpos"			"c-19"
-		"ypos"			"r258"
-		"wide"			"38"
-		"tall"			"38"
-		"font"			"FMCircle"
-		"labelText"		"i"
-		"textAlignment"	"center"	
-		"fgcolor"		"255 255 255 100"
-	}
 	"HorizontalLine"
 	{
 		"controlName"	"ImagePanel"

@@ -443,7 +443,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Garm3nFont"
+				"name"		"broeselhud Crosshairs"
 				"tall"		"23"
 				"weight"	"0"
 				"antialias"	"1"
@@ -454,21 +454,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Garm3nFont"
+				"name"		"broeselhud Crosshairs"
 				"tall"		"23"
 				"weight"	"0"
 				"outline" "1"
-				"antialias"	"1"
-			}
-		}
-
-		"FMCircle"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"32"
-				"weight"	"0"
 				"antialias"	"1"
 			}
 		}
@@ -520,51 +509,6 @@ Scheme
 			}
 		}
 
-		"CrossHairCircle"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"30"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairCircleSmall"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"15"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairCircleSmaller"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"21"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"CrossHairDotOutline"
-		{
-			"1"
-			{
-				"name"		"Paula"
-				"tall"		"4"
-				"weight"	"0"
-				"outline" "1"
-				"antialias"	"0"
-			}
-		}
-
 		"xHairNormal"
 		{
 			"1"
@@ -589,30 +533,7 @@ Scheme
 			}
 		}
 
-		"xHairCircle"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"30"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-
-		"xHairDotOutline"
-		{
-			"1"
-			{
-				"name"		"Paula"
-				"tall"		"4"
-				"weight"	"0"
-				"outline" "1"
-				"antialias"	"0"
-			}
-		}
-
-
+		
 		// FluxHUD Fonts
 		"FluxFontMainMenu"
 		{
@@ -5451,47 +5372,30 @@ Scheme
 			"font" "resource/fonts/Gotham-Bold.otf"
 			"name" "Gotham"
 		}
-
 		"5"
-		{
-			"font" "resource/fonts/FORMASGE.ttf"
-			"name" "Formas germetricas 1"
-		}
-		"6"
 		{
 			"font" "resource/fonts/MuseoSansCyrl-500.otf"
 			"name" "Museo Sans Cyrl 500"
 		}
-		"7"
+		"6"
 		{
 			"font" "resource/fonts/AvenirLTStd-Black.ttf"
 			"name" "Avenir LT Std 65 Medium"
 		}
-		"8"
+		"7"
 		{
 			"font" "resource/fonts/broeselhudCrosshairs.ttf"
 			"name" "broeselhud Crosshairs"
 		}
-		"9"
-		{
-			"font" "resource/fonts/Garm3nFont.ttf"
-			"name" "Garm3nFont"
-		}
-		"10"
+		"8"
 		{
 			"font" "resource/fonts/symbol.ttf"
 			"name" "Symbol"
 		}
-		"11"
-		{
-			"font" "resource/fonts/Paula.ttf"
-			"name" "Paula"
-		}
-		"12"
+		"9"
 		{
 			"font" "resource/fonts/OpenSans-ExtraBold.ttf"
 			"name" "Open Sans ExtraBold"
 		}		
 	}
 }
-//
