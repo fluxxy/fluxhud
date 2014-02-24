@@ -46,6 +46,7 @@
 		"command" "quickplay"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
+		"tooltip" "Quickplay"
 	}
 	
 	// Mini-Inset Buttons

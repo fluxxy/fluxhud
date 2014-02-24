@@ -90,10 +90,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayerListBG"
-		"xpos"			"220"
+		"xpos"			"160"
 		"ypos"			"75"
 		"zpos"			"-1"
-		"wide"			"400"
+		"wide"			"525"
 		"tall"			"150"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -108,9 +108,9 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"230"
+		"xpos"			"170"
 		"ypos"			"79"
-		"wide"			"380"
+		"wide"			"510"
 		"tall"			"150"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -230,6 +230,19 @@
 			"tall"			"60"
 			"wide"			"200"
 			"visible"		"1"
+		}
+		"RespecStatusLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"RespecStatusLabel"
+			"font"			"HudFontSmall"
+			"labelText"		"%respecstatus%"
+			"textAlignment" "north-east"
+			"xpos"			"115"
+			"ypos"			"8"
+			"wide"			"275"
+			"tall"			"20"
+			"fgcolor"		"tanlight"
 		}
 	}
 }
