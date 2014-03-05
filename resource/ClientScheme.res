@@ -416,7 +416,40 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"BroeselCrosshair"
+		"BroeselCrosshairSmall"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"10"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"BroeselCrosshairMedium"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"12"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"BroeselCrosshairLarge"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"14"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"BroeselCrosshairVeryLarge"
 		{
 			"1"
 			{

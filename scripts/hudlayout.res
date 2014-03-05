@@ -53,8 +53,8 @@
 		"zpos"		"2"		
 		"wide"		"28"
 		"tall"		"28"
-		"font"		"BroeselCrosshair"
-		"labeltext"	"n"
+		"font"		"BroeselCrosshairSmall" //For size of crosshair Choices of BroeselCrosshairSmall, BroeselCrosshairMedium, BroeselCrosshairLarge, BroeselCrosshairVeryLarge
+		"labeltext"	"a"
 		"textAlignment"	"center"		
 		"fgcolor"	"255 255 255 255"
 	}

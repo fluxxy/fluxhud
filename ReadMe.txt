@@ -30,7 +30,7 @@ Go back into the game and type hud_reloadscheme in console.
 
 
 If you want to change the crosshair size go to your resource folder and then ClientScheme. 
-Change the tall value to whatever you like.
+Change the tall value of the font to whatever you like.
 
 If you want to change the colour go to your scripts folder and then hudlayout. 
 Change the fgcolor to the colour you want. 
