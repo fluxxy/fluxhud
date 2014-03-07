@@ -64,6 +64,38 @@
 				"allow_rot"				"0"
 			}
 		}
+		"itemoptionpanels_kv"
+		{
+			"ControlName"	"CExButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"8"
+			"tall"			"70"
+			"autoResize"	"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"+"
+			"font"			"FluxFontVer12"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"bgcolor_override"		"255 0 0 255"
+			"noitem_textcolor"		"117 107 94 255"
+			"PaintBackgroundType"	"2"
+			"paintborder"	"1"
+			
+			"fgcolor_override"			"200 200 200 255"
+			
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			"border_depressed"			"NoBorder"
+		}
 	}
 	
 	"CaratLabel" // REMOVED
@@ -399,90 +431,20 @@
 		}		
 	}
 	
-	"HatParticleSliderToggleButton"
+	"ItemOptionsPanel"
 	{
-		"ControlName"	"CExButton"
-		"fieldName"		"HatParticleSliderToggleButton"
-		"xpos"			"c145"
-		"ypos"			"100"
-		"wide"			"14"
-		"tall"			"14"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"+"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"particle_button_clicked"
-	}
-	
-	"HatParticleSliderBackground"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"HatParticleSliderBackground"
-		"xpos"			"c"
-		"ypos"			"100"
+		"ControlName"	"CLoadoutParticleSlider"
+		"fieldname"		"ItemOptionsPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"100"
 		"wide"			"140"
-		"tall"			"32"
+		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"	"TanDark"
+		"bgcolor_override"		"60 60 60 255"
 		"PaintBackgroundType"	"2"
 	}
-	"HatUseHeadCheckButton"
-	{
-		"ControlName"		"CheckButton"
-		"fieldName"		"HatUseHeadCheckButton"
-		"xpos"			"c2"
-		"ypos"			"100"
-		"wide"		"140"
-		"tall"		"20"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"labelText"		"#GameUI_ParticleHatUseHead"
-		"textAlignment"		"west"
-		"dulltext"		"0"
-		"brighttext"		"1"
-		"wrap"		"0"
-		"centerwrap"		"0"
-		"textinsetx"		"6"
-		"textinsety"		"0"
-		"auto_wide_tocontents"		"0"
-		"use_proportional_insets"		"0"
-		"Default"		"0"
-		"Command"		"particle_use_head_clicked"
-	}
 	
-	"HatParticleSlider"
-	{
-		"ControlName"		"CCvarSlider"
-		"fieldName"		"HatParticleSlider"
-		"xpos"			"c2"
-		"ypos"			"120"
-		"wide"		"140"
-		"tall"		"14"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"RoundedCorners"		"15"
-		"pin_corner_to_sibling"		"0"
-		"pin_to_sibling_corner"		"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"fgcolor_override" "TanLight"
-	}	
 	
 }
