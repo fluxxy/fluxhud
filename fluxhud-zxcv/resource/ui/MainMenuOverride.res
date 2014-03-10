@@ -139,10 +139,10 @@
 		"fieldName"		"MainLabel"
 		"font"			"FluxFontMainMenu2"
 		"fgcolor"		"FluxColorWhite"
-		"xpos"			"c150"
+		"xpos"			"0"
 		"ypos"			"380"
-		"zpos"			"5"
-		"wide"			"300"
+		"zpos"			"0"
+		"wide"			"f0"
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
@@ -165,7 +165,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"30 30 30 240"
+		"bgcolor_override"	"30 30 30 230"
 	}
 	"MainMenuPanel2"
 	{

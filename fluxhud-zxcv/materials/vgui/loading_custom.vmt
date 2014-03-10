@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "vgui/loading_custom"
+	"$translucent" 1
+}

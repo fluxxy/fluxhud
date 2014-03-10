@@ -62,13 +62,14 @@
 		"fieldName"		"ActiveTimerBG"
 		"xpos"			"0"
 		"ypos"			"-6"
-		"zpos"			"6"
+		"zpos"			"0"
 		"wide"			"48"
 		"tall"			"25"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/objectives_timepanel_active_bg"	
 		"scaleImage"	"1"
+		"fillcolor"	"255 255 255 255"
+	
 	}
 	"BlueLine"
 	{
