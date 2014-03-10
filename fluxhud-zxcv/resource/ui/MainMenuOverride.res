@@ -139,15 +139,15 @@
 		"fieldName"		"MainLabel"
 		"font"			"FluxFontMainMenu2"
 		"fgcolor"		"FluxColorWhite"
-		"xpos"			"c-150"
-		"ypos"			"c-50"
+		"xpos"			"c150"
+		"ypos"			"380"
 		"zpos"			"5"
 		"wide"			"300"
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"center"	
-		"textinsetx"	"10"
+		"textinsetx"	"0"
 		"labeltext"	"ZXCV - Beta"
 	}	
 	

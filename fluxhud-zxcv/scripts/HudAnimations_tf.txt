@@ -224,7 +224,7 @@ event HudHealthDyingPulseStop
 	StopPanelAnimations PlayerStatusHealthValueSpec 0.0
 	StopPanelAnimations PlayerStatusHealthValueSpecT	0.0
 	
-	Animate	PlayerStatusHealthValue				FgColor		"230 230 230 255" 	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue				FgColor		"255 255 255 255" 	Linear 0.0 0.0
 	
 	Animate	PlayerStatusHealthValueSpec			FgColor		"white" 	Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueSpecT		FgColor		"white" 	Linear 0.0 0.2
@@ -249,9 +249,9 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 0.0
 	
-	Animate	AmmoInClip				FgColor		"230 230 230 255" 	Linear 0.0 0.0
-	Animate	AmmoInReserve			FgColor		"230 230 230 255" 	Linear 0.0 0.0
-	Animate	AmmoNoClip				FgColor		"230 230 230 255" 	Linear 0.0 0.0
+	Animate	AmmoInClip				FgColor		"255 255 255 255" 	Linear 0.0 0.0
+	Animate	AmmoInReserve			FgColor		"255 255 255 255" 	Linear 0.0 0.0
+	Animate	AmmoNoClip				FgColor		"255 255 255 255" 	Linear 0.0 0.0
 }
 
 //===========================================
@@ -451,8 +451,8 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 0.0
 	//StopEvent HudMedicChargedLoop 0.0
 	
-	Animate	ChargeLabel 	FgColor		"230 230 230 255"		Linear 0.0 0.0
-	Animate	ChargeMeter 	FgColor		"230 230 230 255"		Linear 0.0 0.0
+	Animate	ChargeLabel 	FgColor		"255 255 255 255"		Linear 0.0 0.0
+	Animate	ChargeMeter 	FgColor		"255 255 255 255"		Linear 0.0 0.0
 }
 
 //====================================
