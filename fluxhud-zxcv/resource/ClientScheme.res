@@ -421,7 +421,7 @@ Scheme
 			"1"
 			{
 				"name"	"broeselhud Crosshairs"
-				"tall"	"10"
+				"tall"	"12"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -432,7 +432,7 @@ Scheme
 			"1"
 			{
 				"name"	"broeselhud Crosshairs"
-				"tall"	"12"
+				"tall"	"18"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -443,7 +443,7 @@ Scheme
 			"1"
 			{
 				"name"	"broeselhud Crosshairs"
-				"tall"	"14"
+				"tall"	"24"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"
@@ -454,7 +454,7 @@ Scheme
 			"1"
 			{
 				"name"	"broeselhud Crosshairs"
-				"tall"	"20"
+				"tall"	"36"
 				"antialias" "0"
 				"additive"	"0"
 				"outline"	"1"

@@ -21,17 +21,17 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
-		"xpos"					"15"
-		"ypos"					"142"
+		"xpos"					"0"
+		"ypos"					"140"
 		"zpos"					"2"
-		"wide"					"90"
-		"tall"					"15"
+		"wide"					"120"
+		"tall"					"7"
 		"visible"				"1"
 		"enabled"				"1"
-		"fgcolor_override" 		"255 255 255 255"
+		"fgcolor_override" 		"0 0 0 255"
 		"labelText"				"#TF_Charge"
 		"textAlignment"			"center"
-		"font"					"FluxFontVer7"
+		"font"					"FluxFontVer8"
 	}
 	"ChargeMeter" // Chargin' Targe
 	{	
@@ -42,7 +42,7 @@
 		"ypos"			"140"
 		"zpos"			"2"
 		"wide"			"120"
-		"tall"			"5"				
+		"tall"			"7"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -75,6 +75,10 @@
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red"
 			"teambg_3"		"../hud/ico_stickybomb_blue"
+			"src_corner_height"		"12"
+			"src_corner_width"		"12"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		"NumPipesLabel"
 		{
@@ -116,7 +120,11 @@
 			"image"			"../hud/ico_stickybomb_red_faded"
 			"scaleImage"	"1"
 			"teambg_2"		"../hud/ico_stickybomb_red_faded"
-			"teambg_3"		"../hud/ico_stickybomb_blue_faded"	
+			"teambg_3"		"../hud/ico_stickybomb_blue_faded"
+			"src_corner_height"		"12"
+			"src_corner_width"		"12"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"			
 		}
 		"NumPipesLabel"
 		{

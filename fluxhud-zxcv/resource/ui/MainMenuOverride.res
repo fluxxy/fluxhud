@@ -165,7 +165,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"30 30 30 230"
+		"bgcolor_override"	"30 30 30 200"
 	}
 	"MainMenuPanel2"
 	{

@@ -68,8 +68,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"	"255 255 255 255"
-	
+		"fillcolor"	"255 255 255 200"
 	}
 	"BlueLine"
 	{

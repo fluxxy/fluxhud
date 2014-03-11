@@ -48,13 +48,29 @@
 		"fieldname"	"BroeselhudCrosshair1"		
 		"visible"	"0"			//1
 		"enabled"	"1"
-		"xpos"		"c-13"
+		"xpos"		"c-14"
 		"ypos"		"c-13"
 		"zpos"		"2"		
 		"wide"		"28"
 		"tall"		"28"
-		"font"		"BroeselCrosshairSmall" //For size of crosshair Choices of BroeselCrosshairSmall, BroeselCrosshairMedium, BroeselCrosshairLarge, BroeselCrosshairVeryLarge
-		"labeltext"	"a"
+		"font"		"BroeselCrosshairLarge" //For size of crosshair Choices of BroeselCrosshairSmall, BroeselCrosshairMedium, BroeselCrosshairLarge, BroeselCrosshairVeryLarge
+		"labeltext"	"i"
+		"textAlignment"	"center"		
+		"fgcolor"	"255 255 255 255"
+	}
+	"BroeselhudCrosshair2"
+		{
+		"controlname"	"CExLabel"
+		"fieldname"	"BroeselhudCrosshair2"		
+		"visible"	"0"			//1
+		"enabled"	"1"
+		"xpos"		"c-14"
+		"ypos"		"c-13"
+		"zpos"		"2"		
+		"wide"		"28"
+		"tall"		"28"
+		"font"		"BroeselCrosshairLarge" //For size of crosshair Choices of BroeselCrosshairSmall, BroeselCrosshairMedium, BroeselCrosshairLarge, BroeselCrosshairVeryLarge
+		"labeltext"	"k"
 		"textAlignment"	"center"		
 		"fgcolor"	"255 255 255 255"
 	}
@@ -487,7 +503,7 @@
 		"ypos"		"c140"
 		"zpos"		"1"
 		"wide"		"120"
-		"tall"		"6"
+		"tall"		"7"
 		"MeterFG"	"FluxsColorWhite"
 		"MeterBG"	"Gray"
 	}
@@ -653,7 +669,7 @@
 		"wide"	"200"
 		"tall"	"60"
 		"blue_active_xpos"			"44"
-		"red_active_xpos"			"111"
+		"red_active_xpos"			"110"
 	}
 	HudFlameRocketCharge // NEW THING
 	{

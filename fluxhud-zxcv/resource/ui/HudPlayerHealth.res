@@ -31,7 +31,7 @@
 		"border"		"NoBorder"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"		"30 30 30 255"
+		"bgcolor_override"		"30 30 30 200"
 	}
 	
 	"PlayerStatusHealthValue"
@@ -75,10 +75,12 @@
 		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"c-141"
 		"ypos"			"c95"
-		"wide" "8"
-		"tall" "38"
-		"visible" "1" 
-		"enabled" "1"
+		"zpos"			"4"
+		"wide" 			"8"
+		"tall" 			"38"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
 	}
 	"HudHealthBack2"
 	{
@@ -103,12 +105,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"c-141"
-		"ypos"			"c95"
-		"wide" "8"
-		"tall" "38"
-		"visible" "0" 
-		"enabled" "0"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"3"
+		"wide"			"55"
+		"tall"			"55"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/health_bg"
+		"scaleImage"	"1"
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
