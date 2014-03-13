@@ -28,7 +28,7 @@
 		"border"		"NoBorder"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"30 30 30 200"
 	}
 	"AmmoInClip"
 	{

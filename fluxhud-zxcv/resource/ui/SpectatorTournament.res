@@ -188,6 +188,7 @@
 				if_mvm
 				{
 					"visible"		"1"
+					"ypos"			"-20"
 				}
 			}
 			"chargeamount"

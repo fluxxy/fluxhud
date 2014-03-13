@@ -28,7 +28,7 @@
 			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"127 152 166 200"
+			"fillcolor"		"50 153 255 120"
 		}
 		"RedScoreBG"
 		{
@@ -49,7 +49,7 @@
 			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"206 115 113 200"
+			"fillcolor"		"245 45 45 120"
 		}
 		"BlueTeamLabel"
 		{

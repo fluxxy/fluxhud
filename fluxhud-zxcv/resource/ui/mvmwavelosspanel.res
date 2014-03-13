@@ -537,6 +537,7 @@
 		"autoResize"	"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"pinCorner"		"3"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
 		"font"			"FluxFontVer10"
@@ -546,8 +547,16 @@
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
-		"image_drawcolor"	"235 226 202 255"
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"FluxColorMainBut"
+		"armedBgColor_override"		"FluxColorMainButHover"
+		"depressedBgColor_override"	"FluxColorMainBut"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"255 255 255 255"
+		"depressedFgColor_override" "FluxColorButTextNope"
+		"border_default"			"FluxBorderMainButton"
+		"border_armed"				"FluxBorderMainButtonHover"
+		//"image_drawcolor"	"235 226 202 255"
 		"Command"		"continue"
 	}
 }
