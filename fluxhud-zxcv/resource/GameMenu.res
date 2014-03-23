@@ -1,17 +1,16 @@
 
 "GameMenu" [$WIN32]
-{
-	// FluxHUD
-    "FluxHUDButton"
-    {
-        "command" ""
-        "label" "                         "
-    }
-	// Main Buttons
+{	
+// Main Buttons
 	"ServerBrowserButton"
 	{
 		"label" "#MMenu_BrowseServers"
 		"command" "OpenServerBrowser"
+	}
+	"CreateServerButton"
+	{
+		"label" "Create Server"
+		"command" "OpenCreateMultiplayerGameDialog"
 	}
     "OptionsButton"
     {
@@ -23,6 +22,16 @@
         "Label"     "Items"
         "command"   "engine open_charinfo"
     }
+	"GeneralStoreButton"
+	{
+		"label" "Store"
+		"command" "engine open_store"
+	}
+	"PlayPVEButton"
+	{
+		"label" "#MMenu_PlayCoop"
+		"command" "playpve"
+	}
 	"QuitButton"
     {
         "label" "Quit"
@@ -38,38 +47,17 @@
     {
         "label" "Demoui"
         "command"   "engine demoui"
-		"tooltip" "Opens Demoui"
     }
 	"QuickplayButton"
 	{
-		"label" "#MMenu_PlayMultiplayer" 
+		"label" "Quickplay" 
 		"command" "quickplay"
-		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
-		"tooltip" "Quickplay"
 	}
 	
 	// Mini-Inset Buttons
-	"CreateServerButton"
-	{
-		"label" "Create Server"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"tooltip" "Create Server"
-	}
-	"AdvancedOptionsButton"
-    {
-        "label" ""
-        "command"   "opentf2options"
-        "subimage"  "glyph_options"
-        "tooltip"   "Advanced Options"
-    }
-	"GeneralStoreButton"
-	{
-		"label" "#MMenu_Shop"
-		"command" "engine open_store"
-		"subimage" "glyph_store"
-        "tooltip"   "Mann Co. Store"
-	}
+	
+	
 	"MutePlayersButton"
 	{
 		"label"			""
@@ -87,58 +75,21 @@
 		"subimage" "icon_checkbox"
 		"tooltip" "#MMenu_CallVote"
 	}
-	"TrainingButton"
-	{
-		"label" "#TF_Training"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-        "tooltip"   "Offline Practice/Training"
-	}
-	"PlayPVEButton"
-	{
-		"label" "#MMenu_PlayCoop"
-		"command" "playpve"
-		"subimage" "glyph_coop"
-		"tooltip"  "Mann versus Machine"
-	}
-    "CoachPlayersButton"
-    {
-        "label" ""
-        "command"   "engine cl_coach_toggle"
-        "subimage" "glyph_commentary"
-        "tooltip"   "Be a Coach"
-    }
-    "AchievementsButton"
-    {
-        "label" ""
-        "command"   "OpenAchievementsDialog"
-        "subimage"  "glyph_achievements"
-        "tooltip"   "View Achievements"
-    }
-	"ReplayBrowserButton"
-	{
-		"label" ""
-		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
-        "tooltip"   "Open Replay Browser"
-	}
+	
 	// Right Side Buttons	
 	"MotdShowButton"
     {
         "label" "News"
         "command"   "motd_show"
-        "tooltip"   "View News"
     }
 	"SixesButtonOn"
     {
         "label" "6v6 Scoreboard"
         "command"   "engine cl_hud_minmode 1"
-        "tooltip"   "Turn 6v6 Scoreboard On"
     }
 	"SixesButtonOff"
     {
         "label" "16v16 Scoreboard"
         "command"   "engine cl_hud_minmode 0"
-        "tooltip"   "Turn 16v16 Scoreboard On"
 	} 	
 }

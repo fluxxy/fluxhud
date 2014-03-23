@@ -27,7 +27,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"70 130 180 220"
+		"fillcolor"		"70 130 180 255"
 	}
 	"RedTeamBG"
 	{
@@ -40,7 +40,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"205 50 50 250"
+		"fillcolor"		"205 50 50 255"
 	}
 	"FullBackground"
 	{
@@ -53,7 +53,7 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"40 40 40 200"
+		"fillcolor"		"40 40 40 255"
 	}
 	
 	"SysMenu"

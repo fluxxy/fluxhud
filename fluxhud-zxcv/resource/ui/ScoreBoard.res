@@ -36,7 +36,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"ypos_minmode"	"c-54"
+		"ypos_minmode"	"c46"
 		"tall_minmode"	"100"
         "fillcolor"		"20 20 20 160"
 		if_mvm
@@ -57,7 +57,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos_minmode"	"c5"
-		"ypos_minmode"	"c-54"
+		"ypos_minmode"	"c46"
 		"tall_minmode"	"100"
 		"fillcolor"		"20 20 20 160"
         if_mvm
@@ -73,7 +73,7 @@
 		"xpos"				"c-280"
 		"xpos_minmode"		"c-280"
 		"ypos"				"c-106"
-		"ypos_minmode"		"c-54"
+		"ypos_minmode"		"c46"
 		"zpos"				"2"
 		"wide"				"275"
 		"wide_minmode"		"275"
@@ -96,7 +96,7 @@
 		"xpos"				"c5"
 		"xpos_minmode"		"c5"
 		"ypos"				"c-106"
-		"ypos_minmode"		"c-54"
+		"ypos_minmode"		"c46"
 		"zpos"				"2"
 		"wide"				"275"
 		"wide_minmode"		"275"
@@ -126,7 +126,7 @@
 		"autoresize"	"3"
 		"linespacing"	"12"
 		"textcolor"		"red"
-        "ypos_minmode"	"c-40"
+        "ypos_minmode"	"c60"
 		"tall_minmode"	"87"
 		if_mvm
         {
@@ -149,7 +149,7 @@
 		"linespacing"	"12"
 		"fgcolor"		"blue"
         "xpos_minmode"	"c5"
-		"ypos_minmode"	"c-40"
+		"ypos_minmode"	"c60"
 		"tall_minmode"	"87"
 		if_mvm
         {
@@ -175,7 +175,7 @@
 		"visible"		"1"
 		"enabled"		"1"
         "xpos_minmode"	"c60"
-		"ypos_minmode"	"c-54"
+		"ypos_minmode"	"c46"
 		"textAlignment_minmode"	"east"
 		if_mvm
         {
@@ -199,7 +199,7 @@
 		"visible"		"1"
 		"enabled"		"1"
         "xpos_minmode"	"c10"
-		"ypos_minmode"	"c-54"
+		"ypos_minmode"	"c46"
 		if_mvm
         {
             "visible"   "0"
@@ -222,7 +222,7 @@
 		"visible"		"1"
 		"enabled"		"1"
         "xpos_minmode"	"c5"
-		"ypos_minmode"	"c-54"
+		"ypos_minmode"	"c46"
 		if_mvm
         {
             "visible"   "0"
@@ -246,7 +246,7 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-        "ypos_minmode"	"c-54"
+        "ypos_minmode"	"c46"
 		if_mvm
         {
             "visible"   "0"
@@ -268,7 +268,7 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-        "ypos_minmode"	"c-54"
+        "ypos_minmode"	"c46"
 		if_mvm
         {
             "visible"   "0"
@@ -290,7 +290,7 @@
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
-        "ypos_minmode"	"c-54"
+        "ypos_minmode"	"c46"
 		if_mvm
         {
             "visible"   "0"
@@ -316,7 +316,7 @@
             "visible"   "0"
         }
 		"xpos_minmode"	"c-35"
-		"ypos_minmode"	"c45"
+		"ypos_minmode"	"c145"
 		"textAlignment_minmode"	"east"
 	}
 	"ServerTimeLeft"
@@ -333,7 +333,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos_minmode"	"c-265"
-		"ypos_minmode"	"c45"
+		"ypos_minmode"	"c145"
         if_mvm
         {
             "visible"   "0"
@@ -361,7 +361,7 @@
             "xpos_minmode"  "104"
         }
 		"xpos_minmode"			"c-265"
-		"ypos_minmode"			"c57"
+		"ypos_minmode"			"c157"
 	}
 	"SpectatorsInQueue"
 	{

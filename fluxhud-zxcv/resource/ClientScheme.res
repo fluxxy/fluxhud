@@ -568,12 +568,22 @@ Scheme
 
 		
 		// FluxHUD Fonts
+		"ClassLogo"
+        {
+            "1"
+            {
+                "name"      "Hudas Iscariote"
+                "tall"      "50"
+                "weight"    "0"
+                "antialias" "1"
+            }
+        }
 		"FluxFontMainMenu"
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
-				"tall"		"10"
+				"name"		"Bebas"
+				"tall"		"18"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -5444,6 +5454,11 @@ Scheme
 		{
 			"font" "resource/fonts/BEBAS.ttf"
 			"name" "Bebas"
+		}
+		"11" 
+		{
+			"font" "resource/fonts/HudasIscariote2.otf"
+			"name" "Hudas Isocariote"
 		}
 	}
 }
