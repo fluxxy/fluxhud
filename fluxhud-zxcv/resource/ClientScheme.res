@@ -592,8 +592,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Bebas"
-				"tall"		"60"
+				"name"		"Open Sans ExtraBold"
+				"tall"		"10"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"FluxFontMainMenu3"
+		{
+			"1"
+			{
+				"name"		"Museo Sans Cyrl 500"
+				"tall"		"8"
 				"weight"	"500"
 				"antialias" "1"
 			}

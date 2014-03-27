@@ -2,94 +2,86 @@
 "GameMenu" [$WIN32]
 {	
 // Main Buttons
+	"QuickplayButton"
+	{
+		"label" 		"Start Playing" 
+		"command" 		"quickplay"
+		"subimage" 		"glyph_server"
+	}
 	"ServerBrowserButton"
 	{
 		"label" "#MMenu_BrowseServers"
 		"command" "OpenServerBrowser"
+		"subimage" "glyph_server_browser"
 	}
 	"CreateServerButton"
 	{
 		"label" "Create Server"
 		"command" "OpenCreateMultiplayerGameDialog"
 	}
+	"PlayPVEButton"
+	{
+		"label" "#MMenu_PlayCoop" 
+		"command" "playpve"
+		"subimage" "glyph_coop"
+	}
+	"DemouiButton"
+	{
+		"label" "Review Demo"
+        "command"   "engine demoui"
+		"subimage" "glyph_tv"
+	}
     "OptionsButton"
     {
         "label"     "Options"
         "command"   "OpenOptionsDialog"
+		"subimage"			"glyph_options"
     }
     "LoadoutButton"
     {
         "Label"     "Items"
         "command"   "engine open_charinfo"
+		"subimage" "glyph_items"
     }
 	"GeneralStoreButton"
 	{
 		"label" "Store"
 		"command" "engine open_store"
+		"subimage"			"glyph_store"
 	}
-	"PlayPVEButton"
-	{
-		"label" "#MMenu_PlayCoop"
-		"command" "playpve"
-	}
-	"QuitButton"
-    {
-        "label" "Quit"
-        "command"   "quit"
-    }
-    "DisconnectButton"
+	"DisconnectButton"
     {
         "label" "Disconnect"
         "command"   "Disconnect"
         "OnlyInGame"    "1"
+		"subimage"			"glyph_close_x"
     }
-	"Demoui1Button"
+	"QuitButton"
     {
-        "label" "Demoui"
-        "command"   "engine demoui"
+        "label" "Quit"
+        "command"   "quit"
+		"subimage"			"glyph_quit"
     }
-	"QuickplayButton"
-	{
-		"label" "Quickplay" 
-		"command" "quickplay"
-		"OnlyAtMenu" "1"
-	}
-	
-	// Mini-Inset Buttons
-	
-	
 	"MutePlayersButton"
 	{
-		"label"			""
+		"label"			"Mute"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
-		"tooltip" "Mute Players"
+		"subimage" 		"glyph_muted"
 	}
-	// Buttons
 	"CallVoteButton"
 	{
-		"label"			""
+		"label"			"Vote"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
 		"tooltip" "#MMenu_CallVote"
 	}
-	
-	// Right Side Buttons	
+		
 	"MotdShowButton"
     {
         "label" "News"
         "command"   "motd_show"
+		"subimage"			"glyph_forums"
     }
-	"SixesButtonOn"
-    {
-        "label" "6v6 Scoreboard"
-        "command"   "engine cl_hud_minmode 1"
-    }
-	"SixesButtonOff"
-    {
-        "label" "16v16 Scoreboard"
-        "command"   "engine cl_hud_minmode 0"
-	} 	
 }

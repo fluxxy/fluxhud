@@ -20,24 +20,6 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"DefaultLargerShadow"
 	}
-	"MetalBack"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MetalBack"
-		"xpos"			"0"
-		"ypos"			"20"
-		"zpos"			"0"
-		"wide"			"100"
-		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"	
-		"pinCorner"		"0"
-		"autoResize"	"0"
-		"border"		"NoBorder"
-		"PaintBackgroundType"	"2"
-		"paintbackground"		"1"
-		"bgcolor_override"		"FluxColorHudNumbers"
-	}
 	"MetalIcon"	
 	{
 		"ControlName"	"CIconPanel"
