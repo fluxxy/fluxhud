@@ -818,7 +818,7 @@ Scheme
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
-							}
+			}
 		}
 		"FluxFontVer11outline"
 		{
@@ -915,6 +915,28 @@ Scheme
 			{
 				"name"		"Museo Sans Cyrl 500"
 				"tall"		"24"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FluxFontVer16v1"
+		{
+			"1"
+			{
+				"name"		"Gotham"
+				"tall"		"16"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FluxFontVer18v2"
+		{
+			"1"
+			{
+				"name"		"Gotham"
+				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"

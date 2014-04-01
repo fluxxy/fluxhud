@@ -524,9 +524,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c74"
+		"ypos"		"c70"
 		"wide"	 	"252"
-		"tall"	 	"16"
+		"tall"	 	"20"
 		"priority"	"40"
 	}
 	CSecondaryTargetID
@@ -535,9 +535,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c56"
+		"ypos"		"c46"
 		"wide"	 	"252"
-		"tall"	 	"16"
+		"tall"	 	"20"
 		"priority"	"35"
 	}
 	CSpectatorTargetID
@@ -546,9 +546,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"c170"
+		"ypos"		"c162"
 		"wide"	 	"252"
-		"tall"	 	"16"
+		"tall"	 	"20"
 		"priority"	"40"
 		"y_offset"	"50"
 	}

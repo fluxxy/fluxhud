@@ -16,7 +16,7 @@
 		"border"		"NoBorder"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"		"50 50 50 255"
+		"bgcolor_override"		"0 0 0 180"
 	}
 	"TimePanelProgressBar"
 	{
@@ -176,5 +176,27 @@
 		"enabled"		"0"
 		"image"			"../hud/objectives_timepanel_blue_bg"	
 		"scaleImage"		"1"	
+	}
+		"TeamBack"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"TeamBack"
+		"xpos"			"45"
+		"ypos"			"28"
+		"zpos"			"8"
+		"wide"			"43"
+		"tall"			"2"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_red"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+		"src_corner_height"		"12"
+		"src_corner_width"		"12"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 }
