@@ -1,40 +1,39 @@
 "Resource/UI/BaseChat.res"
 {
-	"HudChat"
-	{
-		"ControlName"		      "EditablePanel"
-		"fieldName" 		      "HudChat"
-		"visible" 		        "1"
-		"enabled" 		        "1"
-		"xpos"			          "1"
-		"ypos"			          "30"
-		"wide"	 		          "242"
-		"tall"	 		          "120"
-		"fgcolor"		"255 255 255 255"
-		"PaintBackgroundType"	"2"
-	}
+"HudChat"
+{
+"ControlName"	 "EditablePanel"
+"fieldName" "HudChat"
+"visible" "1"
+"enabled" "1"
+"xpos"	 "2"
+"ypos"	 "0"
+"wide"	 "180"
+"tall"	 "75"
+"PaintBackgroundType"	"2"
+}
 
-	ChatInputLine
-	{
-		"ControlName"		      "EditablePanel"
-		"fieldName" 		      "ChatInputLine"
-		"visible" 		        "1"
-		"enabled" 		        "1"
-		"xpos"			          "7"
-		"ypos"			          "425"
-		"wide"	 		          "228"
-		"tall"	 		          "2"
-		"PaintBackgroundType"	"0"
-	}
+ChatInputLine
+{
+"ControlName"	 "EditablePanel"
+"fieldName" "ChatInputLine"
+"visible" "1"
+"enabled" "1"
+"xpos"	 "5"
+"ypos"	 "430"
+"wide"	 "170"
+"tall"	 "2"
+"PaintBackgroundType"	"0"
+}
 
-	"ChatFiltersButton"
-	{
+"ChatFiltersButton"
+{
 		"ControlName"		      "Button"
 		"fieldName"		        "ChatFiltersButton"
-		"xpos"			          "208"
-		"ypos"			          "30"
+		"xpos"			          "132"
+		"ypos"			          "0"
 		"wide"			          "27"
-		"tall"			          "8"
+		"tall"			          "5"
 		"autoResize"		      "1"
 		"pinCorner"		        "0"
 		"visible"		          "1"
@@ -45,24 +44,24 @@
 		"dulltext"		        "0"
 		"brighttext"		      "0"
 		"Default"		          "0"		
-	}
+}
 
-	"HudChatHistory"
-	{
-		"ControlName"		      "RichText"
-		"fieldName"		        "HudChatHistory"
-		"xpos"			          "7"
-		"ypos"			          "38"
-		"wide"	 		          "228"
-		"tall"			          "75"
-		"wrap"			          "1"
-		"autoResize"		      "1"
-		"pinCorner"		        "1"
-		"visible"		          "1"
-		"enabled"		          "1"
-		"labelText"		        ""
-		"textAlignment"		    "south-west"
-		"font"			          "Default"
-		"maxchars"		        "-1"
-	}
+"HudChatHistory"
+{
+"ControlName"	 "RichText"
+"fieldName"	 "HudChatHistory"
+"xpos"	 "5"
+"ypos"	 "5"
+"wide"	 "170"
+"tall"	 "30"
+"wrap"	 "1"
+"autoResize"	 "1"
+"pinCorner"	 "1"
+"visible"	 "1"
+"enabled"	 "1"
+"labelText"	 ""
+"textAlignment"	 "south-west"
+"font"	 "ChatFont"
+"maxchars"	 "-1"
+}
 }

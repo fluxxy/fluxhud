@@ -16,7 +16,7 @@
 		"border"		"NoBorder"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"		"0 0 0 180"
+		"bgcolor_override"		"40 40 40 255"
 	}
 	"TimePanelProgressBar"
 	{

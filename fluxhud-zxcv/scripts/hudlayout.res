@@ -557,10 +557,10 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"40"
+		"xpos"		"50"
 		"ypos"		"r20"
 		"wide"		"120"
-		"tall"		"24"
+		"tall"		"20"
 	}
 	WinPanel
 	{
@@ -1278,7 +1278,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"
-		"ypos"			"275"
+		"ypos"			"r120"
 		"wide"	 		"320"
 		"tall"	 		"120"
 		"PaintBackgroundType"	"2"

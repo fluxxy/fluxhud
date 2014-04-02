@@ -4039,6 +4039,34 @@ Scheme
 				}
 			}
 		}
+		FluxBorderBlack2
+		{
+			"inset" "0 0 1 1"
+			Left
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 1"
+				}
+			}
+			Top
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+			}
+			Bottom
+			{
+				"1"
+				{
+					"color" "Black"
+					"offset" "0 0"
+				}
+			}
+		}
 
 		FluxBorderWhite
 		{
