@@ -57,7 +57,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"110 110 110 255"
+		"bgcolor_override"		"120 120 120 255"
 	}
 	"BackgroundFooter"
 	{
@@ -88,7 +88,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"110 110 110 255"
+		"bgcolor_override"		"120 120 120 255"
 	}				
 	"FooterLine"
 	{

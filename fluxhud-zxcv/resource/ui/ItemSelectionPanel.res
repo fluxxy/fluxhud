@@ -18,7 +18,7 @@
 		"bgcolor_override"	"FluxColorDialogBack"
 		"item_ypos"		"60"
 		"item_ydelta"	"80"
-		"item_backpack_offcenter_x"		"-288"
+		"item_backpack_offcenter_x"		"-293"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
 		"modelpanels_selection_kv"
@@ -157,7 +157,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowBackpack"
-		"xpos"			"c100"
+		"xpos"			"c-100"
 		"ypos"			"340"
 		"zpos"			"20"
 		"wide"			"200"
@@ -224,9 +224,9 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c185"
+		"xpos"			"c-60"
 		"ypos"			"290"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -249,16 +249,16 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
+		"border_default"			"NoBorder"
 		"border_armed"				"FluxBorderButtonHover"
 	}
 	"PrevPageButtonMark"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PrevPageButtonMark"
-		"xpos"			"c202"
+		"xpos"			"c-40"
 		"ypos"			"290"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"20"
 		"pinCorner"		"0"
@@ -272,9 +272,9 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NextPageButtonMark"
-		"xpos"			"c248"
+		"xpos"			"c20"
 		"ypos"			"290"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"20"
 		"visible"		"1"
@@ -283,7 +283,6 @@
 		"font"			"FluxFontVer14"
 		"textAlignment"	"center"
 	}			
-	
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -291,9 +290,9 @@
 		"font"			"FluxFontVer14"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c215"
+		"xpos"			"c-20"
 		"ypos"			"290"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"20"
 		"autoResize"	"1"
@@ -302,14 +301,13 @@
 		"enabled"		"1"
 		"fgcolor_override" "FluxColorEmphasis"
 	}
-	
 	"NextPageButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c265"
+		"xpos"			"c40"
 		"ypos"			"290"
-		"zpos"			"1"
+		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"20"
 		"autoResize"	"0"
@@ -332,7 +330,7 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
+		"border_default"			"NoBorder"
 		"border_armed"				"FluxBorderButtonHover"
 	}
 	"mouseoveritempanel"

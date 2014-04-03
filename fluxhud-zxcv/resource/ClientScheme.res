@@ -13,7 +13,7 @@ Scheme
 		"FluxColorIngameBut"			"53 53 53 255"
 		"FluxColorIngameButHover"		"1 67 124 255"
 		"FluxColorBlue"					"24 107 177 255"
-		"FluxColorBlueDark"				"6 24 40 255"
+		"FluxColorBlueDark"				"20 20 20 255"
 		"FluxColorGrey"					"100 100 100 255"
 		"FluxColorGreyDark"				"40 40 40 255"
 		"FluxColorWhite"				"255 255 255 255"
@@ -622,7 +622,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Archive"
+				"name"		"Avenir LT Std 65 Medium"
 				"tall"		"40"
 				"weight"	"500"
 				"antialias" "1"
@@ -672,7 +672,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Archive"
+				"name"		"Avenir LT Std 65 Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias" "1"
@@ -682,7 +682,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Archive"
+				"name"		"Avenir LT Std 65 Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias" "1"
@@ -3455,12 +3455,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "FluxColorButBorder"
+					"color" "Blank"
 					"offset" "1 1"
 				}
 			}
@@ -3468,12 +3468,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "FluxColorButBorder"
+					"color" "Blank"
 					"offset" "1 1"
 				}
 			}
@@ -3481,12 +3481,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "FluxColorButBorder"
+					"color" "Blank"
 					"offset" "1 1"
 				}
 			}
@@ -3494,12 +3494,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "FluxColorButBorder"
+					"color" "Blank"
 					"offset" "1 1"
 				}
 			}

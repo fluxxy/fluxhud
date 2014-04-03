@@ -30,7 +30,7 @@
 			"defaultFgColor_override"	"FluxColorWhite"
 			"armedFgColor_override" 	"FluxColorWhite"
 			"depressedFgColor_override" "FluxColorButTextNope"
-			"border_default"			"FluxBorderButton"
+			"border_default"			"NoBorder"
 			"border_armed"				"FluxBorderButtonHover"
 		}			
 	}

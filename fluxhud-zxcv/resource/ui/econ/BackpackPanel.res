@@ -102,7 +102,25 @@
 		"tileImage"		"0"
 		"tileVertically" "0"
 		"drawcolor"		"112 176 74 255"
-	}	
+	}
+	"ShadedBarThin2"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"ShadedBarThin2"
+				"xpos"			"135"
+				"ypos"			"55"
+				"zpos"			"-33"
+				"wide"			"582"
+				"tall"			"230"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"alpha"			"255"
+				"fillcolor"		"0 0 0 220"
+				"PaintBackgroundType"	"0"
+			}
 	"ShowRarityCheckbox"
 	{
 		"ControlName"	"CheckButton"
@@ -247,7 +265,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
-		"xpos"			"c185"
+		"xpos"			"c-60"
 		"ypos"			"290"
 		"zpos"			"2"
 		"wide"			"20"
@@ -272,14 +290,14 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
+		"border_default"			"NoBorder"
 		"border_armed"				"FluxBorderButtonHover"
 	}
 	"PrevPageButtonMark"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PrevPageButtonMark"
-		"xpos"			"c202"
+		"xpos"			"c-40"
 		"ypos"			"290"
 		"zpos"			"2"
 		"wide"			"20"
@@ -295,7 +313,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NextPageButtonMark"
-		"xpos"			"c248"
+		"xpos"			"c20"
 		"ypos"			"290"
 		"zpos"			"2"
 		"wide"			"20"
@@ -313,7 +331,7 @@
 		"font"			"FluxFontVer14"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
-		"xpos"			"c215"
+		"xpos"			"c-20"
 		"ypos"			"290"
 		"zpos"			"2"
 		"wide"			"40"
@@ -328,7 +346,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
-		"xpos"			"c265"
+		"xpos"			"c40"
 		"ypos"			"290"
 		"zpos"			"2"
 		"wide"			"20"
@@ -353,7 +371,7 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
+		"border_default"			"NoBorder"
 		"border_armed"				"FluxBorderButtonHover"
 	}
 	"DragToNextPageButton"
@@ -385,7 +403,7 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
+		"border_default"			"NoBorder"
 		"border_armed"				"FluxBorderButtonHover"
 	}		
 	"DragToPrevPageButton"
@@ -417,7 +435,7 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
+		"border_default"			"NoBorder"
 		"border_armed"				"FluxBorderButtonHover"
 	}
 	"CancelApplyToolButton"
@@ -450,14 +468,14 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
+		"border_default"			"NoBorder"
 		"border_armed"				"FluxBorderButtonHover"
 	}
 	"DeleteButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DeleteButton"
-		"xpos"			"c-41"
+		"xpos"			"c-105"
 		"ypos"			"323"
 		"zpos"			"20"
 		"wide"			"100"
@@ -483,14 +501,14 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
+		"border_default"			"NoBorder"
 		"border_armed"				"FluxBorderButtonHover"
 	}
 	"UseButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"UseButton"
-		"xpos"			"c72"
+		"xpos"			"c5"
 		"ypos"			"323"
 		"zpos"			"20"
 		"wide"			"100"
@@ -516,15 +534,15 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
+		"border_default"			"NoBorder"
 		"border_armed"				"FluxBorderButtonHover"
 	}
 	"StyleButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StyleButton"
-		"xpos"			"c72"
-		"ypos"			"290"
+		"xpos"			"c-215"
+		"ypos"			"323"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"20"
@@ -549,14 +567,14 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
+		"border_default"			"NoBorder"
 		"border_armed"				"FluxBorderButtonHover"
 	}
 	"DetailsButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DetailsButton"
-		"xpos"			"c185"
+		"xpos"			"c115"
 		"ypos"			"323"
 		"zpos"			"20"
 		"wide"			"100"
@@ -582,7 +600,7 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
+		"border_default"			"NoBorder"
 		"border_armed"				"FluxBorderButtonHover"
 	}
 	

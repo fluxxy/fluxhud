@@ -131,13 +131,13 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrentlyEquippedLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"FluxFontTitleLabelSmall"
 		"labelText"		"#CurrentlyEquipped"
-		"textAlignment"	"south-west"
-		"xpos"			"c-55"
-		"ypos"			"22"
+		"textAlignment"	"center"
+		"xpos"			"c-85"
+		"ypos"			"5"
 		"zpos"			"1"
-		"wide"			"180"
+		"wide"			"170"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -302,7 +302,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"	"south"
-		"fgcolor"		"255 215 0 255"
+		"fgcolor"		"230 230 230 255"
 		"centerwrap"	"1"
 	}
 	
@@ -444,6 +444,79 @@
 		"visible"		"0"
 		"bgcolor_override"		"60 60 60 255"
 		"PaintBackgroundType"	"2"
+	}
+	"RedButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"RedButton"
+		"xpos"				"c5"
+		"ypos"				"30"
+		"zpos"				"12"	
+		"wide"				"80"
+		"tall"				"20"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"RED Team"
+		"textAlignment"		"center"
+		"font"				"FluxFontVer14"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 0"
+		
+		"fgcolor"					"TanLight"
+		"defaultFgColor_override" "245 45 45 255"
+		"armedFgColor_override" "245 45 45 255"
+		"depressedFgColor_override" "245 45 45 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"	"0"
+		
+		"paintbackground"	"1"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+		"border_depressed"			"NoBorder"
+	}
+	
+	"BlueButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"BlueButton"
+		"xpos"				"c-85"
+		"ypos"				"30"
+		"zpos"				"12"	
+		"wide"				"80"
+		"tall"				"20"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"BLU Team"
+		"textAlignment"		"center"
+		"font"				"FluxFontVer14"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 1"
+		
+		"fgcolor"					"TanLight"
+		"defaultFgColor_override" "50 153 255 255"
+		"armedFgColor_override" "50 153 255 255"
+		"depressedFgColor_override" "50 153 255 255"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"	"0"
+		
+		"paintbackground"	"1"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+		"border_depressed"			"NoBorder"
 	}
 	
 	
