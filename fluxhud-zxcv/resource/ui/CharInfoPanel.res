@@ -57,7 +57,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"120 120 120 255"
+		"bgcolor_override"		"160 160 160 200"
 	}
 	"BackgroundFooter"
 	{
@@ -88,7 +88,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"120 120 120 255"
+		"bgcolor_override"		"160 160 160 200"
 	}				
 	"FooterLine"
 	{
@@ -178,8 +178,8 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"CloseButton"
 	{
@@ -211,8 +211,8 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}		
 	"NotificationsPresentPanel"
 	{

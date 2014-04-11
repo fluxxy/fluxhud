@@ -6,13 +6,13 @@
 	{
 		"label" 		"Start Playing" 
 		"command" 		"quickplay"
-		"subimage" 		"glyph_server"
+		"subimage" 		"replay/thumbnails/glyph_server"
 	}
 	"ServerBrowserButton"
 	{
 		"label" "#MMenu_BrowseServers"
 		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
+		"subimage" "replay/thumbnails/glyph_server_browser"
 	}
 	"CreateServerButton"
 	{
@@ -23,7 +23,7 @@
 	{
 		"label" "#MMenu_PlayCoop" 
 		"command" "playpve"
-		"subimage" "glyph_coop"
+		"subimage" "replay/thumbnails/glyph_coop"
 	}
 	"DemouiButton"
 	{
@@ -49,6 +49,18 @@
 		"command" "engine open_store"
 		"subimage"			"glyph_store"
 	}
+	"ScoreboardButton"
+	{
+		"label" "Scoreboard"
+		"command" "engine toggle cl_hud_minmode"
+		"subimage"			"replay/thumbnails/glyph_view"
+	}
+	"ConsoleButton"
+	{
+		"label" "Console"
+		"command" "engine toggleconsole"
+		"subimage"			"replay/thumbnails/glyph_commentary"
+	}
 	"DisconnectButton"
     {
         "label" "Disconnect"
@@ -60,7 +72,7 @@
     {
         "label" "Quit"
         "command"   "quit"
-		"subimage"			"glyph_quit"
+		"subimage"			"replay/thumbnails/glyph_quit"
     }
 	"MutePlayersButton"
 	{
@@ -82,6 +94,6 @@
     {
         "label" "News"
         "command"   "motd_show"
-		"subimage"			"glyph_forums"
+		"subimage"			"replay/thumbnails/glyph_forums"
     }
 }

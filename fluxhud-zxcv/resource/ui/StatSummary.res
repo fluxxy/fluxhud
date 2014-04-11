@@ -62,7 +62,7 @@
 			"tall"		"480"
 			"visible"	"1"
 			"enabled"	"1"
-			"image"		"Loading_Custom"
+			"image"		"replay/thumbnails/Loading_Custom"
 			"scaleImage"	"1"
 		}
 		"MapImage"
@@ -262,7 +262,7 @@
 		"tall"		"480"
 		"visible"	"1"
 		"enabled"	"1"
-		"image"		"Loading_Custom"
+		"image"		"replay/thumbnails/Loading_Custom"
 		"scaleImage"	"1"
 	}	
 	"StatData"

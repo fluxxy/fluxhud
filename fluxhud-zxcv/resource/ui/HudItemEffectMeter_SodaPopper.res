@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-60"
-		"ypos"			"c164"
+		"ypos"			"c111"
 		"wide"			"120"
 		"tall"			"20"
 		"MeterFG"		"FluxColorWhite"

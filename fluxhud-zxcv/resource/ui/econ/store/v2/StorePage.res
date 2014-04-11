@@ -305,8 +305,8 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"PrevPageButtonMark"
 	{
@@ -386,8 +386,8 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"PriceLabel"
 	{
@@ -688,8 +688,8 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"CartImage"
 	{
@@ -773,8 +773,8 @@
 		"defaultFgColor_override"	"FluxColorWhite"
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 
 	// Explanations

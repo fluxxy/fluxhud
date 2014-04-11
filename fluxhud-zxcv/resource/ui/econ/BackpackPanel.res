@@ -1,4 +1,3 @@
-
 "Resource/UI/FullLoadoutPanel.res"
 {
 	"backpack_panel"
@@ -18,18 +17,28 @@
 		"bgcolor_override"				"60 60 60 255"
 		"infocus_bgcolor_override" 		"60 60 60 255"
 		"outoffocus_bgcolor_override" 	"60 60 60 255"
+		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
 		"item_ypos"		"60"
 		"item_ydelta"	"80"
 		"item_mod_wide"	"40"
+		
 		"item_backpack_offcenter_x"		"-288"
 		"item_backpack_xdelta"			"4"
 		"item_backpack_ydelta"			"3"
+		
 		"button_xpos_offcenter"	"175"		
 		"button_ypos"	"85"
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
+		
+		"page_button_y"	"292"
+		"page_button_x_delta" "3"
+		"page_button_y_delta" "3"
+		"page_button_per_row" "25"
+		"page_button_height" "20"
+		
 		"modelpanels_kv"
 		{
 			"ControlName"	"CItemModelPanel"
@@ -42,6 +51,7 @@
 			"noitem_textcolor"		"115 115 115 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
+			
 			"model_xpos"	"2"
 			"model_ypos"	"5"
 			"model_wide"	"50"
@@ -49,8 +59,13 @@
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
+			
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
+			
+			"deferred_description"	"1"
+			"deferred_icon"			"1"
+			
 			"itemmodelpanel"
 			{
 				"use_item_rendertarget" "0"
@@ -103,24 +118,6 @@
 		"tileVertically" "0"
 		"drawcolor"		"112 176 74 255"
 	}
-	"ShadedBarThin2"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"ShadedBarThin2"
-				"xpos"			"135"
-				"ypos"			"55"
-				"zpos"			"-33"
-				"wide"			"582"
-				"tall"			"230"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"tabPosition"	"0"
-				"alpha"			"255"
-				"fillcolor"		"0 0 0 220"
-				"PaintBackgroundType"	"0"
-			}
 	"ShowRarityCheckbox"
 	{
 		"ControlName"	"CheckButton"
@@ -160,6 +157,48 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+	"NameFilterLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NameFilterLabel"
+		"font"			"HudFontSmallestBold"
+		"labelText"		"#Store_NameFilterLabel"
+		"textAlignment"	"west"
+		"xpos"			"c137"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"90"
+		"tall"			"20"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"255 255 255 255"
+	}
+
+	"NameFilterTextEntry"
+	{
+		"ControlName"		"TextEntry"
+		"fieldName"		"NameFilterTextEntry"
+		"xpos"		"c137"
+		"ypos"		"15"
+		"wide"		"90"
+		"tall"		"19"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"1"
+		"textHidden"		"0"
+		"editable"		"1"
+		"unicode"		"1"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"0 0 0 180"
+		"paintbackgroundtype" "2"
+		"paintbackground"	"1"
+		"border"			"NoBorder"
+		"font"		"HudFontSmallest"
+	}
 	"SortByComboBox"
 	{
 		"ControlName"		"ComboBox"
@@ -188,6 +227,7 @@
 		"selectionTextColor_override" "235 226 202 255"
 		"defaultSelectionBG2Color_override" "0 0 0 0"
 	}
+	
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -266,7 +306,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
 		"xpos"			"c-60"
-		"ypos"			"290"
+		"ypos"			"346"
 		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"20"
@@ -291,14 +331,14 @@
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
 		"border_default"			"NoBorder"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_armed"				"NoBorder"
 	}
 	"PrevPageButtonMark"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PrevPageButtonMark"
 		"xpos"			"c-40"
-		"ypos"			"290"
+		"ypos"			"346"
 		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"20"
@@ -314,7 +354,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NextPageButtonMark"
 		"xpos"			"c20"
-		"ypos"			"290"
+		"ypos"			"346"
 		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"20"
@@ -332,7 +372,7 @@
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c-20"
-		"ypos"			"290"
+		"ypos"			"346"
 		"zpos"			"2"
 		"wide"			"40"
 		"tall"			"20"
@@ -347,7 +387,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
 		"xpos"			"c40"
-		"ypos"			"290"
+		"ypos"			"346"
 		"zpos"			"2"
 		"wide"			"20"
 		"tall"			"20"
@@ -372,7 +412,7 @@
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
 		"border_default"			"NoBorder"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_armed"				"NoBorder"
 	}
 	"DragToNextPageButton"
 	{
@@ -404,7 +444,7 @@
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
 		"border_default"			"NoBorder"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_armed"				"NoBorder"
 	}		
 	"DragToPrevPageButton"
 	{
@@ -436,14 +476,14 @@
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
 		"border_default"			"NoBorder"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_armed"				"NoBorder"
 	}
 	"CancelApplyToolButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelApplyToolButton"
-		"xpos"			"c-288"
-		"ypos"			"326"
+		"xpos"			"c-348"
+		"ypos"			"346"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"22"
@@ -469,14 +509,14 @@
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
 		"border_default"			"NoBorder"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_armed"				"NoBorder"
 	}
 	"DeleteButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DeleteButton"
-		"xpos"			"c-105"
-		"ypos"			"323"
+		"xpos"			"c-165"
+		"ypos"			"346"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"20"
@@ -502,14 +542,14 @@
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
 		"border_default"			"NoBorder"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_armed"				"NoBorder"
 	}
 	"UseButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"UseButton"
-		"xpos"			"c5"
-		"ypos"			"323"
+		"xpos"			"c65"
+		"ypos"			"346"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"20"
@@ -535,14 +575,14 @@
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
 		"border_default"			"NoBorder"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_armed"				"NoBorder"
 	}
 	"StyleButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"StyleButton"
-		"xpos"			"c-215"
-		"ypos"			"323"
+		"xpos"			"c-275"
+		"ypos"			"346"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"20"
@@ -568,14 +608,14 @@
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
 		"border_default"			"NoBorder"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_armed"				"NoBorder"
 	}
 	"DetailsButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"DetailsButton"
-		"xpos"			"c115"
-		"ypos"			"323"
+		"xpos"			"c175"
+		"ypos"			"346"
 		"zpos"			"20"
 		"wide"			"100"
 		"tall"			"20"
@@ -601,23 +641,43 @@
 		"armedFgColor_override" 	"FluxColorWhite"
 		"depressedFgColor_override" "FluxColorButTextNope"
 		"border_default"			"NoBorder"
-		"border_armed"				"FluxBorderButtonHover"
+		"border_armed"				"NoBorder"
 	}
 	
-	// Removed Stuff
 	"ShowExplanationsButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ShowExplanationsButton"
 		"xpos"			"9999"
-		"ypos"			"9999"
-		"wide"			"0"
-		"tall"			"0"
+		"ypos"			"10"
+		"zpos"			"100"
+		"wide"			"20"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"0"
-		"enabled"		"0"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"?"
+		"font"			"FluxFontVer18"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"show_explanations"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"FluxColorButBack"
+		"armedBgColor_override"		"FluxColorButBackHover"
+		"depressedBgColor_override"	"FluxColorButBack"
+		"defaultFgColor_override"	"FluxColorWhite"
+		"armedFgColor_override" 	"FluxColorWhite"
+		"depressedFgColor_override" "FluxColorButTextNope"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
-	
-	// Explanations
 	"StartExplanation"
 	{
 		"ControlName"	"CExplanationPopup"

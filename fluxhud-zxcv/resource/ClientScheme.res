@@ -737,7 +737,7 @@ Scheme
 			"1"
 			{
 				"name"		"Museo Sans Cyrl 500"
-				"tall"		"29"
+				"tall"		"26"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3511,12 +3511,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "220 220 220 255"
+					"color" "Blank"
 					"offset" "1 1"
 				}
 			}
@@ -3524,12 +3524,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "220 220 220 255"
+					"color" "Blank"
 					"offset" "1 1"
 				}
 			}
@@ -3537,12 +3537,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "220 220 220 255"
+					"color" "Blank"
 					"offset" "1 1"
 				}
 			}
@@ -3550,12 +3550,12 @@ Scheme
 			{
 				"1"
 				{
-					"color" "Black"
+					"color" "Blank"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "220 220 220 255"
+					"color" "Blank"
 					"offset" "1 1"
 				}
 			}
