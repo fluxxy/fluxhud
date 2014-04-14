@@ -310,7 +310,11 @@
 		"enabled"		"1"
 		"xpos_minmode"	"c-280"
 		"ypos_minmode"	"c146"
-		"fillcolor"		"20 20 20 240"	
+		"fillcolor"		"20 20 20 240"
+		if_mvm
+        {
+            "visible"   "0"
+        }		
 	}
 	"ServerBack2"
 	{
@@ -325,7 +329,11 @@
 		"enabled"		"1"
 		"xpos_minmode"	"c5"
 		"ypos_minmode"	"c146"
-		"fillcolor"		"20 20 20 240"	
+		"fillcolor"		"20 20 20 240"
+		if_mvm
+        {
+            "visible"   "0"
+        }
 	}
 	"ServerLabel"
 	{
@@ -1342,7 +1350,7 @@
 			"fgcolor"		"20 20 20 255"
 			"textAlignment"	"center"
 			"xpos"			"250"
-			"ypos"			"20"
+			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"16"

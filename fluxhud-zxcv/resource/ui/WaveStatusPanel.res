@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_brown"
+		"image"			"replay/thumbnails/tournament_panel_brown"
 		"src_corner_height"	"22"
 		"src_corner_width"	"22"
 		"draw_corner_width"		"0"	
