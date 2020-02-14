@@ -499,7 +499,7 @@
 		"zpos"			"-100"
 		"wide"			"f0"
 		"tall"			"480"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay/thumbnails/transparent_viewmodel/REFRACTnormal_transparent"
 		"scaleImage"	"1"
