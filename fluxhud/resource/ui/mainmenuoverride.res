@@ -419,10 +419,10 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"5"
+			"xpos"			"12"
 			"ypos"			"5"
 			"zpos"			"3"
-			"wide"			"15"
+			"wide"			"0"
 			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
@@ -431,24 +431,24 @@
 			"drawcolor" "210 125 33 255"
 		}				
 		
-		"Notifications_CountLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"Notifications_CountLabel"
-			"font"			"FluxFontMainMenu2"
-			"labelText"		"%noticount%"
-			"textAlignment"	"center"
-			"xpos"			"5"
-			"ypos"			"5"
-			"zpos"			"4"
-			"wide"			"15"
-			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"255 255 255 255"
-		}
+		//"Notifications_CountLabel"
+		//{
+		//	"ControlName"	"CExLabel"
+		//	"fieldName"		"Notifications_CountLabel"
+		//	"font"			"FluxFontMainMenu2"
+		//	"labelText"		"%noticount%"
+		//	"textAlignment"	"center"
+		//	"xpos"			"5"
+		//	"ypos"			"5"
+		//	"zpos"			"4"
+		//	"wide"			"15"
+		//	"tall"			"15"
+		//	"autoResize"	"0"
+		//	"pinCorner"		"0"
+		//	"visible"		"1"
+		//	"enabled"		"1"
+		//	"fgcolor_override"	"255 255 255 255"
+		//}
 	
 		"Notifications_ShowButtonPanel_SB"
 		{
@@ -501,6 +501,7 @@
 				"tall"			"25"
 				"visible"		"1"
 				"enabled"		"1"
+				"proportionaltoparent"			"1"
 				"image"			"replay/thumbnails/softicons/bell"
 				"scaleImage"	"1"
 			}

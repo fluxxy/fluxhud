@@ -59,7 +59,7 @@
 				"ypos"			"8"
 				"tall"			"10"
 				"wide"			"35"
-				"font"			"Regular12"
+				"font"			"FluxFontVer12"
 			}			
 		}	
 	}
@@ -115,7 +115,7 @@
 				"ypos"			"8"
 				"wide"			"35"
 				"tall"			"10"
-				"font"			"Regular12"
+				"font"			"FluxFontVer12"
 			}			
 		}		
 	}

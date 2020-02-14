@@ -87,7 +87,7 @@
 		"max_pitch"				"30"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
-		"fov"					"68"
+		"fov"					"90"
 		"allow_manip"			"0"
 		"model"
 		{
