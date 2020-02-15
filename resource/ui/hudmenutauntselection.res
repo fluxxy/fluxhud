@@ -11,7 +11,7 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"38 38 38 220"
+		"fillcolor"		"FluxColorTransBlack1"
 	}
 	
 	"MainBackground2"	
@@ -25,7 +25,7 @@
 		"tall"			"65"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"38 38 38 220"
+		"fillcolor"		"FluxColorTransBlack1"
 	}
 	
 	"TopBackground"	
@@ -158,7 +158,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabelBG"
 		"font"			"FluxFontVer8"
-		"fgcolor"		"40 40 40 235"
+		"fgcolor"		"HudShadow"
 		"xpos"			"265"
 		"ypos"			"60"
 		"zpos"			"2"

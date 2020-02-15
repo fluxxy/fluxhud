@@ -31,7 +31,7 @@
 		"border"		"NoBorder"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"40 40 40 200"
 	}
 	
 	"PlayerStatusHealthValue"
@@ -86,8 +86,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudHealthBack2"
-		"xpos"			"0"
-		"ypos"			"c94"
+		"xpos"			"9999"
+		"ypos"			"0"
 		"zpos"			"-5"
 		"wide"			"0"
 		"tall"			"0"
