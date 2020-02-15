@@ -12,7 +12,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"0 0 0 235"
 		
 		"PassedIcon"
 		{
@@ -61,7 +61,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FluxFontVer8"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 			"noshortcutsyntax" "1"
@@ -80,7 +80,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"0 0 0 235"
 		
 		"Header"
 		{
@@ -96,7 +96,7 @@
 			"textAlignment"		"north-west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FluxFontVer8"
 			"wrap"			"1"
 			"fgcolor_override"	"128 128 128 255"
 		}
@@ -115,7 +115,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
+			"font"			"FluxFontVer9"
 			"fgcolor_override"	"255 255 255 255"
 			"wrap"			"1"
 			"noshortcutsyntax" "1"
@@ -151,7 +151,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FluxFontVer8"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -183,7 +183,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
+			"font"			"FluxFontVer9"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -202,7 +202,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FluxFontVer8"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -234,7 +234,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardSmall"
+			"font"			"FluxFontVer9"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -253,7 +253,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FluxFontVer8"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -285,7 +285,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FluxFontVer8"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -317,7 +317,7 @@
 			"textAlignment"	"left"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FluxFontVer8"
 			"fgcolor_override"	"255 255 255 255"
 		}
 		
@@ -361,7 +361,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FluxFontVer8"
 			"fgcolor_override"	"128 128 128 255"
 		}
 		
@@ -398,7 +398,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"0 0 0 235"
 		
 		"FailedIcon"
 		{
@@ -447,7 +447,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FluxFontVer8"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 		}		
@@ -466,7 +466,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"0 0 0 235"
 		
 		"FailedIcon"
 		{
@@ -515,7 +515,7 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FluxFontVer8"
 			"wrap"			"1"
 			"fgcolor_override"	"255 255 255 255"
 		}		
@@ -537,7 +537,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"20 20 20 255"
 		"PaintBackground"	"1"
 
 		"header_font"		"ItemFontNameLarge"
@@ -555,7 +555,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
 			"font"			"HudFontMediumBold"
-			"labelText"		"#TF_Vote_Title"
+			"labelText"		"VOTE SETUP"
 			"textAlignment"	"north"
 			"xpos"			"0"
 			"ypos"			"10"
@@ -641,13 +641,13 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			
-			"fgcolor_override"	"109 109 109 255"
-			"bgcolor_override"	"251 235 202 255"
-			"disabledFgColor_override" "109 109 109 255"
-			"disabledBgColor_override" "251 235 202 255"
-			"selectionColor_override" "251 235 202 255"
+			"fgcolor_override"	"40 40 40 255"
+			"bgcolor_override"	"White"
+			"disabledFgColor_override" "40 40 40 255"
+			"disabledBgColor_override" "White"
+			"selectionColor_override" "White"
 			"selectionTextColor_override" "109 109 109 255"
-			"defaultSelectionBG2Color_override" "251 235 202 255"
+			"defaultSelectionBG2Color_override" "White"
 		}
 		
 		"CallVoteButton"

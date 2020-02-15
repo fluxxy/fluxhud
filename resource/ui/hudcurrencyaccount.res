@@ -6,7 +6,7 @@
 		"fieldName"		"Currency"
 		"font"			"FluxFontVer20"
 		"fgcolor"		"255 255 255 255"
-		"xpos"			"c-176"
+		"xpos"			"c-178"
 		"ypos"			"0"
 		"zpos"			"3"
 		"wide"			"76"
@@ -22,7 +22,7 @@
 		"fieldName"		"CurrencyShadow"
 		"font"			"FluxFontVer20"
 		"fgcolor"		"Black"
-		"xpos"			"c-176"
+		"xpos"			"c-178"
 		"ypos"			"1"
 		"zpos"			"3"
 		"wide"			"76"
@@ -33,20 +33,20 @@
 		"labelText"		"%currency%"
 	}
 
-	"WhiteBG"
+	"BlackBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WhiteBG"
-		"xpos"			"c-176"
-		"ypos"			"0"
+		"xpos"			"c-178"
+		"ypos"			"1"
 		"zpos"			"1"
 		"wide"			"76"
 		"tall"	 		"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"AmmoBorder"
+		"border"		"NoBorder"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 255"
+		"bgcolor_override"		"40 40 40 235"
 	}
-}
+}6

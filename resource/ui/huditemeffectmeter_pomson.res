@@ -95,10 +95,10 @@
 		"textAlignment"			"center"
 		"font"				"FluxFontVer8"
 	}
-		"ItemEffectMeterLabel"
+	"ItemEffectMeterLabel2"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ItemEffectMeterLabel"
+		"fieldName"		"ItemEffectMeterLabel2"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"11"

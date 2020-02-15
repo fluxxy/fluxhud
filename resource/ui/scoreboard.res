@@ -105,7 +105,7 @@
 		"autoResize"		"0"
 		"pinCorner"			"0"
 		"visible"			"1"
-		"enabled"			"1"
+		"enabled"			"1"	
 		"fillcolor" 		"200 30 46 255"
 		if_mvm
         {
@@ -163,7 +163,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"FluxFontVer14V2"
+		e			"FluxFontVer14"
 		"fgcolor"		"255 255 255 220"
 		"labelText"		"%redteamname%"
 		"textAlignment"	"east"
@@ -210,7 +210,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"FluxFontVer14V2"
+		"font"			"FluxFontVer14"
 		"fgcolor"		"255 255 255 220"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"	"center"
@@ -235,7 +235,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"FluxFontVer14V2"
+		"font"			"FluxFontVer14"
 		"fgcolor"		"255 255 255 220"
 		"labelText"		"%blueteamname%"
 		"textAlignment"	"west"
@@ -279,7 +279,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"FluxFontVer14V2"
+		"font"			"FluxFontVer14"
 		"fgcolor"		"255 255 255 220"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"	"center"
@@ -433,7 +433,7 @@
 		"tall"			"52"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 200"
@@ -867,7 +867,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"Regular11"
+		"font"			"FluxFontVer10"
 		"labelText"		"%mapname%"
 		"textAlignment"		"center"
 		"xpos"			"c-83"
@@ -887,10 +887,7 @@
 		
 		if_mvm
 		{
-			"font"		"FluxFontVer16"
-			"xpos"		"c119"
-			"ypos"		"r155"
-			"tall"		"51"
+		"visible" "0"
 		}
 	}
 
@@ -2226,7 +2223,7 @@
 			"wide_minmode"		"233"
 			"tall"			"30"
 			"tall_minmode"		"80"
-			"fillcolor"		"HudBGT"
+			"fillcolor"		"0 0 0 220"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -2249,7 +2246,7 @@
 			"zpos"			"-3"
 			"wide"			"167"
 			"tall"			"50"
-			"fillcolor"		"HudBGT"
+			"fillcolor"		"0 0 0 220"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -2270,7 +2267,7 @@
 			"zpos"			"-3"
 			"wide"			"341"
 			"tall"			"30"
-			"fillcolor"		"HudBGT"
+			"fillcolor"		"0 0 0 220"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"

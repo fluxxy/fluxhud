@@ -103,8 +103,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
+		"defaultBgColor_override"	"30 30 30 255"
+		"armedBgColor_override"		"40 40 40 255"
+		"depressedBgColor_override"	"30 30 30 255"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "40 40 40 255"
+		"border_default"			"FluxBorderButton"
+		"border_armed"				"FluxBorderButtonHover"	
 	}
 
 	"BootCampToolTipButtonHack"
@@ -211,5 +217,19 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Matchmaking_JoinInProgress"
 		"proportionaltoparent"	"1"
+	}
+			"BGPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"BGPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"f0"
+		"tall"			"f-20"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+
+		"border"		"MainMenuBGBorder"
 	}
 }

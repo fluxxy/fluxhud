@@ -805,13 +805,17 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"CreditsGreen"
-			"defaultBgColor_override"	"GreenSolid"
-
-			"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"defaultBgColor_override"	"207 231 241 100"
+			"armedBgColor_override"		"70 136 160 100"
+			"depressedBgColor_override"	"207 231 241 100"
+			"defaultFgColor_override"	"40 40 40 255"
+			"armedFgColor_override" 	"255 255 255 255"
+			"depressedFgColor_override" "40 40 40 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			
+			"image_drawcolor"	"40 40 40 255"
+			"image_armedcolor"	"255 255 255 255"
 
 			"SubImage"
 			{

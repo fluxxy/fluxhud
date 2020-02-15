@@ -53,7 +53,7 @@
 		"enabled"		"1"
 		
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"97 94 85 255"
+		"bgcolor_override"	"60 60 60 255"
 	}
 	
 	"IconBorder"
@@ -70,8 +70,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"PaintBackgroundType" "2"
-		"bgcolor_override"	"235 226 202 255"
+		"PaintBackgroundType" "0"
+		"bgcolor_override"	"230 230 230 255"
 	}
 	
 	"Icon"

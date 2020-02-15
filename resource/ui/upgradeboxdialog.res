@@ -14,7 +14,8 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"20 20 20 255"
 	}
 	
 	"TitleLabel"

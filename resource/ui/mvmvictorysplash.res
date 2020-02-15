@@ -29,8 +29,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SplashLabelShadow"
-			"font"			"HudFontGiantBold"
-			"labelText"		"#TF_MVM_Victory"
+			"font"			"FluxFontVer18"
+			"labelText"		"Victory!"
 			"textAlignment" "center"
 			"xpos"			"2"
 			"ypos"			"14"
@@ -43,8 +43,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SplashLabel"
-			"font"			"HudFontGiantBold"
-			"labelText"		"#TF_MVM_Victory"
+			"font"			"FluxFontVer18"
+			"labelText"		"Victory!"
 			"textAlignment" "center"
 			"xpos"			"0"
 			"ypos"			"12"

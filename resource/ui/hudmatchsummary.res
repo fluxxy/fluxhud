@@ -86,9 +86,9 @@
 		{
 			"show_model"	"0"
 		}
-		
+
 	}
-	
+
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -112,7 +112,7 @@
 		{
 			"visible"		"0"
 		}
-	}	
+	}
 
 	"StatsBgPanel"
 	{
@@ -142,7 +142,7 @@
 		"enabled"				"1"
 		"keyboardinputenabled"	"0"
 
-		"linecolor"			"HudRedSolid"
+		"linecolor"			"RedSolid"
 		"team_colors"		"1"
 	}
 
@@ -258,9 +258,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"NoBorder"
-					"PaintBackgroundType"	"0"
-					"bgcolor_override"	"HudBlueTeamSolid"
+					"border"		"TFFatLineBorderBlueBGOpaque"
 
 					if_large
 					{
@@ -496,9 +494,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"NoBorder"
-					"PaintBackgroundType"	"0"
-					"bgcolor_override"	"0 0 0 100"
+					"border"		"TFFatLineBorderClearBG"
 
 					if_large
 					{
@@ -532,9 +528,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"NoBorder"
-					"PaintBackgroundType"	"0"
-					"bgcolor_override"	"HudRedTeamSolid"
+					"border"		"TFFatLineBorderRedBGOpaque"
 
 					if_large
 					{
@@ -769,9 +763,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"border"		"NoBorder"
-					"PaintBackgroundType"	"0"
-					"bgcolor_override"	"0 0 0 100"
+					"border"		"TFFatLineBorderClearBG"
 
 					if_large
 					{
