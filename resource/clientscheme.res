@@ -54,7 +54,7 @@ Scheme
 		"FluxBlack"				"0 0 0 255"
 		"FluxBlackTran"			"0 0 0 196"
 		"FluxButtonHover"		"12 52 85 128"
-		"Green"		 			"6 107 33 255"
+		"Green"		 			"9 158 49 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -90,7 +90,7 @@ Scheme
 		"BrightYellow"		"251 235 0 255"
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
-		"GreenSolid"		 "6 107 33 255"
+		"GreenSolid"		 "9 158 49 255"
 		
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
@@ -106,7 +106,7 @@ Scheme
 		"HudBlack"			"30 30 30 255"
 		"ProgressBarBlue"	"8 70 128 255"
 		
-		"CreditsGreen"		"6 107 33 255"
+		"CreditsGreen"		"9 158 49 255"
 		
 		"Gray"				"178 178 178 255"
 
@@ -2299,7 +2299,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -2416,8 +2416,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"10"
+				"tall_hidef"	"12"
+				"tall_lodef"	"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2439,10 +2441,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"20"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"range"		"0x0000 0x007F"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -2451,7 +2453,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -2465,7 +2467,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2477,7 +2479,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2489,7 +2491,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -2578,7 +2580,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2589,7 +2591,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -2600,7 +2602,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2611,7 +2613,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2622,7 +2624,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2634,7 +2636,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -2889,7 +2891,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2917,7 +2919,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2926,7 +2928,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2976,7 +2978,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2987,7 +2989,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -3117,7 +3119,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -3138,7 +3140,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -3149,7 +3151,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3160,7 +3162,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3336,7 +3338,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -3345,7 +3347,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -3354,7 +3356,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -3367,7 +3369,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -3377,7 +3379,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -3387,7 +3389,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -3401,7 +3403,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -3410,7 +3412,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -3419,7 +3421,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -3432,7 +3434,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -3444,7 +3446,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -3456,7 +3458,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -3564,7 +3566,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3674,7 +3676,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -3714,7 +3716,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -3727,7 +3729,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		Museo Sans Cyrl 500"
+				"name"		"Museo Sans Cyrl 500"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"

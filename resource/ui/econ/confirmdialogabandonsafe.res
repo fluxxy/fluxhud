@@ -14,16 +14,16 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"	"Econ.Dialog.BgColor"
+		"border"				"FluxBorderPanel"
+		"bgcolor_override"		"FluxColorMainGrey"
 	}
-	
 	"TitleLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"EconFontMedium"
+		"font"			"FluxFontTitleLabelSmall"
 		"labelText"		"#ConfirmTitle"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -37,7 +37,6 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-	
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -57,7 +56,6 @@
 		"centerwrap"	"1"
 		"fgcolor_override" "TanLight"
 	}
-		
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -73,7 +71,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#GameUI_CancelBold"
-		"font"			"EconFontSmall"
+		"font"			"FluxFontButton"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -81,28 +79,16 @@
 		"Command"		"cancel"
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
-		"border_default"			"Econ.Button.Border.Default"
-		"border_armed"				"Econ.Button.Border.Armed"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"FluxColorTransBlack1"
+		"armedBgColor_override"		"FluxColorTransDarkGrey"
+		"depressedBgColor_override"	"FluxColorTransBlack1"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "FluxColorButTextNope"
+		"border_default"			"FluxBorderButton"
+		"border_armed"				"FluxBorderButtonHover"
 	}
-	
-	"CancelButtonHintIcon"
-	{
-		"ControlName"	"CSCHintIcon"
-		"fieldName"		"CancelButtonHintIcon"
-		"xpos"			"195"
-		"ypos"			"165"
-		"zpos"			"25"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
-		"actionSet"		"MenuControls"
-		"actionName"	"menu_cancel"
-	}		
-
 	"ConfirmButton"
 	{
 		"ControlName"	"CExButton"
@@ -119,7 +105,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"EconFontSmall"
+		"font"			"FluxFontButton"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -127,25 +113,14 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"border_default"			"Econ.Button.Border.Default"
-		"border_armed"				"Econ.Button.Border.Armed"
-		"armedBgColor_override"		"Econ.Button.ArmedBgColor"
-		"armedFgColor_override"		"Econ.Button.ArmedFgColor"
-		"depressedBgColor_override"	"Econ.Button.DepressedBgColor"
-		"depressedFgColor_override"	"Econ.Button.DepressedFgColor"
-	}
-	
-	"ConfirmButtonHintIcon"
-	{
-		"ControlName"	"CSCHintIcon"
-		"fieldName"		"ConfirmButtonHintIcon"
-		"xpos"			"15"
-		"ypos"			"165"
-		"zpos"			"25"
-		"wide"			"25"
-		"tall"			"25"
-		"visible"		"1"
-		"actionSet"		"MenuControls"
-		"actionName"	"menu_select"
-	}					
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"FluxColorTransBlack1"
+		"armedBgColor_override"		"FluxColorTransDarkGrey"
+		"depressedBgColor_override"	"FluxColorTransBlack1"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "FluxColorButTextNope"
+		"border_default"			"FluxBorderButton"
+		"border_armed"				"FluxBorderButtonHover"
+	}			
 }

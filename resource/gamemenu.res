@@ -31,7 +31,7 @@
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "replay/thumbnails/glyph_muted"
-		"tooltip" "MUTE CUNTS"
+		"tooltip" "MUTE"
 	}
 	"CallVoteButton"
 	{
@@ -54,7 +54,7 @@
 		"label"			""
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
-		"tooltip"		"REPORT CUNT"
+		"tooltip"		"REPORT"
 		"subimage"		"replay/thumbnails/glyph_commentary"
 	}
 	

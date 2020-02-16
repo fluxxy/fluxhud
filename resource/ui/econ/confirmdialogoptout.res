@@ -14,15 +14,17 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground"		"1"
+		"border"				"FluxBorderPanel"
+		"bgcolor_override"		"FluxColorMainGrey"
 	}
-	
 	"TitleLabel"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontMediumBold"
-		"labelText"		"#ConfirmTitle"
+		"font"			"FluxFontTitleLabelSmall"
+		"labelText"		"asdasd"
 		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"15"
@@ -34,7 +36,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
 	"ExplanationLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -52,9 +53,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 	}
-		
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -70,7 +70,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"FluxFontButton"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -78,8 +78,16 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"FluxColorTransBlack1"
+		"armedBgColor_override"		"FluxColorTransDarkGrey"
+		"depressedBgColor_override"	"FluxColorTransBlack1"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "FluxColorButTextNope"
+		"border_default"			"FluxBorderButton"
+		"border_armed"				"FluxBorderButtonHover"
+	}
 	"ConfirmButton"
 	{
 		"ControlName"	"CExButton"
@@ -96,7 +104,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#ConfirmButtonText"
-		"font"			"HudFontSmallBold"
+		"font"			"FluxFontButton"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
 		"dulltext"		"0"
@@ -104,8 +112,16 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}			
-	
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"FluxColorTransBlack1"
+		"armedBgColor_override"		"FluxColorTransDarkGrey"
+		"depressedBgColor_override"	"FluxColorTransBlack1"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "FluxColorButTextNope"
+		"border_default"			"FluxBorderButton"
+		"border_armed"				"FluxBorderButtonHover"
+	}
 	"OptOutCheckbox"
 	{
 		"ControlName"	"CheckButton"

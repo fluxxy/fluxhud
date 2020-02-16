@@ -9,12 +9,12 @@
 		"ypos"					"200"
 		"wide"					"200"
 		"tall"					"105"
-		"bgcolor_override"		"46 43 42 0"
-		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"GrayDialogBorder"
+		"PaintBackgroundType"	"2"
+		"paintbackground"		"1"
+		"border"				"FluxBorderPanel"
+		"bgcolor_override"		"FluxColorMainGrey"
 	}
-	
 	"TitleLabel"
 	{	
 		"ControlName"	"Label"
@@ -32,11 +32,10 @@
 		"wrap"			"0"
 		"centerwrap"	"1"
 		"labelText"		"%updatetext%"
-		"textAlignment"		"center"
-		"fgcolor_override" "200 80 60 255"
+		"textAlignment"	"center"
+		"fgcolor_override" "White"
 		"bgcolor_override" "0 0 0 0"
 	}
-
 	"EllipsesLabel"
 	{	
 		"ControlName"	"Label"
@@ -53,10 +52,9 @@
 		"enabled"		"1"
 		"labelText"		"%ellipses%"
 		"textAlignment"		"north"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 		"bgcolor_override" "0 0 0 0"
 	}
-
 	"DurationLabel"
 	{	
 		"ControlName"	"Label"
@@ -73,10 +71,9 @@
 		"enabled"		"1"
 		"labelText"		"%duration%"
 		"textAlignment"		"north"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 		"bgcolor_override" "0 0 0 0"
 	}
-	
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -92,7 +89,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"FluxFontButton"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -100,5 +97,14 @@
 		"Command"		"user_close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"FluxColorTransBlack1"
+		"armedBgColor_override"		"FluxColorTransDarkGrey"
+		"depressedBgColor_override"	"FluxColorTransBlack1"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "FluxColorButTextNope"
+		"border_default"			"FluxBorderButton"
+		"border_armed"				"FluxBorderButtonHover"
 	}
 }

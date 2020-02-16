@@ -9,10 +9,10 @@
 		"ypos"					"c-200"
 		"wide"					"400"
 		"tall"					"240"
-		"bgcolor_override"		"46 43 42 0"
-		"paintbackgroundtype"	"0"
-		"settitlebarvisible"	"0"
-		"border"				"GrayDialogBorder"
+		"PaintBackgroundType"	"2"
+		"paintbackground"		"1"
+		"border"				"FluxBorderPanel"
+		"bgcolor_override"		"FluxColorMainGrey"
 	}
 
 	"mouseoveritempanel"
@@ -35,7 +35,19 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+		"BG"
+    	{
+    		"ControlName"		"ImagePanel"
+    		"fieldName"			"BG"
+    		"xpos"				"0"
+    		"ypos"				"0"
+    		"zpos"				"1"
+    		"wide"				"f0"
+    		"tall"	 			"f0"
+    		"visible"			"1"
+    		"enabled"			"1"
+    		"fillcolor"			"FluxColorItemPanel"
+    	}
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -234,7 +246,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"FluxFontButton"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -242,8 +254,16 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"FluxColorTransBlack1"
+		"armedBgColor_override"		"FluxColorTransDarkGrey"
+		"depressedBgColor_override"	"FluxColorTransBlack1"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "FluxColorButTextNope"
+		"border_default"			"FluxBorderButton"
+		"border_armed"				"FluxBorderButtonHover"
 	}
-	
 	"OkButton"
 	{
 		"ControlName"	"CExButton"
@@ -259,7 +279,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameConfirm"
-		"font"			"HudFontSmallBold"
+		"font"			"FluxFontButton"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -267,5 +287,14 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"FluxColorTransBlack1"
+		"armedBgColor_override"		"FluxColorTransDarkGrey"
+		"depressedBgColor_override"	"FluxColorTransBlack1"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "FluxColorButTextNope"
+		"border_default"			"FluxBorderButton"
+		"border_armed"				"FluxBorderButtonHover"
 	}
 }

@@ -72,10 +72,10 @@
 	{
 		"fieldName"		"ModelInspectionPanel"
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"ypos"			"0"
 		"zpos"			"5"
-		"wide"			"f0"
-		"tall"			"f0"
+		"wide"			"o1.5"
+		"tall"			"p0.8"
 		"visible"		"1"
 
 		"proportionaltoparent"	"1"
@@ -87,8 +87,8 @@
 		"max_pitch"				"30"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
-		"fov"					"68"
-		"allow_manip"			"0"
+		"fov"					"75"
+
 		"model"
 		{
 			"force_pos"	"1"
@@ -143,7 +143,7 @@
 		"ControlName"		"CNavigationPanel"
 		"fieldName"			"TeamNavPanel"
 		"xpos"				"cs-0.5"
-		"ypos"				"35"
+		"ypos"				"p.7-16"
 		"zpos"				"100"
 		"wide"				"60"
 		"tall"				"25"
@@ -244,12 +244,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PaintkitPreviewContainer"
 		"xpos"			"cs-0.5"
-		"ypos"			"p.68"
+		"ypos"			"p.7"
 		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
-		"border"		"NoBorder"
-		"bgcolor_override"	"FluxColorTransDarkGrey"
+		"border"		"MainMenuBGBorder"
 		"mouseinputenabled"	"1"
 		"proportionaltoparent"	"1"
 
@@ -325,7 +324,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidPaintkits"
-			"Font"				"FluxFontVer9"
+			"Font"				"HudFontSmallest"
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"10"
@@ -363,7 +362,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"PaintkitLabel"
-			"font"			"FluxFontVer9"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemPaintkit"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -386,7 +385,7 @@
 		{
 			"ControlName"		"ComboBox"
 			"fieldName"			"ComboBoxValidItems"
-			"Font"				"FluxFontVer9"
+			"Font"				"HudFontSmallest"
 			"wrap"				"0"
 			"xpos"				"rs1-10"
 			"ypos"				"30"
@@ -429,7 +428,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
-			"font"			"FluxFontVer9"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemPreview"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -493,7 +492,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WearLabel"
-			"font"			"FluxFontVer9"
+			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemWear"
 			"textAlignment"	"west"
 			"xpos"			"8"
@@ -549,10 +548,6 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"keyboardinputenabled"	"0"
-			
-			"defaultBgColor_override" "40 39 38 255"
-			"armedBgColor_override" "30 30 30 255"
-			"depressedBgColor_override" "30 30 30 255"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"

@@ -33,7 +33,7 @@
 		"labelText"		"%currency%"
 	}
 
-	"BlackBG"
+	"WhiteBG"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WhiteBG"
@@ -49,4 +49,4 @@
 		"paintbackground"		"1"
 		"bgcolor_override"		"40 40 40 235"
 	}
-}6
+}

@@ -110,6 +110,7 @@
 		"fieldName"		"MvMPlayerList"
 		"xpos"			"170"
 		"ypos"			"79"
+		"zpos"			"99"
 		"wide"			"510"
 		"tall"			"150"
 		"pinCorner"		"0"

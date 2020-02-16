@@ -9,12 +9,12 @@
 		"ypos"					"c-200"
 		"wide"					"400"
 		"tall"					"240"
-		"bgcolor_override"		"46 43 42 0"
-		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"GrayDialogBorder"
+		"PaintBackgroundType"	"2"
+		"paintbackground"		"1"
+		"border"				"FluxBorderPanel"
+		"bgcolor_override"		"FluxColorMainGrey"
 	}
-
 	"mouseoveritempanel"
 	{
 		"ControlName"	"CItemModelPanel"
@@ -29,13 +29,11 @@
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		
 		"text_ypos"			"20"
 		"text_center"		"1"
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -54,12 +52,11 @@
 			"centerwrap"	"1"
 		}
 	}
-
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"FluxFontTitleLabelSmall"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -73,7 +70,6 @@
 		"enabled"		"1"
 		"centerwrap"	"1"
 	}
-
 	"ToolBG"
 	{
 		"ControlName"	"CExLabel"
@@ -127,7 +123,7 @@
 		"model_ypos"	"5"
 		"model_wide"	"80"
 		"model_tall"	"54"
-		"text_ypos"		"100"		// Hide it off the bottom
+		"text_ypos"		"100"
 		"text_center"	"1"
 		"name_only"		"1"
 		"paint_icon_hide" "1"
@@ -190,7 +186,7 @@
 		"model_ypos"	"5"
 		"model_wide"	"80"
 		"model_tall"	"54"
-		"text_ypos"		"100"		// Hide it off the bottom
+		"text_ypos"		"100"
 		"text_center"	"1"
 		"name_only"		"1"
 		"itemmodelpanel"
@@ -198,8 +194,7 @@
 			"use_item_rendertarget" "0"
 			"allow_rot"				"0"
 		}
-	}	
-	
+	}
 	"ConfirmLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -218,7 +213,6 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
-
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
@@ -234,7 +228,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#Cancel"
-		"font"			"HudFontSmallBold"
+		"font"			"FluxFontButton"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -242,8 +236,16 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"FluxColorTransBlack1"
+		"armedBgColor_override"		"FluxColorTransDarkGrey"
+		"depressedBgColor_override"	"FluxColorTransBlack1"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "FluxColorButTextNope"
+		"border_default"			"FluxBorderButton"
+		"border_armed"				"FluxBorderButtonHover"
 	}
-	
 	"OkButton"
 	{
 		"ControlName"	"CExButton"
@@ -259,7 +261,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"#CraftNameConfirm"
-		"font"			"HudFontSmallBold"
+		"font"			"FluxFontButton"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -267,5 +269,14 @@
 		"Command"		"apply"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"FluxColorTransBlack1"
+		"armedBgColor_override"		"FluxColorTransDarkGrey"
+		"depressedBgColor_override"	"FluxColorTransBlack1"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "FluxColorButTextNope"
+		"border_default"			"FluxBorderButton"
+		"border_armed"				"FluxBorderButtonHover"
 	}
 }

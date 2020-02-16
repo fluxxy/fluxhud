@@ -23,7 +23,7 @@
 		
 		"upgradebuypanel_xpos"	"160"
 		"upgradebuypanel_ypos"	"65"
-		"upgradebuypanel_delta"	"6"
+		"upgradebuypanel_delta"	"5"
 		
 		"modelpanels_kv"
 		{
@@ -33,12 +33,11 @@
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
+			"paintborder"	"1"
+			"border"		"NoBorder"
 			
 			"model_ypos"	"5"
 			"model_tall"	"32"
-			"model_wide"	"48"
-			"model_center_x"	"1"
 			"text_ypos"		"60"
 			"text_center"	"1"
 			"name_only"		"1"
@@ -81,6 +80,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"border"		"NoBorder"
 		"tabPosition"		"0"
 		"bgcolor_override"	"63 59 55 0"
 		
@@ -97,19 +97,19 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_brown"
+			"image"			"replay/thumbnails/tournament_panel_brown"
 
 			"src_corner_height"	"23"	// pixels inside the image
 			"src_corner_width"	"23"
 			
-			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "8"	
+			"draw_corner_width"	"0"		// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" "0"	
 
 		}
 		
 		"InnerPanelRim"
 		{
-			"ControlName"	"Panel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"InnerPanelRim"
 			"xpos"			"10"
 			"ypos"			"50"
@@ -120,9 +120,9 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+			"border"		"NoBorder"
 			"PaintBackgroundType" "2"
-			"bgcolor_override"	"142 132 121 255"
+			"bgcolor_override"	"20 20 20 255"
 		}
 		
 		"InnerBGPanel"
@@ -136,7 +136,8 @@
 			"tall"			"220"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"MainMenuBGBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"	"40 40 40 255"
 		}
 	
 		"PlayerUpgradeButton"
@@ -159,6 +160,8 @@
 			"textinsetx"	"50"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 			"Command"		"PlayerUpgrade"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -212,7 +215,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"142 132 121 255"
+			"border"		"NoBorder"
+			"bgcolor_override"	"20 20 20 255"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -230,7 +234,8 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"239 128 73 255"
+			"border"		"NoBorder"
+			"bgcolor_override"	"20 120 200 255"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -248,7 +253,8 @@
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"239 128 73 255"
+			"border"		"NoBorder"
+			"bgcolor_override"	"20 120 200 255"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -266,7 +272,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"border"		"NoBorder"
+			"bgcolor_override"	"120 120 120 255"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -284,7 +291,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"border"		"NoBorder"
+			"bgcolor_override"	"120 120 120 255"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -302,7 +310,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"border"		"NoBorder"
+			"bgcolor_override"	"120 120 120 255"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -320,7 +329,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"border"		"NoBorder"
+			"bgcolor_override"	"120 120 120 255"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -338,7 +348,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"border"		"NoBorder"
+			"bgcolor_override"	"120 120 120 255"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -356,7 +367,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"77 72 68 255"
+			"border"		"NoBorder"
+			"bgcolor_override"	"120 120 120 255"
 			"PaintBackgroundType"	"2"
 		}
 		
@@ -374,7 +386,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"0 0 0 128"
+			"border"		"NoBorder"
+			"bgcolor_override"	"0 0 0 0"
 		}
 
 		"GreyedOutLabel"
@@ -400,7 +413,7 @@
 
 		"QuickEquipButton"
 		{
-			"ControlName"	"CExButton"
+			"ControlName"	"CExImageButton"
 			"fieldName"		"QuickEquipButton"
 			"xpos"			"250"
 			"ypos"			"195"
@@ -418,6 +431,8 @@
 			"textinsetx"	"50"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 			"Command"		"quick_equip_bottle"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -443,6 +458,8 @@
 			"textinsetx"	"50"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 			"Command"		"open_charinfo_direct"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -487,7 +504,7 @@
 		
 		"UpgradeItemsBG"
 		{
-			"ControlName"	"Panel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"UpgradeItemsBG"
 			"xpos"			"25"
 			"ypos"			"135"
@@ -498,7 +515,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			
+			"border"			"NoBorder"
 			"bgcolor_override"	"97 94 84 255"
 		}
 		
@@ -578,7 +595,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsTextLabel"
-			"font"			"HudFontSmallest"
+			"font"			"FluxFontVer12"
 			"labelText"		"#TF_PVE_UpgradeAmount"
 			"textAlignment"	"west"
 			"xpos"			"250"
@@ -612,9 +629,19 @@
 			"textinsetx"	"50"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 			"Command"		"cancel"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"defaultBgColor_override"	"FluxColorDialogBack"
+			"armedBgColor_override"		"FluxColorIngameButHover"
+			"depressedBgColor_override"	"FluxColorDialogBack"
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override" 	"White"
+			"depressedFgColor_override" "FluxColorButTextNope"
+			"border_default"			"FluxBorderButton"
+			"border_armed"				"FluxBorderButtonHover"
 		}
 		
 		"CloseButton"
@@ -637,9 +664,19 @@
 			"textinsetx"	"50"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 			"Command"		"close"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"defaultBgColor_override"	"FluxColorDialogBack"
+			"armedBgColor_override"		"FluxColorIngameButHover"
+			"depressedBgColor_override"	"FluxColorDialogBack"
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override" 	"White"
+			"depressedFgColor_override" "FluxColorButTextNope"
+			"border_default"			"FluxBorderButton"
+			"border_armed"				"FluxBorderButtonHover"
 		}
 
 		"RespecButton"
@@ -662,9 +699,19 @@
 			"textinsetx"	"50"
 			"dulltext"		"0"
 			"brighttext"	"1"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 			"Command"		"respec"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"defaultBgColor_override"	"FluxColorDialogBack"
+			"armedBgColor_override"		"FluxColorIngameButHover"
+			"depressedBgColor_override"	"FluxColorDialogBack"
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override" 	"White"
+			"depressedFgColor_override" "FluxColorButTextNope"
+			"border_default"			"FluxBorderButton"
+			"border_armed"				"FluxBorderButtonHover"
 		}
 	}	
 	
@@ -672,15 +719,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"TipPanel"
-		"xpos"			"c-250"
-		"ypos"			"395"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"10"
-		"wide"			"500"
-		"tall"			"40"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"bgcolor_override"	"63 59 55 0"
 		
 		"TipPanelBG"
@@ -701,8 +748,8 @@
 			"src_corner_height"	"23"	// pixels inside the image
 			"src_corner_width"	"23"
 			
-			"draw_corner_width"	"8"		// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" "8"	
+			"draw_corner_width"	"0"		// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" "0"	
 		}
 		
 		"TipText"

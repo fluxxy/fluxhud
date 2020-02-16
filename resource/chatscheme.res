@@ -782,11 +782,6 @@ Scheme
 	CustomFontFiles
 	{
 		"1"		"resource/HALFLIFE2.ttf"
-		"2"		"resource/HL2EP2.ttf"		
-		"10"
-		{
-			"font" "resource/fonts/MuseoSansCyrl-500.otf"
-			"name" "Verdana"
-		}
+		"2"		"resource/HL2EP2.ttf"
 	}
 }
