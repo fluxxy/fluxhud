@@ -2,7 +2,7 @@
 {
 	"Notification_Background"
 	{
-		"ControlName"	"CImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"Notification_Background"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -11,12 +11,11 @@
 		"tall"			"44"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/score_panel_blue_bg"
 		"scaleImage"	"1"
 	}
-	
 	"Notification_Icon"	
 	{
 		"ControlName"	"CIconPanel"
@@ -29,13 +28,14 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_notify_sixty_seconds"
+		"image_drawcolor"	"220 220 220 255"
 	}
-	
 	"Notification_Label"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"Notification_Label"
-		"font"			"Default"
+		"font"			"FluxFontVer11"
+		"fgcolor_override" "Health"
 		"xpos"			"30"
 		"ypos"			"9"
 		"wide"			"200"
