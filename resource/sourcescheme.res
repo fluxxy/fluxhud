@@ -16,9 +16,9 @@ Scheme
 	Colors
 	{
 		// base colors
-		"White"				"245 245 245 235"
-		"White120"				"245 245 245 120"
-		"White60"				"245 245 245 60"
+		"White"				"255 255 255 235"
+		"White120"				"255 255 255 180"
+		"White60"				"255 255 255 120"
 		
 		"Fluxgray"				"40 40 40 255"
 		"Fluxgraydarker"				"30 30 0 255"
@@ -38,7 +38,7 @@ Scheme
 		"Flux2graydark"			"0 0 0 220"
 		"OffWhite"			"white"
 		"OffWhiteTrans"			"white120"
-		"DullWhite"			"210 210 210 255"
+		"DullWhite"			"230 230 230 255"
 		"TransparentBlack"	"0 0 0 80"
 		"Black"				"0 0 0 255"
 
@@ -280,8 +280,8 @@ Scheme
 		"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"10"
-				"weight"	"0"
+				"tall"		"12"
+				"weight"	"400"
 				"antialias"	"1"
 				"dropshadow"	"1"
 			}
@@ -291,8 +291,8 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
-				"weight"	"0"
+				"tall"		"15"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}
@@ -301,8 +301,8 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
-				"weight"	"0"
+				"tall"		"15"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}
@@ -311,8 +311,8 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
-				"weight"	"0"
+				"tall"		"15"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}
@@ -321,8 +321,8 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
-				"weight"	"0"
+				"tall"		"15"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}
@@ -331,8 +331,8 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
-				"weight"	"0"
+				"tall"		"13"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}
@@ -352,8 +352,8 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"15"
-				"weight"	"0"
+				"tall"		"16"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}
@@ -362,8 +362,8 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"16"
-				"weight"	"0"
+				"tall"		"17"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}
@@ -481,8 +481,8 @@ Scheme
 			"1"	[$WIN32]
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"15"
-				"weight"	"0"
+				"tall"		"16"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}
@@ -590,8 +590,8 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
-				"weight"	"0"
+				"tall"		"14"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 //			"1"
@@ -612,7 +612,7 @@ Scheme
 				"name"		 "Courier" [$LINUX]
 				"tall"		"14" [$LINUX]
 				"tall"		"10"
-				"weight"	"0"
+				"weight"	"400"
 				"dropshadow" "1"
 			}
 //			"1"
@@ -695,7 +695,7 @@ Scheme
 			{
 				"name"		"Sofia Pro Regular"
 				"tall"		"18"
-				"weight"	"0"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}
@@ -743,8 +743,8 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
-				"weight"	"0"
+				"tall"		"14"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}
@@ -754,8 +754,8 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
-				"weight"	"0"
+				"tall"		"14"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}
@@ -779,8 +779,8 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
-				"weight"	"0"
+				"tall"		"14"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}
@@ -790,8 +790,8 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
-				"weight"	"0"
+				"tall"		"15"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}
@@ -803,7 +803,7 @@ Scheme
 			{
 				"name"		"Sofia Pro Regular"
 				"tall"		"24"
-				"weight"	"0"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}
@@ -813,8 +813,8 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
-				"weight"	"0"
+				"tall"		"15"
+				"weight"	"400"
 				"antialias"	"1"
 			}
 		}

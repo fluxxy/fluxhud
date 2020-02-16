@@ -743,7 +743,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"8"
+				"tall"		"9"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -773,7 +773,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
+				"tall"		"16"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -783,7 +783,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
+				"tall"		"16"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -803,7 +803,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"8"
+				"tall"		"9"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -899,7 +899,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"6"
+				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -910,7 +910,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"7"
+				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -921,7 +921,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"8"
+				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -932,7 +932,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"9"
+				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -943,7 +943,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"10"
+				"tall"		"11"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -954,7 +954,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -965,7 +965,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -977,7 +977,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
+				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -988,7 +988,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"13"
+				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -999,7 +999,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
+				"tall"		"15"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1010,7 +1010,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
+				"tall"		"15"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1021,7 +1021,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"16"
+				"tall"		"17"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1032,7 +1032,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"18"
+				"tall"		"19"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1043,7 +1043,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"20"
+				"tall"		"21"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1054,7 +1054,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"24"
+				"tall"		"25"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1087,7 +1087,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"26"
+				"tall"		"27"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1098,7 +1098,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"28"
+				"tall"		"29"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -1110,7 +1110,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"18"
+				"tall"		"19"
 				"weight"	"500"
 				"additive"	"1"
 				"antialias" "1"
@@ -1122,8 +1122,8 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"8"
-				"tall_hidef"	"7"
+				"tall"		"9"
+				"tall_hidef"	"8"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1135,7 +1135,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"9"
+				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1147,9 +1147,9 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"8"
-				"tall_hidef"	"9"
-				"tall_lodef"	"10"
+				"tall"		"9"
+				"tall_hidef"	"10"
+				"tall_lodef"	"11"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -1161,7 +1161,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
+				"tall"		"13"
 				"weight"	"900"
 				"range"		"0x0000 0x017F"
 				"yres"		"480 599"
@@ -1169,7 +1169,7 @@ Scheme
 			"2"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"13"	[$WIN32]
+				"tall"		"14"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F"
@@ -1178,7 +1178,7 @@ Scheme
 			"3"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
+				"tall"		"15"
 				"weight"	"900"
 				"range"		"0x0000 0x017F"
 				"yres"		"768 1023"
@@ -1187,7 +1187,7 @@ Scheme
 			"4"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"20"
+				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F"
 				"yres"		"1024 1199"
@@ -1196,7 +1196,7 @@ Scheme
 			"5"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"24"
+				"tall"		"26"
 				"weight"	"900"
 				"range"		"0x0000 0x017F"
 				"yres"		"1200 6000"
@@ -1205,7 +1205,7 @@ Scheme
 			"6"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
+				"tall"		"14"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
@@ -1223,7 +1223,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
+				"tall"		"13"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
@@ -1231,7 +1231,7 @@ Scheme
 			"2"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"13"	[$WIN32]
+				"tall"		"14"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1240,7 +1240,7 @@ Scheme
 			"3"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
+				"tall"		"15"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -1249,7 +1249,7 @@ Scheme
 			"4"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"20"
+				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -1258,7 +1258,7 @@ Scheme
 			"5"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"24"
+				"tall"		"26"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -1267,7 +1267,7 @@ Scheme
 			"6"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
+				"tall"		"13"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
@@ -1304,7 +1304,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
+				"tall"		"13"
 				"weight"	"400"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
@@ -1312,7 +1312,7 @@ Scheme
 			"2"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"13"
+				"tall"		"14"
 				"weight"	"400"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
@@ -1320,7 +1320,7 @@ Scheme
 			"3"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
+				"tall"		"15"
 				"weight"	"400"
 				"range"		"0x0000 0x017F"
 				"yres"	"768 1023"
@@ -1329,7 +1329,7 @@ Scheme
 			"4"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"20"
+				"tall"		"22"
 				"weight"	"400"
 				"range"		"0x0000 0x017F"
 				"yres"	"1024 1199"
@@ -1338,7 +1338,7 @@ Scheme
 			"5"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"22"
+				"tall"		"24"
 				"weight"	"400"
 				"range"		"0x0000 0x017F"
 				"yres"	"1200 6000"
@@ -1357,7 +1357,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
+				"tall"		"13"
 				"weight"	"400"
 				"range"		"0x0000 0x017F"
 				"yres"		"480 599"
@@ -1366,7 +1366,7 @@ Scheme
 			"2"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"13"
+				"tall"		"14"
 				"weight"	"400"
 				"range"		"0x0000 0x017F"
 				"yres"		"600 767"
@@ -1375,7 +1375,7 @@ Scheme
 			"3"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
+				"tall"		"15"
 				"weight"	"400"
 				"range"		"0x0000 0x017F"
 				"yres"		"768 1023"
@@ -1385,7 +1385,7 @@ Scheme
 			"4"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"20"
+				"tall"		"22"
 				"weight"	"400"
 				"range"		"0x0000 0x017F"
 				"yres"		"1024 1199"
@@ -1395,7 +1395,7 @@ Scheme
 			"5"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"22"
+				"tall"		"24"
 				"weight"	"400"
 				"range"		"0x0000 0x017F"
 				"yres"		"1200 6000"
@@ -1417,7 +1417,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
+				"tall"		"13"
 				"weight"	"400"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
@@ -1425,7 +1425,7 @@ Scheme
 			"2"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
+				"tall"		"13"
 				"weight"	"400"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -1433,7 +1433,7 @@ Scheme
 			"3"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"12"
+				"tall"		"13"
 				"weight"	"400"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -1442,7 +1442,7 @@ Scheme
 			"4"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
+				"tall"		"15"
 				"weight"	"400"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
@@ -1451,7 +1451,7 @@ Scheme
 			"5"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"16"
+				"tall"		"17"
 				"weight"	"400"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
@@ -1537,7 +1537,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"6"
+				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2028,7 +2028,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"8"
+				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -2383,7 +2383,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"6"
+				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -2394,7 +2394,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"8"
+				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
 				"weight"	"400"
@@ -2407,7 +2407,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"10"
+				"tall"		"11"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
 				"weight"	"400"
@@ -2420,7 +2420,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
+				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -2432,7 +2432,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"20"
+				"tall"		"22"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"
 				"antialias" "1"
@@ -2444,7 +2444,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"20"
+				"tall"		"22"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2458,7 +2458,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"14"
+				"tall"		"16"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -2470,7 +2470,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"20"
+				"tall"		"22"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -2615,7 +2615,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"7"
+				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -3023,7 +3023,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"7"
+				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
 				"antialias" "1"
@@ -3110,7 +3110,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"7"
+				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3121,7 +3121,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"8"
+				"tall"		"9"
 				"antialias" "1"
 				"weight"	"500"
 			}
@@ -3131,7 +3131,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"8"
+				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -3188,7 +3188,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"7"
+				"tall"		"9"
 				"weight"	"500"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -3199,7 +3199,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"7"
+				"tall"		"9"
 				"weight"	"500"
 				"additive"	"1"
 				"antialias" 	"1"
@@ -3210,7 +3210,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"7"
+				"tall"		"9"
 				"weight"	"500"
 				"antialias" 	"1"
 			}
@@ -3220,7 +3220,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"7"
+				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
 				"additive"	"1"
@@ -3232,7 +3232,7 @@ Scheme
 			"1"
 			{
 				"name"		"Sofia Pro Regular"
-				"tall"		"7"
+				"tall"		"9"
 				"weight"	"500"
 				"antialias" 	"1"
 			}

@@ -162,7 +162,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		e			"FluxFontVer14"
+		"font"			"FluxFontVer14"
 		"fgcolor"		"255 255 255 220"
 		"labelText"		"%redteamname%"
 		"textAlignment"	"east"

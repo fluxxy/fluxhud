@@ -361,7 +361,7 @@ Scheme
 				"name"		"Sofia Pro Regular"
 				"tall"		"18"
 				"dropshadow"	"2"
-				"weight"	"1200"
+				"weight"	"1000"
 				"antialias"	"1"
 			}
 		}
@@ -745,5 +745,10 @@ Scheme
 	{
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2EP2.ttf"
+		"8"
+		{
+			"font" "resource/fonts/SofiaProRegular"
+			"name" "Sofia Pro Regular"
+		}
 	}
 }
