@@ -20,25 +20,25 @@ Scheme
 		"White120"				"245 245 245 120"
 		"White60"				"245 245 245 60"
 		
-		"collygray"				"39 39 40 255"
-		"collygraydarker"				"27 27 28 255"
+		"Fluxgray"				"40 40 40 255"
+		"Fluxgraydarker"				"30 30 0 255"
 		
-		"transwhite"		"255 255 255 16"
+		"transwhite"		"255 255 255 20"
 		"transblack80"		"0 0 0 80"
-		"transblack165"		"0 0 0 80"
+		"transblack165"		"0 0 0 165"
 		
-		"softgraydark"			"0 0 0 0"
-		"softgraydarkdarker"			"0 0 0 0"
-		"softred"			"0 217 139 255"
-		"softblue"			"0 217 139 255"
-		"softorange"			"0 217 139 255"
-		"softgreen"			"0 217 139 255"
-		"softgray"			"55 61 67 255"
-		"softgraydarkest"			"0 0 0 220"
-		"softgraydark"			"0 0 0 220"
+		"Flux2graydark"			"0 0 0 120"
+		"Flux2graydarkdarker"			"0 0 0 180"
+		"Flux2red"			"9 158 49 255"
+		"Flux2blue"			"9 158 49 255"
+		"Flux2orange"			"9 158 49 255"
+		"Flux2green"			"9 158 49 255"
+		"Flux2gray"			"60 60 60 255"
+		"Flux2graydarkest"			"0 0 0 220"
+		"Flux2graydark"			"0 0 0 220"
 		"OffWhite"			"white"
 		"OffWhiteTrans"			"white120"
-		"DullWhite"			"190 190 190 255"
+		"DullWhite"			"210 210 210 255"
 		"TransparentBlack"	"0 0 0 80"
 		"Black"				"0 0 0 255"
 
@@ -83,17 +83,17 @@ Scheme
 		CheckButton.DisabledBgColor	   	"153 153 153 255"
 
 		ComboBoxButton.ArrowColor		"white"
-		ComboBoxButton.ArmedArrowColor	"softred"
+		ComboBoxButton.ArmedArrowColor	"Flux2red"
 		ComboBoxButton.BgColor			"blank"
-		ComboBox.BgColor				"softred"
+		ComboBox.BgColor				"Flux2red"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
 		Frame.TitleTextInsetX			"12"
 		Frame.TitleTextInsetY			"8"
 		Frame.ClientInsetX				"6"
 		Frame.ClientInsetY				"6"
-		Frame.BgColor					"collygray"	[$WIN32]
-		Frame.OutOfFocusBgColor			"collygraydarker"	[$WIN32]
+		Frame.BgColor					"Fluxgray"	[$WIN32]
+		Frame.OutOfFocusBgColor			"Fluxgraydarker"	[$WIN32]
 		Frame.FocusTransitionEffectTime	"0.0"							// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.0"				[$WIN32]	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
@@ -134,7 +134,7 @@ Scheme
 		ListPanel.EmptyListInfoTextColor	"offwhitetrans"
 
 		Menu.TextColor					"white120"
-		Menu.BgColor					"collygraydarker"
+		Menu.BgColor					"Fluxgraydarker"
 		Menu.ArmedTextColor				"white"
 		Menu.ArmedBgColor				"transwhite"
 		Menu.TextInset					"6"
@@ -191,7 +191,7 @@ Scheme
 
 		TextEntry.TextColor			"white"
 		TextEntry.BgColor			"TransparentBlack"
-		TextEntry.CursorColor		"softgreen"
+		TextEntry.CursorColor		"Flux2green"
 		TextEntry.DisabledTextColor	"offwhitetrans"
 		TextEntry.DisabledBgColor	"TransparentBlack"
 		TextEntry.SelectedTextColor	"white"
@@ -279,8 +279,8 @@ Scheme
 		{
 		"1"
 			{
-				"name"		"Product Sans"
-				"tall"		"8"
+				"name"		"Sofia Pro Regular"
+				"tall"		"10"
 				"weight"	"0"
 				"antialias"	"1"
 				"dropshadow"	"1"
@@ -290,7 +290,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"14"
 				"weight"	"0"
 				"antialias"	"1"
@@ -300,7 +300,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"14"
 				"weight"	"0"
 				"antialias"	"1"
@@ -310,7 +310,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"14"
 				"weight"	"0"
 				"antialias"	"1"
@@ -320,7 +320,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"14"
 				"weight"	"0"
 				"antialias"	"1"
@@ -330,7 +330,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"antialias"	"1"
@@ -351,7 +351,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"15"
 				"weight"	"0"
 				"antialias"	"1"
@@ -361,7 +361,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"16"
 				"weight"	"0"
 				"antialias"	"1"
@@ -480,7 +480,7 @@ Scheme
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"15"
 				"weight"	"0"
 				"antialias"	"1"
@@ -589,7 +589,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"antialias"	"1"
@@ -693,7 +693,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"18"
 				"weight"	"0"
 				"antialias"	"1"
@@ -742,7 +742,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"antialias"	"1"
@@ -753,7 +753,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"antialias"	"1"
@@ -778,7 +778,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"antialias"	"1"
@@ -789,7 +789,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"14"
 				"weight"	"0"
 				"antialias"	"1"
@@ -801,7 +801,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"24"
 				"weight"	"0"
 				"antialias"	"1"
@@ -812,7 +812,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Sofia Pro Regular"
 				"tall"		"14"
 				"weight"	"0"
 				"antialias"	"1"
@@ -840,13 +840,13 @@ Scheme
 		"3"		"resource/marlett.ttf"
 		"9"
 		{
-			"font" 	"resource/fonts/Product Sans.ttf"
-			"name" 	"Product Sans"
+			"font" 	"resource/fonts/SofiaProRegular.ttf"
+			"name" 	"Sofia Pro Regular"
 		}
 		"10"
 		{
-			"font" 	"resource/fonts/ProductSansBold.ttf"
-			"name" 	"Product Sans Bold"
+			"font" 	"resource/fonts/SofiaProBold.ttf"
+			"name" 	"Sofia Pro Bold"
 		}
 	}
 }

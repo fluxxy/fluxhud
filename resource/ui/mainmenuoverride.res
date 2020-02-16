@@ -2308,7 +2308,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			""
+		"xpos"			"0"
 		"ypos"			"c-180"
 		"zpos"			"2"
 		"wide"			"25"
@@ -2326,6 +2326,7 @@
 		"default"		"1"
 		"Command"		"opentf2options"
 		"use_proportional_insets"	"1"
+		"tooltip" "ADV. OPTIONS"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2381,6 +2382,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"OpenAchievementsDialog"
+		"tooltip" "ACHIEVEMENTS"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -2434,6 +2436,7 @@
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"engine OpenSteamWorkshopDialog"
+		"tooltip" "WORKSHOP"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
