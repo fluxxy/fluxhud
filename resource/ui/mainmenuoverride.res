@@ -1997,16 +1997,16 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"45"
-			"ypos"			"10"
+			"xpos"			"40"
+			"ypos"			"6"
 			"zpos"			"1"
-			"wide"			"30"
-			"tall"			"30"
+			"wide"			"45"
+			"tall"			"45"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
-			"image"			"replay/thumbnails/glyph_server_browser"
+			"image"			"replay/thumbnails/softicons/server_browser"
 		}		
 
 	}
@@ -2054,14 +2054,14 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"15"
+			"xpos"			"18"
 			"ypos"			"10"
 			"zpos"			"1"
 			"wide"			"30"
 			"tall"			"30"
 			"visible"		"1"
 			"enabled"		"1"
-			"image" 		"glyph_create"
+			"image" 		"replay/thumbnails/softicons/create"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 		}		
@@ -2715,7 +2715,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"replay/thumbnails/softicons/twitch"
+				"image"			"replay/thumbnails/softicons/stream"
             }
         }
 	}

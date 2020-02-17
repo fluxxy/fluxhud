@@ -129,15 +129,15 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"cs-0.5"
-				"ypos"			"rs1-3"
+				"ypos"			"rs1-4"
 				"zpos"			"1"
 				"wide"			"15"
-				"tall"			"15"
+				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"image"			"replay/thumbnails/fuckingworkretard"
+				"image"			"replay/thumbnails/softicons/chat"
 			}
 		}
 
@@ -858,7 +858,6 @@
 			"labeltext"		"START PLAYING"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
-			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
 			"textinsety"	"0"
 			"textinsetx"	"25"
@@ -882,7 +881,7 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"5"
-				"ypos"			"rs1-3"
+				"ypos"			"rs1-4"
 				"zpos"			"1"
 				"wide"			"17"
 				"tall"			"17"
@@ -890,7 +889,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
-				"image" 		"replay/thumbnails/glyph_server"
+				"image" 		"replay/thumbnails/softicons/play"
 			}
 		}	
 	}

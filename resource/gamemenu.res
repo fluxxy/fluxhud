@@ -30,7 +30,7 @@
 		"label"			""
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-		"subimage" "replay/thumbnails/glyph_muted"
+		"subimage" "replay/thumbnails/softicons/mute"
 		"tooltip" "MUTE"
 	}
 	"CallVoteButton"
@@ -55,7 +55,7 @@
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"tooltip"		"REPORT"
-		"subimage"		"replay/thumbnails/glyph_commentary"
+		"subimage"		"replay/thumbnails/softicons/report"
 	}
 	
 	"ScoreboardButton"

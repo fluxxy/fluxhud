@@ -316,7 +316,7 @@
 		"tall"			"40"
 		"font"			"BarCrosshair"
 		"labelText"		"_"
-		"fgcolor"		"WhiteS"
+		"fgcolor"		"White"
 		"textAlignment"	"center"
 	}
 	
