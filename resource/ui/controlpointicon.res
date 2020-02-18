@@ -59,7 +59,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"productbold12"
+		"font"			"FluxFontVer12"
 		"fgcolor"			"tanlight"
 		"fgcolor_override"			"tanlight"
 		"defaultfgcolor"			"tanlight"
@@ -102,6 +102,7 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"9"
+		"wide_minmode"			"7"
 		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
@@ -111,6 +112,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"ControlPointTimer"
+		"font_minmode"	"ControlPointTimerSmaller"
 	}
 				
 	"CPTimerBG"

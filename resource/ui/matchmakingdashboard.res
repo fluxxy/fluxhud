@@ -841,7 +841,7 @@
 			"fieldName"		"FindAGameButtonStatic"
 			"xpos"			"135"			//109
 			"ypos"			"5"
-			"zpos"			"100"
+			"zpos"			"9999"
 			"wide"			"120"
 			"tall"			"f4"
 			"autoResize"	"0"
@@ -858,6 +858,7 @@
 			"labeltext"		"START PLAYING"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
+			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
 			"textinsety"	"0"
 			"textinsetx"	"25"
