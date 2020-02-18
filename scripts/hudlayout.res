@@ -15,22 +15,23 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"1"
-		"xpos"			"c-10"
-		"ypos"			"c-10"
-		"wide"			"20"
-		"tall"			"20"
+		"xpos"			"c-25"
+		"ypos"			"c-25"
+		"wide"			"50"
+		"tall"			"50"
 		"font"			"xHair"
 		"fgcolor"		"255 255 255 255"
 		"labelText"		"+"
 		"textAlignment"	"center"
 	}
 	
+	//Fog's Crosshair
 	"fogCrosshair"
 		{
 		"controlname"	"CExLabel"
 		"fieldname"	"fogCrosshair"		
 		"visible"	"0"			//1
-		"enabled"	"1"
+		"enabled"	"0"
 		"xpos"		"c-17"
 		"ypos"		"c-13"
 		"zpos"		"2"		
@@ -54,7 +55,7 @@
 		"controlname"	"CExLabel"
 		"fieldname"	"BroeselhudCrosshair1"		
 		"visible"	"0"			//1
-		"enabled"	"1"
+		"enabled"	"0"
 		"xpos"		"c-14"
 		"ypos"		"c-13"
 		"zpos"		"2"		
@@ -70,7 +71,7 @@
 		"controlname"	"CExLabel"
 		"fieldname"	"BroeselhudCrosshair2"		
 		"visible"	"0"			//1
-		"enabled"	"1"
+		"enabled"	"0"
 		"xpos"		"c-14"
 		"ypos"		"c-13"
 		"zpos"		"2"		
@@ -83,23 +84,22 @@
 	}
 	
 	
-	//Garm3n's Crosshairs
-	
-	"CrossHairNormal"
+	//Knuckles Crosshairs
+	"KnucklesCrosshair"
 	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"CrossHairNormal"
-		"visible"		"0"			//1
-		"enabled"		"1"
-		"zpos"			"1"
-		"xpos"			"c-12"
-		"ypos"			"c-15"
-		"wide"			"24"
-		"tall"			"25"
-		"font"			"CrossHairNormal"
-		"labelText"		"+"
-		"fgcolor"		"White"
-		"textAlignment"	"center"
+			"controlName"                                   "CExLabel"
+			"fieldName"                                     "KnucklesCrosshair"
+			"visible"                                       "0"
+			"enabled"                                       "1"
+			"zpos"                                          "1"
+			"xpos"                                          "c-25"
+			"ypos"                                          "c-25"
+			"wide"                                          "50"
+			"tall"                                          "50"
+			"font"                                          "size:30,outline:off"
+			"labelText"                                     "a"
+			"textAlignment"                                 "center"
+			"fgcolor"                                       "255 255 255 255"
 	}
 
 	CrossHairKonrWings
@@ -136,39 +136,6 @@
 		"textAlignment"	"center"	
 		
 		"fgcolor"		"255 255 255 255"
-	}
-	"CrossHairCircleSmaller"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"CrossHairCircleSmaller"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"2"
-		"xpos"			"c-17"
-		"ypos"			"c-16"
-		"wide"			"34"	//34
-		"tall"			"32"		
-		"font"			"CrossHairCircleSmaller"
-		"labelText"		"i"
-		"fgcolor"		"255 255 255 255"
-		"textAlignment"	"center"	
-	}
-
-	"CrossHairDotOutline"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"CrossHairDotOutline"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-		"xpos"			"c-4"
-		"ypos"			"c-3"
-		"wide"			"8"
-		"tall"			"7"
-		"font"			"CrossHairDotOutline"
-		"labelText"		"+"
-		"fgcolor"		"65 235 0 255"
-		"textAlignment"	"center"
 	}
 	
 	/////SPECIAL CROSSHAIR START
@@ -488,7 +455,10 @@
 		"fillcolor"		"255 255 255 50"
 	}
 	
-	// TF2 Positioning
+	////////////////////////////////////////////////////////
+	/////////////////// TF2 Positioning ////////////////////
+	////////////////////////////////////////////////////////
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"

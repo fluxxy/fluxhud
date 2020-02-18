@@ -745,9 +745,9 @@ Scheme
 	{
 		"1"		"resource/HALFLIFE2.ttf"
 		"2"		"resource/HL2EP2.ttf"
-		"8"
+		"3"
 		{
-			"font" "resource/fonts/SofiaProRegular"
+			"font" "resource/fonts/SofiaProRegular.ttf"
 			"name" "Sofia Pro Regular"
 		}
 	}
