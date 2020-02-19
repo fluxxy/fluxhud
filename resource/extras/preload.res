@@ -40,6 +40,16 @@
 		"image"			"../hud/cart_point_red"
 	}
 	
+	"CartPointNeutral"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartPointNeutral"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_point_neutral"
+	}
+	
 	"CartPointBlueO"
 	{
 		"ControlName"	"ImagePanel"
@@ -58,6 +68,16 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/cart_point_red_opaque"
+	}
+	
+	"CartPointNeutralO"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"CartPointNeutralO"
+		"xpos"			"9999"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/cart_point_neutral_opaque"
 	}
 	
 	"CartTrackBlue"
@@ -500,7 +520,7 @@
 		"image"			"../sprites/obj_icons/icon_obj_4_neutral_locked"
 	}
 	
-	"cpiconblu5unlock"
+		"cpiconblu5unlock"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"cpiconblu5unlock"

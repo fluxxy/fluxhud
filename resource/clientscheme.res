@@ -82,8 +82,8 @@ Scheme
 		"PartyMember5"	"255 118 108 255"
 		"PartyMember6"	"255 133 255 255"
 		
-		"Red"				"255 28 46 140"
-		"RedSolid"			"255 28 46 255"
+		"Red"				"197 28 28 140"
+		"RedSolid"			"167 28 28 255"
 		"Blue"				"15 139 255 255"
 		"Yellow"			"251 235 202 255"
 		"TransparentYellow"	"251 235 202 140"
@@ -95,11 +95,11 @@ Scheme
 		"TransparentLightBlack"	"0 0 0 90"
 		"FooterBGBlack"		"52 48 55 255"
 		
-		"HUDBlueTeam"		"11 104 191 200"
-		"HUDRedTeam"		"220 20 46 200"
+		"HUDBlueTeam"		"24 107 177 200"
+		"HUDRedTeam"		"167 24 24 200"
 		"HUDSpectator"		"124 124 124 200"
-		"HUDBlueTeamSolid"	"11 104 191 255"
-		"HUDRedTeamSolid"	"220 20 46 255"
+		"HUDBlueTeamSolid"	"24 107 177 255"
+		"HUDRedTeamSolid"	"167 24 24 255"
 		"HUDDeathWarning"	"255 0 46 255"
 		"HudWhite"			"255 255 255 255"
 		"HudOffWhite"		"255 255 255 255"
@@ -124,14 +124,14 @@ Scheme
 		"HudProgressBarActiveLow"	"240 30 30 255"
 		"HudProgressBarInActiveLow"	"240 30 30 99"	
 
-		"HudTimerProgressActive"	"251 235 202 255"
-		"HudTimerProgressInActive"	"52 48 45 255"
+		"HudTimerProgressActive"	"255 255 255 255"
+		"HudTimerProgressInActive"	"50 50 50 255"
 		"HudTimerProgressWarning"	"240 30 30 255"
 
 		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
-		"TanDark"				"117 107 94 255"
+		"TanDark"				"109 109 109 255"
 		"TanLight"				"255 255 255 255"
 		"TanDarker"				"38 38 38 255"
 		
@@ -8271,7 +8271,7 @@ Scheme
 		}
 		"15" 
 		{
-			"font" "resource/fonts/HudasIscariote2.otf"
+			"font" "resource/fonts/HudasIscariote.otf"
 			"name" "Hudas Isocariote"
 		}
 	}
