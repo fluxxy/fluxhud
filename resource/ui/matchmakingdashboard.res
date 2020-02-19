@@ -849,19 +849,19 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"west"
+			"font"			"HudFontMediumSmallBold"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"find_game"
 			"proportionaltoparent"	"1"
-			"labeltext"		"START PLAYING"
+			"labeltext"		"FIND A GAME"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
 			"textinsety"	"0"
-			"textinsetx"	"25"
+			"textinsetx"	"0"
 			"use_proportional_insets"	"1"
 
 			"defaultBgColor_override"	"207 231 241 100"
@@ -872,26 +872,6 @@
 			"depressedFgColor_override" "40 40 40 255"
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
-			
-			"image_drawcolor"	"40 40 40 255"
-			"image_armedcolor"	"255 255 255 255"
-			
-
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"5"
-				"ypos"			"rs1-4"
-				"zpos"			"1"
-				"wide"			"17"
-				"tall"			"17"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-				"proportionaltoparent"	"1"
-				"image" 		"replay/thumbnails/softicons/play"
-			}
 		}	
 	}
 }

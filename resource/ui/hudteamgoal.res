@@ -13,10 +13,10 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/death_panel_blue_bg"
+		"image"			"replay/thumbnails/bg_blue"
 		"scaleImage"		"1"
-		"teambg_2"		"../hud/death_panel_red_bg"
-		"teambg_3"		"../hud/death_panel_blue_bg"
+		"teambg_2"		"replay/thumbnails/bg_red"
+		"teambg_3"		"replay/thumbnails/bg_blue"
 	}
 	"SwitchLabel"
 	{	

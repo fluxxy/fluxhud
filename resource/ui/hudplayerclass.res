@@ -74,8 +74,8 @@
 	}
 
 	"classmodelpanelBG"
-	{
-		"ControlName"	"CTFImagePanel"
+		{
+			"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
 		"xpos"			"0"	
 		"ypos"			"r38"
@@ -86,8 +86,8 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 		"teambg_1"		"../hud/color_panel_brown"
-		"teambg_2"      "../hud/color_panel_red"
-        "teambg_3"      "../hud/color_panel_blu"
+		"teambg_2"      "replay/thumbnails/bg_red"
+        "teambg_3"      "replay/thumbnails/bg_blue"
 		
 		"src_corner_height"	"23"				// pixels inside the image
 		"src_corner_width"	"23"

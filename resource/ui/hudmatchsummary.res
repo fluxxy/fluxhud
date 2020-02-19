@@ -97,8 +97,8 @@
 		"ypos"			"r1"
 
 		"zpos"			"9002"
-		"wide"			"2000"
-		"tall"			"2000"
+		"wide"			"f0"
+		"tall"			"480"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"1"

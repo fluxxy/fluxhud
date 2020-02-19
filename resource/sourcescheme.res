@@ -17,11 +17,11 @@ Scheme
 	{
 		// base colors
 		"White"				"255 255 255 235"
-		"White120"				"255 255 255 180"
-		"White60"				"255 255 255 120"
+		"White120"				"230 230 230 255"
+		"White60"				"200 200 200 255"
 		
 		"Fluxgray"				"40 40 40 255"
-		"Fluxgraydarker"				"30 30 0 255"
+		"Fluxgraydarker"				"30 30 30 255"
 		
 		"transwhite"		"255 255 255 20"
 		"transblack80"		"0 0 0 80"
@@ -29,10 +29,10 @@ Scheme
 		
 		"Flux2graydark"			"0 0 0 120"
 		"Flux2graydarkdarker"			"0 0 0 180"
-		"Flux2red"			"9 158 49 255"
-		"Flux2blue"			"9 158 49 255"
-		"Flux2orange"			"9 158 49 255"
-		"Flux2green"			"9 158 49 255"
+		"Flux2red"			"24 107 177 255"
+		"Flux2blue"			"24 107 177 255"
+		"Flux2orange"			"24 107 177 255"
+		"Flux2green"			"24 107 177 255"
 		"Flux2gray"			"60 60 60 255"
 		"Flux2graydarkest"			"0 0 0 220"
 		"Flux2graydark"			"0 0 0 220"
