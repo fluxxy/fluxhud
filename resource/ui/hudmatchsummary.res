@@ -60,7 +60,7 @@
 
 		if_uses_xp
 		{
-			"visible"		"1"
+			"visible"		"0"
 		}
 	}
 

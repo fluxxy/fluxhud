@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Shade"
-		"xpos"			"3"
+		"xpos"			"9999"
 		"ypos"			"0"
 		"zpos"			"1000"
 		"wide"			"f0"
@@ -20,7 +20,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"TitleGradient"
-		"xpos"		"3"
+		"xpos"		"9999"
 		"ypos"		"0"
 		"wide"		"f0"
 		"tall"		"60"
@@ -39,7 +39,7 @@
 	"Gradient"
 	{
 		"ControlName"		"ImagePanel"
-		"fieldName"		"Gradient"
+		"fieldName"		"9999"
 		"xpos"		"3"
 		"ypos"		"0"
 		"wide"		"30"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"GradientRight"
-		"xpos"		"rs1"
+		"xpos"		"9999"
 		"ypos"		"0"
 		"wide"		"20"
 		"tall"		"f0"
@@ -79,20 +79,20 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"rs1"
+		"xpos"			"3"
 		"ypos"			"0"
 		"zpos"			"10000"
 		"wide"			"15"
 		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-		"command"		"nav_close"
+		"command"		"nav_close
 		"labelText"		">"
 		"textAlignment"	"east"
 		"font"			"HudFontSmallBold"
 
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"	"Blank"
+		"defaultBgColor_override"	"Blank"
 
 		"armedFgColor_override"	"Orange"
 	}
@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ReturnButton"
-		"xpos"			"3"
+		"xpos"			"9999"
 		"ypos"			"0"
 		"zpos"			"10000"
 		"wide"			"20"
@@ -113,8 +113,8 @@
 		"textAlignment"	"west"
 		"font"			"HudFontSmallBold"
 
-		"armedBgColor_override"	"0 0 0 0"
-		"defaultBgColor_override"	"0 0 0 0"
+		"armedBgColor_override"	"Blank"
+		"defaultBgColor_override"	"Blank"
 
 		"armedFgColor_override"	"Orange"
 	}
@@ -126,11 +126,11 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"f-20"
+		"wide"			"280"
+		"tall"			"480"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
-
-		"border"		"MainMenuBGBorder"
+		"bgcolor_override" "70 136 160 255"
+		"border"		"NoBorder"
 	}
 }

@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"MVMCriteria"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"1002"
 		"wide"			"420"
-		"tall"			"f70"
+		"tall"			"480"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -56,6 +56,15 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+			"defaultBgColor_override"	"8 77 102 255"
+			"armedBgColor_override"		"207 231 241 255"
+			"depressedBgColor_override"	"8 77 102 255"
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override" 	"40 40 40 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"	
 	}
 
 	"MannUpToolTipButtonHack"
@@ -103,14 +112,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"	"30 30 30 255"
-		"armedBgColor_override"		"40 40 40 255"
-		"depressedBgColor_override"	"30 30 30 255"
+		"defaultBgColor_override"	"Green"
+		"armedBgColor_override"		"FluxColorIngameButHover"
+		"depressedBgColor_override"	"Green"
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "40 40 40 255"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"	
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
 	}
 
 	"BootCampToolTipButtonHack"
@@ -158,8 +167,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
+		"defaultBgColor_override"	"Green"
+		"armedBgColor_override"		"FluxColorIngameButHover"
+		"depressedBgColor_override"	"Green"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
 	}
 
 	"NextButton"
@@ -189,6 +204,15 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+			"defaultBgColor_override"	"8 77 102 255"
+			"armedBgColor_override"		"207 231 241 255"
+			"depressedBgColor_override"	"8 77 102 255"
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override" 	"40 40 40 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"			
 	}
 
 	"JoinLateCheckButton"
@@ -216,20 +240,7 @@
 		"tall"		"20"
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Matchmaking_JoinInProgress"
+		"AllCaps"	"1"
 		"proportionaltoparent"	"1"
-	}
-			"BGPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BGPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"f-20"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
-
-		"border"		"MainMenuBGBorder"
 	}
 }

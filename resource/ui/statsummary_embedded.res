@@ -10,7 +10,7 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"60 60 60 255"
+		"bgcolor_override"	"5 59 79 255"
 	}
 	"MainBackground"
 	{

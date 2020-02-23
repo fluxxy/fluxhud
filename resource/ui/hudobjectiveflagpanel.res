@@ -185,7 +185,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"HudRedTeam"
+		"bgcolor_override"		"220 46 46 255"
 		"if_hybrid"
 		{
 			"visible"	"0"
@@ -214,7 +214,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"HudBlueTeam"
+		"bgcolor_override"		"24 107 197 255"
 		"if_hybrid"
 		{
 			"visible"	"0"

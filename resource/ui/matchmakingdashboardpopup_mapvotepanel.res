@@ -53,6 +53,7 @@
 		"actionsignallevel"	"3"
 		"paintbackground"	"1"
 		"stay_armed_on_click"	"1"
+		"AllCaps"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -75,6 +76,7 @@
 		"labelText"		"%votes%"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
+		"AllCaps"	"1"
 	}
 
 	"NameLabel"
@@ -94,5 +96,6 @@
 		"labelText"		"%mapname%"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
+		"AllCaps"	"1"
 	}
 }

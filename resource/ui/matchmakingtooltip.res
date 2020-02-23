@@ -11,7 +11,8 @@
 		"tall"			"100"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
+		"bgcolor_override"	"0 0 0 70"
 		"mouseinputenabled"	"0"
 		
 		"TipLabel"
@@ -46,7 +47,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"auto_wide_tocontents" "1"
 			"auto_tall_tocontents"	"1"
 			"wrap"	"1"

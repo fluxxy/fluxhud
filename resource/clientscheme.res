@@ -151,19 +151,19 @@ Scheme
 		
 		"BuildMenuActive"	"248 231 198 255"
 		
-		"DisguiseMenuIconRed"	"255 25 46 255"
-		"DisguiseMenuIconBlue"	"11 104 191 255"
+		"DisguiseMenuIconRed"	"167 25 24 255"
+		"DisguiseMenuIconBlue"	"24 107 177 255"
 
- 		"MatchmakingDialogTitleColor"			"200 184 151 255"
+ 		"MatchmakingDialogTitleColor"			"200 200 200 255"
  		"MatchmakingMenuItemBackground"			"46 43 42 255"
  		"MatchmakingMenuItemBackgroundActive"	"150 71 0 255"	
-		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
-		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
+		"MatchmakingMenuItemTitleColor"			"200 200 200 255"
+		"MatchmakingMenuItemDescriptionColor"	"200 200 200 255"
 		
 		"HTMLBackground"						"95 92 101 255"
 		
 		"ItemAttribLevel"						"117 107 94 255"
-		"ItemAttribNeutral"						"235 226 202 255"
+		"ItemAttribNeutral"						"White"
 		"ItemAttribPositive"					"153 204 255 255"
 		"ItemAttribNegative"					"255 64 64 255"
 
@@ -1572,11 +1572,21 @@ Scheme
                 "antialias" "1"
             }
         }
+		"FluxFontMainMenu"
+		{
+			"1"
+			{
+				"name"		"Sofia Pro Bold"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
 		"FluxFontMainMenu2"
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"10"
 				"weight"	"500"
 				"antialias" "1"
@@ -1586,8 +1596,28 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Sofia Pro Regular"
-				"tall"		"9"
+				"name"		"Sofia Pro Bold"
+				"tall"		"22"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"FluxFontMainMenu4"
+		{
+			"1"
+			{
+				"name"		"Sofia Pro Bold"
+				"tall"		"28"
+				"weight"	"500"
+				"antialias" "1"
+			}
+		}
+		"FluxFontMainMenu5"
+		{
+			"1"
+			{
+				"name"		"Sofia Pro Bold"
+				"tall"		"36"
 				"weight"	"500"
 				"antialias" "1"
 			}
@@ -2480,7 +2510,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"42"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -2493,7 +2523,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -2529,7 +2559,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -2563,7 +2593,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2574,7 +2604,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2634,7 +2664,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2645,7 +2675,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2680,7 +2710,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2691,7 +2721,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -2702,7 +2732,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -2713,7 +2743,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -2724,7 +2754,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2746,7 +2776,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -3705,7 +3735,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -3715,7 +3745,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -3801,7 +3831,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -3909,7 +3939,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -3920,7 +3950,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -3931,7 +3961,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -3942,7 +3972,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -4008,7 +4038,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -4019,7 +4049,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -4464,7 +4494,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -4475,7 +4505,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -4499,7 +4529,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -4527,7 +4557,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -4538,7 +4568,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -4575,7 +4605,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -4586,7 +4616,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -4599,7 +4629,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Open Sans ExtraBold"
+				"name"		"Sofia Pro Bold"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -4677,6 +4707,39 @@ Scheme
 	Borders
 	{
 		// FluxHUD Borders
+		FluxBorderBlueDark
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bg_darkblue"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
+		}
+		FluxBorderBlueMid
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bg_midblue"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
+		}
+		FluxBorderBlueLight
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/thumbnails/bg_lightblue"
+			"src_corner_height"		"32"
+			"src_corner_width"		"32"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
+		}		
 		FluxBorderMainButton
 		{
 			"inset" "0 0 1 1"
@@ -4868,27 +4931,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "4 1"
 				}
 			}
@@ -4896,27 +4959,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "4 1"
 				}
 			}
@@ -4924,27 +4987,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "4 1"
 				}
 			}
@@ -4952,27 +5015,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "5 59 79 255"
 					"offset" "4 1"
 				}
 			}
@@ -4984,27 +5047,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "4 1"
 				}
 			}
@@ -5012,27 +5075,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "4 1"
 				}
 			}
@@ -5040,27 +5103,27 @@ Scheme
 			{
 				"1"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "0 1"
 				}
 				"2"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "1 1"
 				}
 				"3"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "2 1"
 				}
 				"4"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "3 1"
 				}
 				"5"
 				{
-					"color" "FluxColorMainGrey"
+					"color" "207 231 241 255"
 					"offset" "4 1"
 				}
 			}
@@ -8273,6 +8336,11 @@ Scheme
 		{
 			"font" "resource/fonts/HudasIscariote.otf"
 			"name" "Hudas Isocariote"
+		}
+		"16"
+		{
+			"font" "resource/fonts/SofiaProBold.ttf"
+			"name" "Sofia Pro Bold"
 		}
 	}
 }

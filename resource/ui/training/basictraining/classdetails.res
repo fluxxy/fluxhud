@@ -23,13 +23,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
 	}
 	
 	"OverlayPanel"
@@ -45,8 +48,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"paintbackground"	"1"
-		"bgcolor_override"	"40 37 37 255"
-		"border"			"ButtonBorder"
+		"bgcolor_override"	"20 20 20 255"
+		"border"			"NoBorder"
 		
 		"ClassNameLabel"
 		{
@@ -54,6 +57,7 @@
 			"fieldName"		"ClassNameLabel"
 			"font"			"HudFontMediumBold"
 			"labelText"		"%classname%"
+			"AllCaps"		"1"
 			"textAlignment"	"left"
 			"xpos"			"10"
 			"ypos"			"0"
@@ -99,7 +103,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "116 108 101 255"
+			"fgcolor_override" "White"
 		}
 		
 		"WeaponImage0"
@@ -147,6 +151,7 @@
 			"fieldName"		"PrimaryLabel"
 			"font"			"HudFontSmallest"
 			"labelText"		"#TR_Primary"
+			"AllCaps"		"1"
 			"textAlignment"	"center"
 			"xpos"			"15"
 			"ypos"			"175"
@@ -164,6 +169,7 @@
 			"fieldName"		"SecondaryLabel"
 			"font"			"HudFontSmallest"
 			"labelText"		"#TR_Secondary"
+			"AllCaps"		"1"
 			"textAlignment"	"center"
 			"xpos"			"115"
 			"ypos"			"175"
@@ -181,6 +187,7 @@
 			"fieldName"		"MeleeLabel"
 			"font"			"HudFontSmallest"
 			"labelText"		"#TR_Melee"
+			"AllCaps"		"1"			
 			"textAlignment"	"center"
 			"xpos"			"215"
 			"ypos"			"175"

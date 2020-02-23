@@ -54,6 +54,16 @@
 		"Command"		"goprev"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
 	}	
 	
 	"NextButton"
@@ -79,6 +89,17 @@
 		"Command"		"gonext"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
+		
 	}	
 	
 	"GameModeLabel"
@@ -87,6 +108,7 @@
 		"fieldName"		"GameModeLabel"
 		"font"			"HudFontMediumSmallBold"
 		"labelText"		"%gamemode%"
+		"AllCaps"		"1"
 		"textAlignment"	"center"
 		"xpos"			"60"
 		"ypos"			"10"
@@ -97,7 +119,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"83 75 66 255"
+		"fgcolor_override"	"20 20 20 255"
 	}
 	
 	"CurPageLabel"
@@ -106,6 +128,7 @@
 		"fieldName"		"CurPageLabel"
 		"font"			"HudFontSmallBold"
 		"labelText"		"%curpage%"
+		"AllCaps"		"1"
 		"textAlignment"	"north"
 		"xpos"			"70"
 		"ypos"			"10"
@@ -117,7 +140,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override"	"83 75 66 255"
+		"fgcolor_override"	"20 20 20 255"
 	}
 	
 	"DescLabel"
@@ -136,7 +159,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"83 75 66 255"
+		"fgcolor_override"	"20 20 20 255"
 	}
 	
 	"SelectCurrentGameModeButton"
@@ -161,14 +184,16 @@
 		"Command"			"selectcurrentgamemode"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"	
 	}
 	
 }

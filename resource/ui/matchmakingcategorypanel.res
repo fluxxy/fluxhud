@@ -5,12 +5,12 @@
 		"fieldName"				"MatchmakingCategoryPanel"
 		"xpos"					"0"
 		"ypos"					"0"
-		"wide"					"f0"
+		"wide"					"250"
 		"tall"					"50"
 		"proportionaltoparent"	"1"
 
 		"collapsed_height"	"57"
-		"resize_time"	"0.2"
+		"resize_time"	"0"
 	
 	}
 
@@ -41,7 +41,7 @@
 			"mouseinputenabled"	"0"
 		
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"0 0 0 255"
+			"bgcolor_override"	"Blank"
 		}
 
 		"BGImage"
@@ -51,8 +51,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"o4"
-			"tall"			"f0"
+			"wide"							"250"
+			"tall"							"f0"
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"	
@@ -76,23 +76,23 @@
 			"textAlignment"	"west"
 			"font"	"FluxFontVer9"
 			"textinsetx"	"40"
+			"AllCaps"	"1"
 
 			"stay_armed_on_click"	"1"
-
-			"border_default"	"NoBorder"
-			"defaultBgColor_override"	"235 226 202 20"
-
-			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"LightOrange"
-			"selectedBGColor_override" "Orange"
+			"button_activation_type"	"1"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"paintbackground"				"1"
+			"paintborder"					"0"
+			
+			"defaultBgColor_override"	"0 0 0 200"
+			"armedBgColor_override"	"LightOrange"
+			"selectedBGColor_override" "Orange"
 
 			"image_default"	"glyph_expand"
-
-			"button_activation_type"	"1"
 
 			"SubImage"
 			{
@@ -115,11 +115,11 @@
 		{
 			"fieldName"			"Shade"
 			"ControlName"		"EditablePanel"
-			"xpos"				"cs-0.5"
+			"xpos"				"9999"
 			"ypos"				"0"
 			"zpos"				"0"
-			"wide"				"f0"
-			"tall"				"57"
+			"wide"				"250"
+			"tall"				"20"
 			"mouseinputenabled"	"0"
 
 			"proportionaltoparent"	"1"
@@ -157,40 +157,23 @@
 			"labelText"		"%title_token%"
 			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
+			"font"			"FluxFontMainMenu"
 			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
+			"AllCaps"						"1"
 
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 		}	
 
 		"TitleShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleShadow"
-			"xpos"			"rs1-23"
-			"ypos"			"3"
-			"zpos"			"2"
-			"wide"			"200"
-			"tall"			"15"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%title_token%"
-			"textinsetx"	"5"
-			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"east"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"proportionaltoparent" "1"
-			"mouseinputenabled"	"0"
-
-			"fgcolor_override"		"Black"
+			"xpos"			"9999"
 		}
 
 		"DescLabel"
@@ -200,7 +183,7 @@
 			"font"			"FluxFontVer9"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
-			"xpos"			"rs1-5"
+			"xpos"			"9999"
 			"ypos"			"18"
 			"zpos"			"2"
 			"wide"			"120"
@@ -223,20 +206,7 @@
 			"font"			"FluxFontVer9"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
-			"xpos"			"rs1-4"
-			"ypos"			"19"
-			"zpos"			"1"
-			"wide"			"120"
-			"tall"			"40"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-
-			"wrap"			"1"
-			"fgcolor_override" "Black"
-			"proportionaltoparent" "1"
-			"mouseinputenabled"	"0"
+			"xpos"			"9999"
 		}
 	}
 
@@ -244,14 +214,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlaylistBGPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"p1.17-2"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"p1.5"
-		"tall"			"1000"
-		"visible"		"1"
+		"tall"			"0"
+		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"InnerShadowBorder"
+		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}
@@ -269,13 +239,13 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
-		"border"		"InnerShadowBorder"
+		"border"		"NoBorder"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
 
 		"skip_autoresize"	"1"
 
-		"bgcolor_override"	"0 0 0 200"
+		"bgcolor_override"	"0 0 0 0"
 	}
 }

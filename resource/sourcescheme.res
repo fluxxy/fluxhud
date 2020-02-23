@@ -1,105 +1,111 @@
-///////////////////////////////////////////////////////////
-// Tracker scheme resource file
 //
-// sections:
-//		Colors			- all the colors used by the scheme
-//		BaseSettings	- contains settings for app to use to draw controls
-//		Fonts			- list of all the fonts used by app
-//		Borders			- description of all the borders
-//
-///////////////////////////////////////////////////////////
+#base "SourceSchemeBase.res"
 Scheme
 {
-	//////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
 	Colors
 	{
-		// base colors
-		"White"				"255 255 255 235"
-		"White120"				"230 230 230 255"
-		"White60"				"200 200 200 255"
-		
-		"Fluxgray"				"40 40 40 255"
-		"Fluxgraydarker"				"30 30 30 255"
-		
-		"transwhite"		"255 255 255 20"
-		"transblack80"		"0 0 0 80"
-		"transblack165"		"0 0 0 165"
-		
-		"Flux2graydark"			"0 0 0 120"
-		"Flux2graydarkdarker"			"0 0 0 180"
-		"Flux2red"			"24 107 177 255"
-		"Flux2blue"			"24 107 177 255"
-		"Flux2orange"			"24 107 177 255"
-		"Flux2green"			"24 107 177 255"
-		"Flux2gray"			"60 60 60 255"
-		"Flux2graydarkest"			"0 0 0 220"
-		"Flux2graydark"			"0 0 0 220"
-		"OffWhite"			"white"
-		"OffWhiteTrans"			"white120"
-		"DullWhite"			"230 230 230 255"
-		"TransparentBlack"	"0 0 0 80"
-		"Black"				"0 0 0 255"
-
+		// FluxHUD		
+		"White"				"255 255 255 255"
+		"OffWhite"			"230 230 230 255"
+		"DullWhite"			"200 200 200 255"
+		"TransparentBlack"		"0 0 0 60"
+		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
+		"FluxBlue"			"24 107 177 255"
+		"FluxBlueLight"		"128 204 255 255"
+		"FluxBlueDark"		"0 70 118 255"
+		"FluxBlack"			"0 0 0 255"
+		"FluxBlackTran"		"0 0 0 120"
+		"FluxButtonHover"		"24 107 177 128"
+		
+		// TF2
+	    "TFDarkBrown"               "60 56 53 255"
+	    "TFDarkBrownTransparent"    "60 56 53 190"
+	    "TFTanBright"               "236 227 203 150"
+	    "TFTanLight"                "201 188 162 150"
+	    "TFTanMedium"               "131 121 104 150"
+	    
+	    "TFTanLightBright"          "229 223 211 90"
+	    "TFTanLightDark"            "96 90 78 90"
+	    
+	    "TFOrangeBright"            "156 82 33 255"
+	    
+	    "TFTextBright"              "251 236 203 150"
+	    "TFTextLight"               "201 188 162 255"
+	    "TFTextMedium"              "131 121 104 255"
+	    "TFTextMediumDark"          "104 96 83 255"
+	    "TFTextBlack"               "42 39 37 255"
+	    "TFTextDull"                "131 121 104 255"
 
-		"SteamLightGreen"			"157 194 80 255"
-		"AchievementsLightGrey"		"62 148 244 255"
-		"AchievementsDarkGrey"		"2 2 2 105"
-		"AchievementsInactiveFG"	"206 207 215 255"
+	    "TFMediumBrown"		"69 64 58 255"
+
+	    "QuickListBGDeselected"		"69 64 58 255"
+	    "QuickListBGSelected"               "131 121 104 150"
+	    
+	    "Blank"				"0 0 0 0"
+
+		"ControlBG"			"85 85 85 255"		// background color of controls
+		"ControlDarkBG"		"80 80 80 255"		// darker background color; used for background of scrollbars
+		"WindowBG"			"60 60 60 255"		// background color of text edit panes (chat, text entries, etc.)
+		"SelectionBG"		"70 70 70 255"		// background color of any selected text or menu item
+		"SelectionBG2"		"70 70 70 255"		// selection background in window w/o focus
+		"ListBG"			"40 40 40 255"		// background of server browser, buddy list, etc.
 	}
-
-	///////////////////// BASE SETTINGS ////////////////////////
-	//
-	// default settings for all panels
-	// controls use these to determine their settings
 	BaseSettings
 	{
-		// vgui_controls color specifications
+		// scheme-specific colors
 		Border.Bright					"blank"	// the lit side of a control
 		Border.Dark						"blank"		// the dark/unlit side of a control
 		Border.Selection				"blank"			// the additional border color for displaying the default/selected button
 		Border.DarkSolid				"blank"
 		Border.Subtle					"blank"
 
-		Button.TextColor				"white120"
-		Button.BgColor					"transblack165"
-		Button.ArmedTextColor			"white"
-		Button.ArmedBgColor				"transwhite"
+		Button.TextColor				"DullWhite"
+		Button.BgColor					"FluxBlackTran"
+		Button.ArmedTextColor			"White"
+		Button.ArmedBgColor				"FluxButtonHover"
 		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor			"blank"
-		Button.FocusBorderColor			"82 82 82 0"
-
-		CheckButton.TextColor			"white60"
+		Button.DepressedBgColor			"Blank"
+		Button.FocusBorderColor			"Blank"
+		
+		CheckButton.TextColor			"OffWhite"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"blank" 		// the left checkbutton border
-		CheckButton.Border2  			"blank"		// the right checkbutton border
-		CheckButton.Check				"white"	// color of the check itself
-		CheckButton.HighlightFgColor	"white"
-		CheckButton.ArmedBgColor		"Blank"
+		CheckButton.HighlightFgColor	"White"
+		CheckButton.ArmedBgColor		"FluxBlue"
 		CheckButton.DepressedBgColor	"Blank"
-		CheckButton.DisabledBgColor	   	"153 153 153 255"
+		CheckButton.Border1  			"Blank"
+		CheckButton.Border2  			"Blank"
+		CheckButton.Check				"White"
+		CheckButton.DisabledBgColor	   	"150 150 150 255"
 
-		ComboBoxButton.ArrowColor		"white"
-		ComboBoxButton.ArmedArrowColor	"Flux2red"
-		ComboBoxButton.BgColor			"blank"
-		ComboBox.BgColor				"Flux2red"
+		ToggleButton.SelectedTextColor	"White"
+		
+		ComboBoxButton.ArrowColor		"White"
+		ComboBoxButton.ArmedArrowColor	"FluxBlue"
+		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
-
+		ComboBox.BgColor				"FluxBlue"
+		
+		RadioButton.TextColor			"DullWhite"
+		RadioButton.SelectedTextColor	"White"
+		RadioButton.ArmedTextColor		"FluxBlue"
+		
+		Frame.BgColor					"40 40 40 255"
+		Frame.OutOfFocusBgColor			"0 0 0 180"
+		FrameGrip.Color1				"255 255 255 50"
+		FrameGrip.Color2				"255 255 255 50"
+		FrameTitleButton.FgColor		"255 255 255 120"
+		FrameTitleBar.Font				"UiBold"
+		FrameTitleBar.TextColor			"White"
+		FrameTitleBar.DisabledTextColor	"255 255 255 60"
 		Frame.TitleTextInsetX			"12"
 		Frame.TitleTextInsetY			"8"
-		Frame.ClientInsetX				"6"
 		Frame.ClientInsetY				"6"
-		Frame.BgColor					"Fluxgray"	[$WIN32]
-		Frame.OutOfFocusBgColor			"Fluxgraydarker"	[$WIN32]
-		Frame.FocusTransitionEffectTime	"0.0"							// time it takes for a window to fade in/out on focus/out of focus
-		Frame.TransitionEffectTime		"0.0"				[$WIN32]	// time it takes for a window to fade in/out on open/close
+		Frame.ClientInsetX				"6"
+		Frame.FocusTransitionEffectTime	"0.0"
+		Frame.TransitionEffectTime		"0.0"
 		Frame.AutoSnapRange				"0"
-		FrameGrip.Color1				"transwhite"
-		FrameGrip.Color2				"transwhite"
-		FrameTitleButton.FgColor		"OffWhiteTrans"
 		FrameTitleButton.BgColor		"Blank"
 		FrameTitleButton.DisabledFgColor	"255 255 255 192"
 		FrameTitleButton.DisabledBgColor	"Blank"
@@ -107,144 +113,121 @@ Scheme
 		FrameSystemButton.BgColor		"Blank"
 		FrameSystemButton.Icon			""
 		FrameSystemButton.DisabledIcon	""
-		FrameTitleBar.Font				"UiBold"		[$WIN32]
-		FrameTitleBar.TextColor			"white120"
-		FrameTitleBar.BgColor			"Blank"
-		FrameTitleBar.DisabledTextColor	"white60"
+		FrameTitleBar.BgColor			"0 0 0 210"
 		FrameTitleBar.DisabledBgColor	"Blank"
-
-		GraphPanel.FgColor				"205 205 205 255"
-		GraphPanel.BgColor				"TransparentBlack"
-
-		Label.TextDullColor             "OffWhite"
-		Label.TextColor					"DullWhite"
+		
+		Label.TextDullColor				"DullWhite"
+		Label.TextColor					"OffWhite"
 		Label.TextBrightColor			"White"
 		Label.SelectedTextColor			"White"
 		Label.BgColor					"Blank"
-		Label.DisabledFgColor1			"offwhitetrans"
-		Label.DisabledFgColor2			"50 50 50 0"
-
-		ListPanel.TextColor					"white120"
+		Label.DisabledFgColor1			"255 255 255 200"
+		Label.DisabledFgColor2			"30 30 30 255"
+		
 		ListPanel.TextBgColor				"Blank"
-		ListPanel.BgColor					"0 0 0 80"
-		ListPanel.SelectedTextColor			"white"
-		ListPanel.SelectedBgColor			"transwhite"
-		ListPanel.OutOfFocusSelectedTextColor	"white120"
-		ListPanel.SelectedOutOfFocusBgColor		"255 255 255 6"
-		ListPanel.EmptyListInfoTextColor	"offwhitetrans"
-
-		Menu.TextColor					"white120"
-		Menu.BgColor					"Fluxgraydarker"
-		Menu.ArmedTextColor				"white"
-		Menu.ArmedBgColor				"transwhite"
+		ListPanel.SelectedTextColor			"White"
+		ListPanel.EmptyListInfoTextColor	"DullWhite"
+		ListPanel.TextColor					"OffWhite"
+		ListPanel.BgColor					"TransparentBlack"
+		ListPanel.SelectedBgColor			"FluxBlue"
+		ListPanel.SelectedOutOfFocusBgColor	"255 255 255 8"
+		ListPanel.OutOfFocusSelectedTextColor	"255 255 255 120"
+		
+		MainMenu.TextColor			"White"
+		MainMenu.ArmedTextColor		"FluxBlue"
+		MainMenu.Inset				"32"
+		MainMenu.DepressedTextColor	"150 150 150 128"
+		MainMenu.MenuItemHeight		"20"
+		MainMenu.Backdrop			"0 0 0 25"
+		
 		Menu.TextInset					"6"
+		Menu.TextColor					"OffWhite"
+		Menu.FgColor					"White"
+		Menu.BgColor					"30 30 30 200"
+		Menu.ArmedFgColor				"White"
+		Menu.ArmedBgColor				"60 60 60 255"
+		
+		ScrollBarButton.FgColor				"White"
+		ScrollBarButton.BgColor				"Blank"
+		ScrollBarButton.ArmedFgColor		"White"
+		ScrollBarButton.ArmedBgColor		"Blank"
+		ScrollBarButton.DepressedFgColor	"White"
+		ScrollBarButton.DepressedBgColor	"Blank"
 
+		ScrollBarSlider.FgColor				"0 0 0 150"
+		ScrollBarSlider.BgColor				"Blank"
+		ScrollBarSlider.border				"Blank"			// nob color		
+		
+		ScrollBar.Wide					16
+		
+		SectionedListPanel.HeaderTextColor				"White"
+		SectionedListPanel.HeaderBgColor				"TransparentBlack"
+		SectionedListPanel.DividerColor					"TransparentBlack"
+		SectionedListPanel.TextColor					"DullWhite"
+		SectionedListPanel.BrightTextColor				"White"
+		SectionedListPanel.BgColor						"TransparentBlack"
+		SectionedListPanel.SelectedTextColor			"White"
+		SectionedListPanel.SelectedBgColor				"255 255 255 30"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"255 255 255 120"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 15"
+		
+		Slider.NobColor				"White"
+		Slider.TextColor			"180 180 180 255"
+		Slider.TrackColor			"31 31 31 255"
+		Slider.DisabledTextColor1	"117 117 117 255"
+		Slider.DisabledTextColor2	"30 30 30 255"
+		
+		TextEntry.TextColor			"OffWhite"
+		TextEntry.DisabledTextColor	"DullWhite"
+		TextEntry.SelectedBgColor	"255 255 255 16"
+		TextEntry.BgColor			"TransparentBlack"
+		TextEntry.CursorColor		"FluxBlue"
+		TextEntry.DisabledBgColor	"TransparentBlack"
+		TextEntry.SelectedTextColor	"White"
+		TextEntry.OutOfFocusSelectedBgColor	"255 255 255 8"
+		TextEntry.FocusEdgeColor	"0 0 0 196"
+		
+		ToggleButton.SelectedTextColor	"White"
+		
+		Tooltip.TextColor			"110 102 60 255"
+		Tooltip.BgColor				"DullWhite"
+		
+		TreeView.BgColor			"TransparentBlack"
+		
+		WizardSubPanel.BgColor		"Blank"
+		
+		GraphPanel.FgColor				"DullWhite"
+		GraphPanel.BgColor				"TransparentBlack"		
+		
 		Panel.FgColor					"DullWhite"
-		Panel.BgColor					"0 0 0 0"
-
+		Panel.BgColor					"Blank"
+		
 		ProgressBar.FgColor				"White"
 		ProgressBar.BgColor				"TransparentBlack"
-
-		PropertySheet.TextColor				"white"
-		PropertySheet.SelectedTextColor		"white"
+		
+		PropertySheet.TextColor				"White"
+		PropertySheet.SelectedTextColor		"White"
 		PropertySheet.SelectedBgColor		"10 10 10 0"
 		PropertySheet.TransitionEffectTime	"0.0"	// time to change from one tab to another
 		PropertySheet.BgColor				"0 0 0 80"
-
-		RadioButton.TextColor			"OffWhite"
-		RadioButton.SelectedTextColor	"White"
-
-		RichText.TextColor				"white120"
-		RichText.BgColor				"transblack80"
-		RichText.SelectedTextColor		"white"
-		RichText.SelectedBgColor		"transwhite"
-
-		ScrollBar.Wide					16
-
-		ScrollBarButton.FgColor				"blank"
-		ScrollBarButton.BgColor				"blank"
-		ScrollBarButton.ArmedFgColor		"0 0 0 0"
-		ScrollBarButton.ArmedBgColor		"blank"
-		ScrollBarButton.DepressedFgColor	"0 0 0 0"
-		ScrollBarButton.DepressedBgColor	"blank"
-
-		ScrollBarSlider.FgColor				"0 0 0 80"			// nob color
-		ScrollBarSlider.border				"blank"			// nob color
-		ScrollBarSlider.BgColor				"blank"	// slider background color
-
-		SectionedListPanel.HeaderTextColor	"white"
-		SectionedListPanel.HeaderBgColor	"TransparentBlack"
-		SectionedListPanel.DividerColor		"TransparentBlack"
-		SectionedListPanel.TextColor		"white"
-		SectionedListPanel.BrightTextColor	"white"
-		SectionedListPanel.BgColor			"TransparentBlack"
-		SectionedListPanel.SelectedTextColor			"white"
-		SectionedListPanel.SelectedBgColor				"255 255 255 16"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"white120"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"255 255 255 8"
-
-		Slider.NobColor				"white"
-		Slider.TextColor			"white60"
-		Slider.TrackColor			"0 0 0 80"
-		Slider.DisabledTextColor1	"110 110 110 255"
-		Slider.DisabledTextColor2	"50 50 50 255"
-
-		TextEntry.TextColor			"white"
-		TextEntry.BgColor			"TransparentBlack"
-		TextEntry.CursorColor		"Flux2green"
-		TextEntry.DisabledTextColor	"offwhitetrans"
-		TextEntry.DisabledBgColor	"TransparentBlack"
-		TextEntry.SelectedTextColor	"white"
-		TextEntry.SelectedBgColor	"255 255 255 16"
-		TextEntry.OutOfFocusSelectedBgColor	"255 255 255 8"
-		TextEntry.OutOfFocusSelectedtextColor	"white60"
-		TextEntry.FocusEdgeColor	"0 0 0 196"
-
-		ToggleButton.SelectedTextColor	"White"
-
-		Tooltip.TextColor			"110 102 60 255"
-		Tooltip.BgColor				"249 238 181 255"
-
-		TreeView.BgColor			"TransparentBlack"
-
-		WizardSubPanel.BgColor		"Blank"
-
-		// scheme-specific colors
-		MainMenu.TextColor			"White"				[$WIN32]
-		MainMenu.ArmedTextColor		"200 200 200 255"	[$WIN32]
-		MainMenu.DepressedTextColor	"192 186 80 255"
-		MainMenu.MenuItemHeight		"20"				[$WIN32]
-		MainMenu.Inset				"32"
-		MainMenu.Backdrop			"0 0 0 25"
-
+		
+		RichText.TextColor				"DullWhite"
+		RichText.BgColor				"TransparentBlack"
+		RichText.SelectedTextColor		"White"
+		RichText.SelectedBgColor		"255 255 255 30"
+				
 		Console.TextColor			"OffWhite"
-		Console.DevTextColor		"OffWhite"
-
+		Console.DevTextColor		"White"
+		
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"Black"
-		NewGame.SelectionColor		"Orange"	[$WIN32]
-		NewGame.SelectionColor		"Black"		[$X360]
+		NewGame.SelectionColor		"Black"
 		NewGame.DisabledColor		"128 128 128 196"
-
-		MessageDialog.MatchmakingBG			"22 22 22 255"	[$X360]
-		MessageDialog.MatchmakingBGBlack			"22 0 0 0 5"	[$X360]
-
-		MatchmakingMenuItemTitleColor			"200 184 151 255"	[$X360]
-		MatchmakingMenuItemDescriptionColor		"200 184 151 255"	[$X360]
-
+		
 		"QuickListBGDeselected"		"TransparentBlack"
-		"QuickListBGSelected"		"AchievementsLightGrey"
+		"QuickListBGSelected"		"62 148 244 255"
 	}
-
-	//////////////////////// BITMAP FONT FILES /////////////////////////////
-	//
-	// Bitmap Fonts are ****VERY*** expensive static memory resources so they are purposely sparse
-	BitmapFontFiles
-	{
-		// UI buttons, custom font, (256x64)
-		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
-	}
-
+	
 	//////////////////////// FONTS /////////////////////////////
 	//
 	// describes all the fonts
@@ -820,8 +803,7 @@ Scheme
 		}
 
 	}
-
-	//
+	
 	//////////////////// BORDERS //////////////////////////////
 	//
 	// describes all the border types

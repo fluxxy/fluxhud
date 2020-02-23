@@ -45,8 +45,8 @@
 		"image"				"loadout_header"
 		"scaleImage"		"0"
 		"teambg_1"			"../hud/color_panel_brown"
-		"teambg_2"			"../HUD/tournament_panel_red"
-		"teambg_3"			"../HUD/tournament_panel_blu"
+		"teambg_2"			"replay/thumbnails/bg_red"
+		"teambg_3"			"replay/thumbnails/bg_blue"
 	
 		"src_corner_height"		"15"				// pixels inside the image
 		"src_corner_width"		"15"

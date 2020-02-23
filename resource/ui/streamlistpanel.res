@@ -25,7 +25,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"PaintBackgroundType" "2"
+			"PaintBackgroundType" "0"
 			"fgcolor_override"	"White"
 			"bgcolor_override"	"40 40 40 255"
 		}
@@ -100,7 +100,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"56 53 49 255"
+		"fgcolor"		"20 20 20 255"
 	}
 
 	"Stream1"
@@ -204,7 +204,10 @@
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-			
+		
+		"PaintBackgroundType" "2"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"			
 		"defaultFgColor_override" "White"
 		"defaultBgColor_override" "40 40 40 255"
 		"armedFgColor_override" "White"

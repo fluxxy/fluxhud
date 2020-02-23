@@ -31,7 +31,8 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"border"		"OuterShadowBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"		"FluxColorGreyDark"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"0"
@@ -49,7 +50,8 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"		"FluxColorGreyDark"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"2"
 
@@ -69,6 +71,7 @@
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_NextMapWinner"
 				"proportionaltoparent"	"1"
+				"AllCaps"	"1"
 			}
 
 			"MapImageClip"

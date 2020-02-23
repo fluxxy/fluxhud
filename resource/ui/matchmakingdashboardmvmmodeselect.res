@@ -6,19 +6,38 @@
 	{
 		"fieldName"		"MVMModeSelect"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"1002"
-		"wide"			"270"
-		"tall"			"f70"
+		"wide"			"280"
+		"tall"			"480"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
+	}
+	
+	"Title"
+	{
+		"ControlName"						"Label"
+		"fieldName"							"Title"
+		"xpos"								"0"
+		"ypos"								"10"
+		"zpos"								"99"
+		"wide"								"f0"
+		"tall"								"20"
+		"proportionaltoparent"				"1"
+		"labeltext"							"Mann vs. Machine"
+		"textAlignment"						"center"
+		"font"								"FluxFontMainMenu5"
+		"fgcolor_override"					"White"
+		"AllCaps"							"1"
+		
+		"mouseinputenabled"					"0"
 	}
 
 	"MvMLogoImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MvMLogoImage"
-		"xpos"			"30"
+		"xpos"			"9999"
 		"ypos"			"-5"
 		"zpos"			"2"
 		"wide"			"o2"
@@ -26,7 +45,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
-		"image"			"mvm/mvm_logo"
+		"image"			""
 		"scaleImage"	"1"
 	}
 
@@ -41,22 +60,6 @@
 		"tall"		"215"
 		"visible"	"1"
 		"enabled"	"1"
-
-		"DropShadow"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"DropShadow"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"101"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"InnerShadowBorder"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
-		}
 
 		"MannUpImage"
 		{
@@ -73,26 +76,6 @@
 			"image"			"mvm/mannup"
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
-		}
-
-		"Gradient"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"Gradient"
-			"xpos"		"0"
-			"ypos"		"rs1"
-			"wide"		"f0"
-			"tall"		"100"
-			"zpos"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"rotation"		"0"
-			"proportionaltoparent"	"1"
-			"scaleimage"	"1"
-			"mouseinputenabled"	"0"
-			"alpha"		"255"
-
-			"image"		"gradient_pure_black"
 		}
 
 		"PlayNowButton"
@@ -117,18 +100,19 @@
 			"Command"		"mannup"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-
-			"NavUp"			"Sheet"
-			"NavDown"		"BackButton"
-			"NavLeft"		"Sheet"
-			"NavRight"		"PracticeButton"
+			"AllCaps"						"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultBgColor_override"	"8 77 102 255"
+			"armedBgColor_override"		"207 231 241 255"
+			"depressedBgColor_override"	"8 77 102 255"
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override" 	"40 40 40 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"	
 		}
 
 		"PlayForBraggingRightsExplanation"
@@ -147,6 +131,19 @@
 			"wrap" "1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
+			"AllCaps"						"1"
+		}
+		"DropShadow"
+		{
+			"ControlName"					"EditablePanel"
+			"fieldName"						"DropShadow"
+			"xpos"							"9999"
+		}
+		"Gradient"
+		{
+			"ControlName"					"ImagePanel"
+			"fieldName"						"Gradient"
+			"xpos"							"9999"
 		}
 	}
 
@@ -167,16 +164,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"DropShadow"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"101"
-			"wide"			"f0"
-			"tall"			"f0"
-			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"InnerShadowBorder"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
+			"xpos"			"9999"
 		}
 
 		"BootcampImage"
@@ -200,20 +188,7 @@
 		{
 			"ControlName"		"ImagePanel"
 			"fieldName"		"Gradient"
-			"xpos"		"0"
-			"ypos"		"rs1"
-			"wide"		"f0"
-			"tall"		"100"
-			"zpos"	"1"
-			"visible"		"1"
-			"enabled"		"1"
-			"rotation"		"0"
-			"proportionaltoparent"	"1"
-			"scaleimage"	"1"
-			"mouseinputenabled"	"0"
-			"alpha"		"255"
-
-			"image"		"gradient_pure_black"
+			"xpos"		"9999"
 		}
 
 		"PracticeButton"
@@ -237,19 +212,20 @@
 			"brighttext"	"0"
 			"Command"		"bootcamp"
 			"actionsignallevel"	"2"
+			"AllCaps"						"1"
 			"proportionaltoparent"	"1"
-
-			"NavUp"			"Sheet"
-			"NavDown"		"LearnMoreButton"
-			"NavLeft"		"PlayNowButton"
-			"NavRight"		"StartPartyButton"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultFgColor_override"	"TanLight"
-			"armedFgColor_override"		"TanLight"
-			"depressedFgColor_override" "TanLight"
+			"defaultBgColor_override"	"8 77 102 255"
+			"armedBgColor_override"		"207 231 241 255"
+			"depressedBgColor_override"	"8 77 102 255"
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override" 	"40 40 40 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"	
 		}
 
 		"PlayOnCommunityServerExplanation"
@@ -268,6 +244,7 @@
 			"wrap" "1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
+			"AllCaps"						"1"
 		}
 	}
 }

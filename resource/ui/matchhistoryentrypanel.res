@@ -8,7 +8,7 @@
 		"wide"		"f0"
 		"tall"		"17"
 		"proportionaltoparent"	"1"
-		"resize_time"	"0.2"
+		"resize_time"	"0"
 	}
 
 	"Container"
@@ -41,7 +41,7 @@
 			"defaultBgColor_override"	"0 0 0 0"
 
 			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"235 226 202 20"
+			"armedBgColor_override"	"0 0 0 180"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
@@ -62,8 +62,9 @@
 			
 			"labeltext"			"#TF_Competitive_MatchHistory_Win"
 			"font"				"HudFontSmallestBold"
-			"fgcolor_override"	"95 164 44 255"
+			"fgcolor_override"	"Green"
 			"textAlignment"		"west"
+			"AllCaps"	"1"
 		}
 
 		"LossLabel"
@@ -80,8 +81,9 @@
 			
 			"labeltext"			"#TF_Competitive_MatchHistory_Loss"
 			"font"				"HudFontSmallestBold"
-			"fgcolor_override"	"141 63 63 255"
+			"fgcolor_override"	"RedSolid"
 			"textAlignment"		"west"
+			"AllCaps"	"1"
 		}
 
 		"DateLabel"
@@ -100,6 +102,7 @@
 			"font"				"MMenuPlayListDesc"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"		"west"
+			"AllCaps"	"1"
 		}
 
 		"MapNameLabel"
@@ -118,6 +121,7 @@
 			"font"				"MMenuPlayListDesc"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"		"west"
+			"AllCaps"	"1"
 		}
 
 		"KDLabel"
@@ -136,6 +140,7 @@
 			"font"				"MMenuPlayListDesc"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"		"west"
+			"AllCaps"	"1"
 		}
 	}
 
@@ -165,7 +170,7 @@
 			"autoresize"		"2"
 			"pincorner"			"3"
 			
-			"border"			"InnerShadowBorder"	
+			"border"			"NoBorder"	
 		}
 
 		"SlidingStatsContainer"
@@ -196,7 +201,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"GradientImage"
-				"xpos"			"8"
+				"xpos"			"9999"
 				"ypos"			"0"
 				"zpos"			"1"
 				"wide"			"o1"

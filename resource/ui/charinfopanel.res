@@ -21,11 +21,12 @@
 		
 		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
+		"AllCaps"	"1"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"188 188 188 255"
-		"titlebardisabledfgcolor_override"		"188 188 188 255"
-		"titlebarbgcolor_override"				"FluxColorDialogBack"
+		"titlebarfgcolor_override"				"White"
+		"titlebardisabledfgcolor_override"		"White"
+		"titlebarbgcolor_override"				"White"
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
@@ -60,7 +61,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"160 160 160 200"
+		"bgcolor_override"		"70 136 160 255"
 	}
 	"BackgroundFooter"
 	{
@@ -91,7 +92,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"160 160 160 200"
+		"bgcolor_override"		"70 136 160 255"
 	}	
 	"FooterLine"
 	{
@@ -108,7 +109,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"FluxColorGreyDarker"
+			"bgcolor_override"		"207 231 241 255"
 	}				
 	
 	"Sheet"
@@ -137,19 +138,19 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"FluxColorGreyDarker"
+			"bgcolor_override"		"207 231 241 255"
 		}				
 		
 		"tabskv"
 		{
 			"textinsetx"					"30"
-			"textinsety"					"4"
+			"textinsety"					"2"
 			"textAlignment"					"center"
 			"paintbackground"				"1"
 			"font"							"FluxFontTitle"
-			"selectedcolor"					"121 191 251 255"
+			"selectedcolor"					"White"
 			"unselectedcolor"				"120 120 120 255"	
-			"defaultBgColor_override"		"FluxColorDialogBack"
+			"defaultBgColor_override"		"8 59 79 255"
 			"unselectedBgColor_override"	"0 19 35 255"
 			"depressedBgColor_override"	"0 19 35 255"
 			"activeborder_override"			"FluxsBorderTab"
@@ -182,14 +183,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
 		
-		"defaultBgColor_override"	"FluxColorTransBlack1"
-		"armedBgColor_override"		"FluxColorTransDarkGrey"
-		"depressedBgColor_override"	"FluxColorTransBlack1"
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"	
 	}		
 	
 	"NotificationsPresentPanel"

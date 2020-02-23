@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"FluxColorDialogBack"
-		"infocus_bgcolor_override" 		"FluxColorDialogBack"
-		"outoffocus_bgcolor_override" 	"FluxColorDialogBack"
+		"bgcolor_override"				"5 59 79 255"
+		"infocus_bgcolor_override" 		"5 59 79 255"
+		"outoffocus_bgcolor_override" 	"5 59 79 255"
 		
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
@@ -51,12 +51,13 @@
 		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
+		"AllCaps"			"1"
 		"Command"			"loadout scout"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay/thumbnails/class_sel_sm_scout_red"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_scout_inactive"
+		"activeimage"		"replay/thumbnails/class_icons/class_sel_sm_scout_red"
+		"inactiveimage"		"replay/thumbnails/class_icons/class_sel_sm_scout_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -76,12 +77,13 @@
 		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
+		"AllCaps"			"1"
 		"Command"			"loadout soldier"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay/thumbnails/class_sel_sm_soldier_red"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_soldier_inactive"
+		"activeimage"		"replay/thumbnails/class_icons/class_sel_sm_soldier_red"
+		"inactiveimage"		"replay/thumbnails/class_icons/class_sel_sm_soldier_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -101,12 +103,13 @@
 		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
+		"AllCaps"			"1"
 		"Command"			"loadout pyro"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay/thumbnails/class_sel_sm_pyro_red"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_pyro_inactive"
+		"activeimage"		"replay/thumbnails/class_icons/class_sel_sm_pyro_red"
+		"inactiveimage"		"replay/thumbnails/class_icons/class_sel_sm_pyro_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -127,12 +130,13 @@
 		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
+		"AllCaps"			"1"
 		"Command"			"loadout demoman"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay/thumbnails/class_sel_sm_demo_red"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_demo_inactive"
+		"activeimage"		"replay/thumbnails/class_icons/class_sel_sm_demo_red"
+		"inactiveimage"		"replay/thumbnails/class_icons/class_sel_sm_demo_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
@@ -152,12 +156,13 @@
 		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
+		"AllCaps"			"1"
 		"Command"			"loadout heavy"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay/thumbnails/class_sel_sm_heavy_red"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_heavy_inactive"
+		"activeimage"		"replay/thumbnails/class_icons/class_sel_sm_heavy_red"
+		"inactiveimage"		"replay/thumbnails/class_icons/class_sel_sm_heavy_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -177,12 +182,13 @@
 		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
+		"AllCaps"			"1"
 		"Command"			"loadout engineer"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay/thumbnails/class_sel_sm_engineer_red"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_engineer_inactive"
+		"activeimage"		"replay/thumbnails/class_icons/class_sel_sm_engineer_red"
+		"inactiveimage"		"replay/thumbnails/class_icons/class_sel_sm_engineer_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -203,12 +209,13 @@
 		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
+		"AllCaps"			"1"
 		"Command"			"loadout medic"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay/thumbnails/class_sel_sm_medic_red"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_medic_inactive"
+		"activeimage"		"replay/thumbnails/class_icons/class_sel_sm_medic_red"
+		"inactiveimage"		"replay/thumbnails/class_icons/class_sel_sm_medic_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -228,12 +235,13 @@
 		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
+		"AllCaps"			"1"
 		"Command"			"loadout sniper"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay/thumbnails/class_sel_sm_sniper_red"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_sniper_inactive"
+		"activeimage"		"replay/thumbnails/class_icons/class_sel_sm_sniper_red"
+		"inactiveimage"		"replay/thumbnails/class_icons/class_sel_sm_sniper_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
@@ -253,12 +261,13 @@
 		"tabPosition"		"0"
 		"labelText"			""
 		"textAlignment"		"south-west"
+		"AllCaps"			"1"
 		"Command"			"loadout spy"
 		"Default"			"0"
 		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay/thumbnails/class_sel_sm_spy_red"
-		"inactiveimage"		"replay/thumbnails/class_sel_sm_spy_inactive"
+		"activeimage"		"replay/thumbnails/class_icons/class_sel_sm_spy_red"
+		"inactiveimage"		"replay/thumbnails/class_icons/class_sel_sm_spy_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
@@ -341,6 +350,7 @@
 		"fieldName"		"ShowCraftingLabel"
 		"font"			"HudFontSmallBold"
 		"labelText"		"#CraftingExplanation_Title"
+		"AllCaps"		"1"
 		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"5"
@@ -435,6 +445,7 @@
 		"fieldName"		"ShowTradeLabel"
 		"font"			"HudFontSmallBold"
 		"labelText"		"#TradingExplanation_Title"
+		"AllCaps"		"1"
 		"textAlignment"	"north"
 		"xpos"			"0"
 		"ypos"			"5"
@@ -579,7 +590,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"HudFontMediumBold"
 		"labelText"		"#SelectClassLoadout"
 		"textAlignment"	"north"
 		"xpos"			"0"
@@ -658,6 +669,15 @@
 		"Command"		"show_explanations"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override"	"70 136 160 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"70 136 160 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"	
 	}
 	
 	"StartExplanation"
@@ -670,9 +690,11 @@
 		"wide"			"250"
 		"tall"			"140"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"PaintBackgroundType"	"0"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		
+		"bgcolor_override"	"8 77 102 255"
 		
 		"force_close"	"1"
 		"end_x"			"c-150"
@@ -699,7 +721,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "30 30 30 255"
+			"fgcolor_override" "White"
 		}
 		
 		"TextLabel"
@@ -718,7 +740,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "30 30 30 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
@@ -747,9 +769,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"White"
@@ -812,9 +834,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -845,9 +867,11 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"PaintBackgroundType"	"0"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		
+		"bgcolor_override"	"8 77 102 255"
 		
 		"force_close"	"1"
 		"end_x"			"c-320"
@@ -874,7 +898,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "30 30 30 255"
+			"fgcolor_override" "White"
 		}
 		
 		"TextLabel"
@@ -893,7 +917,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "30 30 30 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
@@ -922,9 +946,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"White"
@@ -969,9 +993,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1034,9 +1058,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1067,9 +1091,11 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"PaintBackgroundType"	"0"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		
+		"bgcolor_override"	"8 77 102 255"
 		
 		"force_close"	"1"
 		"end_x"			"c-210"
@@ -1096,7 +1122,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "30 30 30 255"
+			"fgcolor_override" "White"
 		}
 		
 		"TextLabel"
@@ -1115,7 +1141,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "30 30 30 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
@@ -1144,9 +1170,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"White"
@@ -1191,9 +1217,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1256,9 +1282,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1289,9 +1315,11 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"PaintBackgroundType"	"0"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		
+		"bgcolor_override"	"8 77 102 255"
 		
 		"force_close"	"1"
 		"end_x"			"c-120"
@@ -1318,7 +1346,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "30 30 30 255"
+			"fgcolor_override" "White"
 		}
 		
 		"TextLabel"
@@ -1337,7 +1365,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "30 30 30 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
@@ -1366,9 +1394,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"White"
@@ -1413,9 +1441,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1478,9 +1506,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1511,9 +1539,11 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"PaintBackgroundType"	"0"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		
+		"bgcolor_override"	"8 77 102 255"
 		
 		"force_close"	"1"
 		"end_x"			"c-30"
@@ -1540,7 +1570,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "30 30 30 255"
+			"fgcolor_override" "White"
 		}
 		
 		"TextLabel"
@@ -1559,7 +1589,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "30 30 30 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
@@ -1588,9 +1618,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"White"
@@ -1635,9 +1665,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1700,9 +1730,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1733,9 +1763,11 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"PaintBackgroundType"	"0"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		
+		"bgcolor_override"	"8 77 102 255"
 		
 		"force_close"	"1"
 		"end_x"			"c130"
@@ -1762,7 +1794,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "30 30 30 255"
+			"fgcolor_override" "White"
 		}
 		
 		"TextLabel"
@@ -1781,7 +1813,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "30 30 30 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
@@ -1810,9 +1842,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"White"
@@ -1857,9 +1889,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1922,9 +1954,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"
@@ -1955,9 +1987,11 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"paintbackground" "0"
-		"border"		"MainMenuHighlightBorder"
+		"PaintBackgroundType"	"0"
+		"paintbackground" "1"
+		"border"		"NoBorder"
+		
+		"bgcolor_override"	"8 77 102 255"
 		
 		"force_close"	"1"
 		"end_x"			"c100"
@@ -1983,7 +2017,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "30 30 30 255"
+			"fgcolor_override" "White"
 		}
 		
 		"TextLabel"
@@ -2002,7 +2036,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "30 30 30 255"
+			"fgcolor_override" "White"
 		}
 		
 		"CloseButton"
@@ -2031,9 +2065,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "255 255 255 255"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"White"
 			"image_armedcolor"	"White"
@@ -2078,9 +2112,9 @@
 			
 			"paintbackground"	"0"
 			
-			"defaultFgColor_override" "30 30 30 255"
+			"defaultFgColor_override" "White"
 			"armedFgColor_override" "White"
-			"depressedFgColor_override" "30 30 30 255"
+			"depressedFgColor_override" "White"
 			
 			"image_drawcolor"	"255 255 255 255"
 			"image_armedcolor"	"255 255 255 255"

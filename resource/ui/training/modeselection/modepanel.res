@@ -17,6 +17,7 @@
 			"fieldName"		"ModeNameLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"%modename%"
+			"AllCaps"		"1"
 			"textAlignment"	"center"
 			"xpos"			"0"
 			"ypos"			"7"
@@ -28,7 +29,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"mouseinputenabled" "0"
-			"fgcolor_override"	"87 79 70 255"
+			"fgcolor_override"	"White"
 		}
 
 		"DescLabel"
@@ -38,6 +39,7 @@
 			"font"			"HudFontSmallest"
 			"labelText"		"%description%"
 			"textAlignment"	"north"
+			"AllCaps"		"1"
 			"xpos"			"0"
 			"ypos"			"175"
 			"zpos"			"2"
@@ -47,7 +49,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"89 81 71 255"
+			"fgcolor_override"	"White"
 			"auto_wide_tocontents" "0"
 			"wrap"				   "1"
 			"centerwrap"		   "1"
@@ -63,7 +65,9 @@
 			"tall"			"205"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"MainMenuHighlightBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"	"Blank"
+
 		}
 		
 		// Parented to ImageFrame in code.
@@ -71,7 +75,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Image"
-			"xpos"			"10"
+			"xpos"			"9"
 			"ypos"			"32"
 			"wide"			"185"
 			"tall"			"185"
@@ -107,12 +111,15 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"			
 	}
 }

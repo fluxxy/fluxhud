@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"FluxColorDialogBack"
-		"infocus_bgcolor_override" "FluxColorDialogBack"
-		"outoffocus_bgcolor_override" "FluxColorDialogBack"
+		"bgcolor_override"	"5 59 79 255"
+		"infocus_bgcolor_override" "5 59 79 255"
+		"outoffocus_bgcolor_override" "5 59 79 255"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
@@ -42,15 +42,17 @@
 			"tall"			"70"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"White"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
-			"model_ypos"	"5"
-			"model_tall"	"55"
-			"text_ypos"		"54"
-			"text_center"	"1"
-			"name_only"		"1"
+			"model_center_x"	"1"
+			"model_ypos"		"5"			
+			"model_tall"		"55"
+			"model_wide"		"82"
+			"text_ypos"			"54"
+			"text_center"		"1"
+			"name_only"			"1"
 			
 			"attriblabel"
 			{
@@ -69,7 +71,7 @@
 		{
 			"ControlName"	"CExButton"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"-2"
 			"zpos"			"1"
 			"wide"			"14"
 			"tall"			"14"
@@ -78,6 +80,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"+"
+			"textinsety"	"-2"
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
 			"dulltext"		"0"
@@ -87,11 +90,11 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			
 			"bgcolor_override"		"255 0 0 255"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"White"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
-			"fgcolor_override"			"200 200 200 255"
+			"fgcolor_override"			"White"
 			
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"
@@ -106,12 +109,12 @@
 		"fieldName"		"CaratLabel"
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
-		"textAlignment"	"west"
-		"xpos"			"c-300"
+		"textAlignment"	"9999"
+		"xpos"			"9999"
 		"ypos"			"20"
 		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
+		"wide"			"0"
+		"tall"			""
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -124,8 +127,9 @@
 		"fieldName"		"ClassLabel"
 		"font"			"HudFontMediumBold"
 		"labelText"		"#ClassBeingEquipped"
+		"AllCaps"		"1"
 		"textAlignment"	"west"
-		"xpos"			"c-280"
+		"xpos"			"c-300"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"240"
@@ -144,16 +148,16 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-150"
-		"ypos"			"20"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 	}
 	"TauntLabel"
 	{
@@ -161,8 +165,9 @@
 		"fieldName"		"TauntLabel"
 		"font"			"HudFontMediumBold"
 		"labelText"		"#TF_Taunt"
-		"textAlignment"	"west"
-		"xpos"			"c-130"
+		"AllCaps"		"1"
+		"textAlignment"	"center"
+		"xpos"			"c-120"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"240"
@@ -175,18 +180,18 @@
 	
 	"TopLine"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"EditablePanel"
 		"fieldName"		"TopLine"
 		"xpos"			"c-305"
 		"ypos"			"40"
 		"zpos"			"2"
 		"wide"			"610"
-		"tall"			"10"
+		"tall"			"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"loadout_dotted_line"
-		"tileImage"		"1"
-		"tileVertically" "0"
+		"border"		"NoBorder"
+		"bgcolor_override"	"White"
+
 	}				
 	
 	"classmodelpanel"
@@ -262,7 +267,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"40 40 40 250"
+			"fgcolor"		"200 200 200 250"
 			"centerwrap"	"1"
 		}
 	}
@@ -393,7 +398,7 @@
 			"armedFgColor_override" "235 226 202 255"
 			"depressedFgColor_override" "40 40 40 255"
 			
-			"image_drawcolor"	"117 107 94 255"
+			"image_drawcolor"	"White"
 			"image_armedcolor"	"200 80 60 255"
 			"SubImage"
 			{
@@ -423,8 +428,8 @@
 		"tall"			"75"
 		"autoResize"	"1"
 		"visible"		"0"
-		"bgcolor_override"		"69 64 63 255"
-		"PaintBackgroundType"	"2"
+		"bgcolor_override"		"0 0 0 235"
+		"PaintBackgroundType"	"0"
 	}
 
 	"TauntHintLabel"
@@ -445,7 +450,7 @@
 		"textAlignment"	"east"
 		"centerwrap"	"1"
 	}
-
+	
 	"CharacterLoadoutButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -467,6 +472,14 @@
 		"Command"		"characterloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintborder"		"1"
+		"paintbackground"	"0"
+		
+		"border_default"				"FluxBorderBlueMid"
+		"border_armed"					"FluxBorderBlueLight"
+		
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"40 40 40 255"
 
 		"SubImage"
 		{
@@ -505,7 +518,15 @@
 		"Command"		"tauntloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
+		
+		"paintborder"		"1"
+		"paintbackground"	"0"
+		
+		"border_default"				"FluxBorderBlueMid"
+		"border_armed"					"FluxBorderBlueLight"
+		
+		"image_drawcolor"	"255 255 255 255"
+		"image_armedcolor"	"40 40 40 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -585,7 +606,7 @@
 		
 		"CloseButton"
 		{
-			"ControlName"	"CExImageButton"
+			"ControlName"	"CExButton"
 			"fieldName"		"CloseButton"
 			"xpos"			"230"
 			"ypos"			"5"
@@ -607,28 +628,15 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"Command"		"close"
 			
-			"paintbackground"	"0"
-			
-			"defaultFgColor_override" "40 40 40 255"
-			"armedFgColor_override" "235 226 202 255"
-			"depressedFgColor_override" "40 40 40 255"
-			
-			"image_drawcolor"	"117 107 94 255"
-			"image_armedcolor"	"200 80 60 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"14"
-				"tall"			"14"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"close_button"
-				"scaleImage"	"1"
-			}				
+			"paintbackground"	"1"
+			"defaultBgColor_override"	"8 77 102 255"
+			"armedBgColor_override"		"207 231 241 255"
+			"depressedBgColor_override"	"8 77 102 255"
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override" 	"40 40 40 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"				
 		}		
 	}
 }

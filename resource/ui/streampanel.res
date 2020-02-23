@@ -61,7 +61,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"56 53 49 255"
+			"fgcolor"		"20 20 20 255"
 
 			"proportionaltoparent"	"1"
 		}
@@ -89,6 +89,7 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		"%display_name%"
 		"textAlignment"	"west"
+		"AllCaps"		"1"
 		"xpos"			"90"
 		"ypos"			"5"
 		"wide"			"205"
@@ -97,7 +98,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"56 53 49 255"
+		"fgcolor"		"20 20 20 255"
 	}
 
 	"TextDescriptionLabel"
@@ -115,7 +116,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"56 53 49 255"
+		"fgcolor"		"20 20 20 255"
 	}
 
 	"ViewerCountLabel"
@@ -133,7 +134,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"56 53 49 255"
+		"fgcolor"		"20 20 20 255"
 	}
 
 	"Stream_URLButton"

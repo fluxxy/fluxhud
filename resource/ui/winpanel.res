@@ -22,8 +22,8 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			
-			"border"		"TFFatLineBorderBlueBGMoreOpaque"
+			"bgcolor_override" "FluxColorBlue"
+			"border"		"NoBorder"
 		}
 		"RedScoreBG"
 		{
@@ -37,8 +37,8 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			
-			"border"		"TFFatLineBorderRedBGMoreOpaque"
+			"bgcolor_override" "RedSolid"
+			"border"		"NoBorder"
 		}
 		"BlueScoreBG2"
 		{
@@ -52,7 +52,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
+			"image"			"replay/thumbnails/bg_blue"
 			"scaleImage"		"1"
 			
 			"src_corner_height"		"23"
@@ -72,7 +72,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
+			"image"			"replay/thumbnails/bg_red"
 			"scaleImage"		"1"
 			
 			"src_corner_height"		"23"
@@ -84,8 +84,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"FluxFontHudAmmoRes"
-			"fgcolor"		"234 230 209 255"
+			"font"			"FluxFontMainMenu3"
+			"fgcolor"		"White"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"			"40"
@@ -102,8 +102,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"FluxFontVer28"
-			"fgcolor"		"234 230 209 255"
+			"font"			"FluxFontMainMenu3"
+			"fgcolor"		"White"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"66"
@@ -120,7 +120,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"FluxFontVer28"
+			"font"			"FluxFontMainMenu3"
 			"fgcolor"		"Black"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
@@ -168,8 +168,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"FluxFontHudAmmoRes"
-			"fgcolor"		"234 230 209 255"
+			"font"			"FluxFontMainMenu3"
+			"fgcolor"		"White"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"144"
@@ -186,8 +186,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"FluxFontVer28"
-			"fgcolor"		"234 230 209 255"
+			"font"			"FluxFontMainMenu3"
+			"fgcolor"		"White"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"130"
@@ -204,7 +204,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"FluxFontVer28"
+			"font"			"FluxFontMainMenu3"
 			"fgcolor"		"Black"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
@@ -278,7 +278,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"35 33 32 145"
+		"fillcolor"		"0 0 0 180"
 	}	
 	"WinPanelBG2"
 	{
@@ -293,7 +293,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"35 33 32 205"
+		"fillcolor"		"0 0 0 220"
 	}
 	"WinPanelBG3"
 	{
@@ -308,7 +308,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"35 33 32 145"
+		"fillcolor"		"0 0 0 180"
 	}
 	"HorizontalLine1"
 	{
@@ -324,15 +324,15 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"250 234 201 255"
+		"fillcolor"		"167 24 24 255"
 		"PaintBackgroundType"	"0"
 	}	
 	"WinningTeamLabel"
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"FluxFontVer8"
-		"fgcolor"		"234 230 209 255"
+		"font"			"FluxFontMainMenu"
+		"fgcolor"		"White"
 		"xpos"			"160"
 		"ypos"			"104"
 		"zpos"			"1"
@@ -343,6 +343,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%WinningTeamLabel%"
+		"AllCaps"	"1"
 		"textAlignment"		"Center"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -372,7 +373,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabel"
 		"font"			"FluxFontVer8"
-		"fgcolor"		"234 230 209 255"
+		"fgcolor"		"White"
 		"xpos"			"160"
 		"ypos"			"104"
 		"zpos"			"1"
@@ -431,7 +432,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
 		"font"			"Regular6"
-		"fgcolor"		"234 230 209 255"
+		"fgcolor"		"White"
 		"xpos"			"135"
 		"ypos"			"114"
 		"zpos"			"1"

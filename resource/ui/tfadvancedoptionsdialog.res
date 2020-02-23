@@ -13,12 +13,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"		"46 43 42 255"
+		"bgcolor_override" 	"70 136 160 255"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
 		"paintborder"			"1"
-		"paintbackground"		"0"
-		"border"				"GrayDialogBorder"
+		"paintbackground"		"1"
+		"border"				"NoBorder"
+		"fgcolor_override"	"White"
 		
 		"control_w"			"500"
 		"control_h"			"25"
@@ -31,6 +32,7 @@
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontMediumBold"
 		"labelText"		"#TF_AdvancedOptions"
+		"AllCaps"		"1"
 		"textAlignment"	"center"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -41,13 +43,13 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "White"
 	}
 	"CancelButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"150"
+		"xpos"			"100"
 		"ypos"			"310"
 		"zpos"			"1"
 		"wide"			"100"
@@ -60,12 +62,23 @@
 		"labelText"		"#Cancel"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
+		"AllCaps"		"1"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"1"
 		"Command"		"Close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"	
 	}
 	"OkButton"
 	{
@@ -90,6 +103,17 @@
 		"Command"		"Ok"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"			
+		
 	}
 	
 	"PanelListPanel"
@@ -105,7 +129,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"bgcolor_override"	"0 0 0 0"
+		"paintbackgroundtype"	"0"
+		"bgcolor_override"	"5 59 79 255"
+
 	}
 	
 	"TooltipPanel"
@@ -119,7 +145,9 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
+		"bgcolor_override"	"20 20 20 255"
+		
 		
 		"TipLabel"
 		{
@@ -137,7 +165,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"wrap"			"1"
 			//"centerwrap"	"1"
 		}

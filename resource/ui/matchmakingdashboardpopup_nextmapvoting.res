@@ -31,7 +31,8 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"border"		"OuterShadowBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"		"FluxColorGreyDark"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"0"
@@ -49,7 +50,8 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"		"FluxColorGreyDark"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"2"
 
@@ -83,7 +85,7 @@
 
 				"image_default"		"glyph_collapse"						
 
-				"image_drawcolor"	"235 226 202 255"
+				"image_drawcolor"	"White"
 				"image_armedcolor"	"200 80 60 255"
 
 				"SubImage"
@@ -133,7 +135,7 @@
 
 				"image_default"		"glyph_expand"						
 
-				"image_drawcolor"	"235 226 202 255"
+				"image_drawcolor"	"White"
 				"image_armedcolor"	"200 80 60 255"
 
 				"SubImage"
@@ -170,6 +172,7 @@
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchOver"
 				"proportionaltoparent"	"1"
+				"AllCaps"	"1"
 			}
 
 			"TimeRemainingProgressBar"

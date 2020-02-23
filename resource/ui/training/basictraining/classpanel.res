@@ -29,15 +29,17 @@
 		"Command"			"%selectcommand%"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"border_disabled"	"MainMenuButtonDisabled"
-		"paintbackground"	"0"
 		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
 	}
 	
 	"ProgressLabel"
@@ -46,6 +48,7 @@
 		"fieldName"		"ProgressLabel"
 		"font"			"HudFontSmallest"
 		"labelText"		""
+		"AllCaps"		"1"
 		"textAlignment"	"center"
 		"xpos"			"0"
 		"ypos"			"241"

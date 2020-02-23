@@ -11,7 +11,7 @@
 		"visible"		"1"
 		"tileImage"		"0"
 		"scaleImage"	"1"
-		"border"		"ButtonBorder"
+		"border"		"NoBorder"
 		"paintbackgroundtype"	"2"
 		"paintbackground"	"1"
 	}
@@ -20,10 +20,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MapImagePanel"
-		"xpos"		"60"
-		"ypos"		"320"
-		"wide"		"330"
-		"tall"		"15"
+		"xpos"		"9999"
+		"ypos"		"9999"
+		"wide"		"0"
+		"tall"		"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -36,11 +36,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"FieldName"		"GradientPanel"
-		"xpos"			"60"
-		"ypos"			"107"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"330"
-		"tall"			"80"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"tileImage"		"0"
 		"scaleImage"	"1"
@@ -52,7 +52,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevButton"
 		"xpos"			"36"
-		"ypos"			"65"
+		"ypos"			"105"
 		"zpos"			"20"
 		"wide"			"18"
 		"tall"			"43"
@@ -70,6 +70,16 @@
 		"Command"		"goprev"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
 	}	
 	
 	"NextButton"
@@ -77,7 +87,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
 		"xpos"			"396"
-		"ypos"			"65"
+		"ypos"			"105"
 		"zpos"			"20"
 		"wide"			"18"
 		"tall"			"43"
@@ -95,6 +105,17 @@
 		"Command"		"gonext"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
+		
 	}	
 	
 	"MapNameLabel"
@@ -103,6 +124,7 @@
 		"fieldName"		"MapNameLabel"
 		"font"			"HudFontMedium"
 		"labelText"		"%mapname%"
+		"AllCaps"		"1"
 		"textAlignment"	"center"
 		"xpos"			"60"
 		"ypos"			"145"
@@ -114,7 +136,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"White"
 	}
 	
 	"CurPageLabel"
@@ -123,6 +145,7 @@
 		"fieldName"		"CurPageLabel"
 		"font"			"HudFontMediumSmallBold"
 		"labelText"		"%curpage%"
+		"AllCaps"		"1"
 		"textAlignment"	"north"
 		"center"		"1"
 		"xpos"			"63"
@@ -135,7 +158,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"White"
 		"bgcolor_override"	"0 0 0 200"
 		"border"		"ButtonBorder"
 	}
@@ -162,14 +185,15 @@
 		"Command"			"startofflinepractice"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"border_default"	"MainMenuButtonDefault"
-		"border_armed"		"MainMenuButtonArmed"
-		"paintbackground"	"0"
-		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"Green"
+		"armedBgColor_override"		"FluxColorIngameButHover"
+		"depressedBgColor_override"	"Green"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"	
 	}
 	
 	"DifficultyLabel"
@@ -179,6 +203,7 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Bot_Difficulty"
 		"textAlignment"	"east"
+		"AllCaps"		"1"
 		"xpos"			"0"
 		"ypos"			"200"
 		"wide"			"190"
@@ -188,7 +213,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"White"
 	}
 	
 	"DifficultyComboBox"
@@ -213,7 +238,7 @@
 		"unicode"			"0"
 		"textinsetx"		"50"
 		
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"White"
 		"bgcolor_override"	"16 14 14 255"
 		
 		"disabledFgColor_override" "235 226 202 255"
@@ -229,6 +254,7 @@
 		"fieldName"		"PlayersLabel"
 		"font"			"HudFontSmallest"
 		"labelText"		"#IT_BotAddition_Title"
+		"AllCaps"		"1"
 		"textAlignment"	"east"
 		"xpos"			"0"
 		"ypos"			"230"
@@ -239,7 +265,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"White"
 	}
 	
 	"NumPlayersTextEntry"
@@ -252,7 +278,7 @@
 		"unicode"		"1"
 		"wrap"			"0"
 		"xpos"			"200"
-		"ypos"			"230"
+		"ypos"			"233"
 		"zpos"			"50"
 		"wide"			"22"
 		"tall"			"15"
@@ -266,7 +292,7 @@
 		"selectallonfirstfocus"	"1"
 		
 		"bgcolor_override"	"16 14 14 255"
-		"fgcolor_override"	"246 237 211 255"
+		"fgcolor_override"	"White"
 	}
 	
 	"SuggestedPlayerCountLabel"
@@ -275,9 +301,10 @@
 		"fieldName"		"SuggestedPlayerCountLabel"
 		"font"			"HudFontSmallest"
 		"labelText"		""
+		"AllCaps"		"1"
 		"textAlignment"	"west"
 		"xpos"			"230"
-		"ypos"			"230"
+		"ypos"			"233"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"15"
@@ -286,6 +313,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
-		"fgcolor_override"	"116 105 92 255"
+		"fgcolor_override"	"White"
 	}
 }

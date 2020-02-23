@@ -1,12 +1,8 @@
 "UnlitGeneric"
 {
-	"$baseTexture" "vgui\replay\thumbnails\bg_blank"
 	"$translucent" 1
-	"$alpha" 1
-	"$vertexalpha" "1"
-	"$ignorez"     "1"
-	"$no_fullbright" "1"	
-	"$vertextcolor" "1"
-	"%keywords" "tf"
+	"$baseTexture" "vgui/replay/thumbnails/payload_icons/cart_point_blue_opaque"
+	"$vertexcolor" 1
+	"$no_fullbright" 1
+	"$ignorez" 1
 }
-

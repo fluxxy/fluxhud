@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"CasualCriteria"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"1002"
-		"wide"			"270"
-		"tall"			"f70"
+		"wide"			"280"
+		"tall"			"480"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -18,15 +18,16 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"8"
+		"xpos"		"0"
 		"ypos"		"20"
 		"zpos"		"99"
 		"wide"		"f0"
-		"tall"		"20"
+		"tall"		"30"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCasual"
-		"textAlignment"	"west"
-		"font"			"FluxFontVer18"
+		"textAlignment"	"center"
+		"font"			"FluxFontMainMenu5"
+		"AllCaps"						"1"
 		"fgcolor_override"	"White"
 		
 		"mouseinputenabled"	"0"
@@ -86,32 +87,20 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
+		"AllCaps"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override"	"30 30 30 255"
-		"armedBgColor_override"		"40 40 40 255"
-		"depressedBgColor_override"	"30 30 30 255"
+		"defaultBgColor_override"	"Green"
+		"armedBgColor_override"		"FluxColorIngameButHover"
+		"depressedBgColor_override"	"Green"
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "40 40 40 255"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"		
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
 	}
-		"BGPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BGPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"f-20"
-		"visible"		"1"
-		"proportionaltoparent"	"1"
 
-		"border"		"MainMenuBGBorder"
-	}
 	
 }

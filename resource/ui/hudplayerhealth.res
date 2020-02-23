@@ -48,7 +48,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"10"
-		"font"			"HudFontGiantBold"
+		"font"			"FluxFontHudAmmo"
 		"fgcolor"		"White"
 	}	
 	"PlayerStatusHealthValueShadow"
@@ -65,7 +65,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"
 		"textinsetx"	"10"
-		"font"			"HudFontGiantBold"
+		"font"			"FluxFontHudAmmo"
 		"fgcolor"		"Black"
 	}
 	

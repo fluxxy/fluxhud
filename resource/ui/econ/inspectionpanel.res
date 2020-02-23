@@ -11,7 +11,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"	"FluxColorDialogBack"
+		"bgcolor_override"	"5 59 79 255"
 		
 		"consume_mode"
 		{
@@ -26,8 +26,8 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"o1"
+		"tall"			"p0.75"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"item_carousel_bg"
@@ -46,7 +46,7 @@
 		"tall"			"200"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"200 200 200 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"mouseinputenabled"	"0"
@@ -144,7 +144,7 @@
 		"fieldName"			"TeamNavPanel"
 		"xpos"				"cs-0.5"
 		"ypos"				"p.7-16"
-		"zpos"				"100"
+		"zpos"				"101"
 		"wide"				"60"
 		"tall"				"25"
 		"autoResize"		"0"
@@ -244,11 +244,12 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PaintkitPreviewContainer"
 		"xpos"			"cs-0.5"
-		"ypos"			"p.7"
+		"ypos"			"p.7-5"
 		"wide"			"300"
 		"tall"			"100"
 		"zpos"			"100"
-		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
+		"bgcolor_override"		"70 136 160 255"
 		"mouseinputenabled"	"1"
 		"proportionaltoparent"	"1"
 
@@ -349,12 +350,12 @@
 				"visible"	"0"
 			}
 		
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"bgcolor_override"	"0 0 0 0"
-			"disabledFgColor_override" "235 226 202 255"
+			"disabledFgColor_override" "White"
 			"disabledBgColor_override" "0 0 0 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "235 226 202 255"
+			"selectionTextColor_override" "White"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
 
@@ -364,6 +365,7 @@
 			"fieldName"		"PaintkitLabel"
 			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemPaintkit"
+			"AllCaps"		"1"
 			"textAlignment"	"west"
 			"xpos"			"8"
 			"ypos"			"10"
@@ -373,7 +375,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"White"
 
 			"fixed_paintkit"
 			{
@@ -415,12 +417,12 @@
 
 			"proportionaltoparent"	"1"
 		
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"bgcolor_override"	"0 0 0 0"
-			"disabledFgColor_override" "TanDark"
+			"disabledFgColor_override" "White"
 			"disabledBgColor_override" "0 0 0 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "235 226 202 255"
+			"selectionTextColor_override" "White"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
 
@@ -430,6 +432,7 @@
 			"fieldName"		"ItemLabel"
 			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemPreview"
+			"AllCaps"		"1"
 			"textAlignment"	"west"
 			"xpos"			"8"
 			"ypos"			"30"
@@ -443,7 +446,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"White"
 
 			"fixed_item"
 			{
@@ -474,8 +477,10 @@
 			"rangemax"		"5"
 			"lefttext"		"#TFUI_InvTooltip_BattleScared"
 			"righttext"		"#TFUI_InvTooltip_FactoryNew"
+			"AllCaps"		"1"
 			"proportionaltoparent"	"1"
 			"actionsignallevel"	"2"
+			"fgcolor_override"	"White"
 
 			"fixed_paintkit"
 			{
@@ -494,6 +499,7 @@
 			"fieldName"		"WearLabel"
 			"font"			"HudFontSmallest"
 			"labelText"		"#TF_ItemPreview_ItemWear"
+			"AllCaps"		"1"
 			"textAlignment"	"west"
 			"xpos"			"8"
 			"ypos"			"50"
@@ -507,7 +513,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"White"
 
 			"fixed_paintkit"
 			{
@@ -542,6 +548,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labelText"		"#TF_ItemPreview_PaintkitSeed"
+			"AllCaps"		"1"
 			"actionsignallevel" "2"
 			"use_proportional_insets" "1"
 			"textAlignment"	"center"
@@ -553,6 +560,16 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 
 			"command"	"random_seed"
+			
+			"paintbackground"	"1"
+			"defaultBgColor_override"	"8 77 102 255"
+			"armedBgColor_override"		"207 231 241 255"
+			"depressedBgColor_override"	"8 77 102 255"
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override" 	"40 40 40 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
 
 			"consume_mode"
 			{
@@ -586,6 +603,7 @@
 			"NumericInputOnly"	"1"
 			"bgcolor_override"	"0 0 0 200"
 			"maxchars"		"18"
+			"paintbackgroundtype"	"0"
 
 			"consume_mode"
 			{
@@ -611,7 +629,8 @@
 			"wide"		"75"
 			"tall"		"20"
 			"labelText"			"#TF_ItemAd_ViewOnMarket"
-			"font"			"AdFont_PurchaseButton"
+			"font"			"FluxFontVer10"
+			"AllCaps"		"1"
 			"textinsetx"		"0"
 			"textAlignment"	"center"
 		
@@ -626,7 +645,7 @@
 
 			"border_default"	"NoBorder"
 
-			"defaultBgColor_override"	"72 103 32 255"
+			"defaultBgColor_override"	"Green"
 			"armedBgColor_override"		"72 133 32 255"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"

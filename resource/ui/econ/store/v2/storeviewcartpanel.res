@@ -18,13 +18,16 @@
 		"bgcolor_override"				"44 44 44 0"
 		"infocus_bgcolor_override"		"44 44 44 0"
 		"outoffocus_bgcolor_override"	"44 44 44 0"
+		
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
+		"AllCaps"	"1"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
-		"titlebarfgcolor_override"				"188 188 188 255"
-		"titlebardisabledfgcolor_override"		"188 188 188 255"
-		"titlebarbgcolor_override"				"FluxColorDialogBack"
+		
+		"titlebarfgcolor_override"				"White"
+		"titlebardisabledfgcolor_override"		"White"
+		"titlebarbgcolor_override"				"5 59 79 255"
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
 		"item_entry_kv"
@@ -43,7 +46,7 @@
 				"tall"			"58"
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 255"
-				"noitem_textcolor"		"117 107 94 255"
+				"noitem_textcolor"		"109 109 109 255"
 				"PaintBackgroundType"	"2"
 				"paintborder"	"0"
 				"model_xpos"	"3"
@@ -82,17 +85,17 @@
 			}
 			"SeparatorLine"
 			{
-				"ControlName"	"ImagePanel"
+				"ControlName"	"EditablePanel"
 				"fieldName"		"SeparatorLine"
 				"xpos"			"0"
 				"ypos"			"58"
 				"zpos"			"5"
 				"wide"			"580"
-				"tall"			"5"
+				"tall"			"2"
 				"visible"		"1"
 				"enabled"		"1"
-				"image"			"loadout_solid_line"
-				"tileImage"		"1"
+				"border"		"NoBorder"
+				"bgcolor_override"	"White"
 			}
 			"RemoveButton"
 			{
@@ -111,6 +114,7 @@
 				"labelText"		"#Store_Remove"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
+				"AllCaps"		"1"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
@@ -118,14 +122,14 @@
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"paintbackground"	"1"
-				"defaultBgColor_override"	"FluxColorTransBlack1"
-				"armedBgColor_override"		"FluxColorTransDarkGrey"
-				"depressedBgColor_override"	"FluxColorTransBlack1"
-				"defaultFgColor_override"	"White"
-				"armedFgColor_override" 	"White"
-				"depressedFgColor_override" "FluxColorButTextNope"
-				"border_default"			"FluxBorderButton"
-				"border_armed"				"FluxBorderButtonHover"
+				"defaultBgColor_override"	"70 136 160 255"
+				"armedBgColor_override"		"207 231 241 255"
+				"depressedBgColor_override"	"70 136 160 255"
+				"defaultFgColor_override"	"255 255 255 255"
+				"armedFgColor_override" 	"40 40 40 255"
+				"depressedFgColor_override" "255 255 255 255"
+				"border_default"			"NoBorder"
+				"border_armed"				"NoBorder"	
 			}
 			"PriceLabel"
 			{
@@ -143,7 +147,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%price%"
-				"fgcolor_override" "130 120 104 255"
+				"fgcolor_override" "White"
 			}
 
 			"PreviewItemLabel"
@@ -162,7 +166,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"labelText"		"%preview_item%"
-				"fgcolor_override" "130 120 104 255"
+				"fgcolor_override" "White"
 			}
 		}
 	}
@@ -196,7 +200,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"160 160 160 200"
+		"bgcolor_override"		"70 136 160 255"
 	}
 	"BackgroundFooter"
 	{
@@ -227,7 +231,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"160 160 160 200"
+		"bgcolor_override"		"70 136 160 255"
 	}				
 	"FooterLine"
 	{
@@ -244,8 +248,8 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"FluxColorGreyDarker"
-	}
+			"bgcolor_override"		"207 231 241 255"
+	}				
 	"ClientArea"
 	{
 		"ControlName"	"EditablePanel"
@@ -254,7 +258,7 @@
 		"ypos"			"50"
 		"wide"			"f0"
 		"tall"			"368"
-		"bgcolor_override" "FluxColorDialogBack"
+		"bgcolor_override" "5 59 79 255"
 		"HeaderLine"
 		{
 			"ControlName"	"EditablePanel"
@@ -270,7 +274,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"FluxColorGreyDarker"
+			"bgcolor_override"		"207 231 241 255"
 		}
 		"CartItemsLabel"
 		{
@@ -278,6 +282,7 @@
 			"fieldName"		"CartItemsLabel"
 			"font"			"FluxFontTitleLabel"
 			"labelText"		"%storecart%"
+			"AllCaps"		"1"
 			"textAlignment"	"west"
 			"xpos"			"c-300"
 			"ypos"			"25"
@@ -291,17 +296,17 @@
 		}
 		"SeparatorLine"
 		{
-			"ControlName"	"ImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"SeparatorLine"
 			"xpos"			"c-300"
 			"ypos"			"60"
 			"zpos"			"5"
 			"wide"			"600"
-			"tall"			"5"
+			"tall"			"2"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"loadout_solid_line"
-			"tileImage"		"1"
+			"border"		"NoBorder"
+			"bgcolor_override"	"White"
 		}
 		"EmptyCartLabel"
 		{
@@ -309,6 +314,7 @@
 			"fieldName"		"EmptyCartLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#Store_CartIsEmpty"
+			"AllCaps"		"1"
 			"textAlignment"	"center"
 			"xpos"			"c-300"
 			"ypos"			"62"
@@ -330,19 +336,19 @@
 			"wide"			"600"
 			"tall"			"302"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"118 107 94 255"
-			"bgcolor_override"	"48 48 48 255"
+			"fgcolor_override"	"White"
+			"bgcolor_override"	"4 38 51 255"
 			"autohide_buttons" "1"
 			"border" "NoBorder"
 			"Scrollbar"
 			{
-				"xpos"			"586"
-				"wide"			"11"
+				"xpos"			"588"
+				"wide"			"8"
 				"tall"			"302"
 				"zpos"			"1000"
 				"Slider"
 				{
-					"PaintBackgroundType"	"2"
+					"PaintBackgroundType"	"0"
 				}
 				"nobuttons"		"1"
 				"UpButton"
@@ -401,6 +407,7 @@
 						"font"			"HudFontSmall"
 						"labelText"		"#Store_EstimatedTotal"
 						"textAlignment"	"south-east"
+						"AllCaps"		"1"
 						"xpos"			"0"
 						"ypos"			"15"
 						"zpos"			"100"
@@ -418,6 +425,7 @@
 						"font"			"HudFontSmallest"
 						"labelText"		"#Store_WAStateSalesTax"
 						"textAlignment"	"north-east"
+						"AllCaps"		"1"
 						"xpos"			"0"
 						"ypos"			"29"
 						"zpos"			"100"
@@ -427,7 +435,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor_override" "White"
 					}
 					"TotalSubtextLabelB"
 					{
@@ -445,7 +453,7 @@
 						"pinCorner"		"0"
 						"visible"		"1"
 						"enabled"		"1"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor_override" "White"
 					}
 					"TotalPriceLabel"
 					{
@@ -463,7 +471,7 @@
 						"visible"		"1"
 						"enabled"		"1"
 						"labelText"		"%totalprice%"
-						"fgcolor_override" "130 120 104 255"
+						"fgcolor_override" "White"
 					}
 				}
 			}
@@ -485,6 +493,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#Store_ContinueShopping"
 		"font"			"FluxFontButton"
+		"AllCaps"		"1"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -493,14 +502,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"FluxColorTransBlack1"
-		"armedBgColor_override"		"FluxColorTransDarkGrey"
-		"depressedBgColor_override"	"FluxColorTransBlack1"
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"	
 	}
 	"CheckoutButton"
 	{
@@ -518,6 +527,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#Store_Checkout"
 		"font"			"FluxFontButton"
+		"AllCaps"		"1"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -526,13 +536,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"FluxColorTransBlack1"
-		"armedBgColor_override"		"FluxColorTransDarkGrey"
-		"depressedBgColor_override"	"FluxColorTransBlack1"
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"	
 	}
 }

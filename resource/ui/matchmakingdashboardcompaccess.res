@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"CompAccess"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"1001"
 		"wide"			"290"
-		"tall"			"f70"
+		"tall"			"480"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -18,11 +18,11 @@
 	{
 		"ControlName"	"CCompetitiveAccessInfoPanel"
 		"fieldName"		"CompAccessEmbedded"
-		"xpos"			"5"
-		"ypos"			"10"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"1001"
 		"wide"			"280"
-		"tall"			"f10"
+		"tall"			"480"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}

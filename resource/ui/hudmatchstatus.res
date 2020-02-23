@@ -211,11 +211,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BGFrame"
-		"xpos"				"cs-0.5"
-		"ypos"				"-5"
+		"xpos"				"9999"
+		"ypos"				"9999"
 		"zpos"				"0"
 		"wide"				"419"
-		"tall"				"28"
+		"tall"				"0"
 		"visible"			"0"	
 
 		"proportionaltoaparent"	"1"

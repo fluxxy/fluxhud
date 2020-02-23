@@ -6,10 +6,10 @@
 	{
 		"fieldName"		"EventMatch"
 		"xpos"			"r0"
-		"ypos"			"10"
+		"ypos"			"0"
 		"zpos"			"1002"
-		"wide"			"270"
-		"tall"			"f70"
+		"wide"			"280"
+		"tall"			"480"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
@@ -18,16 +18,17 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"8"
+		"xpos"		"0"
 		"ypos"		"20"
 		"zpos"		"99"
 		"wide"		"f0"
-		"tall"		"20"
+		"tall"		"30"
 		"proportionaltoparent"	"1"
-		"labeltext"		"#TF_Matchmaking_HeaderSpecialEvent"
+		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor_override"	"TanDark"
+		"font"			"FluxFontMainMenu5"
+		"fgcolor_override"	"White"
+		"AllCaps"						"1"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -46,6 +47,7 @@
 		"textAlignment"	"west"
 		"font"			"HudFontMediumSmallBold"
 		"fgcolor_override"	"Orange"
+		"AllCaps"	"1"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -54,7 +56,7 @@
 	{
 		"ControlName"	"CTFLocalPlayerBadgePanel"
 		"fieldName"		"RankImage"
-		"xpos"			"-10"
+		"xpos"			"9999"
 		"ypos"			"45"
 		"zpos"			"110"
 		"wide"			"o1"
@@ -71,7 +73,7 @@
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"-85"
+		"xpos"			"9999"
 		"ypos"			"25"
 		"zpos"			"100"
 		"wide"			"330"
@@ -109,7 +111,8 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"InnerShadowBorder"
+			"bgcolor_override" "30 30 30 255"
+			"border"		"NoBorder"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 		}
@@ -157,22 +160,23 @@
 
 			"Slider"
 			{
-				"fgcolor_override"	"TanDark"
+				"fgcolor_override"	"White"
 			}
-		
+	
 			"UpButton"
 			{
 				"ControlName"	"Button"
 				"FieldName"		"UpButton"
-				"visible"		"0"
+				"visible"		"1"
 			}
-		
+	
 			"DownButton"
 			{
 				"ControlName"	"Button"
 				"FieldName"		"DownButton"
-				"visible"		"0"
+				"visible"		"1"
 			}
+
 		}
 
 		"ModeDesc"
@@ -240,7 +244,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
+		"defaultBgColor_override"	"Green"
+		"armedBgColor_override"		"FluxColorIngameButHover"
+		"depressedBgColor_override"	"Green"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
 	}
 }

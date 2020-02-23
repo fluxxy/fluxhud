@@ -31,7 +31,8 @@
 			"tall"			"f0"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
-			"border"		"OuterShadowBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"		"FluxColorGreyDark"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"2"
@@ -81,7 +82,8 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"border"		"NoBorder"
+				"bgcolor_override"		"FluxColorGreyDark"
 				"proportionaltoparent"	"1"
 			}
 
@@ -122,6 +124,7 @@
 					"mouseinputenabled"	"1"
 					"keyboardinputenabled"	"0"
 					"actionsignallevel"	"3"
+					"AllCaps"	"1"
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
@@ -151,6 +154,7 @@
 					"mouseinputenabled"	"1"
 					"keyboardinputenabled"	"0"
 					"actionsignallevel"	"3"
+					"AllCaps"	"1"
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
@@ -191,6 +195,7 @@
 					"proportionaltoparent"	"1"
 					"labeltext"		"#TF_Matchmaking_RollingQueue_RequeueNonLeader"
 					"paintbackground"	"1"
+					"AllCaps"	"1"
 				}
 
 
@@ -219,6 +224,7 @@
 					"keyboardinputenabled"	"0"
 					"actionsignallevel"	"3"
 					"paintbackground"	"1"
+					"AllCaps"	"1"
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
@@ -241,6 +247,7 @@
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchOver"
 				"proportionaltoparent"	"1"
+				"AllCaps"	"1"
 			}
 
 			"VoteEndTimeLabel"
@@ -259,6 +266,7 @@
 				"textAlignment"	"center"
 				"labelText"		"%vote_end_time%"
 				"proportionaltoparent"	"1"
+				"AllCaps"	"1"
 			}
 
 			"RematchVoteState"
@@ -282,6 +290,7 @@
 				"proportionaltoparent"	"1"
 				"labeltext"		"%votes_needed%"
 				"paintbackground"	"1"
+				"AllCaps"	"1"
 			}
 
 		}
@@ -313,7 +322,8 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"border"		"NoBorder"
+				"bgcolor_override"		"FluxColorGreyDark"
 				"proportionaltoparent"	"1"
 			}
 
@@ -333,6 +343,7 @@
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_Rematch_Waiting"
 				"proportionaltoparent"	"1"
+				"AllCaps"	"1"
 			}
 
 			"VoteEndTimeLabel"
@@ -351,6 +362,7 @@
 				"textAlignment"	"center"
 				"labelText"		"%vote_end_time%"
 				"proportionaltoparent"	"1"
+				"AllCaps"	"1"
 			}
 
 			"NonLeaderContainer"
@@ -390,6 +402,7 @@
 					"keyboardinputenabled"	"0"
 					"actionsignallevel"	"3"
 					"paintbackground"	"1"
+					"AllCaps"	"1"
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
@@ -424,7 +437,8 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"border"		"NoBorder"
+				"bgcolor_override"		"FluxColorGreyDark"
 				"proportionaltoparent"	"1"
 			}
 
@@ -444,6 +458,7 @@
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_Start"
 				"proportionaltoparent"	"1"
+				"AllCaps"	"1"
 			}
 
 			"Spinner"
@@ -463,6 +478,7 @@
 				"image"			"animated/tf2_logo_hourglass"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
+				"drawcolor"	"White"
 			}
 
 			"LeaderContainer"
@@ -503,6 +519,7 @@
 					"keyboardinputenabled"	"0"
 					"actionsignallevel"	"3"
 					"paintbackground"	"1"
+					"AllCaps"	"1"
 
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
@@ -537,7 +554,8 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"border"		"NoBorder"
+				"bgcolor_override"		"FluxColorGreyDark"
 				"proportionaltoparent"	"1"
 			}
 
@@ -557,6 +575,7 @@
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_NewMatchReady"
 				"proportionaltoparent"	"1"
+				"AllCaps"	"1"
 			}
 
 			"AutoJoinLabel"
@@ -575,6 +594,7 @@
 				"textAlignment"	"center"
 				"labelText"		"%auto_join%"
 				"proportionaltoparent"	"1"
+				"AllCaps"	"1"
 			}
 
 			"AbandonButton"
@@ -602,6 +622,7 @@
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
 				"paintbackground"	"1"
+				"AllCaps"	"1"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
@@ -637,6 +658,7 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"AllCaps"	"1"
 			}
 		}
 
@@ -667,7 +689,8 @@
 				"tall"			"f0"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"ReplayDefaultBorder"
+				"border"		"NoBorder"
+				"bgcolor_override"		"FluxColorGreyDark"
 				"proportionaltoparent"	"1"
 			}
 
@@ -687,6 +710,7 @@
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_RollingQueue_RematchStarting"
 				"proportionaltoparent"	"1"
+				"AllCaps"	"1"
 			}
 
 			"Spinner"
@@ -706,6 +730,7 @@
 				"image"			"animated/tf2_logo_hourglass"
 				"scaleImage"	"1"
 				"proportionaltoparent"	"1"
+				"drawcolor"	"White"
 			}
 		}
 	}

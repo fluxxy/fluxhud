@@ -38,7 +38,7 @@
 		"Slider"
 		{
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"118 107 94 255"
+			"fgcolor_override"	"White"
 		}
 		"UpButton"
 		{
@@ -81,8 +81,8 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"border"				"FluxBorderPanel"
-		"bgcolor_override"		"40 40 40 255"
+		"border"				"NoBorder"
+		"bgcolor_override"		"70 136 160 255"
 		"PaintBorder"	"1"
 		"PreviewViewportBg"
 		{
@@ -112,7 +112,7 @@
 			"paintborder"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override" 		"FluxColorDialogBack"
+			"bgcolor_override" 		"Blank"
 		}
 		"FootBottomPanel"
 		{
@@ -177,6 +177,7 @@
 					"fieldName"		"ItemLevelInfoLabel"
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"%item_level_info%"
+					"AllCaps"		"1"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"15"
@@ -185,7 +186,7 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"118 107 94 255"
+					"fgcolor"		"White"
 				}
 				"RestrictionsLabel"
 				{
@@ -193,6 +194,7 @@
 					"fieldName"		"RestrictionsLabel"
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Restrictions"
+					"AllCaps"		"1"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
@@ -209,6 +211,7 @@
 					"fieldName"		"RestrictionsTextLabel"
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_HolidayRestrictionText"
+					"AllCaps"		"1"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
@@ -225,6 +228,7 @@
 					"fieldName"		"UsedByLabel"
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_UsedBy"
+					"AllCaps"		"1"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
@@ -233,13 +237,14 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"0 0 0 255"
 				}
 				"UsedByTextLabel"
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"UsedByTextLabel"
 					"font"			"FontStoreOriginalPrice"
+					"AllCaps"		"1"
 					"labelText"		"%used_by_classes%"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -256,6 +261,7 @@
 					"fieldName"		"SlotLabel"
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Slot"
+					"AllCaps"		"1"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
@@ -264,13 +270,14 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"0 0 0 255"
 				}
 				"SlotTextLabel"
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"SlotTextLabel"
 					"font"			"FontStoreOriginalPrice"
+					"AllCaps"		"1"
 					"labelText"		"%slot%"
 					"textAlignment"	"north-west"
 					"wide"			"228"
@@ -301,6 +308,7 @@
 					"ControlName"	"CExLabel"
 					"fieldName"		"ArmoryTextLabel"
 					"font"			"FontStoreOriginalPrice"
+					"AllCaps"		"1"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
@@ -316,6 +324,7 @@
 					"ControlName"	"CExLabel"
 					"fieldName"		"AttributesLabel"
 					"font"			"FontStoreOriginalPrice"
+					"AllCaps"		"1"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
@@ -339,12 +348,22 @@
 					"tabPosition"	"0"
 					"labelText"		"#Store_ItemDesc_ItemWikiPage"
 					"font"			"HudFontSmallestBold"
+					"AllCaps"		"1"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
 					"command"		"viewwikipage"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					"paintbackground"	"1"
+					"defaultBgColor_override"	"8 77 102 255"
+					"armedBgColor_override"		"207 231 241 255"
+					"depressedBgColor_override"	"8 77 102 255"
+					"defaultFgColor_override"	"255 255 255 255"
+					"armedFgColor_override" 	"40 40 40 255"
+					"depressedFgColor_override" "255 255 255 255"
+					"border_default"			"NoBorder"
+					"border_armed"				"NoBorder"	
 				}
 				"TradableLabel"
 				{
@@ -352,6 +371,7 @@
 					"fieldName"		"TradableLabel"
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Tradable"
+					"AllCaps"		"1"
 					"textAlignment"	"north-west"
 					"wide"			"205"
 					"tall"			"10"
@@ -360,13 +380,14 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"0 0 0 255"
 				}
 				"TradableTextLabel"
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"TradableTextLabel"
 					"font"			"FontStoreOriginalPrice"
+					"AllCaps"		"1"
 					"labelText"		"%tradable%"
 					"textAlignment"	"north-west"
 					"wide"			"205"
@@ -383,6 +404,7 @@
 					"fieldName"		"GiftableLabel"
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Giftable"
+					"AllCaps"		"1"
 					"textAlignment"	"north-west"
 					"wide"			"205"
 					"tall"			"10"
@@ -391,13 +413,14 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"0 0 0 255"
 				}
 				"GiftableTextLabel"
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"GiftableTextLabel"
 					"font"			"FontStoreOriginalPrice"
+					"AllCaps"		"1"
 					"labelText"		"%giftable%"
 					"textAlignment"	"north-west"
 					"wide"			"205"
@@ -414,6 +437,7 @@
 					"fieldName"		"NameableLabel"
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Nameable"
+					"AllCaps"		"1"
 					"textAlignment"	"north-west"
 					"wide"			"205"
 					"tall"			"10"
@@ -422,13 +446,14 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"0 0 0 255"
 				}
 				"NameableTextLabel"
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"NameableTextLabel"
 					"font"			"FontStoreOriginalPrice"
+					"AllCaps"		"1"
 					"labelText"		"%nameable%"
 					"textAlignment"	"north-west"
 					"wide"			"205"
@@ -445,6 +470,7 @@
 					"fieldName"		"CraftableLabel"
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Craftable"
+					"AllCaps"		"1"
 					"textAlignment"		"north-west"
 					"wide"			"205"
 					"tall"			"10"
@@ -453,13 +479,14 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"wrap"			"1"
-					"fgcolor"		"173 165 146 255"
+					"fgcolor"		"0 0 0 255"
 				}
 				"CraftableTextLabel"
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"CraftableTextLabel"
 					"font"			"FontStoreOriginalPrice"
+					"AllCaps"		"1"
 					"labelText"		"%craftable%"
 					"textAlignment"		"north-west"
 					"wide"			"205"
@@ -495,6 +522,7 @@
 		"model"
 		{
 			"force_pos"	"1"
+
 			"angles_x" "0"
 			"angles_y" "170"
 			"angles_z" "0"
@@ -505,58 +533,8 @@
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
+		
 			"modelname"		""
-			"animation"
-			{
-				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-				"default"	"1"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
-			}
-			"animation"
-			{
-				"name"		"MELEE"
-				"activity"	"ACT_MP_STAND_MELEE"
-			}
-			"animation"
-			{
-				"name"		"BUILDING"
-				"activity"	"ACT_MP_STAND_BUILDING"
-			}
-			"animation"
-			{
-				"name"		"PDA"
-				"activity"	"ACT_MP_STAND_PDA"
-			}
-			"animation"
-			{
-				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
-			"animation"
-			{
-				"name"		"ITEM2"
-				"activity"	"ACT_MP_STAND_ITEM2"
-			}	
-			"animation"
-			{
-				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}								
-			"animation"
-			{
-				"name"		"PRIMARY2"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY2"
-				"activity"	"ACT_MP_STAND_SECONDARY2"
-			}
 		}
 	}
 	"PreviewItemModelPanel"
@@ -597,10 +575,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "8 77 102 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"bgblockout"
 		{
 			"ControlName"	"EditablePanel"
@@ -612,13 +590,13 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override" "51 47 46 255"
 		}
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"model_xpos"	"1"
 			"model_ypos"	"2"
@@ -645,10 +623,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "8 77 102 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"bgblockout"
 		{
 			"ControlName"	"EditablePanel"
@@ -660,13 +638,13 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override" "51 47 46 255"
 		}
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"model_xpos"	"1"
 			"model_ypos"	"2"
@@ -693,10 +671,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "8 77 102 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"bgblockout"
 		{
 			"ControlName"	"EditablePanel"
@@ -708,13 +686,13 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override" "51 47 46 255"
 		}
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"model_xpos"	"1"
 			"model_ypos"	"2"
@@ -741,10 +719,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "8 77 102 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"bgblockout"
 		{
 			"ControlName"	"EditablePanel"
@@ -756,13 +734,13 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override" "51 47 46 255"
 		}
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"model_xpos"	"1"
 			"model_ypos"	"2"
@@ -789,10 +767,10 @@
 		"wide"			"30"
 		"tall"			"20"
 		"visible"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "8 77 102 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"bgblockout"
 		{
 			"ControlName"	"EditablePanel"
@@ -804,13 +782,13 @@
 			"tall"			"16"
 			"visible"		"1"
 			"enabled"		"0"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"bgcolor_override" "51 47 46 255"
 		}
 		"itempanel"
 		{
 			"fieldName"		"itempanel"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"model_xpos"	"1"
 			"model_ypos"	"2"
@@ -838,10 +816,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "8 77 102 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage2"
 	{
@@ -854,10 +832,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "8 77 102 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage3"
 	{
@@ -870,10 +848,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "8 77 102 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage4"
 	{
@@ -886,10 +864,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "8 77 102 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage5"
 	{
@@ -902,10 +880,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "8 77 102 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage6"
 	{
@@ -918,10 +896,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "8 77 102 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"IconsMoveLeftButton"
 	{
@@ -997,7 +975,7 @@
 		"centerwrap"	"1"
 		"paintborder"	"1"
 		"textinsetx"	"100"
-		"border"		"LoadoutItemPopupBorder"
+		"border"		"NoBorder"
 	}
 	"RotLeftButton"
 	{
@@ -1022,9 +1000,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override"	"White"
 	}
 	"RotRightButton"
 	{
@@ -1049,9 +1027,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"0"
-		"defaultFgColor_override"	"118 107 94 255"
-		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override"	"White"
 	}
 	"NextWeaponButton"
 	{
@@ -1364,6 +1342,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"X"
+		"textinsety"	"-1"
 		"font"			"FluxFontButton"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -1373,14 +1352,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"FluxColorTransBlack1"
-		"armedBgColor_override"		"FluxColorTransDarkGrey"
-		"depressedBgColor_override"	"FluxColorTransBlack1"
+		"defaultBgColor_override"	"RedSolid"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"RedSolid"
 		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"armedFgColor_override" 	"RedSolid"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"BackButton"
 	{
@@ -1388,7 +1367,7 @@
 		"fieldName"		"BackButton"
 		"xpos"			"c-223"
 		"ypos"			"c110"
-		"zpos"			"2"
+		"zpos"			"9"
 		"wide"			"90"
 		"tall"			"23"
 		"autoResize"	"0"
@@ -1405,14 +1384,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"FluxColorTransBlack1"
-		"armedBgColor_override"		"FluxColorTransDarkGrey"
-		"depressedBgColor_override"	"FluxColorTransBlack1"
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"	
 	}
 	"TryItOutButton"
 	{
@@ -1420,7 +1399,7 @@
 		"fieldName"		"TryItOutButton"
 		"xpos"			"c-123"
 		"ypos"			"c110"
-		"zpos"			"2"
+		"zpos"			"9"
 		"wide"			"120"
 		"tall"			"23"
 		"autoResize"	"0"
@@ -1438,14 +1417,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"fgcolor"		"White"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"FluxColorTransBlack1"
-		"armedBgColor_override"		"FluxColorTransDarkGrey"
-		"depressedBgColor_override"	"FluxColorTransBlack1"
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"	
 	}
 	"AddToCartButton"
 	{
@@ -1456,7 +1435,7 @@
 		"fieldName"		"AddToCartButton"
 		"xpos"			"c65"
 		"ypos"			"c108"
-		"zpos"			"2"
+		"zpos"			"9"
 		"wide"			"160"
 		"tall"			"27"
 		"autoResize"	"0"
@@ -1465,6 +1444,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#Store_AddToCart"
 		"font"			"FluxFontButton"
+		"AllCaps"		"1"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -1473,9 +1453,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"fgcolor"		"34 30 31 255"
-		"defaultBgColor_override"	"76 107 34 255"
-		"ArmedBgColor_override"	"86 117 44 255"
-		"depressedBgColor_override" "66 97 24 255"
+		"defaultBgColor_override"		"Green"
+		"ArmedBgColor_override"			"86 117 44 255"
+		"depressedBgColor_override" 	"Green"
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
 	}	
@@ -1490,7 +1470,7 @@
 		"tall"			"150"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"8 77 102 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 

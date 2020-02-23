@@ -893,8 +893,8 @@
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
 		"TextFont"		"FluxFontDeathNotice"
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
+		"TeamBlue"		"24 107 197 255"
+		"TeamRed"		"220 46 46 255"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 		
@@ -1818,7 +1818,7 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"	 		"f0"
-		"tall"	 		"f0"
+		"tall"	 		"480"
 	}
 
 	HudSpectatorExtras

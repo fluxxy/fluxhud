@@ -90,7 +90,7 @@
 			"xpos"			"255"
 			"ypos"			"rs1"
 			"zpos"			"100"
-			"wide"			"24"
+			"wide"			"25"
 			"tall"			"f5"
 			"autoResize"	"0"
 			"pinCorner"		"3"
@@ -158,7 +158,7 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
-			"bgcolor_override" "207 231 241 100"
+			"bgcolor_override" "207 231 241 200"
 
 			"party_slot"	"0"
 		}
@@ -180,7 +180,7 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
-			"bgcolor_override" "207 231 241 100"
+			"bgcolor_override" "207 231 241 200"
 
 			"party_slot"	"1"
 		}
@@ -202,7 +202,7 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
-			"bgcolor_override" "207 231 241 100"
+			"bgcolor_override" "207 231 241 200"
 
 			"party_slot"	"2"
 		}
@@ -224,7 +224,7 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
-			"bgcolor_override" "207 231 241 100"
+			"bgcolor_override" "207 231 241 200"
 
 			"party_slot"	"3"
 		}
@@ -246,7 +246,7 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
-			"bgcolor_override" "207 231 241 100"
+			"bgcolor_override" "207 231 241 200"
 
 			"party_slot"	"4"
 		}
@@ -268,7 +268,7 @@
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"1"
 			"keyboardinputenabled"	"0"
-			"bgcolor_override" "207 231 241 100"
+			"bgcolor_override" "207 231 241 200"
 
 			"party_slot"	"5"
 		}
@@ -426,7 +426,7 @@
 				"paintbackground"	"0"
 			
 				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
+				"armedFgColor_override" "White"
 				"depressedFgColor_override" "46 43 42 255"
 			
 				"image_drawcolor"	"117 107 94 255"
@@ -476,7 +476,7 @@
 				"paintbackground"	"0"
 			
 				"defaultFgColor_override" "46 43 42 255"
-				"armedFgColor_override" "235 226 202 255"
+				"armedFgColor_override" "White"
 				"depressedFgColor_override" "46 43 42 255"
 			
 				"image_drawcolor"	"117 107 94 255"
@@ -752,8 +752,8 @@
 
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"White"
 
 			"SubImage"
 			{
@@ -805,9 +805,9 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"defaultBgColor_override"	"207 231 241 100"
+			"defaultBgColor_override"	"207 231 241 200"
 			"armedBgColor_override"		"70 136 160 100"
-			"depressedBgColor_override"	"207 231 241 100"
+			"depressedBgColor_override"	"207 231 241 200"
 			"defaultFgColor_override"	"40 40 40 255"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "40 40 40 255"
@@ -849,7 +849,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"FluxFontMainMenu3"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -860,13 +860,13 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"0"
+			"textinsety"	"-2"
 			"textinsetx"	"0"
 			"use_proportional_insets"	"1"
 
-			"defaultBgColor_override"	"207 231 241 100"
+			"defaultBgColor_override"	"207 231 241 200"
 			"armedBgColor_override"		"70 136 160 100"
-			"depressedBgColor_override"	"207 231 241 100"
+			"depressedBgColor_override"	"207 231 241 200"
 			"defaultFgColor_override"	"40 40 40 255"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "40 40 40 255"

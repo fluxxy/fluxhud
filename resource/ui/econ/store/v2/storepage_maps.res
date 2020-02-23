@@ -57,11 +57,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"FluxFontMainMenu3"
 		"labelText"		"#Store_Maps_Title"
 		"textAlignment"	"north-west"
 		"xpos"			"c-292"
-		"ypos"			"20"
+		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"500"
 		"tall"			"25"
@@ -87,7 +87,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"200 200 200 255"
+		"fgcolor"		"230 230 230 255"
 	}
 	
 	"LearnMoreButton"
@@ -113,13 +113,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"FluxColorTransBlack1"
-		"armedBgColor_override"		"FluxColorTransDarkGrey"
-		"depressedBgColor_override"	"FluxColorTransBlack1"
-		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"defaultBgColor_override"	"70 136 160 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"70 136 160 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}	
 }

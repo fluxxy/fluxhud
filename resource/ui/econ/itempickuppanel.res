@@ -16,9 +16,9 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"				"5 59 79 255"
+		"infocus_bgcolor_override" 		"5 59 79 255"
+		"outoffocus_bgcolor_override" 	"5 59 79 255"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
@@ -173,6 +173,15 @@
 		"Command"		"nextitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"70 136 160 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"70 136 160 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"PrevButton"
 	{
@@ -196,6 +205,15 @@
 		"Command"		"previtem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"70 136 160 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"70 136 160 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	
 	"CloseButton"
@@ -221,6 +239,15 @@
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"70 136 160 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"70 136 160 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
 	}
 	"OpenLoadoutButton"
 	{
@@ -244,6 +271,15 @@
 		"Command"		"changeloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"70 136 160 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"70 136 160 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
 	}
 	
 	"DiscardButton"
@@ -273,8 +309,8 @@
 		"armedBgColor_override" "145 73 59 255"
 		"depressedBgColor_override" "117 107 94 255"
 			
-		"image_drawcolor"	"235 226 202 255"		
-		"image_armedcolor"	"235 226 202 255"		
+		"image_drawcolor"	"White"		
+		"image_armedcolor"	"White"		
 		
 		"SubImage"
 		{
@@ -321,7 +357,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}
@@ -365,7 +401,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"wrap"				"0"
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"White"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"			"Enter Score Here"
 		"textAlignment"		"center"

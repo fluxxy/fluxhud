@@ -14,13 +14,13 @@
 	{
 		"fieldName"			"BGPanel"
 		"ControlName"		"EditablePanel"
-		"xpos"				"cs-0.5"
+		"xpos"				"9999"
 		"ypos"				"0"
 		"wide"				"p1.3"
 		"tall"				"f0"
 
 		"proportionaltoparent"	"1"
-		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
 	}
 
 	"Checkbutton"
@@ -35,7 +35,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"smallcheckimage"	"1"
-		"fgcolor"	"TanLight"	
+		"fgcolor"	"White"	
 		"font"		"HudFontSmallBold"
 
 		"sound_depressed"	"UI/buttonclickrelease.wav"	

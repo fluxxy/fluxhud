@@ -4,11 +4,11 @@
 	{
 		"ControlName"	"CMatchMakingPanel"
 		"fieldName"		"MatchMaking"
-		"xpos"			"c5"
-		"ypos"			"65"
+		"xpos"			"280"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"350"
-		"tall"			"375"
+		"wide"			"f0"
+		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
 		"proportionaltoparent" "1"
@@ -58,7 +58,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"bgcolor_override"	"255 255 255 252"
+			"bgcolor_override"	"255 255 255 255"
 			"proportionaltoparent"	"1"
 		}
 
@@ -81,6 +81,7 @@
 			"wrap"			"0"
 			"proportionaltoparent"	"1"
 			"fgcolor"		"TanLight"
+			"AllCaps"	"1"
 		}
 
 		"CompetitiveModeGroupBox"
@@ -135,12 +136,12 @@
 				"unicode"			"0"
 				"default"			"0"
 		
-				"fgcolor_override"	"235 226 202 255"
+				"fgcolor_override"	"White"
 				"bgcolor_override"	"0 0 0 0"
-				"disabledFgColor_override" "235 226 202 255"
+				"disabledFgColor_override" "White"
 				"disabledBgColor_override" "0 0 0 0"
 				"selectionColor_override" "0 0 0 0"
-				"selectionTextColor_override" "235 226 202 255"
+				"selectionTextColor_override" "White"
 				"defaultSelectionBG2Color_override" "0 0 0 0"
 			}
 
@@ -166,6 +167,7 @@
 				"Command"		"search"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"AllCaps"	"1"
 			}
 
 			"StopSearchButton"
@@ -190,6 +192,7 @@
 				"Command"		"stopsearch"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"AllCaps"	"1"
 			}
 		}
 
@@ -224,6 +227,7 @@
 				"visible"	"1"
 				"enabled"	"1"
 				"proportionaltoparent"	"1"
+				"AllCaps"	"1"
 			}
 
 			"NearbyColumnHead"
@@ -240,6 +244,7 @@
 				"textAlignment"	"south-east"
 				"visible"	"1"
 				"enabled"	"1"
+				"AllCaps"	"1"
 			}
 
 			"WorldwideColumnHead"
@@ -256,6 +261,7 @@
 				"textAlignment"	"south-east"
 				"visible"	"1"
 				"enabled"	"1"
+				"AllCaps"	"1"
 			}
 
 			"PlayersInGameLabel"
@@ -272,6 +278,7 @@
 				"textAlignment"	"north-west"
 				"visible"	"1"
 				"enabled"	"1"
+				"AllCaps"	"1"
 			}
 
 			"PlayersInGameTotalLabel"
@@ -288,6 +295,7 @@
 				"textAlignment"	"north-west"
 				"visible"	"1"
 				"enabled"	"1"
+				"AllCaps"	"1"
 			}
 
 				"PlayersInGameTotalNearbyValue"
@@ -336,6 +344,7 @@
 				"textAlignment"	"north-west"
 				"visible"	"1"
 				"enabled"	"1"
+				"AllCaps"	"1"
 			}
 
 				"PlayersInGameMatchingNearbyValue"
@@ -384,6 +393,7 @@
 				"textAlignment"	"north-west"
 				"visible"	"1"
 				"enabled"	"1"
+				"AllCaps"	"1"
 			}
 
 			"PlayersSearchingTotalLabel"
@@ -400,6 +410,7 @@
 				"textAlignment"	"north-west"
 				"visible"	"1"
 				"enabled"	"1"
+				"AllCaps"	"1"
 			}
 
 				"PlayersSearchingTotalNearbyValue"
@@ -448,6 +459,7 @@
 				"textAlignment"	"north-west"
 				"visible"	"1"
 				"enabled"	"1"
+				"AllCaps"	"1"
 			}
 
 				"PlayersSearchingMatchingNearbyValue"
@@ -496,6 +508,7 @@
 				"textAlignment"	"north-west"
 				"visible"	"1"
 				"enabled"	"1"
+				"AllCaps"	"1"
 			}
 
 				"EmptyGameserversMatchingNearbyValue"

@@ -30,8 +30,9 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
-			"border"		"OuterShadowBorder"
+			"PaintBackgroundType"	"2"
+			"border"		"NoBorder"
+			"bgcolor_override"		"FluxColorGreyDark"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"0"
@@ -49,7 +50,8 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"		"FluxColorGreyDark"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"3"
 
@@ -124,9 +126,19 @@
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
 				"paintbackground"	"1"
+				"AllCaps"	"1"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultBgColor_override"	"RedSolid"
+				"armedBgColor_override"		"FluxColorIngameButHover"
+				"depressedBgColor_override"	"RedSolid"
+				"defaultFgColor_override"	"White"
+				"armedFgColor_override" 	"White"
+				"depressedFgColor_override" "White"
+				"border_default"			"NoBorder"
+				"border_armed"				"NoBorder"		
 			}
 
 			"SmallJoinButton"
@@ -159,13 +171,19 @@
 				"labeltext"		"#TF_Matchmaking_RollingQueue_JoinNow"
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
-				"actionsignallevel"	"2"
-
-				"armedBgColor_override"		"CreditsGreen"
-				"defaultBgColor_override"	"SaleGreen"
+				"AllCaps"	"1"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultBgColor_override"	"Green"
+				"armedBgColor_override"		"FluxColorIngameButHover"
+				"depressedBgColor_override"	"Green"
+				"defaultFgColor_override"	"White"
+				"armedFgColor_override" 	"White"
+				"depressedFgColor_override" "White"
+				"border_default"			"NoBorder"
+				"border_armed"				"NoBorder"					
 			}
 
 			"WideJoinButton"
@@ -193,12 +211,19 @@
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"2"
-
-				"armedBgColor_override"		"CreditsGreen"
-				"defaultBgColor_override"	"SaleGreen"
+				"AllCaps"	"1"
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				
+				"defaultBgColor_override"	"Green"
+				"armedBgColor_override"		"FluxColorIngameButHover"
+				"depressedBgColor_override"	"Green"
+				"defaultFgColor_override"	"White"
+				"armedFgColor_override" 	"White"
+				"depressedFgColor_override" "White"
+				"border_default"			"NoBorder"
+				"border_armed"				"NoBorder"						
 			}
 
 			"JoiningLabel"
@@ -217,6 +242,7 @@
 				"textAlignment"	"east"
 				"labelText"		"#TF_Matchmaking_RollingQueue_MatchReadyJoining"
 				"proportionaltoparent"	"1"
+				"AllCaps"	"1"
 				"pinCorner"		"3"
 			}
 
@@ -237,7 +263,7 @@
 
 				"radius"		"10"
 				"velocity"		"250"
-				"fgcolor_override"	"Orange"
+				"fgcolor_override"	"White"
 			}
 		}
 	}

@@ -45,8 +45,10 @@
 		"tall"			"300"
 		"visible"		"1"
 		"enabled"		"1"
-		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
+		"PaintBackgroundType"	"2"
+		"paintbackground"		"1"
+		"border"				"NoBorder"
+		"bgcolor_override"		"70 136 160 255"
 		"PaintBorder"	"1"
 		
 		// Background for the player model & item preview panels
@@ -57,12 +59,12 @@
 			"xpos"			"10"
 			"ypos"			"22"
 			"zpos"			"1"
-			"wide"			"220"
+			"wide"			"260"
 			"tall"			"209"
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
+			"border"		"FluxsBorderBlock1"
 		}
 	
 	
@@ -81,7 +83,7 @@
 			"paintborder"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			"bgcolor_override" "Blank"
 		}
 		
 		// Rounded corners on the bottom of the footer
@@ -89,17 +91,12 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"FootBottomPanel"
-			"xpos"			"3"
-			"ypos"			"240"
-			"zpos"			"1"
-			"wide"			"235"
-			"tall"			"58"
-			"visible"		"1"
-			"enabled"		"1"
-			"paintborder"	"0"
-			"PaintBackgroundType"	"2"
-			"paintbackground"	"1"
-			"bgcolor_override" "50 46 41 255"
+			"xpos"			"9999"
+			"ypos"			"9999"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 		
 		"MapsDescLabel"
@@ -139,7 +136,7 @@
 	
 	"CloseButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"c101"
 		"ypos"			"c-144"
@@ -151,35 +148,25 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"labelText"		"X"
+		"textinsety"	"-1"
+		"font"			"FluxFontButton"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"0"
+		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"close"
-		
-		"paintbackground"	"0"
-		
-		"image_drawcolor"	"118 107 94 255"
-		"image_armedcolor"	"246 247 213 255"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"close_button"
-			"scaleImage"	"1"
-		}				
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"RedSolid"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"RedSolid"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"RedSolid"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"					
 	}		
 	
 	"BackButton"
@@ -204,6 +191,14 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"fgcolor"		"White"
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"8 77 102 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"8 77 102 255"
+		"defaultFgColor_override"	"255 255 255 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}		
 }

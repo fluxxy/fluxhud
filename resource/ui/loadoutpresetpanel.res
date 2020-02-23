@@ -24,6 +24,10 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"centerwrap"	"1"
+			"paintborder"		"1"
+			"paintbackground"	"0"
+			"border_default"				"FluxBorderBlueMid"
+			"border_armed"					"FluxBorderBlueLight"
 		}			
 	}
 }

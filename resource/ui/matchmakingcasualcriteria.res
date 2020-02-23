@@ -4,11 +4,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlaylistBGPanel"
-		"xpos"			"cs-0.5"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"p0.98"
-		"tall"			"p1"
+		"wide"			"f0"
+		"tall"			"480"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
@@ -20,7 +20,7 @@
 		{
 			"ControlName"	"CTFLocalPlayerBadgePanel"
 			"fieldName"		"RankImage"
-			"xpos"			"4"
+			"xpos"			"9999"
 			"ypos"			"-8"
 			"zpos"			"110"
 			"wide"			"o1"
@@ -37,7 +37,7 @@
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
-			"xpos"			"-70"
+			"xpos"			"9999"
 			"ypos"			"-35"
 			"zpos"			"100"
 			"wide"			"330"
@@ -57,7 +57,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
 			"xpos"			"rs1-49"
-			"ypos"			"49"
+			"ypos"			"45"
 			"zpos"			"100"
 			"wide"			"15"
 			"tall"			"o1"
@@ -73,12 +73,25 @@
 			"brighttext"	"0"
 			"default"		"0"
 			"Command"		"restore_search_criteria"
+			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			
+			"defaultBgColor_override"	"8 77 102 255"
+			"armedBgColor_override"		"207 231 241 255"
+			"depressedBgColor_override"	"8 77 102 255"
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override" 	"40 40 40 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"		
+			
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"40 40 40 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -100,7 +113,7 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
 			"xpos"			"rs1-29"
-			"ypos"			"49"
+			"ypos"			"45"
 			"zpos"			"100"
 			"wide"			"15"
 			"tall"			"o1"
@@ -118,10 +131,22 @@
 			"Command"		"save_search_criteria"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			
+			"defaultBgColor_override"	"8 77 102 255"
+			"armedBgColor_override"		"207 231 241 255"
+			"depressedBgColor_override"	"8 77 102 255"
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override" 	"40 40 40 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"		
+			
+			"image_drawcolor"	"White"
+			"image_armedcolor"	"40 40 40 255"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -143,7 +168,7 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"ShowExplanationsButton"
 			"xpos"			"rs1-9"
-			"ypos"			"49"
+			"ypos"			"45"
 			"zpos"			"100"
 			"wide"			"15"
 			"tall"			"o1"
@@ -161,8 +186,18 @@
 			"Command"		"show_explanations"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
+			
+			"defaultBgColor_override"	"8 77 102 255"
+			"armedBgColor_override"		"207 231 241 255"
+			"depressedBgColor_override"	"8 77 102 255"
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override" 	"40 40 40 255"
+			"depressedFgColor_override" "255 255 255 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"			
 		}
 
 		"Title"
@@ -170,14 +205,15 @@
 			"ControlName"		"Label"
 			"fieldName"		"Title"
 			"xpos"		"10"
-			"ypos"		"47"
+			"ypos"		"40"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_MapSelection"
+			"AllCaps"	"1"
 			"textAlignment"	"north-west"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"FluxFontMainMenu3"
 		
 			"mouseinputenabled"	"0"
 		}
@@ -187,15 +223,16 @@
 			"ControlName"		"Label"
 			"fieldName"		"SelectedCount"
 			"xpos"		"10"
-			"ypos"		"33"
+			"ypos"		"25"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
+			"AllCaps"	"1"
 			"font"			"HudFontSmallest"
-			"fgcolor_override"	"TanDark"
+			"fgcolor_override"	"White"
 		
 			"mouseinputenabled"	"1"
 		}
@@ -212,6 +249,7 @@
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_QueueEstimation"
 			"textAlignment"	"east"
+			"AllCaps"	"1"
 			"font"			"HudFontSmallest"
 			"fgcolor_override"	"TanLight"
 			"textinsetx"	"5"
@@ -224,14 +262,15 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PlayListDropShadow"
-			"xpos"			"cs-0.5"
+			"xpos"			"0"
 			"ypos"			"65"
 			"zpos"			"101"
-			"wide"			"f15"
-			"tall"			"f65"
-			"visible"		"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
 			"PaintBackgroundType"	"2"
-			"border"		"InnerShadowBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"			 "0 0 0 200"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 		}
@@ -247,8 +286,11 @@
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"restrict_width" "0"
+			"paintbackground" 				"0"
+			"paintbackgroundtype" 			"0"
 
-			"border"		"MainMenuBGBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"		"255 255 255 30"		
 
 			"ScrollBar"
 			{
@@ -257,28 +299,28 @@
 				"xpos"			"rs1-1"
 				"ypos"			"0"
 				"tall"			"f0"
-				"wide"			"5" // This gets slammed from client schme.  GG.
+				"wide"			"5" // 3
 				"zpos"			"1000"
 				"nobuttons"		"1"
 				"proportionaltoparent"	"1"
 
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"White"
 				}
 		
 				"UpButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"UpButton"
-					"visible"		"0"
+					"visible"		"1"
 				}
 		
 				"DownButton"
 				{
 					"ControlName"	"Button"
 					"FieldName"		"DownButton"
-					"visible"		"0"
+					"visible"		"1"
 				}
 			}
 		}

@@ -74,7 +74,7 @@
 				"paintbackground"	"0"
 				"defaultFgColor_override"	"118 107 94 255"
 				"armedFgColor_override"		"128 117 104 255"
-				"depressedFgColor_override"	"236 227 203 255"
+				"depressedFgColor_override"	"White"
 			}		
 	
 			"RotateRightButton"
@@ -101,7 +101,7 @@
 				"paintbackground"	"0"
 				"defaultFgColor_override"	"118 107 94 255"
 				"armedFgColor_override"		"128 117 104 255"
-				"depressedFgColor_override"	"236 227 203 255"
+				"depressedFgColor_override"	"White"
 			}
 
 			"ZoomButton"
@@ -166,7 +166,7 @@
 		"Slider"
 		{
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"118 107 94 255"
+			"fgcolor_override"	"White"
 		}
 		
 		"UpButton"
@@ -201,7 +201,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override" "0 0 0 128"
+		"bgcolor_override" "5 59 79 255"
 	}
 	
 	// Rounded dialog border
@@ -217,7 +217,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"0"
-		"border"		"TFFatLineBorderOpaque"
+		"border"		"NoBorder"
+		"bgcolor_override"	"70 136 160 255"
+		"paintbackground" "1"
+		"PaintBackgroundType" "0"
 		"PaintBorder"	"1"
 		
 		// Background for the player model & item preview panels
@@ -233,7 +236,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"1"
-			"border"		"StoreInnerShadowBorder"
+			"border"		"NoBorder"
+			"paintbackground"	"1"
+			"paintbackgroundtype"	"0"
+			"bgcolor_override"	"0 0 0 180"
 		}
 		
 		"ItemNameLabel"
@@ -296,6 +302,7 @@
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"%item_level_info%"
 					"textAlignment"	"north-west"
+					"AllCaps"		"1"
 					"wide"			"228"
 					"tall"			"15"
 					"autoResize"	"0"
@@ -313,6 +320,7 @@
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Restrictions"
 					"textAlignment"	"north-west"
+					"AllCaps"		"1"
 					"wide"			"228"
 					"tall"			"10"
 					"autoResize"	"0"
@@ -330,6 +338,7 @@
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_HolidayRestrictionText"
 					"textAlignment"	"north-west"
+					"AllCaps"		"1"
 					"wide"			"228"
 					"tall"			"10"
 					"autoResize"	"0"
@@ -347,6 +356,7 @@
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_UsedBy"
 					"textAlignment"	"north-west"
+					"AllCaps"		"1"
 					"wide"			"228"
 					"tall"			"10"
 					"autoResize"	"0"
@@ -364,6 +374,7 @@
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"%used_by_classes%"
 					"textAlignment"	"north-west"
+					"AllCaps"		"1"
 					"wide"			"228"
 					"tall"			"10"
 					"autoResize"	"0"
@@ -380,6 +391,7 @@
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"#Store_ItemDesc_Slot"
 					"textAlignment"	"north-west"
+					"AllCaps"		"1"
 					"wide"			"228"
 					"tall"			"10"
 					"autoResize"	"0"
@@ -396,6 +408,7 @@
 					"fieldName"		"SlotTextLabel"
 					"font"			"FontStoreOriginalPrice"
 					"labelText"		"%slot%"
+					"AllCaps"		"1"
 					"textAlignment"	"north-west"
 					"wide"			"228"
 					"tall"			"10"
@@ -412,6 +425,7 @@
 					"fieldName"		"ArmoryTextLabel"
 					"font"			"FontStoreOriginalPrice"
 					"textAlignment"	"north-west"
+					"AllCaps"		"1"
 					"wide"			"228"
 					"tall"			"10"
 					"autoResize"	"0"
@@ -428,6 +442,7 @@
 					"fieldName"		"AttributesLabel"
 					"font"			"FontStoreOriginalPrice"
 					"textAlignment"	"north-west"
+					"AllCaps"		"1"
 					"zpos"			"2"
 					"wide"			"228"
 					"tall"			"10"
@@ -472,6 +487,15 @@
 					"command"		"viewwikipage"
 					"sound_depressed"	"UI/buttonclick.wav"
 					"sound_released"	"UI/buttonclickrelease.wav"
+					"paintbackground"	"1"
+					"defaultBgColor_override"	"8 77 102 255"
+					"armedBgColor_override"		"207 231 241 255"
+					"depressedBgColor_override"	"8 77 102 255"
+					"defaultFgColor_override"	"255 255 255 255"
+					"armedFgColor_override" 	"40 40 40 255"
+					"depressedFgColor_override" "255 255 255 255"
+					"border_default"			"NoBorder"
+					"border_armed"				"NoBorder"	
 				}
 			}
 		}
@@ -620,7 +644,7 @@
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage2"
 	{
@@ -636,7 +660,7 @@
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage3"
 	{
@@ -652,7 +676,7 @@
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage4"
 	{
@@ -668,7 +692,7 @@
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage5"
 	{
@@ -684,7 +708,7 @@
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"ClassUsageImage6"
 	{
@@ -700,7 +724,7 @@
 		"panel_bgcolor" "117 107 94 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	
 	"IconsMoveLeftButton"
@@ -728,7 +752,7 @@
 		"paintbackground"	"0"
 		"defaultFgColor_override"	"118 107 94 255"
 		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"depressedFgColor_override"	"White"
 	}		
 	
 	"IconsMoveRightButton"
@@ -756,7 +780,7 @@
 		"paintbackground"	"0"
 		"defaultFgColor_override"	"118 107 94 255"
 		"armedFgColor_override"		"128 117 104 255"
-		"depressedFgColor_override"	"236 227 203 255"
+		"depressedFgColor_override"	"White"
 	}	
 	
 	"ClassUsageMouseoverLabel"
@@ -1036,7 +1060,7 @@
 	
 	"CloseButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"c221"
 		"ypos"			"c-194"
@@ -1048,35 +1072,25 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"labelText"		"X"
+		"textinsety"	"-1"
+		"font"			"FluxFontButton"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"0"
+		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"closex"	// Intentionally using "closex" instead of "close" for stats
-		
-		"paintbackground"	"0"
-		
-		"image_drawcolor"	"118 107 94 255"
-		"image_armedcolor"	"246 247 213 255"
-		
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"close_button"
-			"scaleImage"	"1"
-		}				
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"RedSolid"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"RedSolid"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"RedSolid"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"			
 	}
 
 	"mouseoveritempanel"

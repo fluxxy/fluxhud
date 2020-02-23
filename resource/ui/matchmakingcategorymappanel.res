@@ -14,13 +14,13 @@
 
 	"MapCheckbutton"
 	{
-		"ControlName"		"CExCheckButton"
-		"fieldName"		"MapCheckbutton"
-		"xpos"		"5"
-		"ypos"		"-2"
-		"zpos"		"3"
-		"wide"		"f0"
-		"tall"		"20"
+		"ControlName"			"CExCheckButton"
+		"fieldName"				"MapCheckbutton"
+		"xpos"					"5"
+		"ypos"					"-2"
+		"zpos"					"3"
+		"wide"					"f0"
+		"tall"					"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"textAlignment"	"west"
@@ -46,6 +46,7 @@
 		"font"			"FluxFontVer8"
 		"textinsetx"	"20"
 		"use_proportional_insets"	"1"
+		"AllCaps"	"1"
 		
 		"mouseinputenabled"	"0"
 	}
