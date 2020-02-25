@@ -43,6 +43,7 @@
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%tournamentstatelabel%"
+		"AllCaps"		"1"
 		"textAlignment" "west"
 	}
 	"TournamentTeamNameLabel"
@@ -62,6 +63,7 @@
 		"wrap"			"0"
 		"labelText"		"Name:"
 		"textAlignment" "west"
+		"AllCaps"		"1"
 	}
 	"TournamentNameEdit"
 	{
@@ -83,8 +85,8 @@
 		"NumericInputOnly"	"0"
 		"unicode"		"0"
 		"wrap"			"0"
-		"fgcolor_override"	"0 255 0 255"
-		"bgcolor_override"	"0 0 0 255"
+		"fgcolor_override"	"230 230 230 255"
+		"bgcolor_override"	"5 59 79 255"
 		"labelText"		"%teamname%"
 		"textAlignment"		"west"
 	}
@@ -124,7 +126,8 @@
 		"command"		"teamnotready"
 		"default"		"1"
 		"font"			"Default"
-		"fgcolor"		"230 230 230 255"
+		"AllCaps"		"1"
+		"fgcolor"		"200 200 200 255"
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 	}
@@ -146,9 +149,10 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"teamready" 
+		"AllCaps"		"1"
 		"default"		"1"
 		"font"			"Default"
-		"fgcolor"		"230 230 230 255"
+		"fgcolor"		"White"
 		"border_default"	"NoBorder"
 		"border_armed"		"NoBorder"
 	}

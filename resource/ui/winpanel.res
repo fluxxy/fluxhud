@@ -45,9 +45,9 @@
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"BlueScoreBG2"
 			"xpos"			"30"
-			"ypos"			"115"
+			"ypos"			"95"
 			"wide"			"90"
-			"tall"			"1"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -65,9 +65,9 @@
 			"ControlName"		"ScalableImagePanel"
 			"fieldName"		"RedScoreBG2"
 			"xpos"			"120"
-			"ypos"			"115"
+			"ypos"			"95"
 			"wide"			"90"
-			"tall"			"1"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -89,10 +89,10 @@
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"			"40"
-			"ypos"			"91"
+			"ypos"			"95"
 			"zpos"			"3"
 			"wide"			"56"
-			"tall"			"30"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -107,10 +107,10 @@
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"66"
-			"ypos"			"85"
+			"ypos"			"95"
 			"zpos"			"3"
 			"wide"			"44"
-			"tall"			"30"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -149,7 +149,7 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
-			"color_outline"	"52 48 45 255"
+			"color_outline"	"60 60 60 255"
 		}
 		"BlueLeaderAvatarBG"
 		{
@@ -162,7 +162,7 @@
 			"tall"			"0"		//44
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"bgcolor_override"	"130 130 130 255"
 		}											
 		"RedTeamLabel"
 		{
@@ -173,10 +173,10 @@
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"144"
-			"ypos"			"91"
+			"ypos"			"95"
 			"zpos"			"3"
 			"wide"			"56"
-			"tall"			"30"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -191,10 +191,10 @@
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"130"
-			"ypos"			"85"
+			"ypos"			"95"
 			"zpos"			"3"
 			"wide"			"44"
-			"tall"			"30"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -233,7 +233,7 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
-			"color_outline"	"52 48 45 255"
+			"color_outline"	"60 60 60 255"
 		}
 		"RedLeaderAvatarBG"
 		{
@@ -246,7 +246,7 @@
 			"tall"			"0"		//44
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"bgcolor_override"	"130 130 130 255"
 		}		
 
 	}
@@ -384,6 +384,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%AdvancingTeamLabel%"
+		"AllCaps"		"1"
 		"textAlignment"		"Center"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -431,7 +432,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"Regular6"
+		"font"			"FluxFontVer6"
 		"fgcolor"		"White"
 		"xpos"			"135"
 		"ypos"			"114"
@@ -444,6 +445,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%DetailsLabel%"
+		"AllCaps"		"1"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
@@ -535,7 +537,7 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"	
-		"color_outline"		"52 48 45 255"
+		"color_outline"		"60 60 60 255"
 	}
 	"Player1Name"
 	{	
@@ -604,7 +606,7 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"	
-		"color_outline"		"52 48 45 255"
+		"color_outline"		"60 60 60 255"
 	}
 	"Player2Name"
 	{	
@@ -673,7 +675,7 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"	
-		"color_outline"		"52 48 45 255"
+		"color_outline"		"60 60 60 255"
 	}
 	"Player3Name"
 	{	
@@ -799,7 +801,7 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"		"1"	
-		"color_outline"		"52 48 45 255"
+		"color_outline"		"60 60 60 255"
 	}
 	"KillStreakPlayer1Name"
 	{	

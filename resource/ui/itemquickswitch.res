@@ -21,8 +21,8 @@
 		{
 			"wide"			"230"
 			"tall"			"28"
-			"bgcolor_override"		"59 54 48 255"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"		"5 59 79 255"
+			"PaintBackgroundType"	"0"
 			"paintborder"	"0"
 			"text_forcesize" "2"
 			"model_xpos"	"25"
@@ -43,16 +43,16 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"5"
-		"ypos"			"5"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"20"
-		"tall"			"15"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "FluxColorEmphasis"
+		"fgcolor_override" "White"
 	}
 	"ClassLabel"
 	{
@@ -60,6 +60,7 @@
 		"fieldName"		"ClassLabel"
 		"font"			"DefaultLargeShadow"
 		"labelText"		"#ClassBeingEquipped"
+		"AllCaps"		"1"
 		"textAlignment"	"west"
 		"xpos"			"20"
 		"ypos"			"14"
@@ -125,7 +126,7 @@
 		"wide"			"280"
 		"tall"			"125"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"FluxColorGameDialog"
+		"bgcolor_override"	"5 59 79 255"
 		"CurrentlyEquippedBackground"
 		{
 			"ControlName"	"CExLabel"
@@ -140,7 +141,7 @@
 			"tall"			"30"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override" "FluxColorEmphasis"
+			"fgcolor_override" "White"
 			"bgcolor_override"	"0 0 0 0"
 		}
 	}
@@ -160,7 +161,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"fgcolor_override" "FluxColorEmphasis"
+		"fgcolor_override" "White"
 	}
 	"loadout_preset_panel"
 	{

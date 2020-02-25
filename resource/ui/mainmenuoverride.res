@@ -212,7 +212,26 @@
 		"enabled"		"1"
 		"scaleImage"	"1"
 	}
-
+	
+	//FluxHudLabel
+	"FluxHUDLabel"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"FluxHUDLabel"
+		"font"					"FluxFontMainMenu4"
+		"labelText"				"fluxhud"
+		"AllCaps"				"1"
+		"textAlignment"			"south-east"
+		"xpos"					"r250"
+		"ypos"					"r35"
+		"zpos"					"-2"
+		"wide"					"250"
+		"tall"					"35"
+		"visible"				"1"
+		"enabled"				"1"
+		"fgcolor_override"		"207 231 241 255"
+	}
+	
 	"RankModelPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
@@ -3043,5 +3062,848 @@
 		}
 	}
 	
+	//Hud Buttons
+	"DamageColorsPanel"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"DamageColorsPanel"
+		"xpos"							"30"
+		"ypos"							"c45"
+		"zpos"							"49"
+		"wide"							"122"
+		"tall"							"28"
+		"visible"						"1"
+		"enabled"						"1"
+		"paintbackground"				"1"
+		"paintbackgroundtype"			"0"
+		"bgcolor_override"				"70 136 160 200"
+		
+		"DamageColorsLabel"
+		{
+			"ControlName"				"CExLabel"
+			"fieldname"					"DamageColorsLabel"
+			"xpos"						"10"
+			"ypos"						"0"
+			"zpos"						"50"
+			"wide"						"50"
+			"tall"						"28"
+			"visible"					"1"
+			"enabled"					"1"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"font"						"FluxFontMainMenu2"
+			"textAlignment"				"west"
+			"labelText"					"Damage Colors"
+			"AllCaps"					"1"
+			"wrap"						"1"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"fgcolor"					"White"
+		}
+		
+		"Separator"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldname"					"Separator"
+			"xpos"						"60"
+			"ypos"						"2"
+			"zpos"						"50"
+			"wide"						"1"
+			"tall"						"24"
+			"visible"					"1"
+			"enabled"					"1"
+			"bgcolor_override"			"207 231 241 255"
+		}
+	}
 	
+	"White"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"White"
+		"xpos"							"10"
+		"ypos"							"-3"
+		"zpos"							"51"
+		"wide"							"10"
+		"tall"							"10"
+		"visible"						"1"
+		
+		"pin_to_sibling" 				"DamageColorsPanel"
+		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"10"
+			"tall"						"10"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 12"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"0"
+			"paintbackgroundtype"		"0"
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"White"
+			"depressedFgColor_override"	"White"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+
+			
+			"proportionaltoparent"		"1"
+		}
+	}
+	"Green"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"Green"
+		"xpos"							"2"
+		"ypos"							"0"
+		"zpos"							"51"
+		"wide"							"10"
+		"tall"							"10"
+		"visible"						"1"
+		
+		"pin_to_sibling" 				"White"
+		"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"10"
+			"tall"						"10"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 12"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"0"
+			"paintbackgroundtype"		"0"
+			"defaultFgColor_override"	"40 200 110 255"
+			"armedFgColor_override"		"40 200 110 255"
+			"depressedFgColor_override"	"40 200 110 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			
+			"proportionaltoparent"		"1"
+		}
+	}
+	"LightBlue"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"LightBlue"
+		"xpos"							"2"
+		"ypos"							"0"
+		"zpos"							"51"
+		"wide"							"10"
+		"tall"							"10"
+		"visible"						"1"
+		
+		"pin_to_sibling" 				"Green"
+		"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"10"
+			"tall"						"10"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 12"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"0"
+			"paintbackgroundtype"		"0"
+			"defaultFgColor_override"	"25 235 255 255"
+			"armedFgColor_override"		"25 235 255 255"
+			"depressedFgColor_override"	"25 235 255 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			
+			"proportionaltoparent"		"1"
+		}
+	}
+	
+	"Blue"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"Blue"
+		"xpos"							"2"
+		"ypos"							"0"
+		"zpos"							"51"
+		"wide"							"10"
+		"tall"							"10"
+		"visible"						"1"
+		
+		"pin_to_sibling" 				"LightBlue"
+		"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"10"
+			"tall"						"10"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 12"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"0"
+			"paintbackgroundtype"		"0"
+			"defaultFgColor_override"	"24 107 197 255"
+			"armedFgColor_override"		"24 107 197 255"
+			"depressedFgColor_override"	"24 107 197 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			
+			"proportionaltoparent"		"1"
+		}
+	}
+	
+	"Pink"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"Pink"
+		"xpos"							"0"
+		"ypos"							"2"
+		"zpos"							"51"
+		"wide"							"10"
+		"tall"							"10"
+		"visible"						"1"
+		
+		"pin_to_sibling" 				"White"
+		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 		"PIN_CENTER_BOTTOM"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"10"
+			"tall"						"10"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 12"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"0"
+			"paintbackgroundtype"		"0"
+			"defaultFgColor_override"	"255 24 220 255"
+			"armedFgColor_override"		"255 24 220 255"
+			"depressedFgColor_override"	"255 24 220 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			
+			"proportionaltoparent"		"1"
+		}
+	}
+	"Yellow"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"Yellow"
+		"xpos"							"2"
+		"ypos"							"0"
+		"zpos"							"51"
+		"wide"							"10"
+		"tall"							"10"
+		"visible"						"1"
+		
+		"pin_to_sibling" 				"Pink"
+		"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"10"
+			"tall"						"10"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 12"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"0"
+			"paintbackgroundtype"		"0"
+			"defaultFgColor_override"	"255 220 0 255"
+			"armedFgColor_override"		"255 220 0 255"
+			"depressedFgColor_override"	"255 220 0 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+		
+			
+			"proportionaltoparent"		"1"
+		}
+	}
+	
+	"Orange"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"Orange"
+		"xpos"							"2"
+		"ypos"							"0"
+		"zpos"							"51"
+		"wide"							"10"
+		"tall"							"10"
+		"visible"						"1"
+		
+		"pin_to_sibling" 				"Yellow"
+		"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"10"
+			"tall"						"10"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 12"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"0"
+			"paintbackgroundtype"		"0"
+			"defaultFgColor_override"	"255 200 55 255"
+			"armedFgColor_override"		"255 200 55 255"
+			"depressedFgColor_override"	"255 200 55 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			
+			"proportionaltoparent"		"1"
+		}
+	}
+	
+	"Red"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"Red"
+		"xpos"							"2"
+		"ypos"							"0"
+		"zpos"							"51"
+		"wide"							"10"
+		"tall"							"10"
+		"visible"						"1"
+		
+		"pin_to_sibling" 				"Orange"
+		"pin_corner_to_sibling" 		"PIN_CENTER_LEFT"
+		"pin_to_sibling_corner" 		"PIN_CENTER_RIGHT"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"10"
+			"tall"						"10"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 12"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"0"
+			"paintbackgroundtype"		"0"
+			
+			"defaultFgColor_override"	"220 46 46 255"
+			"armedFgColor_override"		"220 46 46 255"
+			"depressedFgColor_override"	"220 46 46 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			
+			"proportionaltoparent"		"1"
+		}
+	}
+	
+
+	
+
+	
+	"MatchHudPanel"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"MatchHudPanel"
+		"xpos"							"0"
+		"ypos"							"5"
+		"zpos"							"49"
+		"wide"							"122"
+		"tall"							"28"
+		"visible"						"1"
+		"enabled"						"1"
+		"paintbackground"				"1"
+		"paintbackgroundtype"			"0"
+		"bgcolor_override"				"70 136 160 200"
+		
+		"pin_to_sibling" 				"DamageColorsPanel"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
+		
+		"MatchHudLabel"
+		{
+			"ControlName"				"CExLabel"
+			"fieldname"					"MatchHudLabel"
+			"xpos"						"10"
+			"ypos"						"0"
+			"zpos"						"50"
+			"wide"						"50"
+			"tall"						"28"
+			"visible"					"1"
+			"enabled"					"1"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"font"						"FluxFontMainMenu2"
+			"textAlignment"				"west"
+			"labelText"					"Match Hud"
+			"AllCaps"					"1"
+			"wrap"						"1"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"fgcolor"					"White"
+		}
+		
+		"Separator"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldname"					"Separator"
+			"xpos"						"60"
+			"ypos"						"2"
+			"zpos"						"50"
+			"wide"						"1"
+			"tall"						"24"
+			"visible"					"1"
+			"enabled"					"1"
+			"bgcolor_override"			"207 231 241 255"
+		}
+	}
+	
+	"MatchHudON"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"MatchHudON"
+		"xpos"							"20"
+		"ypos"							"-4"
+		"zpos"							"51"
+		"wide"							"20"
+		"tall"							"20"
+		"visible"						"1"
+		
+		"pin_to_sibling" 				"MatchHudPanel"
+		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"20"
+			"tall"						"20"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 18"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"1"
+
+			"defaultFgColor_override"	"40 40 40 255"
+			"armedFgColor_override" 	"255 255 255 255"
+			"depressedFgColor_override" "40 40 40 255"
+			"defaultBgColor_override"	"Blank"
+			"armedBgColor_override"		"5 59 79 255"
+			"depressedBgColor_override"	"Blank"
+			"border_default"			"FluxBorderBlueLight"
+			"border_armed"				"FluxBorderBlueDark"
+
+			
+			"proportionaltoparent"		"1"
+		}
+	}
+	
+	"MatchHudOFF"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"MatchHudOFF"
+		"xpos"							"2"
+		"ypos"							"0"
+		"zpos"							"51"
+		"wide"							"20"
+		"tall"							"20"
+		"visible"						"1"
+		
+		"pin_to_sibling" 				"MatchHudON"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"20"
+			"tall"						"20"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 18"
+			"textAlignment"				"center"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"1"
+		
+			"defaultBgColor_override"	"207 231 241 200"
+			"armedBgColor_override"		"5 59 79 255"
+			"depressedBgColor_override"	"207 231 241 200"
+			"defaultFgColor_override"	"40 40 40 255"
+			"armedFgColor_override" 	"255 255 255 255"
+			"depressedFgColor_override" "40 40 40 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			
+			"proportionaltoparent"		"1"
+		}
+	}
+	
+	"InvisiblePlayersPanel"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"InvisiblePlayersPanel"
+		"xpos"							"6"
+		"ypos"							"0"
+		"zpos"							"50"
+		"wide"							"122"
+		"tall"							"28"
+		"visible"						"1"
+		"enabled"						"1"
+		"paintbackground"				"1"
+		"paintbackgroundtype"			"0"
+		"bgcolor_override"				"70 136 160 255"
+		
+		"pin_to_sibling" 				"DamageColorsPanel"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_TOPRIGHT"
+		
+		"InvisiblePlayersLabel"
+		{
+			"ControlName"				"CExLabel"
+			"fieldname"					"InvisiblePlayersLabel"
+			"xpos"						"10"
+			"ypos"						"0"
+			"zpos"						"50"
+			"wide"						"50"
+			"tall"						"28"
+			"visible"					"1"
+			"enabled"					"1"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"font"						"FluxFontMainMenu2"
+			"textAlignment"				"west"
+			"labelText"					"Invisible Players"
+			"AllCaps"					"1"
+			"wrap"						"1"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"fgcolor"					"White"
+		}
+		
+		"Separator"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldname"					"Separator"
+			"xpos"						"60"
+			"ypos"						"2"
+			"zpos"						"50"
+			"wide"						"1"
+			"tall"						"24"
+			"visible"					"1"
+			"enabled"					"1"
+			"bgcolor_override"			"207 231 241 255"
+		}
+	}
+	
+	"InvisiblePlayersFix"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"InvisiblePlayersFix"
+		"xpos"							"29"
+		"ypos"							"-4"
+		"zpos"							"51"
+		"wide"							"42"
+		"tall"							"20"
+		"visible"						"1"
+		
+		"pin_to_sibling" 				"InvisiblePlayersPanel"
+		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"42"
+			"tall"						"20"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"FluxFontMainMenu"
+			"textAlignment"				"center"
+			"AllCaps"					"1"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"1"
+		
+			"defaultBgColor_override"	"207 231 241 200"
+			"armedBgColor_override"		"5 59 79 255"
+			"depressedBgColor_override"	"207 231 241 200"
+			"defaultFgColor_override"	"40 40 40 255"
+			"armedFgColor_override" 	"255 255 255 255"
+			"depressedFgColor_override" "40 40 40 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			
+			"proportionaltoparent"		"1"
+		}
+	}
+	
+	
+	"ReloadHudPanel"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"ReloadHudPanel"
+		"xpos"							"0"
+		"ypos"							"5"
+		"zpos"							"50"
+		"wide"							"122"
+		"tall"							"28"
+		"visible"						"1"
+		"enabled"						"1"
+		"paintbackground"				"1"
+		"paintbackgroundtype"			"0"
+		"bgcolor_override"				"70 136 160 255"
+		
+		"pin_to_sibling" 				"InvisiblePlayersPanel"
+		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
+		"pin_to_sibling_corner" 		"PIN_BOTTOMLEFT"
+		
+		"ReloadHudLabel"
+		{
+			"ControlName"				"CExLabel"
+			"fieldname"					"ReloadHudLabel"
+			"xpos"						"10"
+			"ypos"						"0"
+			"zpos"						"50"
+			"wide"						"50"
+			"tall"						"28"
+			"visible"					"1"
+			"enabled"					"1"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"font"						"FluxFontMainMenu2"
+			"textAlignment"				"west"
+			"labelText"					"Reload Hud"
+			"AllCaps"					"1"
+			"wrap"						"1"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"fgcolor"					"White"
+		}
+		
+		"Separator"
+		{
+			"ControlName"				"EditablePanel"
+			"fieldname"					"Separator"
+			"xpos"						"60"
+			"ypos"						"2"
+			"zpos"						"50"
+			"wide"						"1"
+			"tall"						"24"
+			"visible"					"1"
+			"enabled"					"1"
+			"bgcolor_override"			"207 231 241 255"
+		}
+	}
+	
+	"ReloadHud"
+	{
+		"ControlName"					"EditablePanel"
+		"fieldname"						"ReloadHud"
+		"xpos"							"29"
+		"ypos"							"-4"
+		"zpos"							"51"
+		"wide"							"42"
+		"tall"							"20"
+		"visible"						"1"
+		
+		"pin_to_sibling" 				"ReloadHudPanel"
+		"pin_corner_to_sibling" 		"PIN_CENTER_TOP"
+		"pin_to_sibling_corner" 		"PIN_CENTER_TOP"
+
+		"SubButton"
+		{
+			"ControlName"				"CExImageButton"
+			"fieldName"					"SubButton"
+			"xpos"						"0"
+			"ypos"						"0"
+			"wide"						"42"
+			"tall"						"20"
+			"autoResize"				"0"
+			"pinCorner"					"3"
+			"visible"					"1"
+			"enabled"					"1"
+			"tabPosition"				"0"
+			"use_proportional_insets" 	"1"
+			"font"						"Symbols 18"
+			"textAlignment"				"center"
+			"AllCaps"					"0"
+			"dulltext"					"0"
+			"brighttext"				"0"
+			"default"					"1"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"paintbackground"			"1"
+		
+			"defaultBgColor_override"	"207 231 241 200"
+			"armedBgColor_override"		"5 59 79 255"
+			"depressedBgColor_override"	"207 231 241 200"
+			"defaultFgColor_override"	"40 40 40 255"
+			"armedFgColor_override" 	"255 255 255 255"
+			"depressedFgColor_override" "40 40 40 255"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			
+			"proportionaltoparent"		"1"
+		}
+	}
 }

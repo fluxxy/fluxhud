@@ -57,7 +57,7 @@
 			"fieldName"		"FreezeLabelKiller"
 			"font"			"FluxFontVer16"
 			"xpos"			"58"
-			"ypos"			"22"
+			"ypos"			"20"
 			"zpos"			"1"
 			"wide"			"230"
 			"tall"			"20"

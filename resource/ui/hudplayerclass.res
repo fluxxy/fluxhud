@@ -104,7 +104,7 @@
 		"xpos"			"0"
 		"ypos"			"r88"
 		"zpos"			"2"		
-		"wide"			"80"
+		"wide"			"100"
 		"tall"			"102"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -112,7 +112,7 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"30"
+		"fov"			"35"
 		"allow_rot"		"1"
 				
 		"model"
@@ -122,7 +122,7 @@
 			"angles_x" "0"
 			"angles_y" "270"
 			"angles_z" "0"
-			"origin_x" "200"
+			"origin_x" "205"
 			"origin_y" "28"
 			"origin_z" "-60"
 			"frame_origin_x"	"0"
@@ -144,8 +144,8 @@
 				"angles_x"		"0"
 				"angles_y"		"220"
 				"angles_z"		"0"
-				"origin_x"		"145"
-				"origin_y"		"15"
+				"origin_x"		"170"
+				"origin_y"		"5"
 				"origin_z"		"-47"
 			}
 			"Sniper"
@@ -154,7 +154,7 @@
 				"angles_x"		"-2"
 				"angles_y"		"170"
 				"angles_z"		"0"
-				"origin_x"		"150"
+				"origin_x"		"170"
 				"origin_y"		"10"
 				"origin_z"		"-47"	//-67
 			}
@@ -172,11 +172,11 @@
 			{
 				"fov"			"28"
 				"angles_x"		"0"
-				"angles_y"		"200"
+				"angles_y"		"220"
 				"angles_z"		"0"
-				"origin_x"		"160"
-				"origin_y"		"15"
-				"origin_z"		"-55"
+				"origin_x"		"170"
+				"origin_y"		"5"
+				"origin_z"		"-47"
 			}
 			"Medic"
 			{
@@ -185,8 +185,8 @@
 				"angles_y"		"180"
 				"angles_z"		"0"
 				"origin_x"		"190"
-				"origin_y"		"10"
-				"origin_z"		"-57"
+				"origin_y"		"5"
+				"origin_z"		"-55"
 			}
 			"Heavy"
 			{
@@ -195,8 +195,8 @@
 				"angles_y"		"180"
 				"angles_z"		"0"
 				"origin_x"		"260"
-				"origin_y"		"15"
-				"origin_z"		"-55"
+				"origin_y"		"5"
+				"origin_z"		"-47"
 			}
 			"Pyro"
 			{
@@ -214,7 +214,7 @@
 				"angles_x"		"0"
 				"angles_y"		"170"
 				"angles_z"		"0"
-				"origin_x"		"160"
+				"origin_x"		"170"
 				"origin_y"		"10"
 				"origin_z"		"-60"
 			}
@@ -224,7 +224,7 @@
 				"angles_x"		"0"
 				"angles_y"		"170"
 				"angles_z"		"0"
-				"origin_x"		"160"
+				"origin_x"		"170"
 				"origin_y"		"5"
 				"origin_z"		"-52"
 			}

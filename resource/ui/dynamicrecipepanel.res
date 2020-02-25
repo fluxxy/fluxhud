@@ -16,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"				"5 59 79 255"
+		"infocus_bgcolor_override" 		"5 59 79 255"
+		"outoffocus_bgcolor_override" 	"5 59 79 255"
 
 		"item_ypos"						"50"
 		"output_item_ypos"				"255"		
@@ -41,7 +41,7 @@
 			"visible"		"0"
 			"enabled"		"0"
 			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"130 130 130 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
@@ -63,8 +63,6 @@
 			
 
 		}
-		
-	
 		
 		"filter_xoffset"	"-290"
 		"filter_ypos"		"30"
@@ -110,6 +108,7 @@
 			"fieldName"		"RecipeTitle"
 			"font"			"ItemFontNameLarge"
 			"labelText"		"%recipetitle%"
+			"AllCaps"		"1"
 			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"2"
@@ -140,7 +139,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"130 130 130 255"
 		}
 		"OutputLabel"
 		{
@@ -158,7 +157,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"130 130 130 255"
 		}
 		"UntradableLabel"
 		{
@@ -176,7 +175,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"130 130 130 255"
 		}
 		
 		"CraftButton"
@@ -445,7 +444,7 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -469,7 +468,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"130 130 130 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -486,7 +485,7 @@
 		"tall"			"42"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		

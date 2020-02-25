@@ -25,7 +25,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"104 124 155 168"
+			"bgcolor_override"		"24 107 177 220"
 		}
 		"count"
 		{
@@ -40,7 +40,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"FluxFontHudPipes"
+			"font"			"FluxFontMainMenu3"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"TanLight"
@@ -58,7 +58,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"FluxFontHudPipes"
+			"font"			"FluxFontMainMenu3"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"Black"
@@ -117,7 +117,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"2"
 			"border"		"NoBorder"
-			"bgcolor_override"	"180 92 77 168"
+			"bgcolor_override"	"167 24 24 220"
 		}
 		"count"
 		{
@@ -132,7 +132,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"FluxFontHudPipes"
+			"font"			"FluxFontMainMenu3"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"TanLight"
@@ -150,7 +150,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"FluxFontHudPipes"
+			"font"			"FluxFontMainMenu3"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"Black"

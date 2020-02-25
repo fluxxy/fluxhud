@@ -32,7 +32,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"
-			"bgcolor_override"		"FluxColorGreyDark"
+			"bgcolor_override"		"70 136 160 255"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"2"
@@ -83,7 +83,7 @@
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"border"		"NoBorder"
-				"bgcolor_override"		"FluxColorGreyDark"
+				"bgcolor_override"		"70 136 160 255"
 				"proportionaltoparent"	"1"
 			}
 
@@ -323,7 +323,7 @@
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"border"		"NoBorder"
-				"bgcolor_override"		"FluxColorGreyDark"
+				"bgcolor_override"		"70 136 160 255"
 				"proportionaltoparent"	"1"
 			}
 
@@ -438,7 +438,7 @@
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"border"		"NoBorder"
-				"bgcolor_override"		"FluxColorGreyDark"
+				"bgcolor_override"		"70 136 160 255"
 				"proportionaltoparent"	"1"
 			}
 
@@ -555,7 +555,7 @@
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"border"		"NoBorder"
-				"bgcolor_override"		"FluxColorGreyDark"
+				"bgcolor_override"		"70 136 160 255"
 				"proportionaltoparent"	"1"
 			}
 
@@ -690,7 +690,7 @@
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
 				"border"		"NoBorder"
-				"bgcolor_override"		"FluxColorGreyDark"
+				"bgcolor_override"		"70 136 160 255"
 				"proportionaltoparent"	"1"
 			}
 

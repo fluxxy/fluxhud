@@ -17,7 +17,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"proportionaltoparent"	"1"
-		"fgcolor_override" "46 43 42 255"
+		"fgcolor_override" "20 20 20 255"
 		"auto_tall_tocontents"	"1"
 	}
 		
@@ -38,13 +38,13 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"proportionaltoparent"	"1"
-		"fgcolor_override" "46 43 42 255"
+		"fgcolor_override" "20 20 20 255"
 		"auto_tall_tocontents"	"1"
 	}
 		
 	"CloseButton"
 	{
-		"ControlName"	"CExImageButton"
+		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"rs1"
 		"ypos"			"5"
@@ -55,41 +55,25 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labeltext"		""
-		"font"			"HudFontSmallBold"
+		"labelText"		"X"
+		"textinsety"	"-1"
+		"font"			"FluxFontButton"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"0"
+		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"Command"		"close"
-		"proportionaltoparent"	"1"
-		"autoresize"		"0"
-			
-		"paintbackground"	"0"
-			
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "200 80 60 255"
-		"depressedFgColor_override" "46 43 42 255"
-			
-		"image_drawcolor"	"117 107 94 255"
-		"image_armedcolor"	"200 80 60 255"
-		"SubImage"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"SubImage"
-			"xpos"			"0"
-			"ypos"			"rs1"
-			"zpos"			"1"
-			"wide"			"14"
-			"tall"			"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"close_button"
-			"scaleImage"	"1"
-			"proportionaltoparent"	"1"
-		}				
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"RedSolid"
+		"armedBgColor_override"		"HudRedTeamSolid"
+		"depressedBgColor_override"	"RedSolid"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"			
 	}	
 		
 	"PrevButton"
@@ -118,9 +102,9 @@
 			
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" "20 20 20 255"
 		"armedFgColor_override" "200 80 60 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "20 20 20 255"
 			
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"255 255 255 255"
@@ -166,9 +150,9 @@
 			
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "46 43 42 255"
+		"defaultFgColor_override" "20 20 20 255"
 		"armedFgColor_override" "200 80 60 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"depressedFgColor_override" "20 20 20 255"
 			
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"255 255 255 255"

@@ -30,6 +30,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%mapname%"
+		"AllCaps"		"1"
 		"textAlignment"	"west"
 		"font"			"FluxFontTitleLabel"
 		"fgcolor"		"White"
@@ -48,6 +49,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%gamemode%"
+		"AllCaps"		"1"
 		"textAlignment"	"west"
 		"font"			"FluxFontTitleLabelSmall"
 		"fgcolor"		"Gray"
@@ -106,14 +108,21 @@
 		"default"		"1"
 		"font"			"Default"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"30 30 30 255"
-		"armedBgColor_override"		"40 40 40 255"
-		"depressedBgColor_override"	"30 30 30 255"
+		"paintbackgroundtype"	"0"
+		"paintborder"		"1"
+		
 		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "40 40 40 255"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"		
+		"defaultBgColor_override"	"Green"
+		"armedFgColor_override"		"White"
+		"armedBgColor_override"		"Green"
+		"depressedFgColor_override"	"White"
+		"depressedBgColor_override"	"Green"
+		"selectedFgColor_override"	"White"
+		"selectedBgColor_override"	"Green"
+		"disabledfgcolor2_override"	"20 20 20 255"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"	
 	}
 	"MapInfoWatchIntro" [$WIN32]
 	{
@@ -136,14 +145,14 @@
 		"default"		"1"
 		"font"			"Default"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"30 30 30 255"
-		"armedBgColor_override"		"40 40 40 255"
-		"depressedBgColor_override"	"30 30 30 255"
+		"defaultBgColor_override"	"70 136 160 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"70 136 160 255"
 		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "40 40 40 255"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"		
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
 	}
 	"MapInfoBack" [$WIN32]
 	{
@@ -165,14 +174,14 @@
 		"command"		"back"
 		"font"			"Default"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"30 30 30 255"
-		"armedBgColor_override"		"40 40 40 255"
-		"depressedBgColor_override"	"30 30 30 255"
+		"defaultBgColor_override"	"70 136 160 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"70 136 160 255"
 		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "40 40 40 255"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"		
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"			
 	}
 	"MenuBG2"
 	{
@@ -189,7 +198,7 @@
 		"autoResize"	"0"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"FluxColorGameDialog"
+		"bgcolor_override"	"5 59 79 255"
 	}	
 	
 	// Removed Stuff

@@ -24,7 +24,7 @@
 		"tall"			"36"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"bgcolor_override"	"117 107 94 255"
+		"bgcolor_override"	"130 130 130 255"
 	}
 	"AvatarImage"
 	{
@@ -39,7 +39,7 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
-		"color_outline"	"52 48 45 255"
+		"color_outline"	"60 60 60 255"
 	}
 
 	"AvatarTextLabel"

@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	"BuildIcon"	
 	{
@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_build"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	"BuildIconShadow"	
 	{
@@ -60,6 +60,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#Hud_menu_build_title"
+		"AllCaps"		"1"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -81,6 +82,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#Hud_menu_build_title"
+		"AllCaps"		"1"
 		"textAlignment"	"Left"
 		"dulltext"		"1"
 		"brighttext"	"0"
@@ -101,6 +103,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cancel"
+		"AllCaps"		"1"
 		"textAlignment"	"East"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -109,9 +112,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuildTitle"
-		"font"			"DefaultLargeShadow"
+		"font"			"FluxFontMainMenu"
+		"AllCaps"		"1"
 		"labelText"		"Build Menu"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"xpos"			"8"
 		"ypos"			"7"
 		"zpos"			"3"
@@ -135,7 +139,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"	
-		"fillcolor"		"20 20 40 200"
+		"fillcolor"		"9 158 49 220"
 		"PaintBackgroundType"	"0"
 	}
 	"BuildBG"
@@ -151,7 +155,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"	
-		"fillcolor"		"0 0 0 128"
+		"fillcolor"		"70 136 170 220"
 		"PaintBackgroundType"	"0"
 	}
 	"active_item_1"

@@ -3,6 +3,7 @@
 	"InviteNotification"
 	{
 		"fieldName"		"InviteNotification"
+		"xpos"			"r200"
 		"zpos"			"1001"
 		"wide"			"200"
 		"tall"			"35"
@@ -17,7 +18,7 @@
 	{
 		// "ControlName"	"CAvatarImagePanel"
 		"fieldName"		"avatar"
-		"xpos"			"5"
+		"xpos"			"r195"
 		"ypos"			"rs1-5"
 		"zpos"			"101"
 		"wide"			"25"

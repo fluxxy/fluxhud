@@ -28,6 +28,7 @@
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 		"centerwrap"	"1"
+		"AllCaps"		"1"
 	}
 
 	"PreviewLabel"
@@ -49,6 +50,7 @@
 		"fgcolor_override" "TanLight"
 		"centerwrap"	"1"
 		"mouseinputenabled"	"0"
+		"AllCaps"		"1"
 	}
 
 	"ModelInspectionPanel"

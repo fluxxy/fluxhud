@@ -10,10 +10,10 @@
 		"ypos"					"105"
 		"wide"					"400"
 		"tall"					"240"
-		"bgcolor_override"		"46 43 42 0"
+		"bgcolor_override"		"70 136 160 255"
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
-		"border"				"GrayDialogBorder"
+		"border"				"NoBorder"
 	}
 
 	"TitleLabel"
@@ -21,6 +21,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontSmallBold"
+		"AllCaps"		"1"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -68,7 +69,7 @@
 		"image"			"backpack_jewel_modify_target_b_g"
 		"tileImage"		"0"
 		"tileVertically" "0"
-		"drawcolor"		"112 176 74 255"
+		"drawcolor"		"130 130 130 255"
 	}				
 	"tool_modelpanel"
 	{		
@@ -81,7 +82,7 @@
 		"tall"			"70"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"model_xpos"	"2"
@@ -143,7 +144,7 @@
 		"tall"			"70"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"model_xpos"	"2"
@@ -195,7 +196,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"White"
 	}
 
 	"WarningLabel"

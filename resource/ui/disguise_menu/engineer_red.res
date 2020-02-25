@@ -22,7 +22,7 @@
 		
 	"ClassIcon"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ClassIcon"
 		"xpos"			"c15"
 		"ypos"			"r280"
@@ -32,7 +32,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_engineer_red"
+		"image"			"replay/thumbnails/class_icons/class_sel_sm_engineer_red"
 	}
 		
 	"NumberBg"	

@@ -11,8 +11,8 @@
 		"tall"					"330"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"border"				"FluxBorderPanel"
-		"bgcolor_override"		"40 40 40 255"
+		"border"				"NoBorder"
+		"bgcolor_override"		"5 59 79 255"
 		"button_kv"
 		{
 			"xpos"			"10"
@@ -54,7 +54,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"	
-				"color_outline"	"52 48 45 255"
+				"color_outline"	"60 60 60 255"
 			}
 		}
 	}
@@ -75,6 +75,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "White"
+		"AllCaps"		"1"
 	}
 	"PlayerListScroller"
 	{
@@ -84,8 +85,8 @@
 		"ypos"			"130"
 		"wide"			"380"
 		"tall"			"130"
-		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"117 107 94 255"
+		"PaintBackgroundType"	"0"
+		"fgcolor_override"	"130 130 130 255"
 		"bgcolor_override"	"0 0 0 64"
 		"PlayerList"
 		{
@@ -108,13 +109,14 @@
 		"ypos"					"100"
 		"wide"	 				"400"
 		"tall"	 				"180"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_SelectPlayer_Select"
+			"AllCaps"		"1"
 			"textAlignment"	"north"
 			"xpos"			"0"
 			"ypos"			"20"
@@ -125,7 +127,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}
 		"subbutton0"
 		{
@@ -186,7 +188,7 @@
 		"ypos"					"100"
 		"wide"	 				"400"
 		"tall"	 				"180"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -202,7 +204,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}
 		"EmptyPlayerListLabel"
 		{
@@ -222,7 +224,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}	
 	}
 	"StatePanel2"
@@ -235,7 +237,7 @@
 		"ypos"					"100"
 		"wide"	 				"400"
 		"tall"	 				"180"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"QueryLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -252,7 +254,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}
 		"EmptyPlayerListLabel"
 		{
@@ -272,7 +274,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}	
 	}
 	"ClassLabel"
@@ -308,7 +310,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"centerwrap"	"1"
 		"paintborder"	"1"
 		"textinsetx"	"100"
@@ -325,10 +327,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "130 130 130 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"VerticalLine"
 	{
@@ -352,10 +354,10 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"panel_bgcolor" "117 107 94 255"
+		"panel_bgcolor" "130 130 130 255"
 		"panel_bgcolor_mouseover" "255 255 255 255"
 		"image_indent"	"2"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	"CancelButton"
 	{
@@ -380,5 +382,15 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"Red"
+		"armedBgColor_override"		"255 45 45 255"
+		"depressedBgColor_override"	"Red"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 }

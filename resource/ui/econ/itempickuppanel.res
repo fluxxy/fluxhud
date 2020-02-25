@@ -28,7 +28,7 @@
 		
 		"modelpanelskv"	
 		{
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundType"	"0"
 			"paintborder"			"1"
 			"bgcolor_override"		"0 0 0 0"
 			
@@ -96,6 +96,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"White"
+		"AllCaps"		"1"
 	}
 	
 	"SelectedItemFoundMethodLabel"
@@ -114,6 +116,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"White"
+		"AllCaps"		"1"
 	}
 	
 	"ItemCountLabel"
@@ -132,6 +136,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"White"
+		"AllCaps"		"1"
 	}
 	"SelectedItemNumberLabel"
 	{
@@ -149,6 +155,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"White"
+		"AllCaps"		"1"
 	}
 	
 	"NextButton"
@@ -305,9 +313,9 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" "117 107 94 255"
-		"armedBgColor_override" "145 73 59 255"
-		"depressedBgColor_override" "117 107 94 255"
+		"defaultBgColor_override" "Red"
+		"armedBgColor_override" "255 45 45 255"
+		"depressedBgColor_override" "130 130 130 255"
 			
 		"image_drawcolor"	"White"		
 		"image_armedcolor"	"White"		
@@ -339,7 +347,7 @@
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 		"border"		"MainMenuBGBorder"
 		
 		"TipLabel"
@@ -386,24 +394,6 @@
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"			"ScoreEntry"
-		"xpos"				"c-100"
-		"ypos"				"380"
-		"wide"				"200"
-		"tall"				"16"
-		"autoResize"		"0"
-		"pinCorner"			"0"
-		"visible"			"0"
-		"enabled"			"0"
-		"tabPosition"		"0"
-		"textHidden"		"0"
-		"editable"			"1"
-		"maxchars"			"5"
-		"NumericInputOnly"	"0"
-		"unicode"			"0"
-		"wrap"				"0"
-		"fgcolor_override"	"White"
-		"bgcolor_override"	"0 0 0 255"
-		"labelText"			"Enter Score Here"
-		"textAlignment"		"center"
+		"xpos"				"9999"
 	}
 }

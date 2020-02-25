@@ -22,7 +22,7 @@
 	
 	"ClassIcon"	
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"ClassIcon"
 		"xpos"			"c-133"
 		"ypos"			"r280"
@@ -32,7 +32,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"hud_menu_scout_red"
+		"image"			"replay/thumbnails/class_icons/class_sel_sm_scout_red"
 	}
 	
 	"NumberBg"	

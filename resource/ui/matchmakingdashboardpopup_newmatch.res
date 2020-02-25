@@ -32,7 +32,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"NoBorder"
-			"bgcolor_override"		"FluxColorGreyDark"
+			"bgcolor_override"		"70 136 160 255"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"0"
@@ -51,7 +51,7 @@
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
 			"border"		"NoBorder"
-			"bgcolor_override"		"FluxColorGreyDark"
+			"bgcolor_override"		"70 136 160 255"
 			"proportionaltoparent"	"1"
 			"pinCorner"		"3"
 

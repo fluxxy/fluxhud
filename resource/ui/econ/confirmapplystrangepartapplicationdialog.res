@@ -12,8 +12,8 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"border"				"FluxBorderPanel"
-		"bgcolor_override"		"FluxColorMainGrey"
+		"border"				"NoBorder"
+		"bgcolor_override"		"70 136 160 255"
 	}
 	"mouseoveritempanel"
 	{
@@ -26,7 +26,7 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		"text_ypos"			"20"
@@ -47,8 +47,8 @@
     		"enabled"		"1"
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
-			"border"				"FluxBorderPanel"
-			"bgcolor_override"		"FluxColorMainGrey"
+			"border"				"NoBorder"
+			"bgcolor_override"		"5 59 79 255"
     	}
 		"attriblabel"
 		{
@@ -64,7 +64,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"130 130 130 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -85,6 +85,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
+		"AllCaps"		"1"
 	}
 	"ToolBG"
 	{
@@ -132,7 +133,7 @@
 		"tall"			"64"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"model_xpos"	"2"
@@ -195,7 +196,7 @@
 		"tall"			"64"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"model_xpos"	"2"
@@ -228,6 +229,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "White"
+		"AllCaps"		"1"
 	}
 	"CancelButton"
 	{
@@ -253,14 +255,15 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"FluxColorTransBlack1"
-		"armedBgColor_override"		"FluxColorTransDarkGrey"
-		"depressedBgColor_override"	"FluxColorTransBlack1"
+		"AllCaps"		"1"
+		"defaultBgColor_override"	"Red"
+		"armedBgColor_override"		"HudRedSolid"
+		"depressedBgColor_override"	"Red"
 		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"armedFgColor_override" 	"201 231 241 255"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"OkButton"
 	{
@@ -286,13 +289,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"FluxColorTransBlack1"
-		"armedBgColor_override"		"FluxColorTransDarkGrey"
-		"depressedBgColor_override"	"FluxColorTransBlack1"
+		"AllCaps"		"1"
+		"defaultBgColor_override"	"Green"
+		"armedBgColor_override"		"GreenDark"
+		"depressedBgColor_override"	"Green"
 		"defaultFgColor_override"	"White"
-		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"armedFgColor_override" 	"201 231 241 255"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 }

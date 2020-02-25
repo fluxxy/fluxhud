@@ -28,7 +28,7 @@
 			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"50 153 255 120"
+			"fillcolor"		"24 107 197 220"
 		}
 		"RedScoreBG"
 		{
@@ -49,14 +49,15 @@
 			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"245 45 45 120"
+			"fillcolor"		"197 24 24 220"
 		}
 		"BlueTeamLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"DefaultLarge"
+			"font"			"FluxFontMainMenu3"
 			"labelText"		"%blueteamname%"
+			"AllCaps"		"1"
 			"textAlignment"	"west"
 			"xpos"			"4"
 			"ypos"			"21"
@@ -69,7 +70,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"FluxFontHudPipes"
+			"font"			"FluxFontMainMenu3"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"	"east"
 			"xpos"			"111"
@@ -84,7 +85,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"FluxFontHudPipes"
+			"font"			"FluxFontMainMenu3"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"	"east"
 			"xpos"			"112"
@@ -100,8 +101,9 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"DefaultLarge"
+			"font"			"FluxFontMainMenu3"
 			"labelText"		"%redteamname%"
+			"AllCaps"		"1"
 			"textAlignment"	"east"
 			"xpos"			"186"
 			"ypos"			"21"
@@ -114,7 +116,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"FluxFontHudPipes"
+			"font"			"FluxFontMainMenu3"
 			"labelText"		"%redteamscore%"
 			"textAlignment"	"west"
 			"xpos"			"158"
@@ -129,7 +131,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"FluxFontHudPipes"
+			"font"			"FluxFontMainMenu3"
 			"labelText"		"%redteamscore%"
 			"textAlignment"	"west"
 			"xpos"			"159"
@@ -167,7 +169,7 @@
 			"enabled"		"1"
 			"PaintBackgroundType"	"2"
 			"border"				"NoBorder"
-			"bgcolor_override"		"FluxColorGameDialog"
+			"bgcolor_override"		"5 59 79 255"
 		}
 		"ArenaStreakLabel"
 		{	
@@ -288,7 +290,7 @@
 		"tall"			"52"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"FluxColorGameDialog"
+		"fillcolor"		"5 59 79 255"
 		"PaintBackgroundType"	"0"
 	}
 	"TopPlayersLabel"
@@ -380,7 +382,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"250 234 201 255"
+		"fillcolor"		"207 231 241 255"
 		"PaintBackgroundType"	"0"
 	}
 

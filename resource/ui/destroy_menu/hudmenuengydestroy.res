@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_bg"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"DestroyIcon"	
@@ -29,7 +29,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_demolish"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"White"
 	}
 	
 	"TitleLabelDropshadow"
@@ -37,6 +37,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
 		"font"			"HudFontGiantBold"
+		"AllCaps"		"1"
 		"fgcolor"		"Black"
 		"xpos"			"32"			// align me to the left edge of the first selection
 		"ypos"			"7"
@@ -58,6 +59,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontGiantBold"
+		"AllCaps"		"1"
 		"xpos"			"31"			// align me to the left edge of the first selection
 		"ypos"			"4"
 		"zpos"			"2"
@@ -88,6 +90,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cancel"
+		"AllCaps"		"1"
 		"textAlignment"	"East"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -97,9 +100,10 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BuildTitle"
-		"font"			"DefaultLargeShadow"
+		"font"			"FluxFontMainMenu"
 		"labelText"		"Destroy Menu"
-		"textAlignment"	"west"
+		"AllCaps"		"1"
+		"textAlignment"	"center"
 		"xpos"			"8"
 		"ypos"			"7"
 		"zpos"			"3"
@@ -116,7 +120,7 @@
 	"DestroyTitleBG"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildTitleBG"
+		"fieldName"		"DestroyTitleBG"
 		"xpos"			"2"
 		"ypos"			"9"
 		"zpos"			"1"
@@ -126,10 +130,9 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"	
-		"fillcolor"		"40 20 20 200"
+		"fillcolor"		"197 24 24 220"
 		"PaintBackgroundType"	"0"
 	}
-	
 	
 	"DestroyBG"
 	{
@@ -144,7 +147,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"	
-		"fillcolor"		"0 0 0 128"
+		"fillcolor"		"70 136 170 220"
 		"PaintBackgroundType"	"0"
 	}
 	

@@ -12,7 +12,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"0 0 0 235"
+		"bgcolor_override"	"5 59 79 235"
 		
 		"PassedIcon"
 		{
@@ -39,12 +39,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#GameUI_vote_passed"
+			"AllCaps"		"1"
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontSmallBold"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 		}
 		
 		"PassedResult"
@@ -58,12 +59,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%passedresult%"
+			"AllCaps"		"1"
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"FluxFontVer8"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 			"noshortcutsyntax" "1"
 		}		
 	}
@@ -80,7 +82,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"0 0 0 235"
+		"bgcolor_override"	"5 59 79 235"
 		
 		"Header"
 		{
@@ -93,12 +95,13 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%header%"
+			"AllCaps"		"1"
 			"textAlignment"		"north-west"
 			"dulltext"		"0"
 			"brighttext"		"0"
 			"font"			"FluxFontVer8"
 			"wrap"			"1"
-			"fgcolor_override"	"128 128 128 255"
+			"fgcolor_override"	"White"
 		}
 		
 		"Issue"
@@ -112,11 +115,12 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%voteissue%"
+			"AllCaps"		"1"
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"FluxFontVer9"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 			"wrap"			"1"
 			"noshortcutsyntax" "1"
 		}
@@ -130,7 +134,7 @@
 			"ypos"			"50"
 			"wide"			"130"
 			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
+			"fillcolor"		"207 231 241 255"
 			"zpos"			"0"
 		}
 		
@@ -152,7 +156,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"FluxFontVer8"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 		}
 		
 		"Option1Background_Selected"
@@ -164,7 +168,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"70 136 160 200"
 			"visible"		"1"
 		}
 		
@@ -184,7 +188,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"FluxFontVer9"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 		}
 		
 		"LabelOption2"
@@ -203,7 +207,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"FluxFontVer8"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 		}
 		
 		"Option2Background_Selected"
@@ -215,7 +219,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"70 136 160 200"
 			"visible"		"1"
 		}
 		
@@ -235,7 +239,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"FluxFontVer9"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 		}
 		
 		"LabelOption3"
@@ -254,7 +258,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"FluxFontVer8"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 		}
 		
 		"Option3Background_Selected"
@@ -266,7 +270,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"70 136 160 200"
 			"visible"		"0"
 		}
 		
@@ -286,7 +290,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"FluxFontVer8"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 		}
 		
 		"Option4Background_Selected"
@@ -298,7 +302,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"70 136 160 200"
 			"visible"		"0"
 		}
 		
@@ -318,7 +322,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"FluxFontVer8"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 		}
 		
 		"Option5Background_Selected"
@@ -330,7 +334,7 @@
 			"wide"			"130"
 			"tall"			"16"
 			"zpos"			"1"
-			"fillcolor"		"88 119 140 180"
+			"fillcolor"		"70 136 160 200"
 			"visible"		"0"
 		}
 		
@@ -343,7 +347,7 @@
 			"ypos"			"100"
 			"wide"			"130"
 			"tall"			"1"
-			"fillcolor"		"128 128 128 255"
+			"fillcolor"		"200 200 200 255"
 			"zpos"			"0"
 		}
 		
@@ -362,7 +366,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"FluxFontVer8"
-			"fgcolor_override"	"128 128 128 255"
+			"fgcolor_override"	"White"
 		}
 		
 		// vote bar
@@ -398,7 +402,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"0 0 0 235"
+		"bgcolor_override"	"5 59 79 235"
 		
 		"FailedIcon"
 		{
@@ -429,8 +433,9 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontSmallBold"
+			"AllCaps"		"1"
 			"wrap"			"1"
-			"fgcolor_override"	"200 30 30 255"
+			"fgcolor_override"	"220 30 30 255"
 		}
 		
 		"FailedReason"
@@ -447,9 +452,10 @@
 			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"AllCaps"		"1"
 			"font"			"FluxFontVer8"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 		}		
 	}
 	
@@ -466,7 +472,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"0 0 0 235"
+		"bgcolor_override"	"5 59 79 235"
 		
 		"FailedIcon"
 		{
@@ -497,8 +503,9 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"HudFontSmallBold"
+			"AllCaps"		"1"
 			"wrap"			"1"
-			"fgcolor_override"	"200 30 30 255"
+			"fgcolor_override"	"220 30 30 255"
 		}
 		
 		"FailedReason"
@@ -516,8 +523,9 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"font"			"FluxFontVer8"
+			"AllCaps"		"1"
 			"wrap"			"1"
-			"fgcolor_override"	"255 255 255 255"
+			"fgcolor_override"	"White"
 		}		
 	}
 	
@@ -537,7 +545,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"2"
 		"border"		"NoBorder"
-		"bgcolor_override"	"20 20 20 255"
+		"bgcolor_override"	"5 59 79 255"
 		"PaintBackground"	"1"
 
 		"header_font"		"ItemFontNameLarge"
@@ -670,6 +678,7 @@
 			"Command"		"CallVote"
 			"Default"		"0"
 			"font"			"HudFontSmallBold"
+			"AllCaps"		"1"
 		}
 		"Button1"
 		{
@@ -691,6 +700,7 @@
 			"Command"		"Close"
 			"Default"		"0"
 			"font"			"HudFontSmallBold"
+			"AllCaps"		"1"
 		}
 	}
 }

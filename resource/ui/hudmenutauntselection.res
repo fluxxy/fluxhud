@@ -11,7 +11,7 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"FluxColorTransBlack1"
+		"fillcolor"		"70 136 160 235"
 	}
 	
 	"MainBackground2"	
@@ -86,6 +86,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Title"
+		"AllCaps"		"1"
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -107,6 +108,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Taunt_Title"
+		"AllCaps"		"1"
 		"textAlignment"	"Left"
 		"dulltext"		"1"
 		"brighttext"	"0"
@@ -185,7 +187,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -257,7 +259,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 
@@ -329,7 +331,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -401,7 +403,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -473,7 +475,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -545,7 +547,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -617,7 +619,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			
@@ -689,7 +691,7 @@
 		"tall"			"40"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
 			

@@ -26,15 +26,15 @@
 			"image"			"pve/upgrade_unowned"
 			"scaleImage"	"1"	
 			
-			"defaultFgColor_override"	"UpgradeDefaultFg"
-			"defaultBgColor_override"	"UpgradeDefaultBg"
-			"armedFgColor_override"		"UpgradeArmedFg"
-			"armedBgColor_override"		"UpgradeArmedBg"
-			"depressedFgColor_override"	"UpgradeDepressedFg"
-			"depressedBgColor_override"	"UpgradeDepressedBg"
-			"selectedFgColor_override"	"UpgradeSelectedFg"
-			"selectedBgColor_override"	"UpgradeSelectedBg"
-			"disabledfgcolor2_override"	"UpgradeDisabledFg"
+			"defaultFgColor_override"	"White"
+			"defaultBgColor_override"	"Blank"
+			"armedFgColor_override"		"207 231 241 255"
+			"armedBgColor_override"		"Blank"
+			"depressedFgColor_override"	"207 231 241 255"
+			"depressedBgColor_override"	"Blank"
+			"selectedFgColor_override"	"207 231 241 255"
+			"selectedBgColor_override"	"Blank"
+			"disabledfgcolor2_override"	"207 231 241 255"
 		}
 	}
 	
@@ -52,8 +52,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		
-		"PaintBackgroundType" "2"
-		"bgcolor_override"	"60 60 60 255"
+		"PaintBackground" 					"0"
+		"PaintBorder" 						"1"
+		"border" 							"FluxBorderBlueDark"
 	}
 	
 	"IconBorder"
@@ -112,6 +113,7 @@
 		"labelText"		""
 		"textAlignment"	"center"
 		"font"			"HudFontSmall"
+		"fgcolor_override"	"White"
 	}
 	
 	"ShortDescriptionLabel"
@@ -133,6 +135,7 @@
 		"labelText"		""
 		"textAlignment"	"center-west"
 		"font"			"HudFontSmallest"
+		"fgcolor_override"	"White"
 	}
 	
 	"BuySellBG"
@@ -150,7 +153,7 @@
 		"enabled"		"1"
 		
 		"PaintBackgroundType" "2"
-		"bgcolor_override"	"117 114 103 255"
+		"bgcolor_override"	"Blank"
 	}
 	
 	"IncrementButton"
@@ -176,15 +179,15 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"defaultFgColor_override"	"255 255 255 0"
-		"defaultBgColor_override"	"255 255 255 0"
-		"armedFgColor_override"		"255 255 255 0"
-		"armedBgColor_override"		"255 255 255 0"
-		"depressedFgColor_override"	"255 255 255 0"
-		"depressedBgColor_override"	"255 255 255 0"
-		"selectedFgColor_override"	"255 255 255 0"
-		"selectedBgColor_override"	"255 255 255 0"
-		"disabledfgcolor2_override"	"255 255 255 0"
+		"defaultFgColor_override"	"White"
+		"defaultBgColor_override"	"Green"
+		"armedFgColor_override"		"207 231 241 255"
+		"armedBgColor_override"		"Green"
+		"depressedFgColor_override"	"207 231 241 255"
+		"depressedBgColor_override"	"Green"
+		"selectedFgColor_override"	"207 231 241 255"
+		"selectedBgColor_override"	"Green"
+		"disabledfgcolor2_override"	"20 20 20 255"
 	}
 	
 	"DecrementButton"
@@ -210,14 +213,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"defaultFgColor_override"	"255 255 255 0"
-		"defaultBgColor_override"	"255 255 255 0"
-		"armedFgColor_override"		"255 255 255 0"
-		"armedBgColor_override"		"255 255 255 0"
-		"depressedFgColor_override"	"255 255 255 0"
-		"depressedBgColor_override"	"255 255 255 0"
-		"selectedFgColor_override"	"255 255 255 0"
-		"selectedBgColor_override"	"255 255 255 0"
-		"disabledfgcolor2_override"	"255 255 255 0"
+		"defaultFgColor_override"	"White"
+		"defaultBgColor_override"	"Red"
+		"armedFgColor_override"		"207 231 241 255"
+		"armedBgColor_override"		"Red"
+		"depressedFgColor_override"	"207 231 241 255"
+		"depressedBgColor_override"	"Red"
+		"selectedFgColor_override"	"207 231 241 255"
+		"selectedBgColor_override"	"Red"
+		"disabledfgcolor2_override"	"20 20 20 255"
 	}
 }

@@ -13,7 +13,6 @@
 		"paintbackgroundtype"	"0"
 		"settitlebarvisible"	"0"
 		"border"				"FluxBorderPanel"
-		"bgcolor_override"		"30 30 30 255"
 	}
 
 	"mouseoveritempanel"
@@ -27,7 +26,7 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -51,7 +50,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"130 130 130 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -61,6 +60,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"HudFontSmallBold"
+		"AllCaps"		"1"
 		"labelText"		"dynamic"
 		"textAlignment"	"center"
 		"xpos"			"100"
@@ -120,7 +120,7 @@
 		"tall"			"70"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"model_xpos"	"2"
@@ -182,7 +182,7 @@
 		"tall"			"70"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		"model_xpos"	"2"
@@ -233,7 +233,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"White"
 	}
 	"WarningLabel"
 	{
@@ -277,14 +277,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"30 30 30 255"
-		"armedBgColor_override"		"40 40 40 255"
-		"depressedBgColor_override"	"30 30 30 255"
+		"defaultBgColor_override"	"Red"
+		"armedBgColor_override"		"255 45 45 255"
+		"depressedBgColor_override"	"Red"
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "40 40 40 255"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	"OkButton"
 	{
@@ -310,13 +310,13 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"30 30 30 255"
-		"armedBgColor_override"		"40 40 40 255"
-		"depressedBgColor_override"	"30 30 30 255"
+		"defaultBgColor_override"	"Green"
+		"armedBgColor_override"		"8 112 36 255"
+		"depressedBgColor_override"	"Green"
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override" 	"White"
-		"depressedFgColor_override" "40 40 40 255"
-		"border_default"			"FluxBorderButton"
-		"border_armed"				"FluxBorderButtonHover"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 }

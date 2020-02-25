@@ -9,10 +9,10 @@
 		"ypos"					"80"
 		"wide"					"400"
 		"tall"					"300"
-		"bgcolor_override"		"46 43 42 0"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
-		"border"				"GrayDialogBorder"
+		"border"				"NoBorder"
+		"bgcolor_override"		"5 59 79 255"
 		
 		"button_kv"
 		{
@@ -57,7 +57,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"	
-				"color_outline"	"52 48 45 255"
+				"color_outline"	"60 60 60 255"
 			}
 		}
 	}
@@ -134,7 +134,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}	
 
 		"subbutton0"
@@ -213,7 +213,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}	
 		
 		"EmptyPlayerListLabel"
@@ -234,7 +234,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}
 
 		"RetrievingPlayerListLabel"
@@ -255,7 +255,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}	
 	}
 	"StatePanel2"
@@ -286,7 +286,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}	
 		
 		"EmptyPlayerListLabel"
@@ -307,7 +307,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}	
 	}
 	
@@ -334,5 +334,15 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"Red"
+		"armedBgColor_override"		"255 45 45 255"
+		"depressedBgColor_override"	"Red"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 }

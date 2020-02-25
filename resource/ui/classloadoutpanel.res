@@ -211,7 +211,7 @@
 		
 		"render_texture"	"0"
 		"fov"			"30"
-		"allow_rot"		"1"
+		"allow_manip"		"1"
 				
 		"model"
 		{
@@ -477,6 +477,7 @@
 		
 		"border_default"				"FluxBorderBlueMid"
 		"border_armed"					"FluxBorderBlueLight"
+		"border_depressed"				"FluxBorderBlueMid"
 		
 		"image_drawcolor"	"255 255 255 255"
 		"image_armedcolor"	"40 40 40 255"
@@ -493,7 +494,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"glyph_items"
+			"image"			"replay\thumbnails\softicons\loadout"
 		}
 	}
 
@@ -524,6 +525,7 @@
 		
 		"border_default"				"FluxBorderBlueMid"
 		"border_armed"					"FluxBorderBlueLight"
+		"border_depressed"				"FluxBorderBlueMid"
 		
 		"image_drawcolor"	"255 255 255 255"
 		"image_armedcolor"	"40 40 40 255"
@@ -539,7 +541,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"scaleImage"	"1"
-			"image"			"../hud/ico_reel"
+			"image"			"replay\thumbnails\softicons\taunts"
 		}
 	}
 
@@ -637,6 +639,87 @@
 			"depressedFgColor_override" "255 255 255 255"
 			"border_default"			"NoBorder"
 			"border_armed"				"NoBorder"				
-		}		
+		}
 	}
+	"RedButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"RedButton"
+		"xpos"				"c68"
+		"ypos"				"60"
+		"zpos"				"12"	
+		"wide"				"80"
+		"tall"				"25"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"RED"
+		"textAlignment"		"center"
+		"font"				"FluxFontMainMenu"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 0"
+		
+		"defaultBgColor_override"		"RedSolid"
+		"armedBgColor_override"			"HudRedTeamSolid"
+		"depressedBgColor_override"		"RedSolid"
+		"defaultFgColor_override" 		"White"
+		"armedFgColor_override" 		"White"
+		"depressedFgColor_override" 	"White"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+		"border_depressed"			"NoBorder"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"	"0"
+		
+		"paintbackground"	"1"
+		
+
+	}
+	
+	"BlueButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"BlueButton"
+		"xpos"				"c-152"
+		"ypos"				"60"
+		"zpos"				"12"	
+		"wide"				"80"
+		"tall"				"25"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"BLU"
+		"textAlignment"		"center"
+		"font"				"FluxFontMainMenu"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 1"
+		
+		"defaultBgColor_override"		"BlueSolid"
+		"armedBgColor_override"			"HudBlueTeamSolid"
+		"depressedBgColor_override"		"BlueSolid"
+		"defaultFgColor_override" 		"White"
+		"armedFgColor_override" 		"White"
+		"depressedFgColor_override" 	"White"
+		
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
+		"border_depressed"			"NoBorder"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"keyboardinputenabled"	"0"
+		
+		"paintbackground"	"1"
+		
+	}		
+	
 }

@@ -11,8 +11,8 @@
 		"tall"					"300"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"border"				"FluxBorderPanel"
-		"bgcolor_override"		"40 40 40 255"
+		"border"				"NoBorder"
+		"bgcolor_override"		"5 59 79 255"
 		"button_kv"
 		{
 			"xpos"			"10"
@@ -85,7 +85,7 @@
 		"wide"			"380"
 		"tall"			"130"
 		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"117 107 94 255"
+		"fgcolor_override"	"130 130 130 255"
 		"bgcolor_override"	"0 0 0 64"
 		"PlayerList"
 		{
@@ -125,7 +125,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}
 		"subbutton0"
 		{
@@ -202,7 +202,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}	
 		
 		"EmptyPlayerListLabel"
@@ -223,7 +223,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}	
 	}
 	"StatePanel2"
@@ -254,7 +254,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}	
 		
 		"EmptyPlayerListLabel"
@@ -275,7 +275,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "230 230 230 255"
 		}	
 	}
 	
@@ -302,5 +302,15 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintbackground"	"1"
+		"defaultBgColor_override"	"Red"
+		"armedBgColor_override"		"255 45 45 255"
+		"depressedBgColor_override"	"Red"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override" 	"White"
+		"depressedFgColor_override" "White"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"		
 	}
 }

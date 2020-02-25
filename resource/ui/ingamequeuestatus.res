@@ -13,7 +13,7 @@
 		"proportionaltoparent"	"1"
 		"keyboardinputenabled"	"1"
 		"mouseinputenabled"		"0"
-		"alpha"					"100"
+		"alpha"					"150"
 	}
 
 	"CTFLogoPanel"
@@ -31,7 +31,7 @@
 		"radius"		"8"
 		"velocity"		"100"
 
-		"fgcolor_override"	"TFOrange"
+		"fgcolor_override"	"White"
 	}
 
 	"QueueText"
@@ -47,6 +47,7 @@
 		"enabled"		"1"
 		"font"			"FluxFontVer9"
 		"fgcolor_override"	"TanLight"
+		"AllCaps"	"1"
 		"textAlignment"	"east"
 		"labelText"		"%queue_state%"
 		"proportionaltoparent"	"1"

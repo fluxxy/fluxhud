@@ -80,7 +80,7 @@
 			"enabled"		"1"
 			"labelText"		"%itemname%"
 			"textAlignment"	"west"
-			"fgcolor"		"235 226 202 255"
+			"fgcolor"		"230 230 230 255"
 			"centerwrap"	"1"
 		}
 		
@@ -100,7 +100,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"west"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"130 130 130 255"
 			"centerwrap"	"0"
 		}
 
@@ -120,7 +120,7 @@
 			"enabled"		"1"
 			"labelText"		"%collectionname%"
 			"textAlignment"	"west"
-			"fgcolor"		"235 226 202 255"
+			"fgcolor"		"230 230 230 255"
 			"centerwrap"	"0"
 		}
 	
@@ -140,7 +140,7 @@
 			"enabled"		"1"
 			"labelText"		"%collectionlist%"
 			"textAlignment"	"west"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"130 130 130 255"
 			"centerwrap"	"0"
 		}
 			
@@ -155,7 +155,7 @@
 			"tall"			"9"
 			"visible"		"0"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"		"215 206 182 255"
+			"bgcolor_override"		"210 210 210 255"
 		}
 		
 		"equippedlabel"
@@ -327,7 +327,7 @@
 			"tall"			"18"
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 200"
-			"noitem_textcolor"		"117 107 94 255"
+			"noitem_textcolor"		"130 130 130 255"
 			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			"useparentbg"	"0"

@@ -24,10 +24,18 @@
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"centerwrap"	"1"
-			"paintborder"		"1"
-			"paintbackground"	"0"
-			"border_default"				"FluxBorderBlueMid"
-			"border_armed"					"FluxBorderBlueLight"
-		}			
+
+			"paintbackground"										"1"
+			"paintbackgroundtype"									"0"
+			"defaultBgColor_override"								"70 136 160 255"
+			"armedBgColor_override"									"207 231 241 255"
+			"depressedBgColor_override"								"70 136 160 255"
+			"defaultFgColor_override"								"White"
+			"armedFgColor_override" 								"207 231 241 255"
+			"depressedFgColor_override" 							"White"
+			"border_default"			"NoBorder"
+			"border_armed"				"NoBorder"
+			"border_depressed"			"NoBorder"
+		}
 	}
 }

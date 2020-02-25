@@ -31,7 +31,7 @@
 		"mouseinputenabled"		"0"
 		"skip_autoresize"	"1"
 
-		"bgcolor_override"	"0 0 0 250"
+		"bgcolor_override"	"5 59 79 250"
 
 		"paintbackground"	"1"
 	

@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"2"
 		"border"				"NoBorder"
-		"bgcolor_override"		"FluxColorGameDialog"
+		"bgcolor_override"		"70 136 160 255"
 	}
 	"SwitchLabel"
 	{	
@@ -33,6 +33,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"labelText"		"#TF_teambalanced"
+		"AllCaps"		"1"
 		"textAlignment"	"North"
 	}
 	"BalanceLabel"
