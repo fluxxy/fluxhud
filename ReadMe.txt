@@ -1,20 +1,24 @@
 =========================================================================
+CREDITS
+Hypnotize for certain symbols
+Broesel, fog and knuckles for crosshairs
+Quartz for Class icons
+yttrium for High Res Class Select Images
 
+=========================================================================
+INSTALL
 To install, 
 go to Steam / steamapps / common / team fortress 2 / tf / custom / 
 create a folder and name it, for example, hud / place resource, materials and scripts in it. 
 
 =========================================================================
-
 IF CROSSHAIRS/FONTS ARE NOT WORKING:
 1. Go into /resource/fonts
 2. Select all
 3. right click -> Install
 
 =========================================================================
-
-
-CrossHairs:
+CROSSHAIRS
 
 Activate the crosshair by going to your scripts folder and then hudlayout. 
 Change visible from 0 to 1.
@@ -44,6 +48,5 @@ If you for example want white it’s 255 255 255 255 and if you want green it’
 (If the crosshairs isn’t centralized then you sometimes have to change “wide” and “tall” too, not just “xpos” and “ypos”)
 
 (Some CrossHairs are combinations, you need to activate more than one)
-
 
 ==========================================================================
