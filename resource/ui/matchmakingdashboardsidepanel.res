@@ -139,8 +139,8 @@
 
 		"ypos"			"0"
 		"zpos"			"10000"
-		"wide"			"20"
-		"tall"			"f0"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"command"		"nav_to"

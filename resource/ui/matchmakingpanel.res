@@ -26,7 +26,8 @@
 		"proportionaltoparent"	"1"
 		"visible"		"1"
 		"enabled"		"1"
-		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
+		"bgcolor_override"	"70 136 160 255"
 
 		"ModeBackgroundImage"
 		{
@@ -208,8 +209,8 @@
 			"visible"	"0"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"70 136 160 255"
+			"border"		"NoBorder"
 			"proportionaltoparent"	"1"
 
 			"SearchActiveTitle"

@@ -222,7 +222,7 @@
 		"labelText"				"fluxhud"
 		"AllCaps"				"1"
 		"textAlignment"			"south-east"
-		"xpos"					"r250"
+		"xpos"					"r255"
 		"ypos"					"r35"
 		"zpos"					"-2"
 		"wide"					"250"
@@ -3615,14 +3615,12 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"paintbackground"			"1"
+			"paintbackground"			"0"
 
 			"defaultFgColor_override"	"40 40 40 255"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "40 40 40 255"
-			"defaultBgColor_override"	"Blank"
-			"armedBgColor_override"		"5 59 79 255"
-			"depressedBgColor_override"	"Blank"
+
 			"border_default"			"FluxBorderBlueLight"
 			"border_armed"				"FluxBorderBlueDark"
 
@@ -3669,16 +3667,13 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"paintbackground"			"1"
+			"paintbackground"			"0"
 		
-			"defaultBgColor_override"	"207 231 241 200"
-			"armedBgColor_override"		"5 59 79 255"
-			"depressedBgColor_override"	"207 231 241 200"
 			"defaultFgColor_override"	"40 40 40 255"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "40 40 40 255"
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
+			"border_default"			"FluxBorderBlueLight"
+			"border_armed"				"FluxBorderBlueDark"
 			
 			"proportionaltoparent"		"1"
 		}
@@ -3780,16 +3775,13 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"paintbackground"			"1"
+			"paintbackground"			"0"
 		
-			"defaultBgColor_override"	"207 231 241 200"
-			"armedBgColor_override"		"5 59 79 255"
-			"depressedBgColor_override"	"207 231 241 200"
 			"defaultFgColor_override"	"40 40 40 255"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "40 40 40 255"
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
+			"border_default"			"FluxBorderBlueLight"
+			"border_armed"				"FluxBorderBlueDark"
 			
 			"proportionaltoparent"		"1"
 		}
@@ -3892,16 +3884,13 @@
 			"sound_depressed"			"UI/buttonclick.wav"
 			"sound_released"			"UI/buttonclickrelease.wav"
 			
-			"paintbackground"			"1"
+			"paintbackground"			"0"
 		
-			"defaultBgColor_override"	"207 231 241 200"
-			"armedBgColor_override"		"5 59 79 255"
-			"depressedBgColor_override"	"207 231 241 200"
 			"defaultFgColor_override"	"40 40 40 255"
 			"armedFgColor_override" 	"255 255 255 255"
 			"depressedFgColor_override" "40 40 40 255"
-			"border_default"			"NoBorder"
-			"border_armed"				"NoBorder"
+			"border_default"			"FluxBorderBlueLight"
+			"border_armed"				"FluxBorderBlueDark"
 			
 			"proportionaltoparent"		"1"
 		}
