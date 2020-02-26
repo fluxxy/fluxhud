@@ -2,7 +2,7 @@
 
 To install, 
 go to Steam / steamapps / common / team fortress 2 / tf / custom / 
-create a folder and name it, for example, hud / place resource and scripts in it. 
+create a folder and name it, for example, hud / place resource, materials and scripts in it. 
 
 =========================================================================
 
@@ -19,14 +19,14 @@ CrossHairs:
 Activate the crosshair by going to your scripts folder and then hudlayout. 
 Change visible from 0 to 1.
 
-If the crosshair isnít centralized do the following:
+If the crosshair isn‚Äôt centralized do the following:
 
 1. Go to your scripts folder and then hudlayout.
 2. Change the xpos and ypos values. (xpos is for horizontal and ypos is for vertical).
-3. Start TF2 and see if itís centralized.
+3. Start TF2 and see if it‚Äôs centralized.
 4. If not, Alt+TAB and try another value. 
 Go back into the game and type hud_reloadscheme in console.
-5. Do this until youíre happy.
+5. Do this until you‚Äôre happy.
 
 
 If you want to change the crosshair size go to your resource folder and then ClientScheme. 
@@ -35,13 +35,13 @@ Change the tall value of the font to whatever you like.
 If you want to change the colour go to your scripts folder and then hudlayout. 
 Change the fgcolor to the colour you want. 
 
-If you donít know how to change to the colour that you want, iíll help you now. 
+If you don‚Äôt know how to change to the colour that you want, i‚Äôll help you now. 
 There are four number combinations (1 2 3 4) and every combination are from 0-255. 
 
 Combination 1 to 3 are RGB (Red Green Blue) and combination 4 are for the transparent value. 
-If you for example want white itís 255 255 255 255 and if you want green itís 0 255 0 255. 
+If you for example want white it‚Äôs 255 255 255 255 and if you want green it‚Äôs 0 255 0 255. 
 
-(If the crosshairs isnít centralized then you sometimes have to change ìwideî and ìtallî too, not just ìxposî and ìyposî)
+(If the crosshairs isn‚Äôt centralized then you sometimes have to change ‚Äúwide‚Äù and ‚Äútall‚Äù too, not just ‚Äúxpos‚Äù and ‚Äúypos‚Äù)
 
 (Some CrossHairs are combinations, you need to activate more than one)
 
