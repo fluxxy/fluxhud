@@ -36,10 +36,10 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"addtocart"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"76 107 34 255"
-		"ArmedBgColor_override"	"86 117 44 255"
+		"defaultBgColor_override"	"Green"
+		"ArmedBgColor_override"	"GreenDark"
 		"depressedBgColor_override" "66 97 24 255"
-		"image_drawcolor"	"117 107 94 255"
+		"image_drawcolor"	"White"
 		"image_armedcolor"	"White"
 		"image_depressedcolor"	"255 80 60 255"
 		"SubImage"
@@ -53,7 +53,7 @@
 			"tall"			"18"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"store_cart"
+			"image"			"reply/thumbanils/softicons/shop"
 			"scaleImage"	"1"
 		}				
 	}		

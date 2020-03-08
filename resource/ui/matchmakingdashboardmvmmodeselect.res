@@ -22,7 +22,7 @@
 		"ypos"								"10"
 		"zpos"								"99"
 		"wide"								"f0"
-		"tall"								"20"
+		"tall"								"30"
 		"proportionaltoparent"				"1"
 		"labeltext"							"Mann vs. Machine"
 		"textAlignment"						"center"

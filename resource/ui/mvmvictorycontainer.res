@@ -127,6 +127,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#DoneButton"
 		"font"			"HudFontSmallBold"
+		"AllCaps"		"1"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

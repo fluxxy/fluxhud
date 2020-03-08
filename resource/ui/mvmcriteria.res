@@ -27,7 +27,7 @@
 			"zpos"			"0"
 			"wide"			"400"
 			"tall"			"26"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"235 90 10 255"
 		}
 
 		"DifficultyLabel"
@@ -42,7 +42,7 @@
 			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"24"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"235 90 10 255"
 		}
 
 		"CompleteLabel"
@@ -57,7 +57,7 @@
 			"zpos"			"0"
 			"wide"			"80"
 			"tall"			"24"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"235 90 10 255"
 		}
 
 		"TourLevelLabel"
@@ -72,7 +72,7 @@
 			"zpos"			"0"
 			"wide"			"80"
 			"tall"			"26"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"235 90 10 255"
 		}
 
 		"TourlistGroupBox"
@@ -133,7 +133,7 @@
 			"visible"	"1"
 			"enabled"	"1"
 			"wrap"		"1"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"235 90 10 255"
 		}
 	}
 
@@ -571,7 +571,7 @@
 			"zpos"			"0"
 			"wide"			"400"
 			"tall"			"26"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"235 90 10 255"
 		}
 
 		"CompleteLabel"
@@ -586,7 +586,7 @@
 			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"24"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"235 90 10 255"
 		}
 
 		"TourLevelImage"

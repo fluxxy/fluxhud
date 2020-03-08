@@ -53,7 +53,7 @@
 		"ypos"			"105"
 		"wide"			"550"
 		"tall"			"30"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 	
 	"HeaderDivider"
@@ -79,7 +79,7 @@
 		"ypos"			"135"
 		"wide"			"550"
 		"tall"			"30"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 	
 	"CollectionContainer"
@@ -102,7 +102,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"140"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 		}
 	
 		"CollectedLabel"
@@ -115,7 +115,7 @@
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 		}
 		
 		"CollectedCount"
@@ -141,7 +141,7 @@
 			"xpos"			"0"
 			"ypos"			"40"
 			"wide"			"120"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 		}
 		
 		"MissedCount"
@@ -167,7 +167,7 @@
 			"xpos"			"0"
 			"ypos"			"55"
 			"wide"			"120"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 		}
 		
 		"BonusCount"
@@ -204,7 +204,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"195"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 		}
 	
 		"YouLabel"
@@ -217,7 +217,7 @@
 			"xpos"			"120"
 			"ypos"			"15"
 			"wide"			"35"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 		}
 		
 		"TeamLabel"
@@ -230,7 +230,7 @@
 			"xpos"			"175"
 			"ypos"			"15"
 			"wide"			"35"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 		}
 		
 		"BuybackLabel"
@@ -243,7 +243,7 @@
 			"xpos"			"0"
 			"ypos"			"25"
 			"wide"			"120"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 		}
 		
 		"BuybackCountYou"
@@ -256,7 +256,7 @@
 			"xpos"			"120"
 			"ypos"			"25"
 			"wide"			"35"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 		}
 		
 		"BuybackCountTeam"
@@ -269,7 +269,7 @@
 			"xpos"			"175"
 			"ypos"			"25"
 			"wide"			"35"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 		}
 		
 		"BottleLabel"
@@ -282,7 +282,7 @@
 			"xpos"			"0"
 			"ypos"			"40"
 			"wide"			"120"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 		}
 		
 		"BottleCountYou"
@@ -295,7 +295,7 @@
 			"xpos"			"120"
 			"ypos"			"40"
 			"wide"			"35"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 		}
 		
 		"BottleCountTeam"
@@ -308,7 +308,7 @@
 			"xpos"			"175"
 			"ypos"			"40"
 			"wide"			"35"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 		}
 		
 		"InactiveLabel"
@@ -321,7 +321,7 @@
 			"xpos"			"0"
 			"ypos"			"55"
 			"wide"			"120"
-			"fgcolor"		"255 255 255 255"
+			"fgcolor"		"White"
 		}
 		
 		"InactiveCountYou"
@@ -521,7 +521,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"230 230 230 255"
 		"Command"		"vote_restart"
 	}
 		
@@ -548,15 +548,16 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"paintbackground"	"1"
-		"defaultBgColor_override"	"FluxColorTransBlack1"
-		"armedBgColor_override"		"FluxColorTransDarkGrey"
-		"depressedBgColor_override"	"FluxColorTransBlack1"
+		"defaultBgColor_override"	"70 136 160 255"
+		"armedBgColor_override"		"207 231 241 255"
+		"depressedBgColor_override"	"70 136 160 255"
 		"defaultFgColor_override"	"255 255 255 255"
-		"armedFgColor_override" 	"255 255 255 255"
-		"depressedFgColor_override" "FluxColorButTextNope"
-		"border_default"			"FluxBorderMainButton"
-		"border_armed"				"FluxBorderMainButtonHover"
-		//"image_drawcolor"	"235 226 202 255"
+		"armedFgColor_override" 	"40 40 40 255"
+		"depressedFgColor_override" "255 255 255 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"	
+		//"image_drawcolor"	"230 230 230 255"
 		"Command"		"continue"
+		"AllCaps"	"1"
 	}
 }

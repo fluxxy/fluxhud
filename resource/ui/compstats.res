@@ -14,42 +14,42 @@
 
 		"RankImage"
 		{
-			"ControlName"	"CTFLocalPlayerBadgePanel"
-			"fieldName"		"RankImage"
-			"xpos"			"-8"
-			"ypos"			"-15"
-			"zpos"			"110"
-			"wide"			"o1"
-			"tall"			"70"
-			"visible"		"1"
-			"enabled"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
+			"ControlName"						"CTFLocalPlayerBadgePanel"
+			"fieldName"							"RankImage"
+			"xpos"								"9999"
+			"ypos"								"-15"
+			"zpos"								"110"
+			"wide"								"o1"
+			"tall"								"70"
+			"visible"							"1"
+			"enabled"							"1"
+			"proportionaltoparent"				"1"
+			"mouseinputenabled"					"0"
 
-			"matchgroup"	"MatchGroup_Ladder_6v6"
+			"matchgroup"						"MatchGroup_Ladder_6v6"
 		}
 	
 		"RankPanel"
 		{
-			"ControlName"	"CPvPRankPanel"
-			"fieldName"		"RankPanel"
-			"xpos"			"-75"
-			"ypos"			"-35"
-			"zpos"			"100"
-			"wide"			"320"
-			"tall"			"100"
-			"visible"		"1"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
+			"ControlName"						"CPvPRankPanel"
+			"fieldName"							"RankPanel"
+			"xpos"								"9999"
+			"ypos"								"-35"
+			"zpos"								"100"
+			"wide"								"320"
+			"tall"								"100"
+			"visible"							"1"
+			"proportionaltoparent"				"1"
+			"mouseinputenabled"					"0"
 
-			"matchgroup"	"MatchGroup_Ladder_6v6"
+			"matchgroup"						"MatchGroup_Ladder_6v6"
 
-			"show_model"	"0"
-			"show_name"		"0"
+			"show_model"						"0"
+			"show_name"							"0"
 
 			"BGBorder"
 			{
-				"visible"	"0"
+				"visible"						"0"
 			}
 		}
 

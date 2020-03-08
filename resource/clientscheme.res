@@ -6313,7 +6313,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"255 255 255 16"
+			"color"					"0 0 0 235"
 			
 			"image"					"replay/thumbnails/white"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -6326,7 +6326,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"0 0 0 220"
+			"color"					"0 0 0 235"
 
 			"image"					"replay/thumbnails/white"
 		}
@@ -6335,7 +6335,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"0 0 0 220"
+			"color"					"0 0 0 235"
 
 			"image"					"replay/thumbnails/white"
 		}
@@ -6344,7 +6344,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"255 255 255 16"
+			"color"					"0 0 0 235"
 			
 			"image"					"replay/thumbnails/white"
 			"src_corner_height"		"24"				// pixels inside the image
@@ -6358,7 +6358,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"0 0 0 220"
+			"color"					"0 0 0 235"
 
 			"image"					"replay/thumbnails/white"
 		}
@@ -6366,7 +6366,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			"color"					"255 255 255 16"
+			"color"					"0 0 0 235"
 			
 			"image"					"replay/thumbnails/white"
 			"src_corner_height"		"24"				// pixels inside the image

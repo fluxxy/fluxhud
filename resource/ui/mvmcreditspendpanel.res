@@ -37,7 +37,7 @@
 		"xpos"			"10"
 		"ypos"			"26"
 		"wide"			"70"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 	
 	"UpgradesCountLabel"
@@ -50,7 +50,7 @@
 		"xpos"			"63"
 		"ypos"			"26"
 		"wide"			"30"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 	
 	"BuyBackLabel"
@@ -63,7 +63,7 @@
 		"xpos"			"10"
 		"ypos"			"46"
 		"wide"			"70"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 	
 	"BuyBackCountLabel"
@@ -76,7 +76,7 @@
 		"xpos"			"63"
 		"ypos"			"46"
 		"wide"			"30"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 	
 	"BottleLabel"
@@ -89,7 +89,7 @@
 		"xpos"			"10"
 		"ypos"			"66"
 		"wide"			"70"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 	
 	"BottleCountLabel"
@@ -102,6 +102,6 @@
 		"xpos"			"63"
 		"ypos"			"66"
 		"wide"			"30"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 }

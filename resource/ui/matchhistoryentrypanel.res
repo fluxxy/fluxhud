@@ -121,7 +121,6 @@
 			"font"				"MMenuPlayListDesc"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"		"west"
-			"AllCaps"	"1"
 		}
 
 		"KDLabel"
@@ -140,7 +139,6 @@
 			"font"				"MMenuPlayListDesc"
 			"fgcolor_override"	"TanLight"
 			"textAlignment"		"west"
-			"AllCaps"	"1"
 		}
 	}
 
@@ -153,7 +151,7 @@
 		"wide"			"f0"
 		"tall"			"0"
 		"proportionaltoparent"	"1"		
-		"bgcolor_override"	"0 0 0 190"
+		"bgcolor_override"	"0 0 0 100"
 		"autoresize"		"2"
 		"pincorner"			"3"
 
@@ -170,7 +168,7 @@
 			"autoresize"		"2"
 			"pincorner"			"3"
 			
-			"border"			"NoBorder"	
+			"border"			"InnerShadowBorder"	
 		}
 
 		"SlidingStatsContainer"
@@ -201,14 +199,14 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"GradientImage"
-				"xpos"			"9999"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"o1"
-				"tall"			"40"
-				"image"			"training\gradient_black"
-				"proportionaltoparent"	"1"	
-				"rotation"		"1"
+				"xpos"						"8"
+				"ypos"						"0"
+				"zpos"						"1"
+				"wide"						"o1"
+				"tall"						"40"
+				"image"						"training\gradient_black"
+				"proportionaltoparent"		"1"	
+				"rotation"					"1"
 			}
 
 			// First column

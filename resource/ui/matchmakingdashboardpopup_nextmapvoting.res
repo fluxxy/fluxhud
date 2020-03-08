@@ -57,10 +57,10 @@
 
 			"HideButton"
 			{
-				"ControlName"	"CExImageButton"
+				"ControlName"	"CExButton"
 				"fieldName"		"HideButton"
 				"xpos"			"rs1-3"
-				"ypos"			"rs1+3"
+				"ypos"			"rs1+5"
 				"zpos"			"1000"
 				"wide"			"o1"
 				"tall"			"20"
@@ -69,12 +69,12 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallBold"
+				"font"			"Symbols 18"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"0"
-				"labeltext"		""
+				"labeltext"		"ø"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"Command"		"toggle_hide"
@@ -82,35 +82,19 @@
 				"actionsignallevel"	"2"
 			
 				"paintbackground"	"0"
-
-				"image_default"		"glyph_collapse"						
-
-				"image_drawcolor"	"White"
-				"image_armedcolor"	"200 80 60 255"
-
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"1"
-					"wide"			"p1"
-					"tall"			"p1"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"glyph_store"
-					"scaleImage"	"1"
-					"proportionaltoparent" "1"
-				}				
+				
+				"defaultFgColor_override"	"207 231 241 255"
+				"armedFgColor_override" 	"75 59 79 255
+				"depressedFgColor_override" "207 231 241 255
+			
 			} // HideButton
 
 			"ShowButton"
 			{
-				"ControlName"	"CExImageButton"
+				"ControlName"	"CExButton"
 				"fieldName"		"ShowButton"
 				"xpos"			"rs1-3"
-				"ypos"			"rs1+3"
+				"ypos"			"rs1+5"
 				"zpos"			"1000"
 				"wide"			"o1"
 				"tall"			"20"
@@ -119,12 +103,12 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallBold"
+				"font"			"Symbols 18"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"0"
-				"labeltext"		""
+				"labeltext"		"ù"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"Command"		"toggle_hide"
@@ -132,27 +116,12 @@
 				"actionsignallevel"	"2"
 			
 				"paintbackground"	"0"
+				
+				"defaultFgColor_override"	"207 231 241 255"
+				"armedFgColor_override" 	"75 59 79 255
+				"depressedFgColor_override" "207 231 241 255
 
-				"image_default"		"glyph_expand"						
-
-				"image_drawcolor"	"White"
-				"image_armedcolor"	"200 80 60 255"
-
-				"SubImage"
-				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"1"
-					"wide"			"p1"
-					"tall"			"p1"
-					"visible"		"1"
-					"enabled"		"1"
-					"image"			"glyph_store"
-					"scaleImage"	"1"
-					"proportionaltoparent" "1"
-				}				
+			
 			} // HideButton
 
 

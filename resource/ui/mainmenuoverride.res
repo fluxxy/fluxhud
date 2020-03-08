@@ -51,18 +51,18 @@
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"AllCaps"		"1"
 				
 				"border_default"			"NoBorder"
 				"border_armed"				"NoBorder"
 				"paintbackground"	"1"
 				
-				"defaultBgColor_override"	"FluxColorTransBlack1"
-				"armedBgColor_override"		"FluxColorTransDarkGrey"
-				"depressedBgColor_override"	"FluxColorTransBlack1"
-				
+				"defaultBgColor_override"	"5 59 79 200"
+				"armedBgColor_override"		"8 78 120 200"
+				"depressedBgColor_override"	"5 59 79 200"
 				"defaultFgColor_override"	"White"
 				"armedFgColor_override" 	"White"
-				"depressedFgColor_override" "FluxColorButTextNope"
+				"depressedFgColor_override" "White"
 				
 				"image_drawcolor"	"40 40 40 255"
 				"image_armedcolor"	"255 255 255 255"
@@ -161,6 +161,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
+			"AllCaps"		"1"
 			"textAlignment"	"center"
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"

@@ -303,6 +303,7 @@
 		"fieldName"		"NameFilterTextEntry"
 		"xpos"			"r115"
 		"ypos"			"60"
+		"zpos"			"9"
 		"wide"				"105"
 		"tall"				"20"
 		"autoResize"		"0"

@@ -12,7 +12,7 @@
 		"tall"			"300"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"noitem_textcolor"		"117 107 94 255"
+		"noitem_textcolor"		"130 130 130 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
@@ -36,7 +36,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"130 130 130 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -56,6 +56,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#DoneButton"
 		"font"			"HudFontSmallBold"
+		"AllCaps"		"1"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -63,7 +64,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"255 255 255 255"
 		"Command"		"done"
 	}
 

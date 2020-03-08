@@ -2,7 +2,7 @@
 {
 	"Notification_Background"
 	{
-		"ControlName"	"ScalableImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"Notification_Background"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -13,8 +13,14 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/score_panel_blue_bg"
-		"scaleImage"	"1"
+		"image"			"replay/thumbnails/bg_blue"
+		"scaleImage"	"1"	
+		"teambg_2"      "replay/thumbnails/bg_red"
+        "teambg_3"      "replay/thumbnails/bg_blue"
+		"src_corner_height"		"12"
+		"src_corner_width"		"12"
+		"draw_corner_width"		"0"
+		"draw_corner_height" 	"0"	
 	}
 	"Notification_Icon"	
 	{

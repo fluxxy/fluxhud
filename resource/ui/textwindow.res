@@ -131,13 +131,13 @@
 		"paintborder"		"1"
 		
 		"defaultFgColor_override"	"White"
-		"defaultBgColor_override"	"Green"
+		"defaultBgColor_override"	"Blank"
 		"armedFgColor_override"		"White"
-		"armedBgColor_override"		"Green"
+		"armedBgColor_override"		"Blank"
 		"depressedFgColor_override"	"White"
-		"depressedBgColor_override"	"Green"
+		"depressedBgColor_override"	"Blank"
 		"selectedFgColor_override"	"White"
-		"selectedBgColor_override"	"Green"
+		"selectedBgColor_override"	"Blank"
 		"disabledfgcolor2_override"	"20 20 20 255"
 		
 		"border_default"			"NoBorder"

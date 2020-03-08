@@ -11,7 +11,7 @@
 		"ypos"			"0"
 		"wide"			"184"
 		"tall"			"22"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 		
 	"TableBackground"
@@ -37,7 +37,7 @@
 		"xpos"			"10"
 		"ypos"			"26"
 		"wide"			"70"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 	
 	"CreditCollectedCountLabel"
@@ -63,7 +63,7 @@
 		"xpos"			"10"
 		"ypos"			"46"
 		"wide"			"70"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 	
 	"CreditMissedCountLabel"
@@ -89,7 +89,7 @@
 		"xpos"			"10"
 		"ypos"			"66"
 		"wide"			"70"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 	
 	"CreditBonusCountLabel"
@@ -130,6 +130,6 @@
 		"ypos"			"25"
 		"wide"			"70"
 		"tall"			"20"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"White"
 	}
 }

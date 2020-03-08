@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/tournament_panel_brown"
+		"image"			"replay/thumbnails/bg_midbluetrans"
 		"src_corner_height"	"22"
 		"src_corner_width"	"22"
 		"draw_corner_width"		"0"	
@@ -38,6 +38,7 @@
 		"textAlignment"				"center"
 		"textAlignment_minmode"		"west"
 		"labelText"					"%wave_count%"
+		"AllCaps"					"1"
 	}
 	"SeparatorBar"
 	{
@@ -90,7 +91,7 @@
 		"tall"			"8"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_blu"
+		"image"			"replay/thumbnails/bg_blue"
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"
@@ -110,7 +111,7 @@
 		"tall"			"10"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_tan"
+		"image"			"replay/thumbnails/bg_lightblue"
 		
 		"src_corner_height"	"22"				// pixels inside the image
 		"src_corner_width"	"22"

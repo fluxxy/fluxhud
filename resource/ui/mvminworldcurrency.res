@@ -16,7 +16,7 @@
 		"border"		"NoBorder"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"		"40 40 40 235"	
+		"bgcolor_override"		"70 136 160 200"	
 	}
 	"CurrencyGood"
 	{

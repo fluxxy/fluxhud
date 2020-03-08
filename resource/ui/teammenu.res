@@ -207,6 +207,8 @@
 		"defaultBgColor_override"	"70 136 160 255"
 		"armedBgColor_override"		"207 231 241 255"
 		"depressedBgColor_override"	"70 136 160 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	
 	"teambutton3"
@@ -240,6 +242,8 @@
 		"defaultBgColor_override"	"70 136 160 255"
 		"armedBgColor_override"		"207 231 241 255"
 		"depressedBgColor_override"	"70 136 160 255"
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}
 	
 	"CancelButton" [$WIN32] 
