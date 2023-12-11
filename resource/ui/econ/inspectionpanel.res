@@ -602,7 +602,7 @@
 			"default"		"1"
 			"NumericInputOnly"	"1"
 			"bgcolor_override"	"0 0 0 200"
-			"maxchars"		"18"
+			"maxchars"		"20"
 			"paintbackgroundtype"	"0"
 
 			"consume_mode"
